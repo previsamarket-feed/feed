@@ -1,6 +1,303 @@
 {
   "version": 1,
-  "markets": [],
+  "markets": [
+    {
+      "id": "d20261020-eco-1",
+      "cat": "Economia",
+      "q": "O IPCA-15 de outubro, divulgado pelo IBGE, ficará acima de 0,50%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-10-23T07:00:00-03:00",
+      "crit": "Sim, se a variação mensal do IPCA-15 de outubro de 2026, divulgada pelo IBGE em 23/10/2026, for maior que 0,50%. Não, se for 0,50% ou menos.",
+      "src": "IBGE (IPCA-15)",
+      "desc": "Projeções de bancos para a prévia da inflação ficam entre 0,45% e 0,51% no mês, com alimentos como principal pressão.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-economico-segundo-turno-das-eleicoes-e-ipca-15-tem-as-atencoes-da-semana/"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-eco-2",
+      "cat": "Economia",
+      "q": "A taxa de desocupação do trimestre até setembro, segundo o IBGE, será de 5,2% ou menos?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-10-27T18:00:00-03:00",
+      "crit": "Sim, se a taxa de desocupação da PNAD Contínua do trimestre encerrado em setembro de 2026, divulgada pelo IBGE até 06/11/2026, for 5,2% ou menor. Não, se for maior. Se não for divulgada até 06/11, a pergunta será retirada.",
+      "src": "IBGE (PNAD Contínua)",
+      "desc": "No trimestre até agosto a taxa foi de 5,3%, em linha com o esperado pelo mercado.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/brasil-tem-desemprego-de-53-no-tri-ate-agosto-diz-ibge-em-linha-com-o-esperado/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/ibge-desemprego-varia-para-em-agost"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-fin-1",
+      "cat": "Finanças",
+      "q": "O Ibovespa fechará o pregão de 23/10 acima de 208.000 pontos?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-10-22T18:00:00-03:00",
+      "crit": "Sim, se a pontuação de fechamento do Ibovespa em 23/10/2026, conforme a B3, for maior que 208.000 pontos. Não, caso contrário. Se não houver pregão nessa data, vale o último fechamento anterior.",
+      "src": "B3 (fechamento do Ibovespa)",
+      "desc": "O índice fechou a terça-feira (20/10) em 208.296 pontos, com alta de 1,57%.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-20102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-fin-2",
+      "cat": "Finanças",
+      "q": "A PTAX de venda do dólar em 30/10 ficará abaixo de R$ 5,00?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-10-29T18:00:00-03:00",
+      "crit": "Sim, se a taxa PTAX de venda do dólar divulgada pelo Banco Central para 30/10/2026 (fechamento) for menor que R$ 5,0000. Não, caso contrário.",
+      "src": "Banco Central do Brasil (PTAX)",
+      "desc": "O dólar comercial fechou a terça-feira (20/10) a R$ 5,019 na venda, após queda de 0,58%.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-20102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Anatel vai prorrogar a consulta pública sobre o leilão de 6G, que termina em 23/10?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.25,
+        0.75
+      ],
+      "close": "2026-10-22T18:00:00-03:00",
+      "crit": "Sim, se a Anatel publicar, até 30/10/2026, a prorrogação do prazo final (23/10/2026) da consulta pública sobre as faixas e o leilão de 6G. Não, se o prazo não for prorrogado.",
+      "src": "Anatel (página de consultas públicas)",
+      "desc": "A consulta foi aberta em 8/9 e o conselho diretor aprovou a proposta por 4 votos a 1. O edital ainda não tem data.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/neila-guimaraes/anatel-atropela-governo-e-tenta-desenhar-sozinha-leilao-bilionario-do-6g"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Anatel aprovará o edital do leilão de 6G até 4 de dezembro de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.1,
+        0.9
+      ],
+      "close": "2026-12-04T18:00:00-03:00",
+      "crit": "Sim, se o conselho diretor da Anatel aprovar o edital do leilão de 6G até 04/12/2026, conforme ata, site ou Diário Oficial da União. Não, caso contrário.",
+      "src": "Anatel e Diário Oficial da União",
+      "desc": "O edital ainda não foi aprovado e não há data definida; a consulta pública vai até 23/10 e a Anatel prevê duas audiências antes da decisão final.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/neila-guimaraes/anatel-atropela-governo-e-tenta-desenhar-sozinha-leilao-bilionario-do-6g"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-neg-1",
+      "cat": "Negócios",
+      "q": "O Bradesco terá lucro líquido recorrente acima de R$ 7 bilhões no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-10-22T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido recorrente do Bradesco no 3T26, no release de resultados divulgado em 22/10/2026, for maior que R$ 7,0 bilhões. Não, caso contrário.",
+      "src": "Bradesco (Relações com Investidores, release 3T26)",
+      "desc": "Uma projeção de casa de análise aponta cerca de R$ 7,1 bilhões, alta de 15% sobre um ano antes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-de-balancos-terceiro-trimestre-2026-em-destaque-acoes-e-setores-para-ficar-de-olho/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-neg-2",
+      "cat": "Negócios",
+      "q": "O Itaú Unibanco terá lucro líquido recorrente acima de R$ 12 bilhões no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-03T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido recorrente gerencial do Itaú Unibanco no 3T26, no release divulgado em 03/11/2026, for maior que R$ 12,0 bilhões. Não, caso contrário.",
+      "src": "Itaú Unibanco (Relações com Investidores, release 3T26)",
+      "desc": "Uma projeção de casa de análise aponta cerca de R$ 12,5 bilhões para o trimestre.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-de-balancos-terceiro-trimestre-2026-em-destaque-acoes-e-setores-para-ficar-de-olho/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-esp-1",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Palmeiras x Bragantino, pela 32ª rodada do Brasileirão?",
+      "outs": [
+        "Palmeiras vence",
+        "Empate",
+        "Bragantino vence"
+      ],
+      "p": [
+        0.58,
+        0.25,
+        0.17
+      ],
+      "close": "2026-10-24T10:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula/tabela oficial da CBF, do jogo marcado para 24/10/2026. Se for adiado para depois de 31/10/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial)",
+      "desc": "O Palmeiras tem 66 pontos, é vice-líder e joga em casa na rodada.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/luta-pelo-titulo-veja-reta-final-de-flamengo-e-palmeiras-no-brasileirao"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/palmeiras-vence-athletico-pr-e-assume-a-lideranca-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-esp-2",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Flamengo x Atlético-MG, pela 32ª rodada do Brasileirão?",
+      "outs": [
+        "Flamengo vence",
+        "Empate",
+        "Atlético-MG vence"
+      ],
+      "p": [
+        0.58,
+        0.24,
+        0.18
+      ],
+      "close": "2026-10-26T12:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula/tabela oficial da CBF, do jogo marcado para 26/10/2026. Se for adiado para depois de 31/10/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial)",
+      "desc": "O Flamengo lidera com 67 pontos, após vencer o Bahia por 3 a 0 no domingo (18/10).",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/luta-pelo-titulo-veja-reta-final-de-flamengo-e-palmeiras-no-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-pol-1",
+      "cat": "Política",
+      "q": "O Congresso Nacional aprovará o Orçamento de 2027 (PLOA) até 22/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.75,
+        0.25
+      ],
+      "close": "2026-12-04T18:00:00-03:00",
+      "crit": "Sim, se o Congresso Nacional aprovar o projeto de lei orçamentária anual de 2027 em sessão conjunta até 22/12/2026, conforme site do Congresso Nacional ou Diário Oficial. Não, caso contrário.",
+      "src": "Congresso Nacional (portal e Comissão Mista de Orçamento)",
+      "desc": "O governo enviou o projeto em 31/08; o prazo constitucional para a votação é 22/12. A tramitação passa pela Comissão Mista de Orçamento e pela sessão conjunta.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/orcamento-6x1-e-mais-nao-eleitos-ajudam-a-tracar-o-rumo-de-temas-centrais"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-pol-2",
+      "cat": "Política",
+      "q": "O Congresso Nacional aprovará o Orçamento de 2027 (PLOA) até 18/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-12-04T18:00:00-03:00",
+      "crit": "Sim, se o Congresso Nacional aprovar o projeto de lei orçamentária anual de 2027 em sessão conjunta até 18/12/2026, conforme site do Congresso Nacional ou Diário Oficial. Não, caso contrário.",
+      "src": "Congresso Nacional (portal e Comissão Mista de Orçamento)",
+      "desc": "Nos anos recentes a votação ocorreu na segunda quinzena de dezembro; o prazo constitucional é 22/12.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/orcamento-6x1-e-mais-nao-eleitos-ajudam-a-tracar-o-rumo-de-temas-centrais"
+        }
+      ]
+    }
+  ],
   "resolutions": {},
   "withdrawn": []
 }
