@@ -17,6 +17,12 @@ O Previsa Market é um **simulador**: os PTS são moeda virtual, sem apostas e s
   Diário Oficial, Câmara, Senado, STF, agências reguladoras, comunicados das empresas etc.).
 - Tem **data e hora de encerramento** (`close`, com fuso: `2026-10-23T18:00:00-03:00`). Prefira de 1 a 45 dias; o site
   aceita até 120.
+- O `close` precisa ser **antes** do fato acontecer ou ser divulgado (jogo, divulgação do índice, resultado da empresa),
+  com folga de pelo menos algumas horas, para ninguém responder já sabendo o resultado. Prazos de votação ou de
+  decisão (ex.: "até 22/12") podem fechar semanas antes do prazo.
+- **As 2 perguntas do mesmo ícone no mesmo dia tratam de assuntos diferentes.** Não publique a mesma pergunta com
+  limites ou datas diferentes (ex.: "até 22/12" e "até 18/12" sobre o mesmo orçamento) nem duas perguntas sobre o mesmo
+  processo (ex.: duas sobre o mesmo edital). Não repita um tema já publicado nos últimos 7 dias, a menos que haja fato novo.
 - O critério (`crit`) diz exatamente o que faz cada opção vencer, em que fonte e em que data. Sem "opinião", sem "parece".
 - 2 opções (Sim/Não) na maioria dos casos; até 6 quando fizer sentido (faixas de valores, resultado de jogo).
 - A chance inicial (`p`) vem de dados públicos (consenso do Boletim Focus, calendário, histórico, tabela do campeonato),
