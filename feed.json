@@ -342,6 +342,301 @@
           "url": "https://www.metropoles.com/colunas/matheus-leitao/pacheco-pode-resolver-pendencia-de-lula-no-stf-com-vitoria-ou-derrota"
         }
       ]
+    },
+    {
+      "id": "d20261021-eco-1",
+      "cat": "Economia",
+      "q": "No Boletim Focus de 26/10, a mediana para o IPCA de 2026 ficará acima de 5,22%?",
+      "outs": [
+        "Acima de 5,22%",
+        "Igual a 5,22%",
+        "Abaixo de 5,22%"
+      ],
+      "p": [
+        0.36,
+        0.34,
+        0.3
+      ],
+      "close": "2026-10-26T06:00:00-03:00",
+      "crit": "Vale a mediana da projeção para o IPCA de 2026 no Relatório Focus do Banco Central divulgado em 26/10/2026, comparada com 5,22%, valor do Focus de 19/10.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "Na semana passada o mercado manteve a projeção de inflação de 2026 em 5,22%, depois de revisões para cima nas semanas anteriores.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/focus-mercado-mantem-projecao-para-inflacao-em-522-mas-reduz-a-do-pib"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-eco-2",
+      "cat": "Economia",
+      "q": "No Boletim Focus de 26/10, a mediana para o crescimento do PIB de 2026 ficará abaixo de 1,83%?",
+      "outs": [
+        "Abaixo de 1,83%",
+        "Igual a 1,83%",
+        "Acima de 1,83%"
+      ],
+      "p": [
+        0.5,
+        0.22,
+        0.28
+      ],
+      "close": "2026-10-26T06:00:00-03:00",
+      "crit": "Vale a mediana da projeção para o PIB de 2026 no Relatório Focus do Banco Central divulgado em 26/10/2026, comparada com 1,83%, valor do Focus de 19/10.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "O mercado reduziu a projeção do PIB de 2026 de 1,85% para 1,83% no Focus de 19/10.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/focus-mercado-mantem-projecao-para-inflacao-em-522-mas-reduz-a-do-pib"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-fin-1",
+      "cat": "Finanças",
+      "q": "O Copom vai cortar a taxa Selic na reunião de 3 e 4 de novembro?",
+      "outs": [
+        "Corta a Selic",
+        "Mantém em 13,75%",
+        "Eleva a Selic"
+      ],
+      "p": [
+        0.58,
+        0.38,
+        0.04
+      ],
+      "close": "2026-11-04T12:00:00-03:00",
+      "crit": "Vale a decisão sobre a meta da Selic no comunicado do Copom divulgado após a reunião de 3 e 4/11/2026. Corte = meta abaixo de 13,75%; manutenção = 13,75%; elevação = acima de 13,75%.",
+      "src": "Banco Central do Brasil (comunicado do Copom)",
+      "desc": "A Selic está em 13,75% ao ano após cinco cortes seguidos. O Focus projeta 13,25% ao fim de 2026, o que indica novas reduções, mas parte dos analistas vê pausa.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-16092026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ata-do-copom-projecoes-selic-setembro2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-fin-2",
+      "cat": "Finanças",
+      "q": "No Boletim Focus de 26/10, a mediana do dólar no fim de 2026 ficará abaixo de R$ 5,13?",
+      "outs": [
+        "Abaixo de R$ 5,13",
+        "Igual a R$ 5,13",
+        "Acima de R$ 5,13"
+      ],
+      "p": [
+        0.55,
+        0.2,
+        0.25
+      ],
+      "close": "2026-10-26T06:00:00-03:00",
+      "crit": "Vale a mediana da projeção para a taxa de câmbio no fim de 2026 no Relatório Focus do Banco Central divulgado em 26/10/2026, comparada com R$ 5,13, valor do Focus de 19/10.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "O Focus de 19/10 reduziu a projeção do dólar para o fim de 2026 de R$ 5,15 para R$ 5,13; o dólar comercial fechou a R$ 5,02 em 20/10.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-20102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-tec-1",
+      "cat": "Tecnologia",
+      "q": "A cobrança híbrida do Pix (boleto com QR Code Pix) será obrigatória em novembro de 2026, sem adiamento pelo Banco Central?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.75,
+        0.25
+      ],
+      "close": "2026-10-30T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 a regra do Banco Central que torna obrigatória a cobrança híbrida estiver em vigor, sem norma que a adie. Não, se o BC publicar norma adiando a obrigatoriedade.",
+      "src": "Banco Central do Brasil (normativos e Pix)",
+      "desc": "Entre as mudanças previstas para o Pix, a cobrança que pode ser paga por boleto deve passar a trazer também o QR Code Pix a partir de novembro de 2026.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/conheca-as-mudancas-previstas-para-o-pix"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-tec-2",
+      "cat": "Tecnologia",
+      "q": "O Pix como garantia (uso de recebíveis futuros) entrará em operação até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.12,
+        0.88
+      ],
+      "close": "2026-12-04T18:00:00-03:00",
+      "crit": "Sim, se o Banco Central comunicar o início da operação do Pix como garantia para uso do público até 31/12/2026. Não, caso contrário.",
+      "src": "Banco Central do Brasil (comunicados e site do Pix)",
+      "desc": "A funcionalidade usaria recebíveis futuros como garantia de crédito. O BC já indicou que o sistema é complexo e que o lançamento pode ficar para 2027.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/conheca-as-mudancas-previstas-para-o-pix"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-neg-1",
+      "cat": "Negócios",
+      "q": "A Vale terá EBITDA ajustado proforma acima de US$ 3,5 bilhões no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-10-29T12:00:00-03:00",
+      "crit": "Sim, se o EBITDA ajustado proforma do 3T26 no release de resultados da Vale (previsto para 29/10/2026) for maior que US$ 3,50 bilhões. Não, se for igual ou menor.",
+      "src": "Vale S.A. (release de resultados do 3T26)",
+      "desc": "O Itaú BBA projeta EBITDA proforma de cerca de US$ 3,5 bilhões, queda de 14% sobre um ano antes, com minério de ferro mais barato e fretes mais altos.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-mineracao-siderurgia-vale3-ggbr4/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-neg-2",
+      "cat": "Negócios",
+      "q": "O BTG Pactual terá lucro líquido ajustado acima de R$ 5 bilhões no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido ajustado do 3T26 divulgado pelo BTG Pactual (previsto para 10/11/2026) for maior que R$ 5,0 bilhões. Não, se for igual ou menor.",
+      "src": "BTG Pactual (release de resultados do 3T26)",
+      "desc": "A projeção do Santander para o trimestre é de lucro próximo de R$ 5,2 bilhões, alta de cerca de 15% sobre um ano antes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-de-balancos-terceiro-trimestre-2026-em-destaque-acoes-e-setores-para-ficar-de-olho/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-esp-1",
+      "cat": "Esporte",
+      "q": "O Flamengo vai se classificar para a final da Libertadores, após o jogo de volta contra o Estudiantes?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.64,
+        0.36
+      ],
+      "close": "2026-10-22T18:00:00-03:00",
+      "crit": "Sim, se a Conmebol registrar o Flamengo classificado à final após o jogo de volta de 22/10/2026 no Maracanã (inclusive nos pênaltis). Não, se o Estudiantes avançar.",
+      "src": "Conmebol (súmula e site oficial da Libertadores)",
+      "desc": "A ida terminou 0 x 0 na Argentina. Quem avançar na volta, no Maracanã, vai à final; novo empate leva à disputa de pênaltis.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/libertadores-estudiantes-e-flamengo-empatam-sem-gols-na-ida-da-semifinal"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/semana-tera-liga-dos-campeoes-e-decisoes-na-libertadores-e-na-sul-americana"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-esp-2",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Cruzeiro x Remo, pela 32ª rodada do Brasileirão?",
+      "outs": [
+        "Cruzeiro vence",
+        "Empate",
+        "Remo vence"
+      ],
+      "p": [
+        0.64,
+        0.22,
+        0.14
+      ],
+      "close": "2026-10-23T17:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula/tabela oficial da CBF, do jogo marcado para 23/10/2026. Se for adiado para depois de 31/10/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial)",
+      "desc": "O Cruzeiro está entre os líderes do returno e joga em casa; o Remo está na zona de rebaixamento. No primeiro turno o Cruzeiro venceu por 1 x 0.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/semana-tera-liga-dos-campeoes-e-decisoes-na-libertadores-e-na-sul-americana"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/brasileirao-cruzeiro-assume-a-lideranca-do-returno-corinthians-e-o-ultimo"
+        }
+      ]
+    },
+    {
+      "id": "d20261021-pol-1",
+      "cat": "Política",
+      "q": "O Tesouro Nacional vai informar superávit primário do Governo Central em setembro de 2026?",
+      "outs": [
+        "Sim, superávit",
+        "Não, déficit"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-10-26T18:00:00-03:00",
+      "crit": "Sim, se o resultado primário do Governo Central de setembro de 2026, divulgado pelo Tesouro Nacional, for positivo. Não, se for déficit ou zero.",
+      "src": "Tesouro Nacional (Resultado do Tesouro Nacional)",
+      "desc": "Em agosto o Governo Central teve déficit de R$ 13,6 bilhões; no acumulado de 12 meses, o déficit é de R$ 68,7 bilhões (0,53% do PIB).",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/contas-do-governo-registram-deficit-de-r-136-bilhoes-em-agosto"
+        }
+      ]
     }
   ],
   "resolutions": {},
