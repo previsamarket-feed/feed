@@ -296,6 +296,52 @@
           "url": "https://www.metropoles.com/brasil/orcamento-6x1-e-mais-nao-eleitos-ajudam-a-tracar-o-rumo-de-temas-centrais"
         }
       ]
+    },
+    {
+      "id": "d20261020-pol-3",
+      "cat": "Política",
+      "q": "O presidente da República enviará ao Senado uma nova indicação para a vaga aberta no STF até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-10-23T18:00:00-03:00",
+      "crit": "Sim, se a mensagem presidencial com um novo nome para a vaga aberta no STF for lida ou publicada pelo Senado Federal até 31/12/2026, conforme o site do Senado ou o Diário Oficial da União. Não, caso contrário.",
+      "src": "Agência Senado, site do Senado Federal e Diário Oficial da União",
+      "desc": "A cadeira está vaga desde outubro de 2025. O Senado rejeitou o primeiro indicado em 29/04/2026 e a Constituição não fixa prazo para uma nova indicação. Reportagens dizem que o governo avalia indicar ainda em 2026.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/matheus-leitao/pacheco-pode-resolver-pendencia-de-lula-no-stf-com-vitoria-ou-derrota"
+        }
+      ]
+    },
+    {
+      "id": "d20261020-pol-4",
+      "cat": "Política",
+      "q": "O Plenário do Senado aprovará um novo ministro do STF até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-06T18:00:00-03:00",
+      "crit": "Sim, se o Plenário do Senado Federal aprovar, por maioria absoluta (41 dos 81 votos), um indicado para a vaga aberta no STF até 31/12/2026, conforme o site do Senado ou o Diário Oficial da União. Não, caso contrário.",
+      "src": "Agência Senado, site do Senado Federal e Diário Oficial da União",
+      "desc": "Depois da indicação, o nome passa por sabatina na CCJ e precisa de 41 votos no Plenário. Reportagens dizem que o governo quer aproveitar a composição atual do Senado, que se renova em fevereiro de 2027.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/matheus-leitao/pacheco-pode-resolver-pendencia-de-lula-no-stf-com-vitoria-ou-derrota"
+        }
+      ]
     }
   ],
   "resolutions": {},
