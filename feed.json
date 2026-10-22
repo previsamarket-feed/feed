@@ -637,6 +637,29 @@
           "url": "https://www.metropoles.com/brasil/contas-do-governo-registram-deficit-de-r-136-bilhoes-em-agosto"
         }
       ]
+    },
+    {
+      "id": "d20261020-pol-7",
+      "cat": "Política",
+      "q": "A dívida bruta do governo (R$ 11,1 trilhões em agosto) passará de 84% do PIB até dezembro, segundo o Banco Central?",
+      "outs": [
+        "Sim, acima de 84%",
+        "Não, 84% ou menos"
+      ],
+      "p": [
+        0.38,
+        0.62
+      ],
+      "close": "2026-12-14T18:00:00-03:00",
+      "crit": "Sim, se a Dívida Bruta do Governo Geral de novembro de 2026, divulgada pelo Banco Central nas Estatísticas Fiscais em dezembro de 2026, for superior a 84,0% do PIB. Não, se for igual ou inferior a 84,0%.",
+      "src": "Banco Central do Brasil (Estatísticas Fiscais)",
+      "desc": "Em agosto de 2026 a dívida bruta do governo geral foi de 82,9% do PIB, cerca de R$ 11,1 trilhões, alta de 0,3 ponto percentual sobre julho. Em junho estava em 81,9%. O dado de novembro deve sair no fim de dezembro.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/divida-publica-do-governo-sobe-para-819-do-pib-em-2026"
+        }
+      ]
     }
   ],
   "resolutions": {},
