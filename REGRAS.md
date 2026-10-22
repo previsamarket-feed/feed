@@ -30,6 +30,26 @@ O Previsa Market é um **simulador**: os PTS são moeda virtual, sem apostas e s
 - Escreva com as suas palavras. Não copie títulos nem trechos de matérias.
 - Não use linguagem de recomendação de investimento ("compre", "venda", "vale a pena"). É uma pergunta, não um conselho.
 
+## 2A. Tom editorial: assuntos que dividem opinião (orientação do dono, 21/10/2026)
+
+O objetivo é atrair audiência. Entre as perguntas seguras, **prefira as que tratam do que o público está discutindo
+e sobre o que há opiniões divididas**. Pelo menos **1 das 2 perguntas de cada ícone** deve ser desse tipo, quando
+houver assunto quente; a outra pode ser de calendário (divulgação de índice, jogo, balanço).
+
+- **Assuntos que rendem:** contas públicas e dívida, juros e dólar, preço de combustíveis e alimentos, jornada de
+  trabalho, impostos, regulação de big techs e redes sociais, IA e empregos, segurança pública, relação entre
+  Congresso e STF, grandes negócios e disputas entre empresas, clássicos e decisões de campeonato.
+- **Como escrever:** pergunta direta, com um número ou fato que chame atenção no próprio texto (ex.: "dívida de
+  R$ 11,1 trilhões") e uma tensão clara (governo x mercado, empregadores x trabalhadores, Congresso x STF).
+  Sem jargão. Perguntas que dão vontade de ir **contra a maioria** são bem-vindas (opção improvável, mas possível,
+  com `p` entre 0.15 e 0.35).
+- **A polêmica vem do assunto, nunca do tom:** sem ironia, sem adjetivos, sem sugerir quem está certo ou errado,
+  sem provocar. O critério continua sendo fato objetivo, fonte oficial e data.
+- **Continua proibido, mesmo sendo "quente":** candidatos, partidos, eleições, pesquisas, nomes de políticos,
+  acusações, crimes, saúde e vida pessoal, menores de idade, apostas e odds. Evite também disputas de identidade
+  (religião, raça, gênero, orientação sexual). Na dúvida, escolha outro assunto quente.
+- Os limites dos itens 4 e 5 não mudam. O validador também não.
+
 ## 3. Notícias de origem (`news`)
 
 - Até 3 links `https` de **g1.globo.com, www.metropoles.com, tntsports.com.br (ou www.) e www.infomoney.com.br**. O site
