@@ -660,6 +660,29 @@
           "url": "https://www.metropoles.com/brasil/divida-publica-do-governo-sobe-para-819-do-pib-em-2026"
         }
       ]
+    },
+    {
+      "id": "d20261021-pol-2",
+      "cat": "Política",
+      "q": "O STF receberá uma ação contra a emenda do fim da escala 6x1 até 30/11/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-10-26T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 for protocolada no STF ao menos uma ação (como uma ADI) que questione a Emenda Constitucional 141/2026, conforme a consulta de processos do portal do STF. Não, caso contrário.",
+      "src": "Portal do STF (consulta processual) e Diário Oficial da União",
+      "desc": "A emenda do fim da 6x1 foi promulgada em 16/10/2026. Entidades do setor rural discutiram acionar o STF contra a regra que deixa de fora empregados com diploma e salário alto. Até 16/10 nenhuma ação havia sido noticiada.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/fim-da-6x1-diario-oficial-prazos-comecam-valer"
+        }
+      ]
     }
   ],
   "resolutions": {},
