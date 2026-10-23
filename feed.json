@@ -660,6 +660,292 @@
           "url": "https://www.metropoles.com/brasil/fim-da-6x1-diario-oficial-prazos-comecam-valer"
         }
       ]
+    },
+    {
+      "id": "d20261023-eco-1",
+      "cat": "Economia",
+      "q": "A produção industrial de setembro, que vem depois de queda de 0,6% em agosto, vai crescer na comparação com o mês anterior?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-04T18:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, em 05/11/2026, variação positiva (acima de 0,0%) da produção industrial nacional de setembro de 2026 frente a agosto, na série com ajuste sazonal. Zero ou negativa vale Não.",
+      "src": "IBGE (Pesquisa Industrial Mensal - PIM-PF)",
+      "desc": "A indústria recuou em agosto; o IBGE calendariza o dado de setembro para 5 de novembro.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/ibge-producao-industrial-recua-06-em-agosto"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-eco-2",
+      "cat": "Economia",
+      "q": "Com o petróleo acima de US$ 110 e a energia mais barata, o IPCA de outubro ficará acima de 0,30%?",
+      "outs": [
+        "Sim, acima de 0,30%",
+        "Não, 0,30% ou menos"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-11T18:00:00-03:00",
+      "crit": "Sim, se a variação mensal do IPCA de outubro de 2026, divulgada pelo IBGE em 12/11/2026, for maior que 0,30%. Igual ou menor vale Não.",
+      "src": "IBGE (IPCA)",
+      "desc": "Prévias apontam alívio na energia elétrica, enquanto o petróleo em alta pressiona combustíveis.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/projecao-ipca-15-outubro-previa-inflacao/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-fin-1",
+      "cat": "Finanças",
+      "q": "O Ibovespa, que fechou em 204.120 pontos em 22/10, terminará o mês de 30/10 acima de 204.000?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.52,
+        0.48
+      ],
+      "close": "2026-10-30T09:00:00-03:00",
+      "crit": "Sim, se a pontuação de fechamento do Ibovespa em 30/10/2026, conforme a B3, for maior que 204.000 pontos.",
+      "src": "B3 (fechamento do Ibovespa)",
+      "desc": "O índice acumula alta de cerca de 9,5% em outubro, mas caiu dois pregões seguidos.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-fin-2",
+      "cat": "Finanças",
+      "q": "O petróleo Brent, que chegou a US$ 113 em 22/10, fechará 30/10 acima de US$ 110 o barril?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-10-30T09:00:00-03:00",
+      "crit": "Sim, se o preço spot do Brent (Europe Brent Spot Price FOB) em 30/10/2026, na série diária da EIA, for maior que US$ 110,00 por barril.",
+      "src": "EIA - Energy Information Administration (Brent spot)",
+      "desc": "O petróleo subiu forte com tensões no Oriente Médio e pesa sobre combustíveis e inflação.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-tec-1",
+      "cat": "Tecnologia",
+      "q": "Com o temor de gastos bilionários em IA, o Nasdaq Composite fechará 30/10 acima do nível de 22/10, quando caiu 2,6%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-10-30T09:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Nasdaq Composite em 30/10/2026 for maior que o fechamento oficial de 22/10/2026, conforme a Nasdaq.",
+      "src": "Nasdaq (histórico do Nasdaq Composite)",
+      "desc": "Na quinta-feira, o índice recuou após uma big tech projetar investimentos de US$ 135 a 145 bilhões.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-tec-2",
+      "cat": "Tecnologia",
+      "q": "A SpaceSail, rival chinesa da Starlink, começará a vender internet por satélite no Brasil até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-12-04T18:00:00-03:00",
+      "crit": "Sim, se a SpaceSail ou a Anatel anunciarem oficialmente, até 31/12/2026, o início da venda do serviço de internet por satélite ao público no Brasil. Planos, pré-cadastro ou testes não valem.",
+      "src": "Anatel e comunicados oficiais da SpaceSail",
+      "desc": "A Anatel autorizou a operação em fevereiro; a empresa disse que pretende vender no quarto trimestre de 2026.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/anatel-libera-operacao-da-spacesail-concorrente-da-starlink-no-brasil/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-neg-1",
+      "cat": "Negócios",
+      "q": "O Santander Brasil terá lucro líquido acima de R$ 3 bilhões no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-10-28T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do Santander Brasil no 3T26, no release de resultados divulgado em 28/10/2026, for maior que R$ 3,0 bilhões.",
+      "src": "Santander Brasil (Relações com Investidores, release 3T26)",
+      "desc": "O consenso reunido por analistas fica perto de R$ 3,2 bi, mas as projeções variam entre R$ 2,7 bi e R$ 3,2 bi.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bancos-itub4-bbas3/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-neg-2",
+      "cat": "Negócios",
+      "q": "O Banco do Brasil terá lucro líquido acima de R$ 3 bilhões no 3º trimestre de 2026, em meio a projeções muito divergentes?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-11T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do Banco do Brasil no 3T26, no release de resultados divulgado em 11/11/2026, for maior que R$ 3,0 bilhões.",
+      "src": "Banco do Brasil (Relações com Investidores, release 3T26)",
+      "desc": "As projeções vão de R$ 1,8 bi a R$ 3,7 bi, uma das maiores divergências da temporada.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bancos-itub4-bbas3/"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-esp-1",
+      "cat": "Esporte",
+      "q": "Palmeiras ou Estudiantes: quem será o campeão da Libertadores na final de 28/11, em Montevidéu?",
+      "outs": [
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-27T12:00:00-03:00",
+      "crit": "Vale o campeão da final da Libertadores 2026, em 28/11/2026, incluindo prorrogação e pênaltis, conforme a Conmebol.",
+      "src": "Conmebol (site oficial da Libertadores)",
+      "desc": "O Palmeiras vai à sua 8ª final; o Estudiantes eliminou o Flamengo nos pênaltis.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/times-de-brasil-e-argentina-farao-final-valendo-hegemonia-na-libertadores"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/muslera-brilha-nos-penaltis-e-estudiantes-elimina-flamengo-na-libertadores"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-esp-2",
+      "cat": "Esporte",
+      "q": "Qual será o resultado do clássico Palmeiras x Flamengo, na 36ª rodada do Brasileirão, entre os líderes?",
+      "outs": [
+        "Palmeiras vence",
+        "Empate",
+        "Flamengo vence"
+      ],
+      "p": [
+        0.4,
+        0.28,
+        0.32
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos de Palmeiras x Flamengo, 36ª rodada, em 21 ou 22/11/2026, conforme súmula e tabela oficial da CBF. Jogo adiado para depois de 30/11 anula a pergunta.",
+      "src": "CBF (súmula e tabela oficial)",
+      "desc": "Os dois disputam a liderança do Brasileirão na reta final do campeonato.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/palmeiras-e-flamengo-vencem-na-rodada-e-esquentam-reta-final-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-pol-1",
+      "cat": "Política",
+      "q": "O governo vai prorrogar o prazo de 30/10 para credores aderirem ao Desenrola 3.0, que compra dívidas de até R$ 10 mil?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-10-29T12:00:00-03:00",
+      "crit": "Sim, se o Ministério da Fazenda publicar no Diário Oficial da União, até 06/11/2026, ato que prorrogue o prazo de 30/10/2026 para manifestação de interesse dos credores.",
+      "src": "Diário Oficial da União (Ministério da Fazenda)",
+      "desc": "A Portaria MF 3.127 e o edital foram publicados em 22/10; credores têm até 30/10 para manifestar interesse.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/desenrola-3-0-governo-publica-regras-para-comprar-dividas"
+        }
+      ]
+    },
+    {
+      "id": "d20261023-pol-2",
+      "cat": "Política",
+      "q": "A arrecadação federal de outubro superará R$ 240 bilhões, depois do recorde de R$ 239,4 bi em setembro?",
+      "outs": [
+        "Sim, acima de R$ 240 bi",
+        "Não, R$ 240 bi ou menos"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-19T18:00:00-03:00",
+      "crit": "Sim, se a Receita Federal divulgar, até 30/11/2026, arrecadação das receitas federais de outubro de 2026 acima de R$ 240,0 bilhões (valor nominal total).",
+      "src": "Receita Federal (Análise da Arrecadação das Receitas Federais)",
+      "desc": "Setembro foi o maior valor para o mês desde 2000; outubro costuma ficar perto do resultado de setembro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/arrecadacao-soma-r-239384-bi-em-setembro-maior-valor-para-o-mes-desde-2000/"
+        }
+      ]
     }
   ],
   "resolutions": {},
