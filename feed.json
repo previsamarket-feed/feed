@@ -946,6 +946,29 @@
           "url": "https://www.infomoney.com.br/economia/arrecadacao-soma-r-239384-bi-em-setembro-maior-valor-para-o-mes-desde-2000/"
         }
       ]
+    },
+    {
+      "id": "d20261024-pol-9",
+      "cat": "Política",
+      "q": "Quem venceu o debate da Globo?",
+      "outs": [
+        "Flávio Bolsonaro",
+        "Luiz Inácio \"Lula\" da Silva"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-10-25T08:00:00-03:00",
+      "crit": "O resultado será definido pelo candidato que obtiver o maior percentual de votos na enquete pública previamente indicada como fonte oficial deste mercado, considerando o resultado divulgado até o prazo de encerramento. Caso a enquete não seja publicada, seja cancelada ou termine empatada, o mercado deverá ser anulado conforme as regras da plataforma.",
+      "src": "Enquete pública a ser indicada pelo Previsa Market",
+      "desc": "O debate eleitoral da TV Globo reúne candidatos para apresentar propostas e discutir temas de interesse nacional. Este mercado simula a previsão do resultado de uma enquete pública sobre o desempenho dos participantes, sem envolver apostas ou dinheiro real.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/debate-globo-lula-flavio-bolsonaro"
+        }
+      ]
     }
   ],
   "resolutions": {},
