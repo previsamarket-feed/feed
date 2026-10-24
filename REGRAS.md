@@ -72,6 +72,14 @@ houver assunto quente; a outra pode ser de calendário (divulgação de índice,
 - **Proibido**: candidatos, partidos, pesquisas eleitorais, resultados de eleição (inclusive o segundo turno de 25/10/2026),
   intenção de voto, denúncias e acusações, nomes de políticos. O validador barra essas palavras.
 
+### 5A. Exceção autorizada (24/10/2026)
+
+O responsável autorizou, por escrito no chat (24/10/2026, 02:17 de Brasília: "autorizo, assumo o risco, pode ajustar a trava"),
+UMA pergunta eleitoral: `d20261024-pol-9` ("Quem venceu o debate da Globo?"), assumindo o risco legal (a regra do TSE sobre
+enquetes durante a campanha foi explicada a ele antes). A exceção vale **somente para esse id** (`EXCECOES_ELEITORAIS` em
+`validar_feed.py`). Continua proibido criar qualquer outra pergunta eleitoral sem nova autorização individual. A rotina
+diária **não** deve copiar este caso.
+
 ## 6. Esporte
 
 - Somente resultados oficiais (jogo, classificação, ranking, calendário divulgados por CBF, FIFA, ligas e federações).

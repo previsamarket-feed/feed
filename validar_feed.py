@@ -37,6 +37,8 @@ BLOCK_ALL = re.compile(
     r'condenad[oa]s?|presos?|prisão|indiciad[oa]s?|inquérito|acusad[oa]s?|'
     r'apostas?|apostar|bets?|odds|cassinos?|casas? de apostas?)\b'
 )
+# ids com exceção ao veto eleitoral: SOMENTE por autorização expressa e individual do responsável (REGRAS.md, seção 5A)
+EXCECOES_ELEITORAIS = {'d20261024-pol-9'}
 BLOCK_POL = re.compile(r'(?i)\b(lula|bolsonaro|tarc[ií]sio|ciro|marçal|boulos|zema|caiado|ratinho|michelle)\b')
 
 
@@ -123,18 +125,8 @@ def check_structure(x):
     return errs
 
 
-def check_editorial(x):
-    """Regras editoriais. Devolve (erros, avisos)."""
-    errs, warns = [], []
-    text = ' '.join(str(x.get(k) or '') for k in ('q', 'desc', 'crit', 'src', 'outs')
-                    if not isinstance(x.get(k), list)) + ' ' + ' '.join(x.get('outs') or [])
-    hit = BLOCK_ALL.search(text)
-    if hit:
-        errs.append(f'termo vetado pela REGRAS.md: "{hit.group(0)}"')
-    if x.get('cat') == 'Política':
-        hit = BLOCK_POL.search(text)
-        if hit:
-            errs.append(f'Política: não citar nomes de pessoas políticas ("{hit.group(0)}")')
+def _avisos_gerais(x):
+    warns = []
     if isinstance(x.get('q'), str) and not x['q'].strip().endswith('?'):
         warns.append('a pergunta deveria terminar com "?"')
     p = x.get('p')
@@ -148,6 +140,25 @@ def check_editorial(x):
             warns.append('encerra em mais de 90 dias (prefira 1 a 45 dias)')
     if not x.get('news'):
         warns.append('sem link de notícia de origem (news)')
+    return warns
+
+
+def check_editorial(x):
+    """Regras editoriais. Devolve (erros, avisos)."""
+    errs, warns = [], []
+    text = ' '.join(str(x.get(k) or '') for k in ('q', 'desc', 'crit', 'src', 'outs')
+                    if not isinstance(x.get(k), list)) + ' ' + ' '.join(x.get('outs') or [])
+    if x.get('id') in EXCECOES_ELEITORAIS:      # autorização expressa e individual do responsável (ver REGRAS.md, seção 5A)
+        warns.append('exceção eleitoral autorizada pelo responsável: o veto da seção 5 não foi aplicado a este id')
+        return errs, warns + _avisos_gerais(x)
+    hit = BLOCK_ALL.search(text)
+    if hit:
+        errs.append(f'termo vetado pela REGRAS.md: "{hit.group(0)}"')
+    if x.get('cat') == 'Política':
+        hit = BLOCK_POL.search(text)
+        if hit:
+            errs.append(f'Política: não citar nomes de pessoas políticas ("{hit.group(0)}")')
+    warns += _avisos_gerais(x)
     return errs, warns
 
 
