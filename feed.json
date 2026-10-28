@@ -1240,6 +1240,141 @@
       "crit": "Sim, se a Anatel realizar até 30/11/2026 a audiência pública da Consulta Pública nº 37/2026 em Fortaleza, conforme a página de consultas públicas da Anatel. Não, caso contrário.",
       "src": "Anatel (página de consultas públicas)",
       "desc": "A consulta sobre o edital foi esticada até 7 de dezembro e uma nova audiência, em Fortaleza, era esperada para novembro, sem data definida."
+    },
+    {
+      "id": "d20261028-pol-3",
+      "cat": "Política",
+      "q": "Flávio Bolsonaro, que chegou aos EUA em 28/10, voltará ao Brasil até 12/12/2026?",
+      "outs": [
+        "Sim, volta ao Brasil",
+        "Não, segue fora"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-12T12:00:00-03:00",
+      "crit": "Sim, se até 12/12/2026 (23h59, Brasília) o STF, a Polícia Federal ou ao menos um dos portais G1, CNN Brasil ou Metrópoles confirmarem que Flávio Bolsonaro está em território brasileiro. Não, se até essa data não houver confirmação de retorno.",
+      "src": "STF, Polícia Federal e G1 (confirmação do retorno)",
+      "desc": "O senador chegou aos Estados Unidos em 28/10/2026, dois dias depois de o ministro Alexandre de Moraes (STF) determinar a entrega do passaporte e proibir sua saída do país, segundo o G1. Criminalistas ouvidos pela BBC dizem que não há ordem de prisão contra ele.",
+      "news": [
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/mundo/noticia/2026/10/28/voo-flavio-bolsonaro-chega-aos-eua.ghtml"
+        },
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/26/moraes-determina-que-flavio-bolsonaro-entregue-passaporte.ghtml"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/apos-fuga-alfandega-dos-eua-registra-entrada-de-flavio-bolsonaro-e-familia"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-pol-4",
+      "cat": "Política",
+      "q": "O STF decretará a prisão preventiva de Flávio Bolsonaro até 12/12/2026?",
+      "outs": [
+        "Sim, decretada",
+        "Não, não decretada"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-12T12:00:00-03:00",
+      "crit": "Sim, se até 12/12/2026 (23h59, Brasília) o STF ou o ministro relator decretar a prisão preventiva de Flávio Bolsonaro, conforme o portal do STF ou notícia do G1. Não, se não houver decretação até essa data.",
+      "src": "Portal do STF e G1",
+      "desc": "O senador não entregou o passaporte à PF no prazo e viajou aos EUA. Segundo criminalistas ouvidos pela BBC, ele não é considerado foragido, pois não há ordem de prisão, mas o descumprimento da medida cautelar pode levar a um pedido de prisão preventiva.",
+      "news": [
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/27/flavio-bolsonaro-nao-entrega-passaporte-a-pf-e-descumpre-ordem-de-moraes.ghtml"
+        },
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/mundo/noticia/2026/10/28/voo-flavio-bolsonaro-chega-aos-eua.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-pol-5",
+      "cat": "Política",
+      "q": "Os republicanos manterão a maioria na Câmara dos EUA nas eleições de 3/11/2026?",
+      "outs": [
+        "Sim, mantêm a maioria",
+        "Não, perdem a maioria"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-03T06:00:00-03:00",
+      "crit": "Sim, se os republicanos elegerem 218 ou mais das 435 cadeiras da Câmara dos Representantes na eleição de 3/11/2026, conforme a projeção da Associated Press ou o resultado oficial divulgado até 30/11/2026. Não, se os democratas ficarem com 218 ou mais cadeiras.",
+      "src": "Associated Press e Câmara dos Representantes dos EUA (resultado oficial)",
+      "desc": "Os americanos votam em 3/11/2026 nas eleições legislativas de meio de mandato, que renovam toda a Câmara. O G1 vai mostrar a apuração em tempo real, com mapas.",
+      "news": [
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/mundo/noticia/2026/10/28/eleicoes-nos-eua-mapas-vao-mostrar-apuracao-em-tempo-real-das-midterms.ghtml"
+        },
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/mundo/ao-vivo/eleicoes-nos-eua-2026-acompanhe-as-ultimas-noticias-sobre-as-midterms.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-fin-3",
+      "cat": "Finanças",
+      "q": "O Ibovespa fechará acima de 175 mil pontos em 27/11/2026?",
+      "outs": [
+        "Sim, acima de 175 mil",
+        "Não, 175 mil ou menos"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-27T09:30:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Ibovespa em 27/11/2026, divulgado pela B3, for superior a 175.000 pontos. Não, se for igual ou inferior. Se não houver pregão nesse dia, vale o último fechamento anterior.",
+      "src": "B3 (fechamento oficial do Ibovespa)",
+      "desc": "O Ibovespa caiu cerca de 2% em 28/10/2026 e operava perto de 172 mil pontos, segundo o InfoMoney.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-esp-3",
+      "cat": "Esporte",
+      "q": "O Palmeiras será campeão da Copa Libertadores 2026?",
+      "outs": [
+        "Sim, Palmeiras campeão",
+        "Não, Estudiantes campeão"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-28T10:00:00-03:00",
+      "crit": "Sim, se o Palmeiras vencer o Estudiantes na final de 28/11/2026, no Estádio Centenário (Montevidéu), no tempo normal, na prorrogação ou nos pênaltis, conforme a Conmebol. Não, se o Estudiantes vencer. Se a final for adiada para depois de 15/12/2026, a pergunta será retirada.",
+      "src": "Conmebol (página e súmula oficial da final)",
+      "desc": "Palmeiras e Estudiantes decidem a Libertadores em jogo único, marcado para 28/11/2026 em Montevidéu; o horário ainda não foi divulgado pela Conmebol.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/montevideu-e-barranquilla-vao-sediar-finais-da-libertadores-e-sul-americana-de-2026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/veron-descarta-risco-de-flamengo-tirar-estudiantes-da-final-da-libertadores"
+        }
+      ]
     }
   ],
   "resolutions": {
