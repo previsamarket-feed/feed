@@ -88,12 +88,20 @@ google noticiais". Isto vale como autorização permanente para **publicar sem p
 - **Notícias do módulo de redação** (`/noticias/`): a matéria **normal** segue o fluxo automático. A matéria **sensível**
   (política, crime, saúde) exige segunda aprovação de pessoa; sob esta procuração Claude só a publica se o dono tiver
   autorizado aquele assunto no chat, e registra a autorização na trilha de auditoria.
-- **Fila de notícias (28/10/2026, dono: "agora").** O robô de Notícias coleta 4 vezes por dia (0h, 6h, 12h e 18h de Brasília) e o
-  banco trava o limite em 20 notícias por dia, 5 por janela (gatilho `limite_nao_aumenta`; só sobe com migração). Para dar
-  prioridade ao que está em alta no Google Notícias **sem mexer no código** (mexer apaga os agendamentos), Claude, numa sessão
-  com o painel aberto, sobe a pauta quente para o topo da tabela `pauta` do D1 `previsamarket-redacao`: `INSERT OR IGNORE`
-  com o link **direto do portal** (nunca o do Google) e `UPDATE pauta SET coletada_em = <agora> WHERE hash_dup = <sha256 do
-  título normalizado>`. A fila lê `coletada_em DESC`; o texto continua sendo escrito pelo robô, com todas as travas dele.
+- **Notícias ao vivo, sem teto (28/10/2026 15h27, dono: "saiu a notícia, publica na hora").** O teto diário do banco foi
+  elevado por migração (`noticias_por_dia` e `noticias_por_janela` = 1000; o gatilho `limite_nao_aumenta` foi recriado e segue
+  protegendo os demais limites). Não existe mais cota de matérias por dia; o freio real é a franquia gratuita do Workers AI
+  (robô) e a qualidade da fonte. Numa sessão com o painel aberto, Claude pega a notícia quente (Google Notícias só para
+  descobrir; link **direto do portal**), escreve resumo atribuído com a fonte no título e no corpo, e publica na hora pelo fluxo
+  rascunho, revisão, checagem, aprovação, agendamento, publicação (registra `aprovacao`, `auditoria` e `publicacao`; autor
+  `ia`, revisor `revisor_claude`; marca `pauta.usada = 1`). Risco `normal`, rótulo `factual`.
+- **Temas das notícias (dono, 28/10/2026 15h30):** Economia, Finanças, Negócios, Esporte, Tecnologia, Entretenimento/famosos,
+  Brasil, Mundo e Clima. **Política não está na lista**: não escolher pauta política sem pedido do dono (a matéria 5, já
+  publicada, permanece). Seguem vetados: crimes e acusações a pessoas privadas, menores, conteúdo gráfico, tragédias.
+  Matéria em que a Anthropic ou o próprio Claude é parte (conflito de interesse) fica para o robô, sem redação manual.
+- **Fila para o robô (28/10/2026).** O robô coleta 4 vezes por dia (0h, 6h, 12h e 18h de Brasília). Para priorizar o que está em
+  alta sem mexer no código (mexer apaga os agendamentos), sobe-se a pauta quente no D1 `previsamarket-redacao`: `INSERT OR
+  IGNORE` com o link direto do portal e `UPDATE pauta SET coletada_em = <agora> WHERE hash_dup = <sha256 do título normalizado>`.
 - **Nunca** use esta procuração para gasto, para mexer em dados do site (KV, D1 `previsa-stats`, LMSR, PTS) ou para mudar
   regras do jogo. Em dúvida, não publique e liste em "AGUARDANDO AUTORIZAÇÃO DO DONO".
 
