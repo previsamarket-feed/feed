@@ -102,6 +102,13 @@ google noticiais". Isto vale como autorização permanente para **publicar sem p
 - **Fila para o robô (28/10/2026).** O robô coleta 4 vezes por dia (0h, 6h, 12h e 18h de Brasília). Para priorizar o que está em
   alta sem mexer no código (mexer apaga os agendamentos), sobe-se a pauta quente no D1 `previsamarket-redacao`: `INSERT OR
   IGNORE` com o link direto do portal e `UPDATE pauta SET coletada_em = <agora> WHERE hash_dup = <sha256 do título normalizado>`.
+- **Capa do site e fotos (dono, 28/10/2026 15h47 a 15h50).** A capa da página inicial é um carrossel das matérias mais novas, com
+  troca a cada 8 segundos, e a previsão ao lado muda junto com a matéria (arquivo `capa.json` do site liga cada matéria a uma foto e
+  a uma previsão). Dono: "todas as fotos podem ser usadas dando os créditos ao autor". Regra de aplicação: **toda foto leva o crédito
+  visível sobre ela** ("Foto: autor/agência"); sem crédito, a foto não entra. Claude **não copia** foto marcada "proibida reprodução"
+  nem de agências pagas (Reuters, Getty, AFP, AP): crédito não substitui licença. Fontes preferidas: Agência Brasil/EBC, agências
+  da Câmara e do Senado, Wikimedia Commons e fotos da Hora Brasília ou enviadas pelo dono. Cada matéria nova deve ganhar também uma
+  previsão ligada a ela (a capa usa o mercado em destaque quando não houver).
 - **Nunca** use esta procuração para gasto, para mexer em dados do site (KV, D1 `previsa-stats`, LMSR, PTS) ou para mudar
   regras do jogo. Em dúvida, não publique e liste em "AGUARDANDO AUTORIZAÇÃO DO DONO".
 
