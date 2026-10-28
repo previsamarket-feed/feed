@@ -38,7 +38,11 @@ BLOCK_ALL = re.compile(
     r'apostas?|apostar|bets?|odds|cassinos?|casas? de apostas?)\b'
 )
 # ids com exceção ao veto eleitoral: SOMENTE por autorização expressa e individual do responsável (REGRAS.md, seção 5A)
-EXCECOES_ELEITORAIS = {'d20261024-pol-9'}
+EXCECOES_ELEITORAIS = {
+    'd20261024-pol-9',
+    # 28/10/2026, 11h21 (Brasília): o responsável aprovou, por escrito no chat, estas 3 perguntas já vistas por ele (REGRAS.md, seção 5B)
+    'd20261028-pol-3', 'd20261028-pol-4', 'd20261028-pol-5',
+}
 BLOCK_POL = re.compile(r'(?i)\b(lula|bolsonaro|tarc[ií]sio|ciro|marçal|boulos|zema|caiado|ratinho|michelle)\b')
 
 
@@ -167,6 +171,7 @@ def main():
     ap.add_argument('arquivo')
     ap.add_argument('--hoje', help='AAAA-MM-DD: exige o lote desse dia')
     ap.add_argument('--minimo', type=int, default=2, help='mínimo de perguntas por ícone no lote do dia (padrão 2)')
+    ap.add_argument('--maximo', type=int, default=2, help='máximo de perguntas por ícone no dia (padrão 2; use 4 quando houver extras da pauta quente, REGRAS.md seção 2B)')
     a = ap.parse_args()
 
     errors, warnings = [], []
@@ -262,11 +267,11 @@ def main():
             mine = [i for i in ids if isinstance(i, str) and i.startswith(prefix + k + '-')]
             if len(mine) < a.minimo:
                 E(f'lote de {a.hoje}: {nome} tem {len(mine)} pergunta(s); o mínimo é {a.minimo}')
-            if len(mine) > 2:
-                E(f'lote de {a.hoje}: {nome} tem {len(mine)} perguntas; o máximo é 2 por ícone por dia')
+            if len(mine) > a.maximo:
+                E(f'lote de {a.hoje}: {nome} tem {len(mine)} perguntas; o máximo é {a.maximo} por ícone por dia')
             nums = sorted(i.rsplit('-', 1)[1] for i in mine)
-            if nums and nums != ['1', '2'][:len(nums)]:
-                W(f'lote de {a.hoje}: {nome} deveria usar os números 1 e 2 nos ids (tem {nums})')
+            if nums and nums != [str(n) for n in range(1, len(nums) + 1)]:
+                W(f'lote de {a.hoje}: {nome} deveria usar números seguidos a partir de 1 nos ids (tem {nums})')
 
     for w in warnings:
         print('aviso:', w)

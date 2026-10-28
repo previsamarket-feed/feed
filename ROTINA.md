@@ -42,6 +42,15 @@ Se uma pergunta se mostrar ambígua ou errada, coloque o id em `withdrawn` e tir
 - Se não houver uma boa pergunta segura para um ícone, escolha outro assunto do mesmo ícone. Só publique menos de 2
   se for realmente impossível, e diga isso no relatório.
 
+## 2B. Pauta quente do Google Notícias (extras) — "da notícia à previsão"
+
+Siga a seção 2B da `REGRAS.md`. Depois das 12 perguntas do lote, leia o Google Notícias Brasil
+(`https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419`, com `curl` ou WebFetch; se falhar, siga só com os portais) e
+escolha as 2 ou 3 pautas mais quentes **permitidas**. Transforme cada uma em 1 ou 2 perguntas extras (ids `-3` e `-4`, até 2 por
+ícone), com `news` apontando direto para g1, Metrópoles, InfoMoney ou TNT Sports. Se a pauta mais quente for vetada (político,
+eleição, crime, prisão), **não publique**: liste a pergunta pronta no relatório, em "AGUARDANDO AUTORIZAÇÃO INDIVIDUAL DO DONO".
+No validador use `--maximo 4` (ou mais, só se o dono tiver autorizado exceções no dia).
+
 ## 3. Limpeza
 
 Siga a seção 9 da `REGRAS.md` (remover resolvidas há mais de 14 dias de `markets`, manter `resolutions` por 90 dias,
@@ -49,14 +58,14 @@ Siga a seção 9 da `REGRAS.md` (remover resolvidas há mais de 14 dias de `mark
 
 ## 4. Validar e publicar
 
-1. `python3 validar_feed.py feed.json --hoje AAAA-MM-DD`. Corrija até terminar com `OK para publicar`.
+1. `python3 validar_feed.py feed.json --hoje AAAA-MM-DD --maximo 4`. Corrija até terminar com `OK para publicar`.
    Se não conseguir, **não publique**; relate o problema.
 2. `git add feed.json && git commit -m "Perguntas de AAAA-MM-DD"` e `git push` na branch principal. Altere somente `feed.json`.
 3. Confira que o push foi aceito (`git status`/`git log origin/main -1`).
 
 ## 5. Relatório
 
-Envie com `SendUserMessage` um resumo curto em português: quantas perguntas novas (por ícone), quantas resolvidas
+Envie com `SendUserMessage` um resumo curto em português: quantas perguntas novas (por ícone, separando as extras da pauta quente), quantas resolvidas
 (com a fonte), quantas retiradas, o que ficou aberto por falta de evidência e qualquer problema (portal bloqueado,
 validador, push). Não inclua dados pessoais.
 

@@ -50,6 +50,24 @@ houver assunto quente; a outra pode ser de calendário (divulgação de índice,
   (religião, raça, gênero, orientação sexual). Na dúvida, escolha outro assunto quente.
 - Os limites dos itens 4 e 5 não mudam. O validador também não.
 
+## 2B. Pauta quente do Google Notícias: "da notícia à previsão" (orientação do dono, 28/10/2026)
+
+O dono aprovou e mandou manter, para todas as perguntas daqui em diante, esta dinâmica: **notícia em alta -> previsão**.
+
+- **Pauta.** Leia o Google Notícias Brasil (RSS `https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419`, mais as seções
+  Brasil, Negócios, Esportes e Tecnologia, trocando `/rss?` por `/rss/headlines/section/topic/NATION?` etc.). Se o endereço
+  não abrir, use as manchetes dos 4 portais. O Google Notícias serve para **descobrir o assunto do dia**: o link das
+  perguntas (`news`) continua sendo direto para g1, Metrópoles, InfoMoney ou TNT Sports (os links do Google são
+  redirecionamentos e o site os recusa).
+- **Quantidade.** Cada pauta quente permitida pode virar 1 ou 2 perguntas. Elas entram como **extras**: até **2 por ícone
+  por dia** (ids `-3` e `-4`), além das 2 do lote normal. Rode o validador com `--maximo 4`.
+- **Cuidados de sempre.** Fato objetivo, fonte oficial, `close` antes do fato, critério "Sim, se... / Não, se...", sem
+  tragédias, sem crimes contra pessoas comuns, sem jogo de azar (loterias) e sem repetir tema dos últimos 7 dias.
+- **Pauta vetada nunca vai ao ar sozinha.** Se a notícia mais quente do dia for vetada pelas seções 4 e 5 (nome de político,
+  candidato, partido, eleição, acusação, investigação, prisão), **não publique**: deixe a pergunta pronta no relatório final,
+  na lista "AGUARDANDO AUTORIZAÇÃO INDIVIDUAL DO DONO" (pergunta, opções, critério, fonte, data de encerramento e links), para
+  ele autorizar no chat, id a id, como nas seções 5A e 5B.
+
 ## 3. Notícias de origem (`news`)
 
 - Até 3 links `https` de **g1.globo.com, www.metropoles.com, tntsports.com.br (ou www.) e www.infomoney.com.br**. O site
@@ -79,6 +97,17 @@ UMA pergunta eleitoral: `d20261024-pol-9` ("Quem venceu o debate da Globo?"), as
 enquetes durante a campanha foi explicada a ele antes). A exceção vale **somente para esse id** (`EXCECOES_ELEITORAIS` em
 `validar_feed.py`). Continua proibido criar qualquer outra pergunta eleitoral sem nova autorização individual. A rotina
 diária **não** deve copiar este caso.
+
+### 5B. Exceções autorizadas (28/10/2026)
+
+O responsável aprovou, por escrito no chat (28/10/2026, 11h21, Brasília: "aprovado, pode publicar"), depois de ver o texto
+completo de cada uma no exemplo "Da notícia à previsão", TRÊS perguntas de Política: `d20261028-pol-3` (Flávio Bolsonaro
+voltará ao Brasil até 12/12/2026?), `d20261028-pol-4` (prisão preventiva decretada pelo STF até 12/12/2026?) e
+`d20261028-pol-5` (maioria republicana na Câmara dos EUA em 3/11/2026). A exceção vale **somente para esses ids**
+(`EXCECOES_ELEITORAIS` em `validar_feed.py`). As perguntas citam pessoa pública e tema de investigação/prisão, que a seção 4
+veta; por isso o risco é do responsável e a saída é rápida: colocar o id em `withdrawn` (o site devolve os PTS). O encerramento
+da `pol-5` é 3/11 às 6h (antes da votação), e não em 27/11 como no exemplo, porque a seção 2 exige fechar antes do fato.
+A rotina diária **não** deve copiar estes casos (veja a seção 2B).
 
 ## 6. Esporte
 
