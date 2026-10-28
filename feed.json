@@ -1375,6 +1375,56 @@
           "url": "https://www.metropoles.com/esportes/veron-descarta-risco-de-flamengo-tirar-estudiantes-da-final-da-libertadores"
         }
       ]
+    },
+    {
+      "id": "d20261028-pol-6",
+      "cat": "Política",
+      "q": "O Senado vai fixar a alíquota de referência da CBS de 2027 em 11% ou mais, depois de o TCU propor 11,3%?",
+      "outs": [
+        "Sim, 11% ou mais",
+        "Não, abaixo de 11% ou sem definição"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-09T12:00:00-03:00",
+      "crit": "Sim, se, até 15/12/2026, o Senado Federal publicar a resolução com a alíquota de referência da CBS para 2027 em 11,0% ou mais. Não, se fixar um percentual abaixo de 11,0% ou se não houver resolução publicada até 15/12/2026. Fonte: site do Senado e Diário Oficial da União.",
+      "src": "Senado Federal e Diário Oficial da União (resolução da alíquota de referência da CBS)",
+      "desc": "O TCU propôs 11,3% para a CBS em 2027, acima das estimativas do governo (8,8% em 2024 e 9,21% do Comitê Gestor em julho). O Senado tem até 15/12 para decidir.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/tcu-propoe-aliquota-de-113-para-a-cbs-em-2027-acima-do-previsto-pelo-governo/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/reforma-tributaria-tcu-propoe-aliquota-da-cbs-em-113"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-tec-3",
+      "cat": "Tecnologia",
+      "q": "O telescópio espacial Swift, da Nasa, vai reentrar na atmosfera da Terra até 31/12/2026, depois do fracasso da missão de resgate?",
+      "outs": [
+        "Sim, reentra até 31/12",
+        "Não, segue em órbita"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-05T12:00:00-03:00",
+      "crit": "Sim, se a Nasa ou o Comando Espacial dos EUA (Space-Track) confirmarem a reentrada do Swift na atmosfera entre a data de encerramento e 31/12/2026. Não, se o telescópio ainda estiver em órbita em 31/12/2026. Se a reentrada ocorrer antes do encerramento, a pergunta será retirada.",
+      "src": "Nasa (comunicados da missão Swift) e Space-Track",
+      "desc": "A Nasa informou em 23/10 que a tentativa de resgate do Swift, feita pela espaçonave LINK da Katalyst, não deu certo; o telescópio deve cair nas próximas semanas.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/ciencia/telescopio-da-nasa-vai-cair-na-terra-apos-fracasso-em-missao-de-resgate"
+        }
+      ]
     }
   ],
   "resolutions": {
