@@ -948,31 +948,348 @@
       ]
     },
     {
-      "id": "d20261024-pol-9",
-      "cat": "Política",
-      "q": "Quem venceu o debate da Globo?",
+      "id": "d20261028-eco-1",
+      "cat": "Economia",
+      "q": "No Boletim Focus de 2/11, a mediana para o IPCA de 2026 ficará acima de 5,19%?",
       "outs": [
-        "Flávio Bolsonaro",
-        "Luiz Inácio \"Lula\" da Silva"
+        "Acima de 5,19%",
+        "Igual a 5,19%",
+        "Abaixo de 5,19%"
+      ],
+      "p": [
+        0.5,
+        0.15,
+        0.35
+      ],
+      "close": "2026-11-02T06:00:00-03:00",
+      "crit": "Vale a mediana da projeção para o IPCA de 2026 no Relatório Focus do Banco Central divulgado em 02/11/2026, comparada com 5,19%, valor do Focus de 26/10.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "O dólar disparou na segunda-feira e a inflação esperada para 2026 já está acima do teto da meta de 4,50%. O mercado vai revisar a conta?",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-eco-2",
+      "cat": "Economia",
+      "q": "No Focus de 2/11, a mediana da Selic para o fim de 2026 ficará acima de 13,25%?",
+      "outs": [
+        "Acima de 13,25%",
+        "Igual a 13,25%",
+        "Abaixo de 13,25%"
+      ],
+      "p": [
+        0.3,
+        0.55,
+        0.15
+      ],
+      "close": "2026-11-02T06:00:00-03:00",
+      "crit": "Vale a mediana da projeção para a taxa Selic no fim de 2026 no Relatório Focus do Banco Central divulgado em 02/11/2026, comparada com 13,25%, valor do Focus de 26/10.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "Com juros futuros em alta e câmbio pressionado, os analistas podem rever os cortes previstos para novembro e dezembro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-fin-1",
+      "cat": "Finanças",
+      "q": "O dólar (PTAX de venda) de 4/11 ficará acima de R$ 5,30?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-04T09:00:00-03:00",
+      "crit": "Sim, se a PTAX de venda de 04/11/2026, divulgada pelo Banco Central, for maior que R$ 5,30. Não, se for R$ 5,30 ou menos.",
+      "src": "Banco Central do Brasil (PTAX)",
+      "desc": "O dólar subiu mais de 8% em 26/10, a maior alta em 23 anos, e depois devolveu parte do avanço. Fechou a R$ 5,40 na segunda.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-nesta-terca-3"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-fin-2",
+      "cat": "Finanças",
+      "q": "O Tesouro vai voltar a fazer leilão de títulos prefixados até 6/11, depois de cancelar os da semana passada?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-02T18:00:00-03:00",
+      "crit": "Sim, se o Tesouro Nacional realizar até 06/11/2026 ao menos um leilão ordinário de títulos prefixados (LTN ou NTN-F), conforme o Tesouro Transparente. Não, caso contrário.",
+      "src": "Tesouro Nacional (Tesouro Transparente, resultado dos leilões)",
+      "desc": "Na segunda de forte queda dos mercados, o Tesouro recomprou R$ 7,1 bilhões em prefixados e cancelou os leilões de prefixados e IPCA+ previstos para terça e quinta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-26102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Apple vai liberar o Apple Intelligence na China continental até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
       ],
       "p": [
         0.5,
         0.5
       ],
-      "close": "2026-10-25T08:00:00-03:00",
-      "crit": "O resultado será definido pelo candidato que obtiver o maior percentual de votos na enquete pública previamente indicada como fonte oficial deste mercado, considerando o resultado divulgado até o prazo de encerramento. Caso a enquete não seja publicada, seja cancelada ou termine empatada, o mercado deverá ser anulado conforme as regras da plataforma.",
-      "src": "Enquete pública a ser indicada pelo Previsa Market",
-      "desc": "O debate eleitoral da TV Globo reúne candidatos para apresentar propostas e discutir temas de interesse nacional. Este mercado simula a previsão do resultado de uma enquete pública sobre o desempenho dos participantes, sem envolver apostas ou dinheiro real.",
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se a Apple disponibilizar oficialmente os recursos do Apple Intelligence a usuários na China continental até 31/12/2026, conforme comunicado ou site oficial da Apple. Não, caso contrário.",
+      "src": "Apple (Newsroom e site oficial)",
+      "desc": "Depois de aprovações do governo chinês, a liberação está prevista para dezembro. O lançamento já foi adiado várias vezes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/business/apos-aval-de-pequim-apple-se-prepara-para-lancar-ia-em-seu-mercado-chave/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Meta vai lançar o Muse Charm, dispositivo de bolso com agente de IA, até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se a Meta colocar o Muse Charm à venda ou disponível a clientes em qualquer país até 31/12/2026, conforme comunicado ou site oficial da Meta. Não, caso contrário.",
+      "src": "Meta (Newsroom e site oficial)",
+      "desc": "A empresa apresentou o aparelho, do tamanho de um chaveiro, em setembro e indicou dezembro como previsão de chegada.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/business/meta-aposta-em-agente-muse-e-novos-oculos-com-ia-para-ampliar-uso-da-tecnologia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-neg-1",
+      "cat": "Negócios",
+      "q": "A Magazine Luiza, que perdeu mais da metade do valor na bolsa em 26/10, terá lucro líquido no 3º trimestre de 2026?",
+      "outs": [
+        "Sim, lucro",
+        "Não, prejuízo ou zero"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-04T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 da Magazine Luiza, no release de resultados divulgado até 20/11/2026, for positivo. Não, se for prejuízo ou zero. Se não for divulgado até 20/11, a pergunta será retirada.",
+      "src": "Magazine Luiza (Relações com Investidores, release 3T26)",
+      "desc": "A varejista teve prejuízo de R$ 50 milhões no 2º trimestre e vinha de juros mais altos. O balanço está previsto para 5/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/magazine-luiza-mglu3-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-neg-2",
+      "cat": "Negócios",
+      "q": "O Ebitda da Petrobras no 3º trimestre de 2026 ficará acima de US$ 17 bilhões?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se o Ebitda do 3T26 informado no release de resultados da Petrobras, divulgado até 20/11/2026, for maior que US$ 17,0 bilhões. Não, se for 17,0 bilhões ou menos. Se não for divulgado até 20/11, a pergunta será retirada.",
+      "src": "Petrobras (Relações com Investidores, release 3T26)",
+      "desc": "A XP projeta Ebitda de cerca de US$ 17,8 bilhões, queda de aproximadamente US$ 2 bilhões, porque a estatal segurou o preço dos combustíveis. Balanço previsto para 10/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-pode-pagar-us-38-bi-em-dividendos-no-3t-mesmo-com-queda-do-ebitda-diz-xp/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-esp-1",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Palmeiras x Vasco, na ida da semifinal da Copa do Brasil?",
+      "outs": [
+        "Palmeiras vence",
+        "Empate",
+        "Vasco vence"
+      ],
+      "p": [
+        0.55,
+        0.27,
+        0.18
+      ],
+      "close": "2026-11-01T12:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula oficial da CBF, do jogo marcado para 01/11/2026. Se for adiado para depois de 08/11/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial da Copa do Brasil)",
+      "desc": "Primeiro jogo da semifinal, domingo às 16h, no Nubank Parque. A volta é em São Januário.",
       "news": [
         {
           "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/debate-globo-lula-flavio-bolsonaro"
+          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
         }
       ]
+    },
+    {
+      "id": "d20261028-esp-2",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Grêmio x Atlético-MG, na ida da semifinal da Copa do Brasil?",
+      "outs": [
+        "Grêmio vence",
+        "Empate",
+        "Atlético-MG vence"
+      ],
+      "p": [
+        0.45,
+        0.28,
+        0.27
+      ],
+      "close": "2026-11-01T14:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula oficial da CBF, do jogo marcado para 01/11/2026. Se for adiado para depois de 08/11/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial da Copa do Brasil)",
+      "desc": "Jogo de ida na Arena do Grêmio, domingo às 18h30. A volta será em Belo Horizonte.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-pol-1",
+      "cat": "Política",
+      "q": "O governo vai enviar ao Congresso uma proposta para mudar a meta fiscal até 30/11/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 o Poder Executivo protocolar no Congresso projeto de lei ou PEC que altere a meta de resultado primário, conforme os sites da Câmara, do Senado ou do Planalto. Não, caso contrário.",
+      "src": "Câmara dos Deputados, Senado Federal e Diário Oficial da União",
+      "desc": "Após a forte queda da bolsa, o Ministério da Fazenda disse ter medidas prontas e quer alterar a lei ou a Constituição ainda este ano para buscar o centro da meta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-tem-queda-modesta-em-dia-de-acomodacao-apos-tombo-incertezas-persistem"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-pol-2",
+      "cat": "Política",
+      "q": "A Anatel fará a terceira audiência pública sobre o edital do leilão da faixa de 6 GHz até 30/11/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.65,
+        0.35
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se a Anatel realizar até 30/11/2026 a audiência pública da Consulta Pública nº 37/2026 em Fortaleza, conforme a página de consultas públicas da Anatel. Não, caso contrário.",
+      "src": "Anatel (página de consultas públicas)",
+      "desc": "A consulta sobre o edital foi esticada até 7 de dezembro e uma nova audiência, em Fortaleza, era esperada para novembro, sem data definida."
     }
   ],
-  "resolutions": {},
+  "resolutions": {
+    "d20261020-eco-1": {
+      "outcome": 1,
+      "evidence": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9260-indice-nacional-de-precos-ao-consumidor-amplo-15.html"
+    },
+    "d20261020-fin-1": {
+      "outcome": 1,
+      "evidence": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/ibovespa.htm"
+    },
+    "d20261020-tec-1": {
+      "outcome": 0,
+      "evidence": "https://www.gov.br/anatel/pt-br/participacao-social/consultas-publicas"
+    },
+    "d20261020-neg-1": {
+      "outcome": 0,
+      "evidence": "https://www.bradescori.com.br/informacoes-ao-mercado/central-de-resultados/"
+    },
+    "d20261020-esp-1": {
+      "outcome": 0,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a/2026"
+    },
+    "d20261020-esp-2": {
+      "outcome": 0,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a/2026"
+    },
+    "d20261021-esp-2": {
+      "outcome": 0,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a/2026"
+    },
+    "d20261021-eco-1": {
+      "outcome": 2,
+      "evidence": "https://www.bcb.gov.br/publicacoes/focus"
+    },
+    "d20261021-eco-2": {
+      "outcome": 0,
+      "evidence": "https://www.bcb.gov.br/publicacoes/focus"
+    },
+    "d20261021-fin-2": {
+      "outcome": 0,
+      "evidence": "https://www.bcb.gov.br/publicacoes/focus"
+    },
+    "d20261021-esp-1": {
+      "outcome": 1,
+      "evidence": "https://www.conmebol.com/libertadores/"
+    }
+  },
   "withdrawn": [
-    "d20261020-pol-2"
+    "d20261020-pol-2",
+    "d20261024-pol-9"
   ]
 }
