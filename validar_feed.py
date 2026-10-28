@@ -31,12 +31,19 @@ MAX_MARKETS = 600        # limite do site
 SOFT_MARKETS = 500       # acima disso, faça a limpeza descrita em REGRAS.md
 
 # Regras editoriais (heurística: ajuda a não esquecer; não substitui o julgamento).
-BLOCK_ALL = re.compile(
+# Termos de tema político/eleitoral: vetados no modo normal; sob PROCURAÇÃO do dono (--procuracao) viram só aviso.
+BLOCK_POLITICO = re.compile(
     r'(?i)\b(candidat[oa]s?|eleiç(?:ão|ões)|eleit[oa]s?|urnas?|segundo turno|intenç(?:ão|ões) de voto|'
-    r'datafolha|quaest|ipec|partidos?|impeachment|cassaç(?:ão|ões)|denúncias?|denunciad[oa]s?|investigad[oa]s?|'
+    r'datafolha|quaest|ipec|partidos?|impeachment|cassaç(?:ão|ões))\b'
+)
+# Termos de crime/acusação/jogo: vetados SEMPRE (inclusive sob procuração); só passam com exceção individual (EXCECOES_ELEITORAIS).
+BLOCK_DURO = re.compile(
+    r'(?i)\b(denúncias?|denunciad[oa]s?|investigad[oa]s?|'
     r'condenad[oa]s?|presos?|prisão|indiciad[oa]s?|inquérito|acusad[oa]s?|'
     r'apostas?|apostar|bets?|odds|cassinos?|casas? de apostas?)\b'
 )
+BLOCK_ALL = re.compile('|'.join(r.pattern.replace('(?i)', '', 1) for r in (BLOCK_POLITICO, BLOCK_DURO)), re.IGNORECASE)
+PROCURACAO = False   # ligado por --procuracao (REGRAS.md, seção 2C)
 # ids com exceção ao veto eleitoral: SOMENTE por autorização expressa e individual do responsável (REGRAS.md, seção 5A)
 EXCECOES_ELEITORAIS = {
     'd20261024-pol-9',
@@ -155,13 +162,25 @@ def check_editorial(x):
     if x.get('id') in EXCECOES_ELEITORAIS:      # autorização expressa e individual do responsável (ver REGRAS.md, seção 5A)
         warns.append('exceção eleitoral autorizada pelo responsável: o veto da seção 5 não foi aplicado a este id')
         return errs, warns + _avisos_gerais(x)
-    hit = BLOCK_ALL.search(text)
-    if hit:
-        errs.append(f'termo vetado pela REGRAS.md: "{hit.group(0)}"')
-    if x.get('cat') == 'Política':
-        hit = BLOCK_POL.search(text)
+    if PROCURACAO:
+        hit = BLOCK_DURO.search(text)
         if hit:
-            errs.append(f'Política: não citar nomes de pessoas políticas ("{hit.group(0)}")')
+            errs.append(f'termo vetado mesmo sob procuração (crime, acusação, prisão ou jogo): "{hit.group(0)}"')
+        hit = BLOCK_POLITICO.search(text)
+        if hit:
+            warns.append(f'tema político/eleitoral publicado sob procuração do dono: "{hit.group(0)}" (listar no relatório)')
+        if x.get('cat') == 'Política':
+            hit = BLOCK_POL.search(text)
+            if hit:
+                warns.append(f'Política: cita pessoa pública sob procuração do dono ("{hit.group(0)}"; listar no relatório)')
+    else:
+        hit = BLOCK_ALL.search(text)
+        if hit:
+            errs.append(f'termo vetado pela REGRAS.md: "{hit.group(0)}"')
+        if x.get('cat') == 'Política':
+            hit = BLOCK_POL.search(text)
+            if hit:
+                errs.append(f'Política: não citar nomes de pessoas políticas ("{hit.group(0)}")')
     warns += _avisos_gerais(x)
     return errs, warns
 
@@ -172,7 +191,15 @@ def main():
     ap.add_argument('--hoje', help='AAAA-MM-DD: exige o lote desse dia')
     ap.add_argument('--minimo', type=int, default=2, help='mínimo de perguntas por ícone no lote do dia (padrão 2)')
     ap.add_argument('--maximo', type=int, default=2, help='máximo de perguntas por ícone no dia (padrão 2; use 4 quando houver extras da pauta quente, REGRAS.md seção 2B)')
+    ap.add_argument('--procuracao', action='store_true', help='modo procuração do dono (REGRAS.md, seção 2C): rodadas de pauta quente ao longo do dia; mínimo 0, máximo 8 por ícone; tema político vira aviso (crime, acusação, prisão e jogo continuam vetados)')
     a = ap.parse_args()
+    global PROCURACAO
+    if a.procuracao:
+        PROCURACAO = True
+        if '--minimo' not in sys.argv:
+            a.minimo = 0
+        if '--maximo' not in sys.argv:
+            a.maximo = 8
 
     errors, warnings = [], []
     E = errors.append

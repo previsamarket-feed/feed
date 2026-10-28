@@ -68,6 +68,29 @@ O dono aprovou e mandou manter, para todas as perguntas daqui em diante, esta di
   na lista "AGUARDANDO AUTORIZAÇÃO INDIVIDUAL DO DONO" (pergunta, opções, critério, fonte, data de encerramento e links), para
   ele autorizar no chat, id a id, como nas seções 5A e 5B.
 
+## 2C. Procuração do dono: notícias e previsões 24 horas, sem aprovação item a item (28/10/2026, 11h33)
+
+O dono escreveu no chat: "voce tem a procuração para postar noticiais e previsões livremente 24h por dia ... em real time do
+google noticiais". Isto vale como autorização permanente para **publicar sem pedir aprovação a cada pergunta**, com estes limites:
+
+- **Rodadas ao longo do dia.** Além do lote das 6h, a rotina de pauta quente roda várias vezes por dia (ROTINA.md, seção 6).
+  Cada rodada lê o Google Notícias, escolhe as pautas novas e publica de 1 a 3 perguntas. Ids seguem a numeração do dia
+  (`-3` em diante, no máximo `-9` por ícone). Rode o validador com `--procuracao`.
+- **Continua valendo tudo das seções 1, 2, 2A, 2B, 3 e 6**: fato objetivo, fonte oficial, `close` antes do fato, critério
+  "Sim, se... / Não, se...", `news` direto para g1, Metrópoles, InfoMoney ou TNT Sports, probabilidade inicial entre 0.10 e 0.90
+  e nada repetido nos últimos 7 dias.
+- **Tema político e eleitoral passa a ser permitido** (notícia em alta com data e fato verificável: candidato, partido,
+  eleição, nome de pessoa pública no exercício da função), em tom neutro, sem opinar. O validador só avisa; **todo item político
+  publicado vai listado no relatório**, com o id para retirar rápido (`withdrawn`).
+- **Seguem vetados mesmo com a procuração** (o validador dá erro): crimes, denúncias, acusações, investigações, prisões,
+  condenações; tragédias, mortes, saúde e vida pessoal; menores de idade; conteúdo sexual ou de ódio; apostas e jogo de azar.
+  Perguntas sobre esses temas só saem com autorização expressa do dono para aquele id (seção 5B é o modelo).
+- **Notícias do módulo de redação** (`/noticias/`): a matéria **normal** segue o fluxo automático. A matéria **sensível**
+  (política, crime, saúde) exige segunda aprovação de pessoa; sob esta procuração Claude só a publica se o dono tiver
+  autorizado aquele assunto no chat, e registra a autorização na trilha de auditoria.
+- **Nunca** use esta procuração para gasto, para mexer em dados do site (KV, D1 `previsa-stats`, LMSR, PTS) ou para mudar
+  regras do jogo. Em dúvida, não publique e liste em "AGUARDANDO AUTORIZAÇÃO DO DONO".
+
 ## 3. Notícias de origem (`news`)
 
 - Até 3 links `https` de **g1.globo.com, www.metropoles.com, tntsports.com.br (ou www.) e www.infomoney.com.br**. O site
