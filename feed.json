@@ -1425,6 +1425,54 @@
           "url": "https://www.metropoles.com/ciencia/telescopio-da-nasa-vai-cair-na-terra-apos-fracasso-em-missao-de-resgate"
         }
       ]
+    },
+    {
+      "id": "d20261028-esp-4",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Vasco x Flamengo, no Brasileirão, nesta quinta-feira no Nilton Santos?",
+      "outs": [
+        "Vasco vence",
+        "Empate",
+        "Flamengo vence"
+      ],
+      "p": [
+        0.25,
+        0.28,
+        0.47
+      ],
+      "close": "2026-10-29T18:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula oficial da CBF, do jogo marcado para 29/10/2026 às 20h. Se for adiado para depois de 05/11/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial do Brasileirão)",
+      "desc": "Clássico carioca com policiamento reforçado, na quinta às 20h. O Flamengo vem de vitória sobre o Atlético-MG.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/semana-do-futebol-tem-classicos-nacionais-e-duelos-de-gigantes-na-europa"
+        }
+      ]
+    },
+    {
+      "id": "d20261028-fin-4",
+      "cat": "Finanças",
+      "q": "O governo vai oficializar IOF sobre LCI, LCA e outros títulos isentos até 30/11/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.25,
+        0.75
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 for publicado no Diário Oficial da União decreto, medida provisória ou lei que fixe alíquota de IOF acima de zero para LCI, LCA, CRI, CRA ou debêntures incentivadas. Não, caso contrário.",
+      "src": "Diário Oficial da União",
+      "desc": "Com o Ibovespa em queda de quase 3% em 28/10, o mercado reage a relatos de que o governo estuda cobrar IOF sobre títulos hoje com alíquota zero.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-estresse-continua-por-que-indice-cai-forte-apos-terca-mais-tranquila-no-mercado-28102026/"
+        }
+      ]
     }
   ],
   "resolutions": {
