@@ -22,7 +22,7 @@ import urllib.request
 
 import validar_feed as V
 
-FONTE_PADRAO = 'https://previsamarket-redacao.hads14.workers.dev/public/v1/previsoes-feed.json'
+FONTE_PADRAO = 'https://www.previsamarket.com.br/api/noticias?previsoes=1'   # o Worker da redação fica atrás do Cloudflare Access; o site entrega só a leitura
 CATS_AUTO = {'eco', 'fin', 'tec', 'neg', 'esp'}
 NUMS_AUTO = {7, 8, 9}
 MAX_ITENS_POR_RODADA = 6
