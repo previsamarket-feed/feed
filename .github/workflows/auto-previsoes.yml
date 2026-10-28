@@ -1,0 +1,43 @@
+name: Previsões automáticas das matérias
+
+# Lê as previsões prontas no Worker editorial do Previsa Market e acrescenta ao feed.json as que passam no validador.
+# Só acrescenta (nunca altera item existente). Regras em REGRAS.md, seção 2D.
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed-auto
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publicar previsões automáticas
+        run: |
+          set -u
+          git config user.name "Previsa Market (automático)"
+          git config user.email "actions@users.noreply.github.com"
+          for tentativa in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            rc=0
+            python3 publicar_auto.py || rc=$?
+            if [ "$rc" -eq 2 ]; then echo "fonte indisponível; nada a fazer"; exit 0; fi
+            if [ "$rc" -ne 0 ]; then echo "erro ($rc)"; exit "$rc"; fi
+            if git diff --quiet -- feed.json; then echo "sem mudanças"; exit 0; fi
+            git add feed.json
+            git commit -q -m "Previsões automáticas das matérias $(date -u '+%Y-%m-%d %H:%M') UTC"
+            if git push -q origin HEAD:main; then echo "publicado"; exit 0; fi
+            echo "push recusado (outra publicação chegou antes); tentando de novo"
+          done
+          exit 1

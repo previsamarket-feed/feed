@@ -112,6 +112,22 @@ google noticiais". Isto vale como autorização permanente para **publicar sem p
 - **Nunca** use esta procuração para gasto, para mexer em dados do site (KV, D1 `previsa-stats`, LMSR, PTS) ou para mudar
   regras do jogo. Em dúvida, não publique e liste em "AGUARDANDO AUTORIZAÇÃO DO DONO".
 
+## 2D. Previsões automáticas ligadas às matérias (dono, 28/10/2026 19h45: "você é o editor de redação, você decide, está autorizado")
+
+O Worker editorial monitora a CNN Brasil a cada 5 minutos, escreve a matéria autoral e, **só quando a notícia traz um evento futuro,
+objetivo e verificável**, registra uma pergunta ligada à matéria. Uma Action deste repositório (`.github/workflows/auto-previsoes.yml`,
+roda `publicar_auto.py`) acrescenta essas perguntas ao `feed.json` sem passar pela rotina.
+
+- **Ids reservados: `-7`, `-8` e `-9` de Economia, Finanças, Tecnologia, Negócios e Esporte.** A rotina diária e as rodadas de pauta
+  quente **não usam** `-7` a `-9` nesses ícones (usam `-1` a `-6`; Política segue até `-9`). O validador não conta esses ids no lote do dia.
+- **Probabilidade inicial sempre neutra (1/n)**; nunca vem da IA, de casa de apostas nem de estimativa. Sem `news` (a CNN Brasil não
+  está entre os domínios que o site aceita nesse campo; a matéria ligada fica no site).
+- **O script só acrescenta**: nunca altera nem apaga item existente, recusa id já usado, pergunta parecida com outra dos últimos 7
+  dias, termos vetados da seção 4 (validador em modo normal), encerramento em menos de 2 horas e arquivo que não passe no validador.
+- **Resolução**: a rotina resolve estas perguntas como as demais (seção 7), **só com evidência oficial** (`evidence`); se não houver,
+  fica aberta. Qualquer pergunta automática com erro ou risco vai para `withdrawn` (o site devolve os PTS).
+- **Política não entra** nas previsões automáticas, nem as matérias de política na publicação automática.
+
 ## 3. Notícias de origem (`news`)
 
 - Até 3 links `https` de **g1.globo.com, www.metropoles.com, tntsports.com.br (ou www.) e www.infomoney.com.br**. O site

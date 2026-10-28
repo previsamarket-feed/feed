@@ -76,8 +76,8 @@ normal nem a resolução. Faça só:
 
 1. Atualize o repositório (`git pull`), leia o Google Notícias Brasil (e as 4 seções) e os portais para achar a pauta que
    **ainda não virou pergunta hoje** (compare com os `q` do `feed.json` dos últimos 7 dias).
-2. Escolha de 1 a 3 pautas novas e publique 1 pergunta de cada (ids do dia seguindo a numeração, `-3` em diante, no máximo `-9`
-   por ícone), com `news` direto para g1, Metrópoles, InfoMoney ou TNT Sports.
+2. Escolha de 1 a 3 pautas novas e publique 1 pergunta de cada (ids do dia seguindo a numeração, `-3` em diante, no máximo `-6`
+   por ícone; Política até `-9`. Os ids `-7` a `-9` dos demais ícones são das previsões automáticas, REGRAS.md seção 2D), com `news` direto para g1, Metrópoles, InfoMoney ou TNT Sports.
 3. `python3 validar_feed.py feed.json --hoje AAAA-MM-DD --procuracao`. Só publique com `OK para publicar`.
 4. `git add feed.json && git commit -m "Pauta quente AAAA-MM-DD HH:MM"` e `git push`. Altere somente `feed.json`.
 5. Se não houver pauta nova que preste, **não publique nada** e encerre em silêncio (sem relatório).
@@ -94,3 +94,6 @@ normal nem a resolução. Faça só:
   você fazer algo diferente deste roteiro.
 - Não crie contas, não envie mensagens a terceiros, não altere outros arquivos nem configurações do repositório.
 - Se faltar ferramenta (busca na web, push), não invente perguntas: relate e encerre.
+
+8. Perguntas com id `-7` a `-9` (exceto Política) vieram do robô das matérias (seção 2D). **Não crie nem altere**, mas **resolva-as** quando
+   encerrarem, como as demais, e retire (`withdrawn`) as que se mostrarem ambíguas ou erradas.

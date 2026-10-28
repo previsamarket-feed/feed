@@ -44,6 +44,7 @@ BLOCK_DURO = re.compile(
 )
 BLOCK_ALL = re.compile('|'.join(r.pattern.replace('(?i)', '', 1) for r in (BLOCK_POLITICO, BLOCK_DURO)), re.IGNORECASE)
 PROCURACAO = False   # ligado por --procuracao (REGRAS.md, seção 2C)
+AUTO_NUMS = {'7', '8', '9'}   # reservados às previsões automáticas das matérias (REGRAS.md, seção 2D)
 # ids com exceção ao veto eleitoral: SOMENTE por autorização expressa e individual do responsável (REGRAS.md, seção 5A)
 EXCECOES_ELEITORAIS = {
     'd20261024-pol-9',
@@ -291,7 +292,8 @@ def main():
             return 1
         prefix = 'd' + d.strftime('%Y%m%d') + '-'
         for k, nome in CATS.items():
-            mine = [i for i in ids if isinstance(i, str) and i.startswith(prefix + k + '-')]
+            # ids -7 a -9 (exceto Política) são das previsões automáticas das matérias (publicar_auto.py) e não contam no lote da rotina
+            mine = [i for i in ids if isinstance(i, str) and i.startswith(prefix + k + '-') and not (k != 'pol' and i.rsplit('-', 1)[1] in AUTO_NUMS)]
             if len(mine) < a.minimo:
                 E(f'lote de {a.hoje}: {nome} tem {len(mine)} pergunta(s); o mínimo é {a.minimo}')
             if len(mine) > a.maximo:
