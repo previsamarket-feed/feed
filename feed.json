@@ -1513,6 +1513,23 @@
           "url": "https://www.infomoney.com.br/mercados/itau-itub4-resultados-segundo-trimestre-2026/"
         }
       ]
+    },
+    {
+      "id": "d20261029-esp-7",
+      "cat": "Esporte",
+      "q": "Neymar será suspenso nos próximos dois jogos do Santos?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-28T00:00:00-03:00",
+      "crit": "Sim, se a decisão do STJD for válida e não houver recurso; Não, se houver recurso ou anulação.",
+      "src": "CNN Brasil",
+      "desc": "O STJD suspendeu Neymar por dois jogos após expulsão no confronto com o Bahia. A decisão afeta os próximos jogos do Santos."
     }
   ],
   "resolutions": {
