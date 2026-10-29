@@ -1887,6 +1887,31 @@
           "url": "https://www.metropoles.com/mundo/christine-lagarde-renuncia-ao-bce-8-meses-antes-do-fim-de-mandato"
         }
       ]
+    },
+    {
+      "id": "d20261029-esp-5",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Brasil x Japão, amistoso de 14/11 em Singapura?",
+      "outs": [
+        "Vitória do Brasil",
+        "Empate",
+        "Vitória do Japão"
+      ],
+      "p": [
+        0.5,
+        0.25,
+        0.25
+      ],
+      "close": "2026-11-14T06:00:00-03:00",
+      "crit": "Vitória do Brasil, se a seleção brasileira vencer no tempo regulamentar (90 minutos mais acréscimos) em 14/11/2026. Empate, se terminar empatado no tempo regulamentar. Vitória do Japão, se o Japão vencer no tempo regulamentar. Fonte: súmula oficial e site da CBF.",
+      "src": "CBF (súmula oficial da partida)",
+      "desc": "Ancelotti anunciou em 29/10 a lista para a última Data Fifa do ano: Brasil x Japão em 14/11, às 7h15 (Brasília), e Brasil x Singapura em 17/11, no Estádio Nacional de Singapura.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-anuncia-amistosos-da-selecao-contra-japao-e-singapura-para-novembro"
+        }
+      ]
     }
   ],
   "resolutions": {
