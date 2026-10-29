@@ -1490,6 +1490,29 @@
       "crit": "Sim, se o Estudiantes vencer; Não, se o Palmeiras vencer (verificar resultado oficial da partida em 28/11/2026).",
       "src": "CNN Brasil",
       "desc": "A final da Copa Libertadores de 2026 entre Estudiantes e Palmeiras está marcada para 28 de novembro, no Estádio Centenário, em Montevidéu. O resultado da partida será o critério de avaliação."
+    },
+    {
+      "id": "d20261028-neg-3",
+      "cat": "Negócios",
+      "q": "O Itaú, que lucrou R$ 12,4 bilhões no 2º trimestre, terá lucro líquido gerencial acima de R$ 12,4 bilhões no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-03T15:00:00-03:00",
+      "crit": "Sim, se o lucro líquido gerencial do Itaú Unibanco no 3º trimestre de 2026, divulgado no release de resultados em 3/11/2026, for maior que R$ 12,4 bilhões. Não, se for igual ou menor. Fonte: release de resultados do Itaú Unibanco (ri.itau.com.br).",
+      "src": "Itaú Unibanco (Relações com Investidores)",
+      "desc": "O Itaú tem balanço do 3º trimestre previsto para 3/11, após o fechamento do mercado, em meio a juros altos e atenção do mercado com crédito e inadimplência. No 2º trimestre o banco lucrou R$ 12,4 bilhões, alta de cerca de 7,8% em um ano.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/itau-itub4-resultados-segundo-trimestre-2026/"
+        }
+      ]
     }
   ],
   "resolutions": {
