@@ -1530,6 +1530,336 @@
       "crit": "Sim, se a decisão do STJD for válida e não houver recurso; Não, se houver recurso ou anulação.",
       "src": "CNN Brasil",
       "desc": "O STJD suspendeu Neymar por dois jogos após expulsão no confronto com o Bahia. A decisão afeta os próximos jogos do Santos."
+    },
+    {
+      "id": "d20261029-eco-1",
+      "cat": "Economia",
+      "q": "O IPCA-15 de novembro, prévia da inflação do IBGE, ficará acima dos 0,18% de outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-23T18:00:00-03:00",
+      "crit": "Sim, se o IPCA-15 de novembro de 2026, divulgado pelo IBGE até 30/11/2026, for maior que 0,18%. Não, se for igual ou menor. Se não for divulgado até 30/11, a pergunta será retirada.",
+      "src": "IBGE (IPCA-15)",
+      "desc": "O IPCA-15 de outubro subiu 0,18%, abaixo do esperado pelo mercado, puxado pela queda da energia elétrica. Alimentos dão sinais de alta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ipca-15-previa-da-inflacao-sobe-018-em-outubro-abaixo-do-esperado-pelo-mercado/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/mercado-mais-caro-inflacao-de-alimentos-volta-a-subir-e-tem-sinais-de-alta"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-eco-2",
+      "cat": "Economia",
+      "q": "O rombo nas contas externas de outubro, que foi de US$ 5,1 bilhões em setembro, será maior que o do mês anterior?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-23T18:00:00-03:00",
+      "crit": "Sim, se o déficit em transações correntes de outubro de 2026, divulgado pelo Banco Central até 30/11/2026, for maior que US$ 5,1 bilhões. Não, se for menor, igual ou houver superávit. Sem divulgação até 30/11, a pergunta será retirada.",
+      "src": "Banco Central do Brasil (Estatísticas do Setor Externo)",
+      "desc": "Em setembro o déficit foi de US$ 5,1 bilhões, cerca de 42% menor que os US$ 8,8 bilhões de setembro de 2025.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/contas-externas-tem-deficit-de-us-51-bilhoes-em-setembro-diz-bc"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-fin-1",
+      "cat": "Finanças",
+      "q": "O Fed, que manteve os juros em 3,75% a 4,00% com dois votos por alta, vai elevar a taxa na reunião de dezembro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-12-07T12:00:00-03:00",
+      "crit": "Sim, se o comunicado do FOMC da reunião de dezembro de 2026, divulgado até 12/12/2026, elevar a faixa da taxa de juros dos EUA acima de 3,75% a 4,00%. Não, se mantiver ou reduzir.",
+      "src": "Federal Reserve (comunicado do FOMC)",
+      "desc": "Em 28/10 o Fed manteve a faixa, em decisão não unânime: dois membros votaram por alta de 0,25 ponto. O mercado ainda espera alta em dezembro, segundo a InfoMoney.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-fin-2",
+      "cat": "Finanças",
+      "q": "O petróleo Brent, que fechou acima de US$ 115 em 28/10, fechará 13/11 acima desse patamar?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o preço spot do Brent no dia 13/11/2026, na série diária da EIA (Administração de Informação de Energia dos EUA), for maior que US$ 115 por barril. Não, se for igual ou menor.",
+      "src": "EIA (Europe Brent Spot Price FOB, série diária)",
+      "desc": "O Brent subiu 1,26% em 28/10 e fechou acima de US$ 115, em meio a incertezas fiscais e globais que também derrubaram o Ibovespa.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Anatel vai adiar os prazos da biometria facial obrigatória para linhas de celular até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se até 31/12/2026 a Anatel publicar decisão que prorrogue qualquer prazo da norma GT-SEG.2026.11 (como 30/09/2027 para novas linhas pré-pagas). Não, caso contrário.",
+      "src": "Anatel (site oficial e Diário Oficial da União)",
+      "desc": "Em 28/10 a Anatel aprovou a norma: validação por reconhecimento facial para novas pré-pagas a partir de 30/09/2027 e recadastro dos atuais até o fim de 2028.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/minhas-financas/biometria-facial-sera-obrigatoria-para-cadastrar-ou-manter-linha-de-telefone-entenda/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/anatel-exige-biometria-facial-para-manter-linhas-de-celular-ativas-no-pais"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-tec-2",
+      "cat": "Tecnologia",
+      "q": "Vivo, TIM ou Claro anunciarão acordo com a Starlink para internet via satélite direto no celular até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se até 31/12/2026 Vivo, TIM ou Claro (ou a Starlink) divulgar comunicado oficial de parceria para serviço direto ao celular (D2D) no Brasil. Não, caso contrário. Fontes: comunicados das empresas.",
+      "src": "Comunicados e fatos relevantes de Vivo, TIM, Claro e Starlink",
+      "desc": "Após a SpaceX comprar faixa de 800 MHz nos EUA, o UBS BB viu a parceria com as teles locais como o caminho mais provável no Brasil, com conversas citadas envolvendo a Vivo.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/starlink-pode-virar-4a-operadora-do-brasil-tim-tims3-e-vivo-vivt3-caem-bolsa-apos-movimento-da-gigante-eua/"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-neg-1",
+      "cat": "Negócios",
+      "q": "O Nubank, que lucrou US$ 1,06 bilhão no 2º trimestre, terá lucro líquido acima de US$ 1,1 bilhão no 3º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 informado no release de resultados do Nu Holdings, divulgado até 20/11/2026, for maior que US$ 1,1 bilhão. Não, se for igual ou menor. Sem divulgação até 20/11, a pergunta será retirada.",
+      "src": "Nu Holdings (Relações com Investidores, release 3T26)",
+      "desc": "O lucro foi de US$ 871 milhões no 1º trimestre e de US$ 1,06 bilhão no 2º, alta de 49% em base neutra de câmbio. O banco soma quase 139 milhões de clientes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/nubank-roxo34-resultados-segundo-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-neg-2",
+      "cat": "Negócios",
+      "q": "No balanço de 10/11, a Embraer vai elevar, manter ou reduzir as projeções (guidance) de 2026?",
+      "outs": [
+        "Elevar",
+        "Manter",
+        "Reduzir"
+      ],
+      "p": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Elevar, se o release do 3T26 revisar para cima ao menos uma projeção de 2026 sem reduzir outra. Reduzir, se revisar para baixo ao menos uma sem elevar outra. Manter, se não houver mudança ou se houver revisões nos dois sentidos.",
+      "src": "Embraer (Relações com Investidores, release 3T26)",
+      "desc": "A Embraer divulga o 3T26 em 10/11. Segundo o Santander, as entregas do trimestre foram moderadamente positivas e o guidance de 2026 é considerado alcançável.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bens-de-capital-wege3-embj3/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-esp-1",
+      "cat": "Esporte",
+      "q": "Quem será o campeão brasileiro de 2026, com Flamengo e Palmeiras empatados com 70 pontos na 33ª rodada?",
+      "outs": [
+        "Flamengo",
+        "Palmeiras",
+        "Outro clube"
+      ],
+      "p": [
+        0.45,
+        0.45,
+        0.1
+      ],
+      "close": "2026-11-03T12:00:00-03:00",
+      "crit": "Vence a opção do clube que terminar na 1ª posição da tabela final do Brasileirão Série A 2026 (última rodada em 2/12/2026), segundo a CBF. Outro clube vence se nenhum dos dois ficar em 1º.",
+      "src": "CBF (tabela oficial do Brasileirão Série A 2026)",
+      "desc": "Após o 0 x 0 entre Santos e Palmeiras em 28/10, Flamengo e Palmeiras seguem com 70 pontos. O Flamengo encara o Vasco em 29/10 e os dois se enfrentam na 36ª rodada.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/santos-e-palmeiras-empatam-e-flamengo-segue-lider-do-brasileirao"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/flamengo-defende-lideranca-e-sequencia-invicta-de-14-jogos-contra-o-vasco"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-esp-2",
+      "cat": "Esporte",
+      "q": "Atlético-MG ou Boca Juniors: quem será o campeão da Copa Sul-Americana na final de 21/11, na Colômbia?",
+      "outs": [
+        "Atlético-MG",
+        "Boca Juniors"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Vence o clube declarado campeão da Copa Sul-Americana 2026 pela Conmebol após a final de 21/11/2026 em Barranquilla (tempo normal, prorrogação ou pênaltis).",
+      "src": "Conmebol (Copa Sul-Americana 2026)",
+      "desc": "A final é entre um brasileiro e um argentino, em jogo único no Estádio Metropolitano Roberto Meléndez, em Barranquilla. A Libertadores também terá uma final Brasil x Argentina."
+    },
+    {
+      "id": "d20261029-pol-1",
+      "cat": "Política",
+      "q": "A Câmara vai criar comissão especial para analisar a PEC do voto distrital misto, que a presidência da Casa quer discutir ainda este ano?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-12-01T18:00:00-03:00",
+      "crit": "Sim, se até 15/12/2026 a Câmara criar ou instalar comissão especial para analisar PEC que institua o sistema distrital misto, conforme Agência Câmara ou site da Câmara dos Deputados. Não, caso contrário.",
+      "src": "Câmara dos Deputados (Agência Câmara e site oficial)",
+      "desc": "Em 28/10 o presidente da Câmara disse que a Casa vai discutir neste ano uma PEC para adotar o voto distrital misto a partir de 2034, com transição em 2030. PT e PL não participaram da articulação.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/camara-ira-discutir-este-ano-voto-distrital-misto-para-2034-diz-motta"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-pol-2",
+      "cat": "Política",
+      "q": "A Câmara vai instalar até 30/11 o grupo de trabalho sobre as regras de conteúdo político pago nas redes sociais?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 a presidência da Câmara publicar ato criando ou instalar o grupo de trabalho sobre conteúdo político pago nas redes sociais, conforme Agência Câmara ou site oficial. Não, caso contrário.",
+      "src": "Câmara dos Deputados (Agência Câmara e site oficial)",
+      "desc": "Em 28/10 a presidência da Câmara anunciou que formará um grupo de trabalho para revisar o código eleitoral no tema do conteúdo pago em redes, chamado de prioridade para os próximos meses.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/camara-ira-discutir-este-ano-voto-distrital-misto-para-2034-diz-motta"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-esp-3",
+      "cat": "Esporte",
+      "q": "Palmeiras ou Vasco: quem vai à final da Copa do Brasil, no confronto de ida em 1/11 e volta em 8/11?",
+      "outs": [
+        "Palmeiras",
+        "Vasco"
+      ],
+      "p": [
+        0.65,
+        0.35
+      ],
+      "close": "2026-11-01T12:00:00-03:00",
+      "crit": "Vence o clube que a CBF registrar como classificado para a final da Copa do Brasil 2026 após os jogos de 1/11 (Nubank Parque) e 8/11 (São Januário), inclusive após pênaltis. Fonte: CBF.",
+      "src": "CBF (Copa do Brasil 2026)",
+      "desc": "A ida é em 1/11, às 16h, no Nubank Parque; a volta, em 8/11, às 17h, em São Januário. A final será em jogo único em 6/12, no Mané Garrincha.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/santos-e-palmeiras-empatam-e-flamengo-segue-lider-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261029-esp-4",
+      "cat": "Esporte",
+      "q": "Grêmio ou Atlético-MG: quem vai à final da Copa do Brasil, nos jogos de 1/11 e 7/11?",
+      "outs": [
+        "Grêmio",
+        "Atlético-MG"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-01T14:00:00-03:00",
+      "crit": "Vence o clube que a CBF registrar como classificado para a final da Copa do Brasil 2026 após os jogos de 1/11 (Porto Alegre) e 7/11 (Belo Horizonte), inclusive após pênaltis. Fonte: CBF.",
+      "src": "CBF (Copa do Brasil 2026)",
+      "desc": "A ida é em 1/11, às 18h30, na Arena do Grêmio; a volta, em 7/11, às 18h, na Arena MRV. O vencedor enfrenta Palmeiras ou Vasco na final de 6/12, em Brasília."
     }
   ],
   "resolutions": {
