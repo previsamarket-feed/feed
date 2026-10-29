@@ -1912,6 +1912,29 @@
           "url": "https://www.metropoles.com/esportes/cbf-anuncia-amistosos-da-selecao-contra-japao-e-singapura-para-novembro"
         }
       ]
+    },
+    {
+      "id": "d20261029-eco-3",
+      "cat": "Economia",
+      "q": "Com a IFI vendo déficit de 0,5% do PIB em 2026, o governo vai ampliar a contenção de despesas acima de R$ 16,1 bilhões no relatório do 5º bimestre, até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-19T18:00:00-03:00",
+      "crit": "Sim, se o Relatório de Avaliação de Receitas e Despesas Primárias do 5º bimestre de 2026, publicado até 30/11/2026, indicar contenção total (bloqueio mais contingenciamento) acima de R$ 16,1 bilhões. Não, se o valor for igual ou menor, se houver descontingenciamento ou se o relatório não sair até essa data. Fonte: Ministério do Planejamento e Orçamento e Ministério da Fazenda.",
+      "src": "Relatório bimestral de receitas e despesas primárias (Planejamento e Fazenda)",
+      "desc": "Em 24/09, o governo anunciou contenção de R$ 16,1 bi (R$ 2,4 bi de bloqueio e R$ 13,6 bi de contingenciamento). Em 29/10, a IFI projetou déficit primário de 0,5% do PIB em 2026 e apontou cerca de R$ 40 bi de gastos e perdas fora do Orçamento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ifi-projeta-alta-deficit-primario-2026-gastos-extra-orcamento/"
+        }
+      ]
     }
   ],
   "resolutions": {
