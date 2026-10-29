@@ -1860,6 +1860,33 @@
       "crit": "Vence o clube que a CBF registrar como classificado para a final da Copa do Brasil 2026 após os jogos de 1/11 (Porto Alegre) e 7/11 (Belo Horizonte), inclusive após pênaltis. Fonte: CBF.",
       "src": "CBF (Copa do Brasil 2026)",
       "desc": "A ida é em 1/11, às 18h30, na Arena do Grêmio; a volta, em 7/11, às 18h, na Arena MRV. O vencedor enfrenta Palmeiras ou Vasco na final de 6/12, em Brasília."
+    },
+    {
+      "id": "d20261029-fin-3",
+      "cat": "Finanças",
+      "q": "Os líderes da União Europeia vão indicar formalmente o sucessor de Lagarde na presidência do BCE até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-13T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, o Conselho Europeu (líderes da UE) anunciar oficialmente a indicação ou nomeação de um nome para a presidência do Banco Central Europeu. Não, se não houver indicação formal até essa data. Fonte: Conselho Europeu e BCE.",
+      "src": "Conselho Europeu / Banco Central Europeu",
+      "desc": "Christine Lagarde anunciou em 29/10 que deixará o comando do BCE em 7/2/2027, oito meses antes do fim do mandato, previsto para outubro de 2027.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/presidente-do-bce-christine-lagarde-renuncia-ao-cargo-a-partir-de-7-de-fevereiro/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/christine-lagarde-renuncia-ao-bce-8-meses-antes-do-fim-de-mandato"
+        }
+      ]
     }
   ],
   "resolutions": {
