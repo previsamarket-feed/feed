@@ -1473,6 +1473,23 @@
           "url": "https://www.infomoney.com.br/mercados/ibovespa-estresse-continua-por-que-indice-cai-forte-apos-terca-mais-tranquila-no-mercado-28102026/"
         }
       ]
+    },
+    {
+      "id": "d20261028-esp-7",
+      "cat": "Esporte",
+      "q": "O Estudiantes vencerá o Palmeiras na final da Libertadores de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-01T12:00:00-03:00",
+      "crit": "Sim, se o Estudiantes vencer; Não, se o Palmeiras vencer (verificar resultado oficial da partida em 28/11/2026).",
+      "src": "CNN Brasil",
+      "desc": "A final da Copa Libertadores de 2026 entre Estudiantes e Palmeiras está marcada para 28 de novembro, no Estádio Centenário, em Montevidéu. O resultado da partida será o critério de avaliação."
     }
   ],
   "resolutions": {
