@@ -1958,6 +1958,315 @@
           "url": "https://www.infomoney.com.br/economia/ipca-inflacao-setembro-2026-dados-ibge/"
         }
       ]
+    },
+    {
+      "id": "d20261030-eco-1",
+      "cat": "Economia",
+      "q": "O IGP-M de novembro, que subiu 1,47% em outubro, ficará abaixo de 1,00%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-24T18:00:00-03:00",
+      "crit": "Sim, se a variação do IGP-M de novembro de 2026, divulgada pela FGV até 30/11/2026, for menor que 1,00%. Não, se for igual ou maior que 1,00% ou se não for divulgada até essa data.",
+      "src": "FGV IBRE (IGP-M de novembro de 2026)",
+      "desc": "O IGP-M de outubro subiu 1,47%, com petróleo alto e preços ao produtor pressionados. O dólar recuou de cerca de R$ 5,50 para R$ 5,34 desde a semana passada.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-eco-2",
+      "cat": "Economia",
+      "q": "Depois do superávit de R$ 4,8 bilhões em setembro, o Governo Central terá superávit primário também em outubro?",
+      "outs": [
+        "Sim, superávit",
+        "Não, déficit"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-24T18:00:00-03:00",
+      "crit": "Sim, se o resultado primário do Governo Central de outubro de 2026, divulgado pelo Tesouro Nacional até 30/11/2026, for positivo. Não, se for déficit ou zero ou se não for divulgado até essa data.",
+      "src": "Tesouro Nacional (Resultado do Tesouro Nacional, outubro de 2026)",
+      "desc": "Em setembro o Governo Central teve superávit de R$ 4,8 bilhões, mas o ano ainda soma déficit de R$ 90,2 bilhões. Agosto tinha fechado com déficit de R$ 13,6 bilhões.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/contas-do-governo-registram-superavit-de-r-48-bilhoes-em-setembro"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-fin-1",
+      "cat": "Finanças",
+      "q": "Com o Ibovespa em queda forte desde a reeleição e fiscal no radar, S&P, Fitch ou Moody's vão piorar a nota ou a perspectiva do Brasil até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se até 31/12/2026 pelo menos uma das agências S&P, Fitch ou Moody's anunciar rebaixamento da nota de crédito do Brasil ou mudança da perspectiva para negativa, conforme comunicado oficial da agência. Não, caso contrário.",
+      "src": "Comunicados oficiais de S&P Global Ratings, Fitch Ratings e Moody's",
+      "desc": "O Ibovespa caiu 13,9% em 26/10 e 2,68% em 28/10. Citigroup e BCA Research rebaixaram a visão sobre ativos brasileiros, e o mercado cobra ajuste fiscal mais rápido.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-fin-2",
+      "cat": "Finanças",
+      "q": "O Ibovespa, que fechou em 171.006 pontos em 28/10 após cair 16,6% na semana, terminará 6/11 acima de 170.000 pontos?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-06T09:30:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Ibovespa em 06/11/2026, conforme a B3, for maior que 170.000 pontos. Não, se for igual ou menor.",
+      "src": "B3 (Ibovespa, fechamento de 06/11/2026)",
+      "desc": "O índice acumulava queda de 16,62% na semana até 28/10 e de 8,23% em outubro, mas ainda subia 6,13% no ano. O dólar comercial estava em R$ 5,34.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Apple, que projeta receita de US$ 111,7 bi a 113,7 bi, terá receita acima de US$ 113 bilhões no 4º trimestre fiscal?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.65,
+        0.35
+      ],
+      "close": "2026-11-02T12:00:00-03:00",
+      "crit": "Sim, se a receita total do trimestre fiscal encerrado em setembro de 2026, no comunicado de resultados da Apple de 02/11/2026, for maior que US$ 113,0 bilhões. Não, se for igual ou menor.",
+      "src": "Apple (comunicado de resultados do 4º trimestre fiscal de 2026)",
+      "desc": "A Apple divulga os números em 2/11, depois do fechamento. A projeção da própria empresa é de alta de 9% a 11% sobre os US$ 102,5 bi do ano anterior, e o consenso do mercado fica perto de US$ 113,3 bi.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-tec-2",
+      "cat": "Tecnologia",
+      "q": "Com a bolsa de tecnologia sob pressão por gastos em IA, o Nasdaq Composite fechará 13/11 acima do fechamento de 2/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-02T09:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Nasdaq Composite em 13/11/2026 for maior que o fechamento de 02/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (fechamento do Nasdaq Composite em 02/11 e 13/11/2026)",
+      "desc": "O resultado da Alphabet decepcionou e as ações de tecnologia foram vendidas na Ásia. A Apple divulga balanço em 2/11, e o Fed sinaliza possível alta de juros em dezembro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-neg-1",
+      "cat": "Negócios",
+      "q": "A Petrobras, que fez a 3ª descoberta na Foz do Amazonas, anunciará petróleo no poço Mãe de Ouro, na Bacia Potiguar, até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se até 31/12/2026 a Petrobras comunicar, em fato relevante ou comunicado oficial, indício ou descoberta de petróleo no poço Mãe de Ouro (Bacia Potiguar). Não, caso contrário.",
+      "src": "Petrobras (comunicados ao mercado e Agência Petrobras)",
+      "desc": "Em 29/10 a Petrobras anunciou mais um intervalo com petróleo no poço Morpho, na Foz do Amazonas. A sonda segue agora para a Bacia Potiguar para perfurar Mãe de Ouro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-anuncia-terceira-descoberta-de-petroleo-em-poco-na-foz-do-amazonas/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/petrobras-anuncia-terceira-descoberta-de-petroleo-na-foz-do-amazonas"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-neg-2",
+      "cat": "Negócios",
+      "q": "A Petrobras, que anunciou R$ 17,4 bi em dividendos no 2º tri, aprovará dividendos do 3º trimestre acima desse valor?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-03T12:00:00-03:00",
+      "crit": "Sim, se o total de dividendos e juros sobre capital próprio declarados pela Petrobras referentes ao 3T26, no comunicado de resultados, for maior que R$ 17,4 bilhões. Não, se for igual ou menor, ou se não for anunciado até 20/11/2026.",
+      "src": "Petrobras (comunicado de resultados do 3T26 e fato relevante de proventos)",
+      "desc": "No 2º trimestre o lucro foi de R$ 52,4 bi e a empresa anunciou R$ 17,4 bi em proventos. Com o petróleo acima de US$ 100, o mercado debate o tamanho do pagamento do 3T.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/petrobras-dobra-o-lucro-e-vai-pagar-r-174-bilhoes-em-dividendos"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr4-resultados-segundo-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-esp-1",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Brasil x Singapura, amistoso da Seleção marcado para 17/11?",
+      "outs": [
+        "Brasil vence",
+        "Empate",
+        "Singapura vence"
+      ],
+      "p": [
+        0.87,
+        0.09,
+        0.04
+      ],
+      "close": "2026-11-16T12:00:00-03:00",
+      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme o registro oficial da CBF/FIFA, do amistoso Brasil x Singapura marcado para 17/11/2026. Se o jogo não ocorrer até 24/11/2026, a pergunta será retirada.",
+      "src": "CBF e FIFA (súmula oficial do amistoso)",
+      "desc": "Ancelotti convocou os jogadores em 29/10 para dois amistosos na Ásia: contra o Japão, em 14/11, e contra Singapura, em 17/11.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/convocacao-selecao-brasileiras"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-esp-2",
+      "cat": "Esporte",
+      "q": "Gabriel Bortoleto terminará o GP de São Paulo de F1, em 8/11, entre os 10 primeiros?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-06T09:00:00-03:00",
+      "crit": "Sim, se a classificação oficial da corrida do GP de São Paulo de 2026 (previsto para 08/11), publicada pela FIA, mostrar Gabriel Bortoleto entre os 10 primeiros. Não, se terminar fora do top 10, abandonar ou não largar. Se a corrida não ocorrer até 15/11/2026, a pergunta será retirada.",
+      "src": "FIA / Fórmula 1 (classificação oficial da corrida)",
+      "desc": "Bortoleto corre pela Audi em 2026, e o GP de São Paulo, em Interlagos, é a etapa de casa do brasileiro.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/formula-1-gabriel-bortoleto-elogia-novo-carro-da-audi-para-2026"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-pol-1",
+      "cat": "Política",
+      "q": "Depois da reeleição, o governo vai anunciar oficialmente até 30/11 quem será o ministro da Fazenda a partir de 1º/1/2027?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 o Palácio do Planalto ou a Presidência da República anunciar oficialmente o nome do ministro da Fazenda que ocupará o cargo a partir de 01/01/2027 (inclusive confirmando o atual). Não, caso contrário.",
+      "src": "Planalto / Secom e Diário Oficial da União",
+      "desc": "Com o mercado em queda e o ajuste fiscal cobrado, circulam nomes para a Fazenda no novo mandato. O ministro atual afirma que há medidas fiscais prontas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-pol-2",
+      "cat": "Política",
+      "q": "O TSE vai diplomar o presidente e o vice-presidente eleitos em 2026 até 18/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se a cerimônia de diplomação do presidente e do vice-presidente da República eleitos em 2026 for realizada pelo Tribunal Superior Eleitoral até 18/12/2026, conforme o site do TSE. Não, caso contrário.",
+      "src": "TSE (Tribunal Superior Eleitoral)",
+      "desc": "Nas últimas eleições a diplomação do presidente ocorreu na segunda quinzena ou em meados de dezembro, antes da posse em 1º de janeiro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-pol-3",
+      "cat": "Política",
+      "q": "O governo vai enviar ao Congresso um projeto ou PEC de ajuste fiscal com corte de despesas ou benefícios até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 o governo federal protocolar na Câmara ou no Senado projeto de lei ou PEC cujo objetivo declarado seja ajuste fiscal por corte de despesas ou de benefícios, conforme os sites do Congresso. Não, caso contrário.",
+      "src": "Câmara dos Deputados, Senado Federal e Diário Oficial da União",
+      "desc": "Após a queda forte da bolsa, o governo diz que o equilíbrio fiscal virá do corte de privilégios e não de programas sociais; o Valor Econômico aponta possível bloqueio de despesas não obrigatórias.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -2004,6 +2313,22 @@
     "d20261021-esp-1": {
       "outcome": 1,
       "evidence": "https://www.conmebol.com/libertadores/"
+    },
+    "d20261021-neg-1": {
+      "outcome": 0,
+      "evidence": "https://vale.com/investors"
+    },
+    "d20261023-neg-1": {
+      "outcome": 1,
+      "evidence": "https://www.santander.com.br/ri"
+    },
+    "d20261028-esp-4": {
+      "outcome": 2,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a/2026"
+    },
+    "d20261021-pol-1": {
+      "outcome": 0,
+      "evidence": "https://www.tesourotransparente.gov.br/publicacoes/resultado-do-tesouro-nacional-rtn"
     }
   },
   "withdrawn": [
