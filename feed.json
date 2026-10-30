@@ -2313,6 +2313,52 @@
           "url": "https://www.infomoney.com.br/onde-investir/bitcoin-hoje-cai-ataque-hacker-binance-30102026/"
         }
       ]
+    },
+    {
+      "id": "d20261030-fin-4",
+      "cat": "Finanças",
+      "q": "Depois de Bradesco, Itaú e Santander elevarem os juros do financiamento imobiliário, a Caixa, que lidera o crédito para compra de imóveis, também vai subir suas taxas até 30/11/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se a Caixa Econômica Federal divulgar, em comunicado oficial ou na tabela de taxas do seu site, aumento da taxa de juros do financiamento imobiliário SBPE entre 31/10/2026 e 30/11/2026. Não, se não houver aumento divulgado nesse período.",
+      "src": "Caixa Econômica Federal (caixa.gov.br, página de habitação e comunicados à imprensa)",
+      "desc": "Três dos maiores bancos privados reajustaram as taxas depois da alta dos juros futuros; a Caixa, em período de silêncio antes do balanço, não disse se fará o mesmo.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/10/30/financiamento-imobiliario-taxas.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261030-neg-3",
+      "cat": "Negócios",
+      "q": "Com as ações em queda no ano, a Vale, cujo CFO falou em oportunidade de recompras, vai anunciar um novo programa de recompra de ações até 30/11/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se a Vale divulgar, por Fato Relevante ou Comunicado ao Mercado na CVM ou no site de Relações com Investidores, a aprovação de um novo programa de recompra de ações entre 31/10/2026 e 30/11/2026. Não, se não houver esse anúncio no período.",
+      "src": "CVM e site de Relações com Investidores da Vale (vale.com/investidores)",
+      "desc": "Depois do balanço do 3º trimestre, o CFO disse que a queda das ações abre espaço para recomprar papéis e que dividendos extraordinários são improváveis este ano.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/vale3-vale-balanco-3t26-teleconferencia-coletiva/"
+        }
+      ]
     }
   ],
   "resolutions": {
