@@ -85,7 +85,7 @@ normal nem a resolução. Faça só:
    quiser). Pautas vetadas (crime, prisão, morte, menores, jogo) vão em "AGUARDANDO AUTORIZAÇÃO INDIVIDUAL DO DONO".
 
 7. As rodadas só escrevem **previsões** em `feed.json`. Notícias (`/noticias/`) exigem sessão com o painel do Cloudflare
-   aberto e seguem a seção 2C do REGRAS.md (temas: Economia, Finanças, Negócios, Esporte, Tecnologia, Entretenimento/famosos,
+   aberto e seguem a seção 2C do REGRAS.md (temas: Economia, Finanças, Negócios, Tecnologia, Entretenimento/famosos,
    Brasil, Mundo, Clima; sem teto diário; publicar na hora).
 
 ## Segurança

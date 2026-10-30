@@ -95,7 +95,7 @@ google noticiais". Isto vale como autorização permanente para **publicar sem p
   descobrir; link **direto do portal**), escreve resumo atribuído com a fonte no título e no corpo, e publica na hora pelo fluxo
   rascunho, revisão, checagem, aprovação, agendamento, publicação (registra `aprovacao`, `auditoria` e `publicacao`; autor
   `ia`, revisor `revisor_claude`; marca `pauta.usada = 1`). Risco `normal`, rótulo `factual`.
-- **Temas das notícias (dono, 28/10/2026 15h30):** Economia, Finanças, Negócios, Esporte, Tecnologia, Entretenimento/famosos,
+- **Temas das notícias (dono, 28/10/2026 15h30; Esporte retirado em 30/10/2026):** Economia, Finanças, Negócios, Tecnologia, Entretenimento/famosos,
   Brasil, Mundo e Clima. **Política não está na lista**: não escolher pauta política sem pedido do dono (a matéria 5, já
   publicada, permanece). Seguem vetados: crimes e acusações a pessoas privadas, menores, conteúdo gráfico, tragédias.
   Matéria em que a Anthropic ou o próprio Claude é parte (conflito de interesse) fica para o robô, sem redação manual.
