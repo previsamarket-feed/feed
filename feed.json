@@ -1935,6 +1935,29 @@
           "url": "https://www.infomoney.com.br/economia/ifi-projeta-alta-deficit-primario-2026-gastos-extra-orcamento/"
         }
       ]
+    },
+    {
+      "id": "d20261029-eco-4",
+      "cat": "Economia",
+      "q": "Com a inflação de 12 meses já acima do teto da meta (4,58% em setembro), o IPCA de outubro vai ficar acima de 0,30%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se a variação mensal do IPCA de outubro de 2026, divulgada pelo IBGE até 20/11/2026, for maior que 0,30%. Não, se for igual ou menor que 0,30% ou se não for divulgada até essa data. Fonte: IBGE (IPCA).",
+      "src": "IBGE (IPCA de outubro de 2026)",
+      "desc": "O IPCA de setembro subiu 0,82% e levou a inflação em 12 meses a 4,58%, acima do teto de 4,5%. O Focus projetava cerca de 0,32% para outubro e o Banco Central, 0,29%.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ipca-inflacao-setembro-2026-dados-ibge/"
+        }
+      ]
     }
   ],
   "resolutions": {
