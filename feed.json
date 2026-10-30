@@ -2267,6 +2267,29 @@
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
         }
       ]
+    },
+    {
+      "id": "d20261030-pol-4",
+      "cat": "Política",
+      "q": "Depois de o Senado aprovar o fim da escala 6x1 por 75 votos a 1, senadores vão protocolar até 20/11 uma nova PEC para ajustar as regras de categorias com jornadas diferenciadas?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-13T18:00:00-03:00",
+      "crit": "Sim, se até 20/11/2026 for protocolada no Senado Federal uma PEC (nova proposta de emenda à Constituição) cujo texto trate de regras ou exceções da jornada de trabalho para categorias com jornadas diferenciadas, conforme o site do Senado. Não, caso contrário.",
+      "src": "Senado Federal (www25.senado.leg.br)",
+      "desc": "A PEC do fim da 6x1 passou no Senado em 14/10; agora senadores discutem um texto à parte para tratar de setores com escalas próprias, e a lei complementar para MEIs e pequenas empresas segue pendente.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/fim-da-escala-6x1-veja-quais-profissionais-ficam-de-fora-da-nova-regra"
+        }
+      ]
     }
   ],
   "resolutions": {
