@@ -2290,6 +2290,29 @@
           "url": "https://www.metropoles.com/brasil/fim-da-escala-6x1-veja-quais-profissionais-ficam-de-fora-da-nova-regra"
         }
       ]
+    },
+    {
+      "id": "d20261030-fin-3",
+      "cat": "Finanças",
+      "q": "O Bitcoin, que caiu a US$ 76 mil nesta sexta, menor nível em seis semanas, fechará 13/11 acima de US$ 76 mil?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.52,
+        0.48
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se a cotação de fechamento diário (23h59 UTC) do Bitcoin em 13/11/2026 for superior a US$ 76.000, conforme o histórico do CoinMarketCap. Não, se for igual ou inferior.",
+      "src": "CoinMarketCap (coinmarketcap.com/currencies/bitcoin/historical-data)",
+      "desc": "O Bitcoin recuou à mínima em seis semanas, perto de US$ 76 mil, em meio a aversão ao risco nos mercados; a pergunta mede se a moeda volta a fechar acima desse patamar em duas semanas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/bitcoin-hoje-cai-ataque-hacker-binance-30102026/"
+        }
+      ]
     }
   ],
   "resolutions": {
