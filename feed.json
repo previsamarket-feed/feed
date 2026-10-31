@@ -2325,6 +2325,58 @@
           "url": "https://g1.globo.com/economia/noticia/2026/10/31/reforma-tributaria-novo-imposto-sobre-consumo-pode-ficar-acima-de-30percent-e-superar-o-de-paises-ricos-veja-a-comparacao.ghtml"
         }
       ]
+    },
+    {
+      "id": "d20261031-esp-5",
+      "cat": "Esporte",
+      "q": "Palmeiras x Estudiantes: quem será o campeão da Libertadores na final de 28/11, em Montevidéu?",
+      "outs": [
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-28T14:00:00-03:00",
+      "crit": "Vence a opção do time que a Conmebol declarar campeão da Libertadores 2026 após a final de 28/11/2026, no Estádio Centenário (Montevidéu), valendo o resultado em prorrogação ou pênaltis. Fonte: Conmebol.",
+      "src": "Conmebol",
+      "desc": "Palmeiras e Estudiantes se enfrentam em jogo único na final, marcada para as 17h (Brasília) de 28/11. O Estudiantes eliminou o Flamengo nos pênaltis na semifinal e o Palmeiras passou pelo Fluminense também nos pênaltis.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/conmebol-divulga-horarios-das-finais-da-libertadores-e-sul-americana"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-esp-6",
+      "cat": "Esporte",
+      "q": "Com o Flamengo três pontos à frente na briga pelo título, qual será o resultado de Palmeiras x Flamengo, no Brasileirão, em 21/11?",
+      "outs": [
+        "Vitória do Palmeiras",
+        "Empate",
+        "Vitória do Flamengo"
+      ],
+      "p": [
+        0.4,
+        0.28,
+        0.32
+      ],
+      "close": "2026-11-21T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado do jogo Palmeiras x Flamengo da 36ª rodada do Brasileirão 2026, no Nubank Parque, em 21/11/2026, no tempo regulamentar. Se o jogo for adiado ou cancelado, a pergunta será anulada. Fonte: CBF (súmula e tabela oficial).",
+      "src": "CBF",
+      "desc": "O duelo direto entre os dois primeiros colocados está marcado para as 16h30 de 21/11, na 36ª rodada, com o Flamengo na frente por três pontos a cinco rodadas do fim.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/lider-do-brasileirao-flamengo-chega-a-873-de-chance-de-titulo"
+        }
+      ]
     }
   ],
   "resolutions": {
