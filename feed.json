@@ -2382,6 +2382,300 @@
           "url": "https://www.metropoles.com/brasil/alcolumbre-pauta-pec-da-seguranca-e-reabre-discussao-sobre-maioridade"
         }
       ]
+    },
+    {
+      "id": "d20261031-eco-1",
+      "cat": "Economia",
+      "q": "No Boletim Focus de 9/11, a mediana do PIB de 2026 ficará abaixo de 1,80%, depois de o dólar ter disparado na semana pós-eleição?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-06T18:00:00-03:00",
+      "crit": "Sim, se a mediana da projeção de crescimento do PIB de 2026 no Relatório Focus do Banco Central divulgado em 9/11/2026 for menor que 1,80%. Não, se for igual ou maior.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "No Focus de 19/10 a projeção do mercado para o PIB de 2026 era de 1,83%. A semana seguinte teve forte alta do dólar e queda da bolsa.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-sobe-9-pos-eleicao-maior-alta-semanal-desde-2008-e-bolsa-cai-18"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-eco-2",
+      "cat": "Economia",
+      "q": "A dívida bruta do governo, que ficou em 82,9% do PIB (R$ 11,1 trilhões) em setembro, passará de 83,0% em outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-25T18:00:00-03:00",
+      "crit": "Sim, se o Banco Central divulgar, até 15/12/2026, Dívida Bruta do Governo Geral de outubro de 2026 maior que 83,0% do PIB. Não, se for igual ou menor. Se não houver divulgação até 15/12, a pergunta será retirada.",
+      "src": "Banco Central do Brasil (Estatísticas Fiscais, DBGG)",
+      "desc": "A dívida bruta foi de 82,9% do PIB em setembro, segundo o BC. O dólar e os juros mais altos em outubro entram na conta do endividamento.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/contas-publicas-tem-deficit-de-r-55-bilhoes-em-setembro"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-fin-1",
+      "cat": "Finanças",
+      "q": "O dólar (PTAX de venda) de 13/11 ficará acima de R$ 5,50, depois de fechar a R$ 5,44 na maior alta semanal desde 2008?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se a taxa PTAX de venda do dólar divulgada pelo Banco Central para 13/11/2026 (fechamento) for maior que R$ 5,5000. Não, se for igual ou menor.",
+      "src": "Banco Central do Brasil (PTAX)",
+      "desc": "O dólar comercial fechou a R$ 5,44 em 30/10, o maior valor do ano, com alta de 9,15% na semana e de 5,27% em outubro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-sobe-9-pos-eleicao-maior-alta-semanal-desde-2008-e-bolsa-cai-18"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-fin-2",
+      "cat": "Finanças",
+      "q": "O ouro, em meio à fuga para segurança nos mercados, fechará 13/11 acima do fechamento de 30/10 na COMEX?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o preço de liquidação (settlement) do contrato de ouro mais negociado da COMEX (CME Group) em 13/11/2026 for maior que o de 30/10/2026. Não, se for igual ou menor.",
+      "src": "CME Group (COMEX, preços de liquidação do ouro)",
+      "desc": "Em 30/10 a bolsa brasileira caiu pela quinta vez seguida e o Nasdaq recuou 2,86%, em dia de forte aversão a risco.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Nvidia, que projetou receita de US$ 108 bilhões para o trimestre, vai divulgar receita acima de US$ 108 bilhões?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o comunicado de resultados da Nvidia do trimestre fiscal encerrado em outubro de 2026, divulgado até 30/11/2026, trouxer receita total maior que US$ 108,0 bilhões. Não, se for igual ou menor. Se o balanço não sair até 30/11, a pergunta será retirada.",
+      "src": "Nvidia (Relações com Investidores)",
+      "desc": "No trimestre anterior a receita foi de US$ 96,2 bilhões, acima dos US$ 92,5 bilhões esperados. A guia para o trimestre atual é de US$ 108 bilhões, com margem de 2% para mais ou para menos.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/nvidia-resultados-segundo-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Câmara vai aprovar em plenário o PL 4.675/2025, que cria regras para as grandes plataformas digitais, até 15/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar o PL 4.675/2025 até 15/12/2026, conforme o site da Câmara. Não, caso contrário.",
+      "src": "Câmara dos Deputados (tramitação do PL 4.675/2025)",
+      "desc": "O projeto tramita em urgência na Câmara e tem parecer favorável do relator. A votação foi adiada, com resistência de parte do Centrão e da oposição, e o tema é alvo de pressão dos EUA.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/republicanos-trump-pl-big-techs-brasil"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/business/big-techs-criticam-pl-que-fiscalizara-concorrencia-no-setor-gera-distorcoes/"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-neg-1",
+      "cat": "Negócios",
+      "q": "A Hapvida, que lucrou só R$ 12,5 milhões no 2º trimestre, terá lucro líquido acima desse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 divulgado pela Hapvida (previsto para 11/11/2026) for maior que R$ 12,5 milhões. Não, se for igual, menor ou se houver prejuízo. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Hapvida (Relações com Investidores) e comunicado de resultados",
+      "desc": "O lucro do 2º trimestre caiu 96% na comparação anual, com sinistralidade maior e margens pressionadas. A ação chegou a cair 33% após o balanço.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/hapvida-hapv3-resultados-segundo-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-neg-2",
+      "cat": "Negócios",
+      "q": "A Suzano, que lucrou R$ 1,8 bilhão no 2º trimestre (queda de 64% no ano), terá lucro líquido acima de R$ 1,8 bilhão no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-04T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 divulgado pela Suzano (previsto para 5/11/2026) for maior que R$ 1,8 bilhão. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Suzano (Relações com Investidores) e comunicado de resultados",
+      "desc": "O lucro do 2º trimestre foi 64% menor que o do ano anterior. O resultado da empresa, exportadora de celulose, é sensível ao câmbio e ao preço da celulose.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/suzano-suzb3-resultados-segundo-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-esp-1",
+      "cat": "Esporte",
+      "q": "O Corinthians, 17º colocado com 36 pontos e a 1 ponto do Z4, estará fora da zona de rebaixamento ao fim da 36ª rodada do Brasileirão?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-13T18:00:00-03:00",
+      "crit": "Sim, se, depois dos jogos da 36ª rodada (até 25/11/2026), o Corinthians estiver em 16º lugar ou acima na tabela oficial da CBF. Não, se estiver entre o 17º e o 20º. Se os jogos forem adiados, vale a tabela após o último jogo da rodada.",
+      "src": "CBF (tabela oficial do Brasileirão Série A)",
+      "desc": "O Corinthians venceu o Mirassol por 2 a 0 em 30/10 pela 33ª rodada, mas segue na zona de rebaixamento, a 1 ponto do 16º colocado.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/brasileirao-corinthians-bate-mirassol-e-volta-a-vencer-apos-11-jogos"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-esp-2",
+      "cat": "Esporte",
+      "q": "Qual será o resultado de Flamengo x Athletico-PR, no Maracanã, pela 35ª rodada do Brasileirão em 18/11?",
+      "outs": [
+        "Vitória do Flamengo",
+        "Empate",
+        "Vitória do Athletico-PR"
+      ],
+      "p": [
+        0.62,
+        0.23,
+        0.15
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Vence a opção que corresponder ao placar do tempo normal de Flamengo x Athletico-PR, em 18/11/2026, na súmula oficial da CBF. Se o jogo for adiado para depois de 30/11, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial)",
+      "desc": "O Flamengo lidera o Brasileirão e o jogo está marcado para as 20h30 de 18/11, no Maracanã.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-pol-1",
+      "cat": "Política",
+      "q": "Os republicanos manterão a maioria no Senado dos EUA depois das eleições de meio de mandato de 3/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-03T10:00:00-03:00",
+      "crit": "Sim, se, conforme os resultados oficiais e a composição divulgada no site do Senado dos EUA (senate.gov) até 30/11/2026, o Partido Republicano tiver 51 ou mais cadeiras (ou 50 com o vice-presidente no desempate). Não, caso contrário. Se o controle ainda não estiver definido em 30/11, a pergunta será retirada.",
+      "src": "Senado dos EUA (senate.gov) e autoridades eleitorais dos estados",
+      "desc": "As eleições de 3/11 definem o controle do Congresso americano. Há disputa acirrada em estados como o Alasca.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/trump-admite-iniciativa-para-barrar-certificacao-de-eleicao-no-alasca"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-pol-2",
+      "cat": "Política",
+      "q": "O Senado dos EUA terá a democrata Mary Peltola como vencedora da disputa pelo Alasca, certificada até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-03T10:00:00-03:00",
+      "crit": "Sim, se a Divisão de Eleições do Alasca certificar, até 30/11/2026, Mary Peltola como vencedora da eleição para o Senado. Não, se for certificado outro vencedor. Se não houver certificação até 30/11, a pergunta será retirada.",
+      "src": "Divisão de Eleições do Alasca (elections.alaska.gov)",
+      "desc": "Peltola, ex-deputada democrata, enfrenta o senador republicano Dan Sullivan. A reportagem cita pesquisas empatadas ou com leve vantagem de Peltola.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/trump-admite-iniciativa-para-barrar-certificacao-de-eleicao-no-alasca"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -2444,6 +2738,22 @@
     "d20261021-pol-1": {
       "outcome": 0,
       "evidence": "https://www.tesourotransparente.gov.br/publicacoes/resultado-do-tesouro-nacional-rtn"
+    },
+    "d20261020-eco-2": {
+      "outcome": 0,
+      "evidence": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html"
+    },
+    "d20261020-fin-2": {
+      "outcome": 1,
+      "evidence": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes"
+    },
+    "d20261023-fin-1": {
+      "outcome": 1,
+      "evidence": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/ibovespa.htm"
+    },
+    "d20261023-tec-1": {
+      "outcome": 1,
+      "evidence": "https://www.nasdaq.com/market-activity/index/comp/historical"
     }
   },
   "withdrawn": [
