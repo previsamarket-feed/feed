@@ -2693,6 +2693,29 @@
       "crit": "Sim, se, ao fim do GP da Cidade do México (largada em 1/11/2026, 17h de Brasília), a classificação oficial de pilotos da FIA mostrar Kimi Antonelli matematicamente campeão de 2026. Não, se o título não for definido nessa corrida. Vale o resultado oficial publicado pela FIA/Fórmula 1 após a prova.",
       "src": "FIA / Fórmula 1 (formula1.com), classificação oficial do campeonato de pilotos",
       "desc": "Antonelli lidera com 365 pontos, 123 à frente de George Russell. Restam cinco etapas, e ele precisa de pouco para garantir o título no México, o que o tornaria o campeão mais jovem da história."
+    },
+    {
+      "id": "d20261031-eco-3",
+      "cat": "Economia",
+      "q": "Depois de o TCU sugerir alíquota de 11,3% para a CBS em 2027, bem acima dos 9,2% estimados antes, o Senado fixará a alíquota de referência em 11,3% ou mais, até 15/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se o Senado Federal aprovar, até 15/12/2026, resolução que fixe a alíquota de referência da CBS para 2027 em 11,3% ou mais. Não, se fixar um valor menor ou se não aprovar a resolução até essa data. Fonte: Senado Federal (Diário Oficial da União).",
+      "src": "Senado Federal e Diário Oficial da União",
+      "desc": "O TCU aprovou sugestão de CBS de 11,3% em 2027, com base em dados da Receita; o governo estimava 8,8% em 2024 e o Comitê Gestor do IBS, cerca de 9,2%. Cabe ao Senado fixar o valor final até 15/12.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/10/31/reforma-tributaria-novo-imposto-sobre-consumo-pode-ficar-acima-de-30percent-e-superar-o-de-paises-ricos-veja-a-comparacao.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
