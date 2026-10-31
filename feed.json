@@ -850,58 +850,6 @@
       ]
     },
     {
-      "id": "d20261023-esp-1",
-      "cat": "Esporte",
-      "q": "Palmeiras ou Estudiantes: quem será o campeão da Libertadores na final de 28/11, em Montevidéu?",
-      "outs": [
-        "Palmeiras",
-        "Estudiantes"
-      ],
-      "p": [
-        0.55,
-        0.45
-      ],
-      "close": "2026-11-27T12:00:00-03:00",
-      "crit": "Vale o campeão da final da Libertadores 2026, em 28/11/2026, incluindo prorrogação e pênaltis, conforme a Conmebol.",
-      "src": "Conmebol (site oficial da Libertadores)",
-      "desc": "O Palmeiras vai à sua 8ª final; o Estudiantes eliminou o Flamengo nos pênaltis.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/times-de-brasil-e-argentina-farao-final-valendo-hegemonia-na-libertadores"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/muslera-brilha-nos-penaltis-e-estudiantes-elimina-flamengo-na-libertadores"
-        }
-      ]
-    },
-    {
-      "id": "d20261023-esp-2",
-      "cat": "Esporte",
-      "q": "Qual será o resultado do clássico Palmeiras x Flamengo, na 36ª rodada do Brasileirão, entre os líderes?",
-      "outs": [
-        "Palmeiras vence",
-        "Empate",
-        "Flamengo vence"
-      ],
-      "p": [
-        0.4,
-        0.28,
-        0.32
-      ],
-      "close": "2026-11-20T18:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos de Palmeiras x Flamengo, 36ª rodada, em 21 ou 22/11/2026, conforme súmula e tabela oficial da CBF. Jogo adiado para depois de 30/11 anula a pergunta.",
-      "src": "CBF (súmula e tabela oficial)",
-      "desc": "Os dois disputam a liderança do Brasileirão na reta final do campeonato.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/palmeiras-e-flamengo-vencem-na-rodada-e-esquentam-reta-final-do-brasileirao"
-        }
-      ]
-    },
-    {
       "id": "d20261023-pol-1",
       "cat": "Política",
       "q": "O governo vai prorrogar o prazo de 30/10 para credores aderirem ao Desenrola 3.0, que compra dívidas de até R$ 10 mil?",
@@ -1152,56 +1100,6 @@
       ]
     },
     {
-      "id": "d20261028-esp-1",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Palmeiras x Vasco, na ida da semifinal da Copa do Brasil?",
-      "outs": [
-        "Palmeiras vence",
-        "Empate",
-        "Vasco vence"
-      ],
-      "p": [
-        0.55,
-        0.27,
-        0.18
-      ],
-      "close": "2026-11-01T12:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula oficial da CBF, do jogo marcado para 01/11/2026. Se for adiado para depois de 08/11/2026, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial da Copa do Brasil)",
-      "desc": "Primeiro jogo da semifinal, domingo às 16h, no Nubank Parque. A volta é em São Januário.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
-        }
-      ]
-    },
-    {
-      "id": "d20261028-esp-2",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Grêmio x Atlético-MG, na ida da semifinal da Copa do Brasil?",
-      "outs": [
-        "Grêmio vence",
-        "Empate",
-        "Atlético-MG vence"
-      ],
-      "p": [
-        0.45,
-        0.28,
-        0.27
-      ],
-      "close": "2026-11-01T14:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula oficial da CBF, do jogo marcado para 01/11/2026. Se for adiado para depois de 08/11/2026, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial da Copa do Brasil)",
-      "desc": "Jogo de ida na Arena do Grêmio, domingo às 18h30. A volta será em Belo Horizonte.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
-        }
-      ]
-    },
-    {
       "id": "d20261028-pol-1",
       "cat": "Política",
       "q": "O governo vai enviar ao Congresso uma proposta para mudar a meta fiscal até 30/11/2026?",
@@ -1350,33 +1248,6 @@
       ]
     },
     {
-      "id": "d20261028-esp-3",
-      "cat": "Esporte",
-      "q": "O Palmeiras será campeão da Copa Libertadores 2026?",
-      "outs": [
-        "Sim, Palmeiras campeão",
-        "Não, Estudiantes campeão"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-11-28T10:00:00-03:00",
-      "crit": "Sim, se o Palmeiras vencer o Estudiantes na final de 28/11/2026, no Estádio Centenário (Montevidéu), no tempo normal, na prorrogação ou nos pênaltis, conforme a Conmebol. Não, se o Estudiantes vencer. Se a final for adiada para depois de 15/12/2026, a pergunta será retirada.",
-      "src": "Conmebol (página e súmula oficial da final)",
-      "desc": "Palmeiras e Estudiantes decidem a Libertadores em jogo único, marcado para 28/11/2026 em Montevidéu; o horário ainda não foi divulgado pela Conmebol.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/montevideu-e-barranquilla-vao-sediar-finais-da-libertadores-e-sul-americana-de-2026/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/veron-descarta-risco-de-flamengo-tirar-estudiantes-da-final-da-libertadores"
-        }
-      ]
-    },
-    {
       "id": "d20261028-pol-6",
       "cat": "Política",
       "q": "O Senado vai fixar a alíquota de referência da CBS de 2027 em 11% ou mais, depois de o TCU propor 11,3%?",
@@ -1475,23 +1346,6 @@
       ]
     },
     {
-      "id": "d20261028-esp-7",
-      "cat": "Esporte",
-      "q": "O Estudiantes vencerá o Palmeiras na final da Libertadores de 2026?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-11-01T12:00:00-03:00",
-      "crit": "Sim, se o Estudiantes vencer; Não, se o Palmeiras vencer (verificar resultado oficial da partida em 28/11/2026).",
-      "src": "CNN Brasil",
-      "desc": "A final da Copa Libertadores de 2026 entre Estudiantes e Palmeiras está marcada para 28 de novembro, no Estádio Centenário, em Montevidéu. O resultado da partida será o critério de avaliação."
-    },
-    {
       "id": "d20261028-neg-3",
       "cat": "Negócios",
       "q": "O Itaú, que lucrou R$ 12,4 bilhões no 2º trimestre, terá lucro líquido gerencial acima de R$ 12,4 bilhões no 3º trimestre de 2026?",
@@ -1513,23 +1367,6 @@
           "url": "https://www.infomoney.com.br/mercados/itau-itub4-resultados-segundo-trimestre-2026/"
         }
       ]
-    },
-    {
-      "id": "d20261029-esp-7",
-      "cat": "Esporte",
-      "q": "Neymar será suspenso nos próximos dois jogos do Santos?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-11-28T00:00:00-03:00",
-      "crit": "Sim, se a decisão do STJD for válida e não houver recurso; Não, se houver recurso ou anulação.",
-      "src": "CNN Brasil",
-      "desc": "O STJD suspendeu Neymar por dois jogos após expulsão no confronto com o Bahia. A decisão afeta os próximos jogos do Santos."
     },
     {
       "id": "d20261029-eco-1",
@@ -1730,52 +1567,6 @@
       ]
     },
     {
-      "id": "d20261029-esp-1",
-      "cat": "Esporte",
-      "q": "Quem será o campeão brasileiro de 2026, com Flamengo e Palmeiras empatados com 70 pontos na 33ª rodada?",
-      "outs": [
-        "Flamengo",
-        "Palmeiras",
-        "Outro clube"
-      ],
-      "p": [
-        0.45,
-        0.45,
-        0.1
-      ],
-      "close": "2026-11-03T12:00:00-03:00",
-      "crit": "Vence a opção do clube que terminar na 1ª posição da tabela final do Brasileirão Série A 2026 (última rodada em 2/12/2026), segundo a CBF. Outro clube vence se nenhum dos dois ficar em 1º.",
-      "src": "CBF (tabela oficial do Brasileirão Série A 2026)",
-      "desc": "Após o 0 x 0 entre Santos e Palmeiras em 28/10, Flamengo e Palmeiras seguem com 70 pontos. O Flamengo encara o Vasco em 29/10 e os dois se enfrentam na 36ª rodada.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/santos-e-palmeiras-empatam-e-flamengo-segue-lider-do-brasileirao"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/flamengo-defende-lideranca-e-sequencia-invicta-de-14-jogos-contra-o-vasco"
-        }
-      ]
-    },
-    {
-      "id": "d20261029-esp-2",
-      "cat": "Esporte",
-      "q": "Atlético-MG ou Boca Juniors: quem será o campeão da Copa Sul-Americana na final de 21/11, na Colômbia?",
-      "outs": [
-        "Atlético-MG",
-        "Boca Juniors"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-11-20T18:00:00-03:00",
-      "crit": "Vence o clube declarado campeão da Copa Sul-Americana 2026 pela Conmebol após a final de 21/11/2026 em Barranquilla (tempo normal, prorrogação ou pênaltis).",
-      "src": "Conmebol (Copa Sul-Americana 2026)",
-      "desc": "A final é entre um brasileiro e um argentino, em jogo único no Estádio Metropolitano Roberto Meléndez, em Barranquilla. A Libertadores também terá uma final Brasil x Argentina."
-    },
-    {
       "id": "d20261029-pol-1",
       "cat": "Política",
       "q": "A Câmara vai criar comissão especial para analisar a PEC do voto distrital misto, que a presidência da Casa quer discutir ainda este ano?",
@@ -1822,46 +1613,6 @@
       ]
     },
     {
-      "id": "d20261029-esp-3",
-      "cat": "Esporte",
-      "q": "Palmeiras ou Vasco: quem vai à final da Copa do Brasil, no confronto de ida em 1/11 e volta em 8/11?",
-      "outs": [
-        "Palmeiras",
-        "Vasco"
-      ],
-      "p": [
-        0.65,
-        0.35
-      ],
-      "close": "2026-11-01T12:00:00-03:00",
-      "crit": "Vence o clube que a CBF registrar como classificado para a final da Copa do Brasil 2026 após os jogos de 1/11 (Nubank Parque) e 8/11 (São Januário), inclusive após pênaltis. Fonte: CBF.",
-      "src": "CBF (Copa do Brasil 2026)",
-      "desc": "A ida é em 1/11, às 16h, no Nubank Parque; a volta, em 8/11, às 17h, em São Januário. A final será em jogo único em 6/12, no Mané Garrincha.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/santos-e-palmeiras-empatam-e-flamengo-segue-lider-do-brasileirao"
-        }
-      ]
-    },
-    {
-      "id": "d20261029-esp-4",
-      "cat": "Esporte",
-      "q": "Grêmio ou Atlético-MG: quem vai à final da Copa do Brasil, nos jogos de 1/11 e 7/11?",
-      "outs": [
-        "Grêmio",
-        "Atlético-MG"
-      ],
-      "p": [
-        0.45,
-        0.55
-      ],
-      "close": "2026-11-01T14:00:00-03:00",
-      "crit": "Vence o clube que a CBF registrar como classificado para a final da Copa do Brasil 2026 após os jogos de 1/11 (Porto Alegre) e 7/11 (Belo Horizonte), inclusive após pênaltis. Fonte: CBF.",
-      "src": "CBF (Copa do Brasil 2026)",
-      "desc": "A ida é em 1/11, às 18h30, na Arena do Grêmio; a volta, em 7/11, às 18h, na Arena MRV. O vencedor enfrenta Palmeiras ou Vasco na final de 6/12, em Brasília."
-    },
-    {
       "id": "d20261029-fin-3",
       "cat": "Finanças",
       "q": "Os líderes da União Europeia vão indicar formalmente o sucessor de Lagarde na presidência do BCE até 31/12/2026?",
@@ -1885,31 +1636,6 @@
         {
           "name": "Metrópoles",
           "url": "https://www.metropoles.com/mundo/christine-lagarde-renuncia-ao-bce-8-meses-antes-do-fim-de-mandato"
-        }
-      ]
-    },
-    {
-      "id": "d20261029-esp-5",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Brasil x Japão, amistoso de 14/11 em Singapura?",
-      "outs": [
-        "Vitória do Brasil",
-        "Empate",
-        "Vitória do Japão"
-      ],
-      "p": [
-        0.5,
-        0.25,
-        0.25
-      ],
-      "close": "2026-11-14T06:00:00-03:00",
-      "crit": "Vitória do Brasil, se a seleção brasileira vencer no tempo regulamentar (90 minutos mais acréscimos) em 14/11/2026. Empate, se terminar empatado no tempo regulamentar. Vitória do Japão, se o Japão vencer no tempo regulamentar. Fonte: súmula oficial e site da CBF.",
-      "src": "CBF (súmula oficial da partida)",
-      "desc": "Ancelotti anunciou em 29/10 a lista para a última Data Fifa do ano: Brasil x Japão em 14/11, às 7h15 (Brasília), e Brasil x Singapura em 17/11, no Estádio Nacional de Singapura.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/cbf-anuncia-amistosos-da-selecao-contra-japao-e-singapura-para-novembro"
         }
       ]
     },
@@ -2148,54 +1874,6 @@
         {
           "name": "InfoMoney",
           "url": "https://www.infomoney.com.br/mercados/petrobras-petr4-resultados-segundo-trimestre-2026/"
-        }
-      ]
-    },
-    {
-      "id": "d20261030-esp-1",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Brasil x Singapura, amistoso da Seleção marcado para 17/11?",
-      "outs": [
-        "Brasil vence",
-        "Empate",
-        "Singapura vence"
-      ],
-      "p": [
-        0.87,
-        0.09,
-        0.04
-      ],
-      "close": "2026-11-16T12:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme o registro oficial da CBF/FIFA, do amistoso Brasil x Singapura marcado para 17/11/2026. Se o jogo não ocorrer até 24/11/2026, a pergunta será retirada.",
-      "src": "CBF e FIFA (súmula oficial do amistoso)",
-      "desc": "Ancelotti convocou os jogadores em 29/10 para dois amistosos na Ásia: contra o Japão, em 14/11, e contra Singapura, em 17/11.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/convocacao-selecao-brasileiras"
-        }
-      ]
-    },
-    {
-      "id": "d20261030-esp-2",
-      "cat": "Esporte",
-      "q": "Gabriel Bortoleto terminará o GP de São Paulo de F1, em 8/11, entre os 10 primeiros?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.3,
-        0.7
-      ],
-      "close": "2026-11-06T09:00:00-03:00",
-      "crit": "Sim, se a classificação oficial da corrida do GP de São Paulo de 2026 (previsto para 08/11), publicada pela FIA, mostrar Gabriel Bortoleto entre os 10 primeiros. Não, se terminar fora do top 10, abandonar ou não largar. Se a corrida não ocorrer até 15/11/2026, a pergunta será retirada.",
-      "src": "FIA / Fórmula 1 (classificação oficial da corrida)",
-      "desc": "Bortoleto corre pela Audi em 2026, e o GP de São Paulo, em Interlagos, é a etapa de casa do brasileiro.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/formula-1-gabriel-bortoleto-elogia-novo-carro-da-audi-para-2026"
         }
       ]
     },
@@ -2580,58 +2258,6 @@
       ]
     },
     {
-      "id": "d20261031-esp-1",
-      "cat": "Esporte",
-      "q": "O Corinthians, 17º colocado com 36 pontos e a 1 ponto do Z4, estará fora da zona de rebaixamento ao fim da 36ª rodada do Brasileirão?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.4,
-        0.6
-      ],
-      "close": "2026-11-13T18:00:00-03:00",
-      "crit": "Sim, se, depois dos jogos da 36ª rodada (até 25/11/2026), o Corinthians estiver em 16º lugar ou acima na tabela oficial da CBF. Não, se estiver entre o 17º e o 20º. Se os jogos forem adiados, vale a tabela após o último jogo da rodada.",
-      "src": "CBF (tabela oficial do Brasileirão Série A)",
-      "desc": "O Corinthians venceu o Mirassol por 2 a 0 em 30/10 pela 33ª rodada, mas segue na zona de rebaixamento, a 1 ponto do 16º colocado.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/brasileirao-corinthians-bate-mirassol-e-volta-a-vencer-apos-11-jogos"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
-        }
-      ]
-    },
-    {
-      "id": "d20261031-esp-2",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Flamengo x Athletico-PR, no Maracanã, pela 35ª rodada do Brasileirão em 18/11?",
-      "outs": [
-        "Vitória do Flamengo",
-        "Empate",
-        "Vitória do Athletico-PR"
-      ],
-      "p": [
-        0.62,
-        0.23,
-        0.15
-      ],
-      "close": "2026-11-18T12:00:00-03:00",
-      "crit": "Vence a opção que corresponder ao placar do tempo normal de Flamengo x Athletico-PR, em 18/11/2026, na súmula oficial da CBF. Se o jogo for adiado para depois de 30/11, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial)",
-      "desc": "O Flamengo lidera o Brasileirão e o jogo está marcado para as 20h30 de 18/11, no Maracanã.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
-        }
-      ]
-    },
-    {
       "id": "d20261031-pol-1",
       "cat": "Política",
       "q": "Os republicanos manterão a maioria no Senado dos EUA depois das eleições de meio de mandato de 3/11?",
@@ -2676,23 +2302,6 @@
           "url": "https://www.metropoles.com/mundo/trump-admite-iniciativa-para-barrar-certificacao-de-eleicao-no-alasca"
         }
       ]
-    },
-    {
-      "id": "d20261031-esp-3",
-      "cat": "Esporte",
-      "q": "Kimi Antonelli será campeão mundial de Fórmula 1 de 2026 já no GP do México, em 1/11?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.9,
-        0.1
-      ],
-      "close": "2026-11-01T12:00:00-03:00",
-      "crit": "Sim, se, ao fim do GP da Cidade do México (largada em 1/11/2026, 17h de Brasília), a classificação oficial de pilotos da FIA mostrar Kimi Antonelli matematicamente campeão de 2026. Não, se o título não for definido nessa corrida. Vale o resultado oficial publicado pela FIA/Fórmula 1 após a prova.",
-      "src": "FIA / Fórmula 1 (formula1.com), classificação oficial do campeonato de pilotos",
-      "desc": "Antonelli lidera com 365 pontos, 123 à frente de George Russell. Restam cinco etapas, e ele precisa de pouco para garantir o título no México, o que o tornaria o campeão mais jovem da história."
     },
     {
       "id": "d20261031-eco-3",
@@ -2798,6 +2407,23 @@
   },
   "withdrawn": [
     "d20261020-pol-2",
-    "d20261024-pol-9"
+    "d20261024-pol-9",
+    "d20261023-esp-1",
+    "d20261023-esp-2",
+    "d20261028-esp-1",
+    "d20261028-esp-2",
+    "d20261028-esp-3",
+    "d20261028-esp-7",
+    "d20261029-esp-7",
+    "d20261029-esp-1",
+    "d20261029-esp-2",
+    "d20261029-esp-3",
+    "d20261029-esp-4",
+    "d20261029-esp-5",
+    "d20261030-esp-1",
+    "d20261030-esp-2",
+    "d20261031-esp-1",
+    "d20261031-esp-2",
+    "d20261031-esp-3"
   ]
 }
