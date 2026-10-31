@@ -2676,6 +2676,23 @@
           "url": "https://www.metropoles.com/mundo/trump-admite-iniciativa-para-barrar-certificacao-de-eleicao-no-alasca"
         }
       ]
+    },
+    {
+      "id": "d20261031-esp-3",
+      "cat": "Esporte",
+      "q": "Kimi Antonelli será campeão mundial de Fórmula 1 de 2026 já no GP do México, em 1/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.9,
+        0.1
+      ],
+      "close": "2026-11-01T12:00:00-03:00",
+      "crit": "Sim, se, ao fim do GP da Cidade do México (largada em 1/11/2026, 17h de Brasília), a classificação oficial de pilotos da FIA mostrar Kimi Antonelli matematicamente campeão de 2026. Não, se o título não for definido nessa corrida. Vale o resultado oficial publicado pela FIA/Fórmula 1 após a prova.",
+      "src": "FIA / Fórmula 1 (formula1.com), classificação oficial do campeonato de pilotos",
+      "desc": "Antonelli lidera com 365 pontos, 123 à frente de George Russell. Restam cinco etapas, e ele precisa de pouco para garantir o título no México, o que o tornaria o campeão mais jovem da história."
     }
   ],
   "resolutions": {
