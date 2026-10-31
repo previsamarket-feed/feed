@@ -2377,6 +2377,31 @@
           "url": "https://www.metropoles.com/esportes/lider-do-brasileirao-flamengo-chega-a-873-de-chance-de-titulo"
         }
       ]
+    },
+    {
+      "id": "d20261031-esp-4",
+      "cat": "Esporte",
+      "q": "Na ida da semifinal da Copa do Brasil, qual será o resultado de Palmeiras x Vasco, no domingo (1º/11), no Nubank Parque?",
+      "outs": [
+        "Vitória do Palmeiras",
+        "Empate",
+        "Vitória do Vasco"
+      ],
+      "p": [
+        0.48,
+        0.28,
+        0.24
+      ],
+      "close": "2026-11-01T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado do jogo de ida da semifinal da Copa do Brasil 2026 entre Palmeiras e Vasco, em 01/11/2026, no tempo regulamentar de 90 minutos. Se o jogo for adiado ou cancelado, a pergunta será anulada. Fonte: CBF (súmula oficial).",
+      "src": "CBF",
+      "desc": "A bola rola às 16h, em São Paulo; a volta está marcada para 08/11, às 17h, em São Januário. Quem avançar enfrenta o vencedor de Grêmio x Atlético-MG na final.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
+        }
+      ]
     }
   ],
   "resolutions": {
