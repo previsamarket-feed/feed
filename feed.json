@@ -2359,6 +2359,29 @@
           "url": "https://www.infomoney.com.br/mercados/vale3-vale-balanco-3t26-teleconferencia-coletiva/"
         }
       ]
+    },
+    {
+      "id": "d20261030-pol-5",
+      "cat": "Política",
+      "q": "O Senado vai aprovar em plenário a PEC da Segurança Pública, marcada para votação em 3/11, em meio ao impasse sobre a maioridade penal, até 10/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-03T10:00:00-03:00",
+      "crit": "Sim, se até 10/11/2026 o plenário do Senado Federal aprovar a PEC da Segurança Pública em votação nominal registrada no site do Senado (em qualquer turno). Não, se a votação for adiada, a PEC for retirada de pauta ou não for aprovada nesse prazo.",
+      "src": "Senado Federal (www25.senado.leg.br)",
+      "desc": "O presidente do Senado marcou a votação para terça-feira (3/11), mas a PEC já saiu da pauta em outubro e governo e oposição divergem sobre reduzir a maioridade penal; mudanças no texto o devolveriam à Câmara.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/alcolumbre-pauta-pec-da-seguranca-e-reabre-discussao-sobre-maioridade"
+        }
+      ]
     }
   ],
   "resolutions": {
