@@ -2402,6 +2402,56 @@
           "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
         }
       ]
+    },
+    {
+      "id": "d20261031-esp-7",
+      "cat": "Esporte",
+      "q": "Atlético-MG x Boca Juniors: quem será o campeão da Sul-Americana na final de 21/11, em Barranquilla?",
+      "outs": [
+        "Atlético-MG",
+        "Boca Juniors"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-21T12:00:00-03:00",
+      "crit": "Vence a opção do time que a Conmebol declarar campeão da Copa Sul-Americana 2026 após a final de 21/11/2026, no Estádio Metropolitano Roberto Meléndez (Barranquilla), valendo o resultado em prorrogação ou pênaltis. Fonte: Conmebol.",
+      "src": "Conmebol",
+      "desc": "A final em jogo único está marcada para as 19h30 (Brasília) de 21/11, na Colômbia. Atlético-MG avançou mesmo após perder a volta da semifinal por 2 a 0 para o Montevideo City Torque.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/conmebol-divulga-horarios-das-finais-da-libertadores-e-sul-americana"
+        }
+      ]
+    },
+    {
+      "id": "d20261031-neg-3",
+      "cat": "Negócios",
+      "q": "A Justiça de São Paulo vai homologar o plano de recuperação extrajudicial da Oncoclínicas, que obteve apoio de 61,6% dos credores, até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, houver decisão judicial homologando o plano de recuperação extrajudicial da Oncoclínicas, noticiada em fato relevante da companhia ou registrada no processo do TJSP. Não, se não houver homologação até essa data.",
+      "src": "Fato relevante da Oncoclínicas / TJSP",
+      "desc": "A empresa informou que credores com cerca de R$ 3,5 bilhões, 61,6% da dívida coberta, aderiram ao plano, acima do mínimo de 50% da lei. O pedido de homologação segue na 3ª Vara de Falências de São Paulo.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/oncoclinicas-obtem-apoio-de-credores-para-aprovar-recuperacao-extrajudicial"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/oncoclinicas-onco3-aprova-pedido-de-recuperacao-extrajudicial-para-dividas-de-r-51-bi/"
+        }
+      ]
     }
   ],
   "resolutions": {
