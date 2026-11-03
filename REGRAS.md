@@ -92,7 +92,7 @@ google noticiais". Isto vale como autorização permanente para **publicar sem p
   elevado por migração (`noticias_por_dia` e `noticias_por_janela` = 1000; o gatilho `limite_nao_aumenta` foi recriado e segue
   protegendo os demais limites). Não existe mais cota de matérias por dia; o freio real é a franquia gratuita do Workers AI
   (robô) e a qualidade da fonte. Numa sessão com o painel aberto, Claude pega a notícia quente (Google Notícias só para
-  descobrir; link **direto do portal**), escreve resumo atribuído com a fonte no título e no corpo, e publica na hora pelo fluxo
+  descobrir; link **direto do portal**), escreve matéria autoral (texto próprio, nunca cópia nem paráfrase colada da fonte), com manchete chamativa e sem o nome do veículo nela, cita a fonte dentro do texto da matéria (ex.: "segundo o g1", "informou a Petrobras em comunicado") e publica na hora pelo fluxo
   rascunho, revisão, checagem, aprovação, agendamento, publicação (registra `aprovacao`, `auditoria` e `publicacao`; autor
   `ia`, revisor `revisor_claude`; marca `pauta.usada = 1`). Risco `normal`, rótulo `factual`.
 - **Temas das notícias (dono, 28/10/2026 15h30; Esporte retirado em 30/10/2026):** Economia, Finanças, Negócios, Tecnologia, Entretenimento/famosos,
@@ -198,3 +198,11 @@ A rotina diária **não** deve copiar estes casos (veja a seção 2B).
 1. `python3 validar_feed.py feed.json --hoje AAAA-MM-DD`
 2. Só envie se terminar com **OK para publicar**.
 3. Faça um único commit: `Perguntas de AAAA-MM-DD`. Altere somente o `feed.json`.
+
+## 2E. Estilo das matérias (dono, 03/11/2026)
+
+- As matérias são **autorais**: texto escrito com as palavras da redação, estrutura própria, sem copiar títulos nem trechos.
+- A **manchete é chamativa** (dado ou tensão do assunto, sem sensacionalismo falso, sem ironia e sem opinar) e **não leva o nome da fonte**.
+- A **fonte é citada dentro da matéria**, no corpo do texto, com link direto do portal ou do órgão oficial.
+- **Fotos**: nunca repetir foto entre matérias, escolher pelo assunto da matéria e dar o crédito visível ("Foto: autor/agência"). Valem as restrições da seção 2C (sem Reuters, Getty, AFP, AP; sem foto marcada "proibida reprodução").
+
