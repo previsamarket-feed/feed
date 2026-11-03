@@ -2452,6 +2452,52 @@
           "url": "https://www.infomoney.com.br/mercados/oncoclinicas-onco3-aprova-pedido-de-recuperacao-extrajudicial-para-dividas-de-r-51-bi/"
         }
       ]
+    },
+    {
+      "id": "d20261103-esp-3",
+      "cat": "Esporte",
+      "q": "Rafael Câmara, que estreia na F1 pela Haas no lugar de Ocon, vai terminar o GP de São Paulo, em 8/11, entre os 10 primeiros?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-11-08T09:00:00-03:00",
+      "crit": "Sim, se a classificação final oficial do GP de São Paulo de 2026, divulgada pela FIA/Fórmula 1 em 8/11/2026, mostrar Rafael Câmara em uma das 10 primeiras posições. Não, se ele terminar fora do top 10, for desclassificado ou não completar a prova em posição classificada entre os 10 primeiros.",
+      "src": "Classificação oficial da corrida (FIA / Formula1.com)",
+      "desc": "O piloto brasileiro assume o carro da Haas, ao lado de Oliver Bearman, em Interlagos no domingo, 8 de novembro. Só os 10 primeiros pontuam.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/formula-1-rafal-camara-estreia-pela-haas-na-categoria-no-gp-de-sao-paulo"
+        }
+      ]
+    },
+    {
+      "id": "d20261103-neg-3",
+      "cat": "Negócios",
+      "q": "A Disney, que segundo a Bloomberg pede corte de 20% nos custos de cada gestor, vai anunciar oficialmente demissão de pelo menos 2.000 funcionários até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, a Disney confirmar em comunicado oficial, documento à SEC ou declaração de executivo divulgada pela empresa um corte de pelo menos 2.000 empregos. Não, se não houver confirmação oficial desse número até essa data (relatos de imprensa sem confirmação da empresa não contam).",
+      "src": "Comunicados e documentos da Disney à SEC",
+      "desc": "A Bloomberg informou que gestores foram orientados a reduzir 20% das despesas sob sua responsabilidade, o que pode incluir milhares de demissões. A empresa não confirmou o plano. Em abril de 2026, a Disney já havia cortado cerca de mil vagas.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/entretenimento/disney-planeja-demissao-em-massa-para-reduzir-20-nos-custos"
+        }
+      ]
     }
   ],
   "resolutions": {
