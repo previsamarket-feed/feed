@@ -2498,6 +2498,29 @@
           "url": "https://www.metropoles.com/entretenimento/disney-planeja-demissao-em-massa-para-reduzir-20-nos-custos"
         }
       ]
+    },
+    {
+      "id": "d20261103-pol-3",
+      "cat": "Política",
+      "q": "Depois da aprovação no Senado, o Congresso vai promulgar a PEC da Segurança Pública até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-04T08:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 o Congresso Nacional promulgar a PEC da Segurança Pública, com a emenda constitucional publicada no Diário Oficial da União. Não, se a promulgação não ocorrer nesse prazo ou se o texto voltar à Câmara dos Deputados para nova votação.",
+      "src": "Diário Oficial da União e Congresso Nacional (www.congressonacional.leg.br)",
+      "desc": "O Senado aprovou a PEC, que, segundo a imprensa, segue para promulgação. A pergunta é só se a emenda constitucional será de fato promulgada e publicada no prazo.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/senado-pec-da-seguranca-maioridade"
+        }
+      ]
     }
   ],
   "resolutions": {
