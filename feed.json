@@ -2825,6 +2825,52 @@
           "url": "https://www.metropoles.com/colunas/manoela-alcantara/justica-proibe-meta-de-usar-noticias-para-treinar-inteligencia-artificial"
         }
       ]
+    },
+    {
+      "id": "d20261104-eco-3",
+      "cat": "Economia",
+      "q": "Com a criação de vagas formais em queda e o Caged de setembro em 121.305 (abaixo do esperado), o saldo de outubro ficará acima desse número?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se o Novo Caged de outubro de 2026, divulgado pelo Ministério do Trabalho e Emprego até 15/12/2026, mostrar saldo líquido de empregos formais acima de 121.305 vagas. Não, se o saldo for igual ou menor. Fonte: Novo Caged (MTE).",
+      "src": "Ministério do Trabalho e Emprego (Novo Caged)",
+      "desc": "Juros altos e comércio fraco pesam sobre o emprego formal; setembro veio abaixo da expectativa de 180 a 185 mil vagas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/caged-setembro-vagas-juros-altos-comercio/"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-pol-3",
+      "cat": "Política",
+      "q": "A CNC pediu ao STF mais tempo para a transição do fim da escala 6x1, que começa em 16/12: a Corte vai suspender ou adiar essa data até 15/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-12-14T18:00:00-03:00",
+      "crit": "Sim, se até 15/12/2026 o STF (relator ou plenário) suspender ou adiar, por decisão publicada, o início da transição para a jornada menor prevista na emenda constitucional. Não, se não houver essa decisão até a data. Fonte: site e andamento processual do STF.",
+      "src": "Supremo Tribunal Federal (andamento processual)",
+      "desc": "A emenda reduz a jornada de 44 para 42 horas em 16/12 e para 40 horas 12 meses depois; a CNC quer adiar para outubro de 2027 e 2028.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/cnc-aciona-stf-para-adiar-fim-da-escala-6x1/"
+        }
+      ]
     }
   ],
   "resolutions": {
