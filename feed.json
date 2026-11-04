@@ -2777,6 +2777,54 @@
           "url": "https://www.metropoles.com/brasil/apos-eleicoes-foco-de-lula-e-consolidar-ministerio-da-seguranca-este-mes"
         }
       ]
+    },
+    {
+      "id": "d20261104-esp-3",
+      "cat": "Esporte",
+      "q": "Líder do Brasileirão com 73 pontos e três de vantagem sobre o Palmeiras, o Flamengo vai vencer o Grêmio, 17º colocado, no Maracanã nesta quarta (4/11)?",
+      "outs": [
+        "Vitória do Flamengo",
+        "Empate",
+        "Vitória do Grêmio"
+      ],
+      "p": [
+        0.65,
+        0.22,
+        0.13
+      ],
+      "close": "2026-11-04T17:00:00-03:00",
+      "crit": "Vitória do Flamengo, se o placar final do jogo da 34ª rodada, em 04/11/2026, for favorável ao Flamengo no tempo regulamentar; Empate, se terminar igualado; Vitória do Grêmio, se o Grêmio vencer. Fonte: súmula e tabela oficiais da CBF.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O Flamengo recebe o Grêmio às 19h30 no Maracanã, pela 34ª rodada, para tentar ampliar a liderança na briga pelo título.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/saiba-onde-assistir-a-flamengo-x-gremio-no-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-tec-3",
+      "cat": "Tecnologia",
+      "q": "Depois de a Justiça de SP proibir a Meta de usar conteúdo jornalístico sem autorização, sob multa de R$ 1 milhão por dia, a liminar continuará valendo em 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.65,
+        0.35
+      ],
+      "close": "2026-11-16T18:00:00-03:00",
+      "crit": "Sim, se em 30/11/2026 a liminar concedida em 03/11/2026 pela 44ª Vara Cível do Foro Central de São Paulo seguir em vigor, sem ter sido revogada ou suspensa pela Justiça. Não, se tiver sido revogada ou suspensa até essa data. Fonte: consulta processual do TJSP.",
+      "src": "Tribunal de Justiça de São Paulo (consulta processual)",
+      "desc": "A decisão atende a ação de entidades de imprensa e prevê multa de até R$ 100 milhões; a Meta ainda pode recorrer.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/justica-proibe-meta-de-usar-noticias-para-treinar-inteligencia-artificial"
+        }
+      ]
     }
   ],
   "resolutions": {
