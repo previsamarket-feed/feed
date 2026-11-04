@@ -119,7 +119,10 @@ def main():
     texto = json.dumps(feed, ensure_ascii=False, indent=2)
     tmp = a.feed + '.novo'
     open(tmp, 'w', encoding='utf-8').write(texto)
-    r = subprocess.run([sys.executable, 'validar_feed.py', tmp], capture_output=True, text=True)
+    # O arquivo inteiro é conferido no modo procuração (REGRAS.md, seção 2C), o mesmo da rotina que publica as perguntas
+    # políticas autorizadas; sem isso, um item político já publicado travava todas as previsões automáticas. Cada item
+    # automático continua conferido no modo normal em aceitar() (política nunca entra por aqui).
+    r = subprocess.run([sys.executable, 'validar_feed.py', tmp, '--procuracao'], capture_output=True, text=True)
     if r.returncode != 0:
         print(r.stdout[-1500:])
         print('o arquivo inteiro NÃO passou no validador; nada foi gravado')

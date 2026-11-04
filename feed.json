@@ -2871,6 +2871,57 @@
           "url": "https://www.infomoney.com.br/politica/cnc-aciona-stf-para-adiar-fim-da-escala-6x1/"
         }
       ]
+    },
+    {
+      "id": "d20261104-fin-7",
+      "cat": "Finanças",
+      "q": "Depois de montar uma mesa de crédito privado, o Itaú (ITUB4) terminará novembro com a ação em alta no mês na B3?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-30T09:00:00-03:00",
+      "crit": "Sim, se o preço de fechamento da ITUB4 na B3 em 30/11/2026 for maior que o de 30/10/2026; Não, se for igual ou menor.",
+      "src": "B3 (cotação de fechamento da ITUB4)",
+      "desc": "O Itaú criou uma mesa dedicada a títulos de dívida emitidos por empresas, informou a CNN Brasil em 4/11/2026. A pergunta acompanha o desempenho da ação no mês."
+    },
+    {
+      "id": "d20261104-esp-8",
+      "cat": "Esporte",
+      "q": "Depois de vencer o AEK nos acréscimos, o Real Madrid vencerá o PSV no Bernabéu pela Champions em 24/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-24T12:00:00-03:00",
+      "crit": "Sim, se o Real Madrid vencer o PSV no tempo regulamentar na 5ª rodada da fase de liga da Champions League, em 24/11/2026, conforme a UEFA; Não, se empatar ou perder.",
+      "src": "UEFA (resultado oficial da partida)",
+      "desc": "Com gol de Valverde nos acréscimos contra o AEK, o Real Madrid manteve 100% de aproveitamento na Champions, segundo a CNN Brasil. O próximo jogo é contra o PSV, em Madri."
+    },
+    {
+      "id": "d20261104-eco-7",
+      "cat": "Economia",
+      "q": "Com estoques em alta, o café arábica em Nova York fechará a sexta-feira, 6/11, abaixo do preço de 4/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-06T09:00:00-03:00",
+      "crit": "Sim, se o preço de ajuste do contrato de referência do café arábica (KC) na ICE Futures US em 6/11/2026 for menor que o de 4/11/2026; Não, se for igual ou maior.",
+      "src": "ICE Futures US (preço de ajuste do café arábica)",
+      "desc": "Estoques certificados em alta pressionam as cotações do café na bolsa de Nova York, segundo a CNN Brasil em 4/11/2026."
     }
   ],
   "resolutions": {
