@@ -2521,6 +2521,262 @@
           "url": "https://www.metropoles.com/brasil/senado-pec-da-seguranca-maioridade"
         }
       ]
+    },
+    {
+      "id": "d20261104-eco-1",
+      "cat": "Economia",
+      "q": "O Copom, que mantém a Selic em 13,75% ao ano, vai manter a taxa na decisão desta quarta (4/11), a primeira depois da reeleição?",
+      "outs": [
+        "Manter em 13,75%",
+        "Cortar a taxa",
+        "Elevar a taxa"
+      ],
+      "p": [
+        0.68,
+        0.28,
+        0.04
+      ],
+      "close": "2026-11-04T16:00:00-03:00",
+      "crit": "Vale a decisão do Copom divulgada em 04/11/2026 no comunicado do Banco Central: manter a Selic em 13,75% ao ano, cortá-la (qualquer valor) ou elevá-la.",
+      "src": "Banco Central do Brasil (comunicado do Copom)",
+      "desc": "Mercado se divide: as opções de Copom da B3 indicavam cerca de 70% de chance de manutenção e 30% de corte de 0,25 ponto, com pressão fiscal e inflação acima do teto.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/o-que-esta-em-jogo-na-primeira-decisao-do-copom-apos-a-reeleicao-de-lula/"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-eco-2",
+      "cat": "Economia",
+      "q": "Depois do superávit de US$ 7,7 bilhões em setembro, a balança comercial de outubro terá saldo positivo maior que esse valor?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-05T07:00:00-03:00",
+      "crit": "Sim, se o superávit da balança comercial de outubro de 2026, divulgado pelo MDIC (Comex Stat) até 14/11/2026, for maior que US$ 7,7 bilhões. Não, se for igual ou menor, ou se houver déficit.",
+      "src": "MDIC (Comex Stat, balança comercial)",
+      "desc": "O saldo acumulado de 2026 até setembro chegou a US$ 62,4 bilhões, e a 3ª semana de outubro registrou superávit de US$ 2,66 bilhões.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/balanca-comercial-tem-superavit-acumulado-em-2026-ate-setembro-de-us-62396-bi/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/balanca-comercial-tem-superavit-de-us-77-bilhoes-em-setembro"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-fin-1",
+      "cat": "Finanças",
+      "q": "O Banco do Brasil, que lucrou R$ 3,9 bilhões no 2º trimestre, terá lucro líquido ajustado acima de R$ 4,0 bilhões no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.58,
+        0.42
+      ],
+      "close": "2026-11-11T08:00:00-03:00",
+      "crit": "Sim, se o lucro líquido ajustado do Banco do Brasil no 3T26, no balanço divulgado em 11/11/2026, for maior que R$ 4,0 bilhões. Não, se for igual ou menor.",
+      "src": "Banco do Brasil (Relações com Investidores, release 3T26)",
+      "desc": "A projeção de lucro de 2026 foi reduzida para a faixa de R$ 18 bi a R$ 22 bi, com inadimplência do agro no radar. O balanço sai em 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-reduz-projecao-de-lucro-para-r-18-bi-a-r-22-bi-em-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-fin-2",
+      "cat": "Finanças",
+      "q": "O BTG Pactual, que lucrou R$ 5,1 bilhões no 2º trimestre, terá lucro líquido ajustado acima desse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-10T08:00:00-03:00",
+      "crit": "Sim, se o lucro líquido ajustado do BTG Pactual no 3T26, divulgado em 10/11/2026, for maior que R$ 5,1 bilhões. Não, se for igual ou menor.",
+      "src": "BTG Pactual (Relações com Investidores, release 3T26)",
+      "desc": "O banco vem de lucro recorde no 2T26, acima do esperado, mas o cenário de juros altos e mercado volátil pesa no trimestre.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-tec-1",
+      "cat": "Tecnologia",
+      "q": "GTA 6, previsto para 19 de novembro e já adiado duas vezes, chegará ao público nessa data, sem novo adiamento?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.82,
+        0.18
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se o jogo Grand Theft Auto VI estiver disponível ao público em 19/11/2026, conforme a Rockstar Games. Não, se a Rockstar ou a Take-Two anunciarem novo adiamento até essa data.",
+      "src": "Rockstar Games / Take-Two (comunicados oficiais)",
+      "desc": "A data de 19/11/2026 foi mantida pela Rockstar em meio a rumores de novo atraso e a compras antecipadas já abertas.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/entretenimento/game/gta-6-preco-r-416"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-neg-1",
+      "cat": "Negócios",
+      "q": "A Magazine Luiza, que teve prejuízo de R$ 725 milhões no 2º trimestre, terá lucro líquido no 3º trimestre?",
+      "outs": [
+        "Sim, terá lucro",
+        "Não, terá prejuízo"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-11-05T12:00:00-03:00",
+      "crit": "Sim, se o resultado líquido da Magazine Luiza no 3T26, divulgado no balanço de 05/11/2026, for lucro (maior que zero). Não, se for prejuízo ou resultado zero.",
+      "src": "Magazine Luiza (Relações com Investidores, release 3T26)",
+      "desc": "O Magalu aprofundou o prejuízo no 2T26 e tenta voltar ao lucro sem depender da queda dos juros. O balanço do 3T sai na quinta (5/11).",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/varejo-no-2t-como-cenario-macro-impactou-casas-bahia-renner-magalu-e-riachuelo/"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-neg-2",
+      "cat": "Negócios",
+      "q": "A Casas Bahia, em recuperação judicial e com prejuízo de R$ 10 bilhões no 2º trimestre, terá prejuízo menor que esse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-11T08:00:00-03:00",
+      "crit": "Sim, se o resultado líquido da Casas Bahia no 3T26, no balanço divulgado em 11/11/2026, for lucro ou prejuízo menor que R$ 10,0 bilhões. Não, se o prejuízo for igual ou maior.",
+      "src": "Casas Bahia (Relações com Investidores, release 3T26)",
+      "desc": "A varejista pediu recuperação judicial com dívidas de R$ 17,3 bilhões e busca empréstimo e marketplace para se reerguer. Balanço em 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/casas-bahia-bhia3-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/apos-pedido-de-rj-casas-bahia-busca-emprestimo-de-r-1-bi-e-aposta-no-marketplace/"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-esp-1",
+      "cat": "Esporte",
+      "q": "Com a vitória por 1 a 0 na ida, o Palmeiras vai se classificar para a final da Copa do Brasil ao enfrentar o Vasco em São Januário?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-08T13:00:00-03:00",
+      "crit": "Sim, se o Palmeiras for o classificado à final da Copa do Brasil 2026 após o jogo de volta de 08/11/2026 (tempo normal, prorrogação ou pênaltis, se houver), conforme a CBF. Não, se o Vasco for o classificado.",
+      "src": "CBF (súmula e tabela da Copa do Brasil)",
+      "desc": "O Palmeiras venceu a ida por 1 a 0 no Nubank Parque; a volta é no domingo (8/11), às 17h, e a final será no Mané Garrincha.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/palmeiras-vence-o-vasco-e-garante-vantagem-na-semifinal-da-copa-do-brasil"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-esp-2",
+      "cat": "Esporte",
+      "q": "Depois de vencer por 2 a 0 na ida, o Grêmio vai se classificar para a final da Copa do Brasil contra o Atlético-MG, na Arena MRV?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.82,
+        0.18
+      ],
+      "close": "2026-11-07T15:00:00-03:00",
+      "crit": "Sim, se o Grêmio for o classificado à final da Copa do Brasil 2026 após o jogo de volta de 07/11/2026 (tempo normal, prorrogação ou pênaltis, se houver), conforme a CBF. Não, se o Atlético-MG for o classificado.",
+      "src": "CBF (súmula e tabela da Copa do Brasil)",
+      "desc": "O Grêmio ganhou a ida por 2 a 0, com gols de Carlos Vinícius e Erick Noriega; a volta é no sábado (7/11), às 18h, em Belo Horizonte.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/gremio-vence-atletico-mg-e-sai-na-frente-na-semifinal-da-copa-do-brasil"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/copa-do-brasil-cbf-confirma-datas-e-horarios-das-semifinais"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-pol-1",
+      "cat": "Política",
+      "q": "Depois da aprovação da PEC da Segurança Pública no Senado, o governo vai publicar a medida provisória que cria o Ministério da Segurança Pública até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 for publicada no Diário Oficial da União medida provisória (ou lei) que crie o Ministério da Segurança Pública. Não, caso contrário.",
+      "src": "Diário Oficial da União e Planalto",
+      "desc": "O governo prepara dividir o Ministério da Justiça e Segurança Pública por MP em novembro, mas o ato depende da promulgação da PEC pelo Congresso.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/apos-eleicoes-foco-de-lula-e-consolidar-ministerio-da-seguranca-este-mes"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -2599,6 +2855,34 @@
     "d20261023-tec-1": {
       "outcome": 1,
       "evidence": "https://www.nasdaq.com/market-activity/index/comp/historical"
+    },
+    "d20261020-neg-2": {
+      "outcome": 0,
+      "evidence": "https://ri.itau.com.br/"
+    },
+    "d20261028-neg-3": {
+      "outcome": 0,
+      "evidence": "https://ri.itau.com.br/"
+    },
+    "d20261028-eco-1": {
+      "outcome": 0,
+      "evidence": "https://www.bcb.gov.br/publicacoes/focus"
+    },
+    "d20261028-eco-2": {
+      "outcome": 0,
+      "evidence": "https://www.bcb.gov.br/publicacoes/focus"
+    },
+    "d20261030-tec-1": {
+      "outcome": 0,
+      "evidence": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+    },
+    "d20261031-esp-4": {
+      "outcome": 0,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/competicoes/copa-do-brasil-masculino"
+    },
+    "d20261030-pol-5": {
+      "outcome": 0,
+      "evidence": "https://www25.senado.leg.br/web/atividade/materias"
     }
   },
   "withdrawn": [
