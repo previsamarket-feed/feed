@@ -3280,6 +3280,23 @@
           "url": "https://www.infomoney.com.br/mundo/democratas-conquistam-congresso-em-esmagadora-rejeicao-a-trump-nas-midterms/"
         }
       ]
+    },
+    {
+      "id": "d20261105-neg-7",
+      "cat": "Negócios",
+      "q": "A Corsan entregará outra estação de tratamento de esgoto em Iraí até 20/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-20T00:00:00-03:00",
+      "crit": "Sim, se a Corsan publicar comunicado de entrega de nova estação em Iraí até 20/12/2026; Não, se não houver comunicado até essa data.",
+      "src": "CNN Brasil",
+      "desc": "A Corsan já entregou uma estação de tratamento de esgoto em Iraí como parte de investimentos de mais de R$300 milhões. A pergunta investiga se haverá entrega de outra estação até 20 de dezembro de 2026."
     }
   ],
   "resolutions": {
