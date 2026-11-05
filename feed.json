@@ -2922,6 +2922,58 @@
       "crit": "Sim, se o preço de ajuste do contrato de referência do café arábica (KC) na ICE Futures US em 6/11/2026 for menor que o de 4/11/2026; Não, se for igual ou maior.",
       "src": "ICE Futures US (preço de ajuste do café arábica)",
       "desc": "Estoques certificados em alta pressionam as cotações do café na bolsa de Nova York, segundo a CNN Brasil em 4/11/2026."
+    },
+    {
+      "id": "d20261104-eco-4",
+      "cat": "Economia",
+      "q": "O Copom manteve a Selic em 13,75% e falou em \"aumento significativo das incertezas\": na reunião de dezembro, a taxa vai subir?",
+      "outs": [
+        "Manter em 13,75%",
+        "Cortar a taxa",
+        "Elevar a taxa"
+      ],
+      "p": [
+        0.62,
+        0.08,
+        0.3
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Vale o comunicado do Copom da reunião de dezembro de 2026, divulgado pelo Banco Central: manter a Selic em 13,75% ao ano, cortá-la (qualquer valor) ou elevá-la (qualquer valor).",
+      "src": "Banco Central do Brasil (comunicado do Copom)",
+      "desc": "Em 4/11 a decisão foi unânime, com Focus de inflação em 5,2% para 2026 e viés altista nos riscos. Há quem veja novo corte distante e quem aposte em alta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/"
+        },
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/11/04/copom-mantem-taxa-basica-de-juros-da-economia-em-1375percent-ao-ano.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261104-pol-4",
+      "cat": "Política",
+      "q": "Depois da sangria na Bolsa após a reeleição, Lula vai falar ao país em cadeia nacional de rádio e TV, como anunciado para domingo (8/11), até 9/11?",
+      "outs": [
+        "Sim, falará até 9/11",
+        "Não, adiará ou cancelará"
+      ],
+      "p": [
+        0.85,
+        0.15
+      ],
+      "close": "2026-11-06T18:00:00-03:00",
+      "crit": "Sim, se houver pronunciamento do presidente Lula em cadeia nacional de rádio e TV entre 5/11 e 9/11/2026, registrado pelo Planalto ou pela EBC/Agência Brasil. Não, se não ocorrer nesse período.",
+      "src": "Planalto / Agência Brasil (EBC)",
+      "desc": "Segundo o Estadão/Broadcast, será a primeira fala formal após a reeleição e deve tratar de responsabilidade fiscal e de medidas de ajuste.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/lula-fara-pronunciamento-para-anunciar-medidas-de-ajuste-e-tentar-acalmar-mercado/"
+        }
+      ]
     }
   ],
   "resolutions": {
