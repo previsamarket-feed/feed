@@ -2974,6 +2974,23 @@
           "url": "https://www.infomoney.com.br/politica/lula-fara-pronunciamento-para-anunciar-medidas-de-ajuste-e-tentar-acalmar-mercado/"
         }
       ]
+    },
+    {
+      "id": "d20261105-eco-7",
+      "cat": "Economia",
+      "q": "O Banco Central manterá a Selic em 13,75% até 31/12/2027?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-05T00:00:00-03:00",
+      "crit": "Sim, se o Banco Central mantiver a Selic em 13,75% até 31/12/2027; Não, se a taxa mudar antes dessa data.",
+      "src": "CNN Brasil",
+      "desc": "A notícia relata que agentes econômicos e o Banco Central estão avaliando a possibilidade de manter a taxa Selic em 13,75% até o final de 2027, indicando um cenário de estabilidade monetária futura."
     }
   ],
   "resolutions": {
