@@ -3337,6 +3337,23 @@
       "crit": "Sim, se Cristiano Ronaldo marcar pelo menos um gol na partida; Não, se não marcar. Fonte: CNN Brasil, 2026-11-05.",
       "src": "CNN Brasil",
       "desc": "Previsão se o jogador Cristiano Ronaldo marcará gol na sua última partida internacional em novembro, conforme anúncio da Federação Portuguesa."
+    },
+    {
+      "id": "d20261105-eco-8",
+      "cat": "Economia",
+      "q": "O Copom manterá a Selic em 13,75% na próxima reunião em 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-30T23:59:59-03:00",
+      "crit": "Sim, se o comunicado do Copom em 30/11 indicar Selic 13,75%; Não, se indicar outra taxa.",
+      "src": "Banco Central do Brasil",
+      "desc": "Pergunta se a taxa Selic permanecerá em 13,75% na próxima reunião do Copom, verificável no comunicado oficial do Banco Central."
     }
   ],
   "resolutions": {
