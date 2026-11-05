@@ -3008,6 +3008,278 @@
       "crit": "Sim, se a Alpine publicar comunicado de contrato até 20/12/2026; Não, se não houver comunicado até 20/12/2026.",
       "src": "Alpine F1 Team comunicado oficial",
       "desc": "Gasly, que agora corre pela Alpine, afirmou que a saída da Red Bull teve impacto em sua carreira. O próximo passo é se ele será recontratado pela Alpine para a temporada 2027."
+    },
+    {
+      "id": "d20261105-eco-1",
+      "cat": "Economia",
+      "q": "A Câmara vai aprovar em plenário a MP do 'imposto do pecado', publicada em 4/11 com alíquotas de 2,6% a 66,7%, até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar a MP 1.399/2026 (ou o projeto de lei de conversão dela) entre 06/11/2026 e 31/12/2026, conforme o site da Câmara. Não, se isso não ocorrer até 31/12/2026.",
+      "src": "Câmara dos Deputados (votações em plenário) e Congresso Nacional",
+      "desc": "A MP vale por 60 dias, prorrogáveis por mais 60, e precisa passar por uma comissão mista antes dos plenários. Votações de MP costumam ficar perto do fim do prazo.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/governo-federal-publica-mp-do-imposto-do-pecado-com-aliquota-de"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-eco-2",
+      "cat": "Economia",
+      "q": "Com a Selic em 13,75% e o mercado em alerta, as vendas do comércio varejista de setembro vão crescer na comparação com agosto?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-09T12:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, até 20/11/2026, variação positiva (acima de 0,0%) do volume de vendas do comércio varejista de setembro de 2026 frente a agosto, na série com ajuste sazonal da Pesquisa Mensal de Comércio. Não, se for zero ou negativa. Se o dado não sair até 20/11, a pergunta será retirada.",
+      "src": "IBGE (Pesquisa Mensal de Comércio, PMC)",
+      "desc": "Juros altos encarecem o crédito e pesam sobre o consumo, mas o varejo costuma oscilar de um mês para o outro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-fin-1",
+      "cat": "Finanças",
+      "q": "O Ibovespa, que despencou 16,6% numa semana depois da reeleição, vai fechar novembro em alta sobre o fechamento de outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-27T12:00:00-03:00",
+      "crit": "Sim, se o fechamento do Ibovespa em 30/11/2026, divulgado pela B3, for maior que o fechamento de 30/10/2026. Não, se for igual ou menor.",
+      "src": "B3 (série histórica do Ibovespa)",
+      "desc": "Depois da forte queda e do aperto nos prefixados do Tesouro, o índice ainda tenta recuperar parte das perdas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-26102026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-fin-2",
+      "cat": "Finanças",
+      "q": "Com os democratas no controle do Congresso dos EUA, o S&P 500 vai fechar 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-06T12:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do S&P 500 em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "S&P Dow Jones Indices (fechamento diário do S&P 500)",
+      "desc": "Em semanas comuns, o índice americano sobe um pouco mais da metade das vezes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/democratas-conquistam-congresso-em-esmagadora-rejeicao-a-trump-nas-midterms/"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Câmara vai aprovar em plenário o PL 2.338/2023, o marco legal da inteligência artificial, até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.1,
+        0.9
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar o PL 2.338/2023 entre 06/11/2026 e 31/12/2026, conforme o site da Câmara. Não, se isso não ocorrer até 31/12/2026.",
+      "src": "Câmara dos Deputados (tramitação do PL 2.338/2023)",
+      "desc": "O projeto, aprovado pelo Senado, é analisado por comissão especial da Câmara, e governo, big techs e setor produtivo divergem sobre o texto.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/ia-fazenda-tambem-quer-atualizar-regulacao-do-mercado-diz-secretario"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Tesla, que viu o valor de seu principal acionista cair após a derrota eleitoral de aliados de Trump, vai fechar 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-06T12:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Tesla (TSLA) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (fechamento diário de TSLA)",
+      "desc": "A ação é uma das mais voláteis entre as grandes empresas de tecnologia dos EUA."
+    },
+    {
+      "id": "d20261105-neg-1",
+      "cat": "Negócios",
+      "q": "A Rede D'Or, que divulga balanço em 11/11, terá lucro líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 da Rede D'Or, no release de resultados divulgado até 20/11/2026, for maior que o lucro líquido do 2T26 informado no mesmo documento. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Rede D'Or (Relações com Investidores, release 3T26)",
+      "desc": "A agenda de balanços do 3T26 da bolsa traz a empresa em 11/11, no mesmo dia de Banco do Brasil e Hapvida.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-neg-2",
+      "cat": "Negócios",
+      "q": "A Rumo, que divulga balanço em 11/11, terá lucro líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 da Rumo, no release de resultados divulgado até 20/11/2026, for maior que o lucro líquido do 2T26 informado no mesmo documento. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Rumo (Relações com Investidores, release 3T26)",
+      "desc": "A ferrovia depende do volume de grãos e do câmbio, e o terceiro trimestre costuma ter safra em movimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-esp-1",
+      "cat": "Esporte",
+      "q": "Líder do Brasileirão com 76 pontos, o Flamengo vai vencer o Athletico-PR no Maracanã, em 18/11?",
+      "outs": [
+        "Vitória do Flamengo",
+        "Empate",
+        "Vitória do Athletico-PR"
+      ],
+      "p": [
+        0.62,
+        0.23,
+        0.15
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Vitória do Flamengo, se o placar final do jogo da 35ª rodada, em 18/11/2026, for favorável ao Flamengo no tempo regulamentar; Empate, se terminar igualado; Vitória do Athletico-PR, se o placar for favorável ao Athletico-PR. Vale a súmula da CBF.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O Flamengo bateu o Grêmio por 3 a 1 e abriu 6 pontos de vantagem sobre o Palmeiras; a rodada volta depois da Data Fifa.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/brasileirao-flamengo-vence-gremio-e-abre-vantagem-de-6-pontos-na-lideranca"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-esp-2",
+      "cat": "Esporte",
+      "q": "O Flamengo ainda terá pelo menos 6 pontos de vantagem sobre o segundo colocado ao fim da 35ª rodada do Brasileirão?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-17T22:00:00-03:00",
+      "crit": "Sim, se na tabela oficial da CBF, depois de concluídos os jogos da 35ª rodada de Flamengo e do segundo colocado, o Flamengo tiver 6 pontos ou mais de vantagem sobre o segundo colocado. Não, se a vantagem for menor.",
+      "src": "CBF (tabela do Brasileirão)",
+      "desc": "A vantagem é de 6 pontos hoje, e qualquer tropeço do líder, ou vitória do rival, a reduz.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/brasileirao-flamengo-vence-gremio-e-abre-vantagem-de-6-pontos-na-lideranca"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-pol-1",
+      "cat": "Política",
+      "q": "A comissão mista que vai analisar a MP do 'imposto do pecado' será instalada no Congresso até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se o Congresso Nacional registrar a instalação da comissão mista da MP 1.399/2026 até 30/11/2026, conforme o site do Congresso. Não, se a comissão não for instalada até essa data.",
+      "src": "Congresso Nacional (tramitação da MP 1.399/2026)",
+      "desc": "A MP, publicada em 4/11, precisa passar por comissão mista de deputados e senadores antes das votações nos plenários.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/governo-federal-publica-mp-do-imposto-do-pecado-com-aliquota-de"
+        }
+      ]
+    },
+    {
+      "id": "d20261105-pol-2",
+      "cat": "Política",
+      "q": "Depois da vitória democrata nas eleições de meio de mandato, Hakeem Jeffries será eleito presidente da Câmara dos EUA na votação de janeiro de 2027?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.82,
+        0.18
+      ],
+      "close": "2026-12-31T18:00:00-03:00",
+      "crit": "Sim, se Hakeem Jeffries for eleito presidente da Câmara dos Representantes dos EUA na votação de abertura do novo Congresso, até 10/01/2027, conforme o Clerk da Câmara. Não, se outra pessoa for eleita ou se ele não for eleito até essa data.",
+      "src": "Clerk da Câmara dos Representantes dos EUA (clerk.house.gov)",
+      "desc": "A eleição do presidente da Câmara é feita por voto dos deputados eleitos, na abertura do novo mandato, em janeiro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/democratas-conquistam-congresso-em-esmagadora-rejeicao-a-trump-nas-midterms/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -3114,6 +3386,30 @@
     "d20261030-pol-5": {
       "outcome": 0,
       "evidence": "https://www25.senado.leg.br/web/atividade/materias"
+    },
+    "d20261021-fin-1": {
+      "outcome": 1,
+      "evidence": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros"
+    },
+    "d20261104-eco-1": {
+      "outcome": 0,
+      "evidence": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros"
+    },
+    "d20261104-esp-3": {
+      "outcome": 0,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a"
+    },
+    "d20261028-pol-5": {
+      "outcome": 1,
+      "evidence": "https://clerk.house.gov/"
+    },
+    "d20261031-pol-1": {
+      "outcome": 1,
+      "evidence": "https://www.senate.gov/"
+    },
+    "d20261028-fin-1": {
+      "outcome": 0,
+      "evidence": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes"
     }
   },
   "withdrawn": [
