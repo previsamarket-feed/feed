@@ -3354,6 +3354,40 @@
       "crit": "Sim, se o comunicado do Copom em 30/11 indicar Selic 13,75%; Não, se indicar outra taxa.",
       "src": "Banco Central do Brasil",
       "desc": "Pergunta se a taxa Selic permanecerá em 13,75% na próxima reunião do Copom, verificável no comunicado oficial do Banco Central."
+    },
+    {
+      "id": "d20261105-eco-9",
+      "cat": "Economia",
+      "q": "O comprador que opta por apartamento na planta terá economia na fase de obras até 2026-12-05?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-05T00:00:00-03:00",
+      "crit": "Sim, se a construtora comprovar economia na fase de obras até a entrega do imóvel; Não, se não houver comprovação.",
+      "src": "CNN Brasil",
+      "desc": "Pergunta se a economia na fase de obras será confirmada para compradores de apartamento na planta até a data de entrega do imóvel, verificável por relatório da construtora."
+    },
+    {
+      "id": "d20261105-esp-9",
+      "cat": "Esporte",
+      "q": "O Lakers vencerá o próximo jogo da temporada até 12/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-12T23:59:59-03:00",
+      "crit": "Sim, se o Lakers vencer o próximo jogo da temporada até 12/12; Não, se não vencer.",
+      "src": "CNN Brasil",
+      "desc": "Após a vitória de 40 pontos de Luka Doncic, o próximo jogo do Lakers será decisivo para manter a sequência de vitórias na temporada."
     }
   ],
   "resolutions": {
