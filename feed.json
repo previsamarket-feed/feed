@@ -3297,6 +3297,29 @@
       "crit": "Sim, se a Corsan publicar comunicado de entrega de nova estação em Iraí até 20/12/2026; Não, se não houver comunicado até essa data.",
       "src": "CNN Brasil",
       "desc": "A Corsan já entregou uma estação de tratamento de esgoto em Iraí como parte de investimentos de mais de R$300 milhões. A pergunta investiga se haverá entrega de outra estação até 20 de dezembro de 2026."
+    },
+    {
+      "id": "d20261105-pol-3",
+      "cat": "Política",
+      "q": "O Ministério do Trabalho anunciou decreto do fim da escala 6x1 para segunda (9/11), mas ainda falta o aval do presidente: o decreto será publicado no Diário Oficial até 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-08T18:00:00-03:00",
+      "crit": "Sim, se um decreto que regulamenta o fim da escala 6x1 for publicado no Diário Oficial da União entre 9/11/2026 e 13/11/2026; Não, se não houver publicação nesse período.",
+      "src": "Diário Oficial da União (in.gov.br)",
+      "desc": "O ministro do Trabalho disse na quarta (4/11) que o decreto deve sair na segunda (9/11), mas o texto ainda precisa ser validado pelo presidente com técnicos da Casa Civil e a data da reunião não está definida.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/decreto-do-fim-da-escala-6x1-deve-sair-na-segunda-9-11-diz-ministro"
+        }
+      ]
     }
   ],
   "resolutions": {
