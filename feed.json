@@ -3388,6 +3388,29 @@
       "crit": "Sim, se o Lakers vencer o próximo jogo da temporada até 12/12; Não, se não vencer.",
       "src": "CNN Brasil",
       "desc": "Após a vitória de 40 pontos de Luka Doncic, o próximo jogo do Lakers será decisivo para manter a sequência de vitórias na temporada."
+    },
+    {
+      "id": "d20261105-eco-3",
+      "cat": "Economia",
+      "q": "O IBGE, que abriu 27.279 vagas temporárias de recenseador para o Censo Agropecuário de 2027, vai prorrogar o prazo de inscrição, que termina em 25/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.25,
+        0.75
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se o IBGE ou a Fundação Cesgranrio divulgarem, até 25/11/2026, edital ou aviso oficial que estenda a data final das inscrições além de 25/11/2026. Não, se o prazo for mantido em 25/11/2026.",
+      "src": "Site do IBGE (concursos) e da Fundação Cesgranrio",
+      "desc": "Inscrições vão de 6 a 25 de novembro, com taxa de R$ 70, para vagas de recenseador com salário a partir de R$ 1.741.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/ibge-anuncia-concurso-com-27-mil-vagas-temporarias-veja-salarios"
+        }
+      ]
     }
   ],
   "resolutions": {
