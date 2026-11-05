@@ -3320,6 +3320,23 @@
           "url": "https://www.metropoles.com/brasil/decreto-do-fim-da-escala-6x1-deve-sair-na-segunda-9-11-diz-ministro"
         }
       ]
+    },
+    {
+      "id": "d20261105-esp-8",
+      "cat": "Esporte",
+      "q": "Ronaldo marcará algum gol na sua última partida internacional em novembro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-10T00:00:00-03:00",
+      "crit": "Sim, se Cristiano Ronaldo marcar pelo menos um gol na partida; Não, se não marcar. Fonte: CNN Brasil, 2026-11-05.",
+      "src": "CNN Brasil",
+      "desc": "Previsão se o jogador Cristiano Ronaldo marcará gol na sua última partida internacional em novembro, conforme anúncio da Federação Portuguesa."
     }
   ],
   "resolutions": {
