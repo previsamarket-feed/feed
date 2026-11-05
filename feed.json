@@ -2991,6 +2991,23 @@
       "crit": "Sim, se o Banco Central mantiver a Selic em 13,75% até 31/12/2027; Não, se a taxa mudar antes dessa data.",
       "src": "CNN Brasil",
       "desc": "A notícia relata que agentes econômicos e o Banco Central estão avaliando a possibilidade de manter a taxa Selic em 13,75% até o final de 2027, indicando um cenário de estabilidade monetária futura."
+    },
+    {
+      "id": "d20261105-esp-7",
+      "cat": "Esporte",
+      "q": "Pierre Gasly será recontratado pela Alpine para a temporada 2027?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-20T00:00:00-03:00",
+      "crit": "Sim, se a Alpine publicar comunicado de contrato até 20/12/2026; Não, se não houver comunicado até 20/12/2026.",
+      "src": "Alpine F1 Team comunicado oficial",
+      "desc": "Gasly, que agora corre pela Alpine, afirmou que a saída da Red Bull teve impacto em sua carreira. O próximo passo é se ele será recontratado pela Alpine para a temporada 2027."
     }
   ],
   "resolutions": {
