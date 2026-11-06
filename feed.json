@@ -3772,6 +3772,56 @@
           "url": "https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml"
         }
       ]
+    },
+    {
+      "id": "d20261106-tec-4",
+      "cat": "Tecnologia",
+      "q": "Nubank e Mercado Pago suspenderam transferências de criptomoedas por falha em fornecedor: o Nubank vai informar a retomada das transferências de cripto até 10/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-06T23:00:00-03:00",
+      "crit": "Sim, se, até 10/11/2026 às 23h59 (Brasília), o Nubank comunicar oficialmente (aplicativo, central de ajuda ou nota à imprensa) que as transferências de criptomoedas voltaram a funcionar. Não, se não houver esse comunicado até o prazo. Fonte: comunicados do Nubank.",
+      "src": "Comunicados oficiais do Nubank",
+      "desc": "Na sexta (6/11), Nubank e Mercado Pago suspenderam saques e depósitos de cripto por instabilidade em fornecedores; a compra e venda segue normal e não há prazo de retomada.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/nubank-e-mercado-pago-suspendem-transferencias-de-criptomoedas/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-pol-4",
+      "cat": "Política",
+      "q": "Depois de 27% de faltas no primeiro dia do Enem 2025, a abstenção no primeiro dia do Enem 2026, neste domingo (8/11), ficará abaixo de 27%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-07T22:00:00-03:00",
+      "crit": "Sim, se o MEC/Inep divulgar abstenção inferior a 27,0% no primeiro dia de provas do Enem 2026 (8/11/2026). Não, se for igual ou superior a 27,0%. Fonte: MEC e Inep.",
+      "src": "MEC e Inep",
+      "desc": "O Enem 2026 tem provas em 8 e 15 de novembro, com mais de 5 milhões de inscrições confirmadas; em 2025 o primeiro dia teve 27% de ausências.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/enem-2026-veja-datas-horarios-documentos-e-o-que-levar-para-a-prova"
+        }
+      ]
     }
   ],
   "resolutions": {
