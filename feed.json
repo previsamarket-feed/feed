@@ -3749,6 +3749,29 @@
           "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/04/governo-publica-novas-regras-para-combater-golpes-por-sms-veja-o-que-muda.ghtml"
         }
       ]
+    },
+    {
+      "id": "d20261106-fin-3",
+      "cat": "Finanças",
+      "q": "Depois de cair 5,96% na sexta-feira (6/11), arrastado pelo tombo das ações de IA em Wall Street, o Nikkei, da bolsa do Japão, fechará 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o fechamento do índice Nikkei 225 em 13/11/2026 (horário de Tóquio) for maior que o fechamento de 6/11/2026. Não, se for igual ou menor. Fonte: Nikkei Indexes / Bolsa de Tóquio (JPX), com fechamento oficial divulgado no pregão de cada dia.",
+      "src": "Nikkei Indexes e Bolsa de Tóquio (JPX)",
+      "desc": "As bolsas da Ásia despencaram com o temor de que os investimentos bilionários em inteligência artificial não deem o retorno esperado; o Nikkei fechou em baixa de 5,96%.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
