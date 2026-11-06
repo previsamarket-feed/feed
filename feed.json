@@ -52,29 +52,6 @@
       ]
     },
     {
-      "id": "d20261020-fin-1",
-      "cat": "Finanças",
-      "q": "O Ibovespa fechará o pregão de 23/10 acima de 208.000 pontos?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-10-22T18:00:00-03:00",
-      "crit": "Sim, se a pontuação de fechamento do Ibovespa em 23/10/2026, conforme a B3, for maior que 208.000 pontos. Não, caso contrário. Se não houver pregão nessa data, vale o último fechamento anterior.",
-      "src": "B3 (fechamento do Ibovespa)",
-      "desc": "O índice fechou a terça-feira (20/10) em 208.296 pontos, com alta de 1,57%.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-20102026/"
-        }
-      ]
-    },
-    {
       "id": "d20261020-fin-2",
       "cat": "Finanças",
       "q": "A PTAX de venda do dólar em 30/10 ficará abaixo de R$ 5,00?",
@@ -98,29 +75,6 @@
       ]
     },
     {
-      "id": "d20261020-tec-1",
-      "cat": "Tecnologia",
-      "q": "A Anatel vai prorrogar a consulta pública sobre o leilão de 6G, que termina em 23/10?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.25,
-        0.75
-      ],
-      "close": "2026-10-22T18:00:00-03:00",
-      "crit": "Sim, se a Anatel publicar, até 30/10/2026, a prorrogação do prazo final (23/10/2026) da consulta pública sobre as faixas e o leilão de 6G. Não, se o prazo não for prorrogado.",
-      "src": "Anatel (página de consultas públicas)",
-      "desc": "A consulta foi aberta em 8/9 e o conselho diretor aprovou a proposta por 4 votos a 1. O edital ainda não tem data.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/neila-guimaraes/anatel-atropela-governo-e-tenta-desenhar-sozinha-leilao-bilionario-do-6g"
-        }
-      ]
-    },
-    {
       "id": "d20261020-tec-2",
       "cat": "Tecnologia",
       "q": "A Anatel aprovará o edital do leilão de 6G até 4 de dezembro de 2026?",
@@ -140,33 +94,6 @@
         {
           "name": "Metrópoles",
           "url": "https://www.metropoles.com/colunas/neila-guimaraes/anatel-atropela-governo-e-tenta-desenhar-sozinha-leilao-bilionario-do-6g"
-        }
-      ]
-    },
-    {
-      "id": "d20261020-neg-1",
-      "cat": "Negócios",
-      "q": "O Bradesco terá lucro líquido recorrente acima de R$ 7 bilhões no 3º trimestre de 2026?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.55,
-        0.45
-      ],
-      "close": "2026-10-22T12:00:00-03:00",
-      "crit": "Sim, se o lucro líquido recorrente do Bradesco no 3T26, no release de resultados divulgado em 22/10/2026, for maior que R$ 7,0 bilhões. Não, caso contrário.",
-      "src": "Bradesco (Relações com Investidores, release 3T26)",
-      "desc": "Uma projeção de casa de análise aponta cerca de R$ 7,1 bilhões, alta de 15% sobre um ano antes.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/temporada-de-balancos-terceiro-trimestre-2026-em-destaque-acoes-e-setores-para-ficar-de-olho/"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
         }
       ]
     },
@@ -533,33 +460,6 @@
         {
           "name": "InfoMoney",
           "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-        }
-      ]
-    },
-    {
-      "id": "d20261021-esp-1",
-      "cat": "Esporte",
-      "q": "O Flamengo vai se classificar para a final da Libertadores, após o jogo de volta contra o Estudiantes?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.64,
-        0.36
-      ],
-      "close": "2026-10-22T18:00:00-03:00",
-      "crit": "Sim, se a Conmebol registrar o Flamengo classificado à final após o jogo de volta de 22/10/2026 no Maracanã (inclusive nos pênaltis). Não, se o Estudiantes avançar.",
-      "src": "Conmebol (súmula e site oficial da Libertadores)",
-      "desc": "A ida terminou 0 x 0 na Argentina. Quem avançar na volta, no Maracanã, vai à final; novo empate leva à disputa de pênaltis.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/libertadores-estudiantes-e-flamengo-empatam-sem-gols-na-ida-da-semifinal"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/semana-tera-liga-dos-campeoes-e-decisoes-na-libertadores-e-na-sul-americana"
         }
       ]
     },
@@ -3480,6 +3380,329 @@
           "url": "https://www.metropoles.com/brasil/endividamento-das-familias-recua-pelo-2o-mes-seguido-e-atinge-816"
         }
       ]
+    },
+    {
+      "id": "d20261106-eco-1",
+      "cat": "Economia",
+      "q": "Com a prévia da inflação de outubro em 0,32% e o IPCA em 12 meses já acima do teto da meta, o IPCA cheio de outubro vai ficar acima de 4,5% em 12 meses?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-11-09T12:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar IPCA de outubro de 2026 com variação acumulada em 12 meses acima de 4,50%. Não, se for 4,50% ou menos. Vale o número oficial do IBGE na divulgação do IPCA de outubro; se não sair até 20/11/2026, a pergunta será retirada.",
+      "src": "IBGE (SIDRA, IPCA de outubro de 2026)",
+      "desc": "O teto da meta de inflação é 4,5%. O IPCA-15 de outubro desacelerou para 0,32%, mas o acumulado em 12 meses seguiu pressionado.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ipca-15-outubro-previa-inflacao-fura-meta/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/previa-da-inflacao-ipca-15-desacelera-para-032-em-outubro"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-eco-2",
+      "cat": "Economia",
+      "q": "Com o Copom em alerta para expectativas de inflação em alta, a projeção do Focus para o IPCA de 2026 na edição de 16/11 será maior que a da edição de 9/11?",
+      "outs": [
+        "Sim, maior",
+        "Não, igual ou menor"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-08T12:00:00-03:00",
+      "crit": "Sim, se a mediana de IPCA 2026 no Boletim Focus de 16/11/2026 for maior que a do Focus de 9/11/2026. Não, se for igual ou menor. Fonte: Banco Central do Brasil (Focus), na tabela de expectativas de mercado.",
+      "src": "Banco Central do Brasil (Boletim Focus)",
+      "desc": "O Copom manteve a Selic em 13,75% e destacou o aumento das incertezas. O Focus mostra se o mercado piorou a conta da inflação.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-fin-1",
+      "cat": "Finanças",
+      "q": "O dólar, que fechou a R$ 5,45 em 4/11 depois de dias de pressão pós-eleição, terá PTAX de 13/11 abaixo de R$ 5,45?",
+      "outs": [
+        "Sim, abaixo",
+        "Não, igual ou acima"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se a taxa PTAX de venda do dólar de 13/11/2026, divulgada pelo Banco Central, for menor que R$ 5,4500. Não, se for igual ou maior.",
+      "src": "Banco Central do Brasil (PTAX, cotações e boletins)",
+      "desc": "O dólar comercial recuou 0,64% em 4/11, para R$ 5,452, com o exterior mais calmo após as eleições nos EUA.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-fin-2",
+      "cat": "Finanças",
+      "q": "O Banco do Brasil, que viu a ação despencar quase 30% e tem analistas divididos sobre as provisões do agro, vai lucrar mais de R$ 3,7 bilhões no 3º trimestre?",
+      "outs": [
+        "Sim, acima de R$ 3,7 bi",
+        "Não, R$ 3,7 bi ou menos"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido ajustado do 3T26 divulgado pelo Banco do Brasil (balanço previsto para 11/11/2026) for maior que R$ 3,7 bilhões. Não, se for igual ou menor. Se o balanço não sair até 20/11/2026, a pergunta será retirada.",
+      "src": "Banco do Brasil (Relações com Investidores, release 3T26)",
+      "desc": "O consenso da LSEG citado pelo mercado aponta lucro de R$ 3,7 bi; o Bradesco BBI projeta cerca de R$ 1,8 bi.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bancos-itub4-bbas3/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bbas3-desempenho-acao-do-banco-do-brasil-apos-tombo-de-quase-30-mercado-mantem-cautela/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-tec-1",
+      "cat": "Tecnologia",
+      "q": "Com as big techs pressionadas por gastos em IA, a Nvidia vai fechar 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-09T08:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Nvidia (NVDA) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (cotação histórica de NVDA)",
+      "desc": "A Nvidia lidera a corrida da IA, mas o setor vem alternando altas e quedas fortes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Apple vai fechar 13/11 acima do fechamento de 6/11, em semana de balanços e juros ainda no radar do setor de tecnologia?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.52,
+        0.48
+      ],
+      "close": "2026-11-09T08:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Apple (AAPL) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (cotação histórica de AAPL)",
+      "desc": "A Apple foi das big techs com melhor desempenho em 2026.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/apple-retoma-posto-de-empresa-mais-valiosa-do-mundo-e-supera-nvidia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-neg-1",
+      "cat": "Negócios",
+      "q": "A Embraer, que divulga balanço em 10/11, terá lucro líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 da Embraer, no release de resultados, for maior que o lucro líquido do 2T26 informado no mesmo documento. Não, se for igual ou menor. Se o balanço não sair até 20/11/2026, a pergunta será retirada.",
+      "src": "Embraer (Relações com Investidores, release 3T26)",
+      "desc": "Analistas veem trimestre positivo para a fabricante, que segue no caminho para cumprir as metas do ano.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bens-de-capital-wege3-embj3/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-neg-2",
+      "cat": "Negócios",
+      "q": "A Americanas, que divulga balanço em 11/11, vai ter lucro líquido no 3º trimestre de 2026?",
+      "outs": [
+        "Sim, lucro",
+        "Não, prejuízo ou zero"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o resultado líquido do 3T26 da Americanas, no release de resultados, for lucro (maior que zero). Não, se for prejuízo ou zero. Se o balanço não sair até 20/11/2026, a pergunta será retirada.",
+      "src": "Americanas (Relações com Investidores, release 3T26)",
+      "desc": "A varejista segue em reestruturação e tem registrado prejuízos nos últimos trimestres.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-esp-1",
+      "cat": "Esporte",
+      "q": "Quem leva o duelo Cruzeiro x Palmeiras, no Mineirão, em 18/11, na 35ª rodada do Brasileirão?",
+      "outs": [
+        "Vitória do Cruzeiro",
+        "Empate",
+        "Vitória do Palmeiras"
+      ],
+      "p": [
+        0.36,
+        0.28,
+        0.36
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado do jogo Cruzeiro x Palmeiras, em 18/11/2026, após os 90 minutos mais acréscimos, conforme súmula e tabela oficial da CBF. Se o jogo for adiado para depois de 31/12/2026, a pergunta será retirada.",
+      "src": "CBF (tabela e súmula do Brasileirão)",
+      "desc": "O Palmeiras caça o líder Flamengo e encara o Cruzeiro em casa difícil, três dias antes do jogo do título.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/confira-tabelas-de-flamengo-e-palmeiras-ate-o-fim-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-esp-2",
+      "cat": "Esporte",
+      "q": "Quem leva Mirassol x Atlético-MG, no Maião, em 14/11, pela 35ª rodada do Brasileirão?",
+      "outs": [
+        "Vitória do Mirassol",
+        "Empate",
+        "Vitória do Atlético-MG"
+      ],
+      "p": [
+        0.36,
+        0.3,
+        0.34
+      ],
+      "close": "2026-11-14T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado do jogo Mirassol x Atlético-MG, em 14/11/2026, após os 90 minutos mais acréscimos, conforme súmula e tabela oficial da CBF. Se o jogo for adiado para depois de 31/12/2026, a pergunta será retirada.",
+      "src": "CBF (tabela e súmula do Brasileirão)",
+      "desc": "A CBF marcou a abertura da 35ª rodada para o sábado, às 18h30.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-pol-1",
+      "cat": "Política",
+      "q": "O presidente de Israel, Isaac Herzog, vai encarregar Gadi Eisenkot de formar o governo até 11/11, prazo citado pela imprensa para ele escolher um nome?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-09T12:00:00-03:00",
+      "crit": "Sim, se o Gabinete do Presidente de Israel anunciar, até 11/11/2026, que Gadi Eisenkot recebeu o encargo de formar o governo. Não, se outro nome for escolhido ou se não houver indicação até essa data.",
+      "src": "Gabinete do Presidente de Israel (president.gov.il)",
+      "desc": "Os principais partidos árabes anunciaram apoio a Eisenkot, e o prazo para a indicação termina em 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-pol-2",
+      "cat": "Política",
+      "q": "A Câmara vai aprovar em plenário, até 17/11, a MP 1.379/2026, que libera R$ 22,6 bilhões em crédito a empresas atingidas pelas sobretaxas dos EUA e perde a validade em 18/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar a MP 1.379/2026 (ou o projeto de lei de conversão) até 17/11/2026, conforme o site da Câmara. Não, caso contrário.",
+      "src": "Câmara dos Deputados (tramitação da MP 1.379/2026)",
+      "desc": "A MP precisa passar pela Câmara e pelo Senado antes de 18/11, quando perde a validade.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/payroll-balanca-comercial-brasil-agenda-06112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-pol-3",
+      "cat": "Política",
+      "q": "Davi Alcolumbre será eleito presidente do Senado na votação de 1º/2/2027, depois de PP e União apoiarem sua reeleição e o PL lançar Rogério Marinho?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.68,
+        0.32
+      ],
+      "close": "2027-01-29T18:00:00-03:00",
+      "crit": "Sim, se Davi Alcolumbre for eleito presidente do Senado Federal para o biênio 2027-2029, conforme a Agência Senado. Não, se outro senador for eleito. Se a votação não ocorrer até 15/2/2027, a pergunta será retirada.",
+      "src": "Agência Senado (eleição da Mesa Diretora)",
+      "desc": "PP e União anunciaram apoio à reeleição de Alcolumbre; o PL oficializou Marinho como candidato.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/uniao-e-pp-apoiam-reeleicao-de-alcolumbre-e-afastam-planos-de-tereza"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/pl-oficializa-candidatura-de-rogerio-marinho-para-a-presidencia-do-senado"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -3610,6 +3833,14 @@
     "d20261028-fin-1": {
       "outcome": 0,
       "evidence": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes"
+    },
+    "d20261023-eco-1": {
+      "outcome": 1,
+      "evidence": "https://www.ibge.gov.br/estatisticas/economicas/industria-e-construcao/9294-pesquisa-industrial-mensal-producao-fisica-brasil.html"
+    },
+    "d20261031-neg-2": {
+      "outcome": 0,
+      "evidence": "https://ri.suzano.com.br/"
     }
   },
   "withdrawn": [
