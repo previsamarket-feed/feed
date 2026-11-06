@@ -206,3 +206,12 @@ A rotina diária **não** deve copiar estes casos (veja a seção 2B).
 - A **fonte é citada dentro da matéria**, no corpo do texto, com link direto do portal ou do órgão oficial.
 - **Fotos**: nunca repetir foto entre matérias, escolher pelo assunto da matéria e dar o crédito visível ("Foto: autor/agência"). Valem as restrições da seção 2C (sem Reuters, Getty, AFP, AP; sem foto marcada "proibida reprodução").
 
+
+## 2F. Sem fotos nas matérias; imagens geradas por IA (dono, 06/11/2026)
+
+O dono mandou: "retira todas as fotos, não publica foto e crie imagens em IA para as matérias". Motivo: fotos sem conexão com a manchete.
+
+- **Nenhuma foto** (de agência, banco de imagens ou da web) entra em matéria, capa ou carrossel. Isto **substitui** as regras de fotos e créditos das seções 2C e 2E.
+- Cada matéria leva uma **imagem gerada por IA** ligada ao assunto da manchete, sem pessoas reais identificáveis, sem logotipos nem marcas de terceiros e sem texto dentro da imagem. Rotular como "Imagem gerada por IA".
+- Conferir antes de publicar: a imagem ilustra o assunto da manchete. Sem imagem adequada, a matéria sai sem imagem.
+- A remoção das fotos já publicadas (`capa.json` e matérias no D1 `previsamarket-redacao`) exige sessão com o painel do Cloudflare aberto; esta rotina de pauta quente não tem acesso e não mexe nesses dados.
