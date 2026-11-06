@@ -3457,6 +3457,29 @@
           "url": "https://www.metropoles.com/colunas/matheus-leitao/adiar-a-reforma-tributaria-atrasa-devolucao-de-imposto-aos-mais-pobres"
         }
       ]
+    },
+    {
+      "id": "d20261105-eco-5",
+      "cat": "Economia",
+      "q": "Com o endividamento das famílias em 81,6% em outubro, após dois recuos seguidos e o Desenrola 2.0, a taxa de novembro da CNC ficará acima de 81,6%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-12-01T18:00:00-03:00",
+      "crit": "Sim, se a Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) da CNC referente a novembro de 2026 mostrar percentual de famílias endividadas acima de 81,6%. Não, se for igual ou inferior a 81,6%. A fonte é o relatório da CNC divulgado em dezembro de 2026.",
+      "src": "CNC (Peic de novembro de 2026)",
+      "desc": "Em outubro, 81,6% das famílias tinham dívidas, 0,1 ponto a menos que em setembro, mas 2,1 pontos acima de um ano antes.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/endividamento-das-familias-recua-pelo-2o-mes-seguido-e-atinge-816"
+        }
+      ]
     }
   ],
   "resolutions": {
