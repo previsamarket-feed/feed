@@ -3703,6 +3703,52 @@
           "url": "https://www.metropoles.com/brasil/pl-oficializa-candidatura-de-rogerio-marinho-para-a-presidencia-do-senado"
         }
       ]
+    },
+    {
+      "id": "d20261106-eco-3",
+      "cat": "Economia",
+      "q": "Com o imposto de 12% sobre a exportação de petróleo prorrogado até 31/12 e R$ 12,86 bilhões arrecadados no ano, o governo vai estender a cobrança para além de 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, a Camex/Gecex publicar no Diário Oficial da União resolução que mantenha a alíquota de exportação de óleos brutos de petróleo (ou de minerais betuminosos) em vigor depois de 31/12/2026. Não, se não houver ato publicado até essa data, ou se a cobrança for encerrada ou zerada em 31/12/2026. Fonte: Diário Oficial da União e site da Camex/MDIC.",
+      "src": "Diário Oficial da União e site da Camex (MDIC)",
+      "desc": "A prorrogação atual foi pedida pela Fazenda por causa dos conflitos no Oriente Médio e vale a partir de 7/11; a medida compensa subsídios a combustíveis.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/11/06/governo-prorroga-ate-31-de-dezembro-cobranca-de-imposto-de-12percent-sobre-exportacao-de-petroleo.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-tec-3",
+      "cat": "Tecnologia",
+      "q": "Com 71% dos golpes digitais passando por SMS, o governo vai prorrogar o prazo de 90 dias para as operadoras bloquearem códigos curtos não cadastrados?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2027-01-29T18:00:00-03:00",
+      "crit": "Sim, se, até 5/2/2027, o Ministério das Comunicações ou a Anatel publicarem ato oficial que estenda o prazo de 90 dias, contado da publicação das regras no Diário Oficial em 4/11/2026, para a adoção das medidas contra golpes por SMS. Não, se o prazo for mantido ou se nenhum ato de prorrogação for publicado até essa data. Fonte: Diário Oficial da União e site da Anatel.",
+      "src": "Diário Oficial da União e site da Anatel",
+      "desc": "As regras criam um cadastro público de empresas remetentes e obrigam as operadoras a barrar SMS de códigos curtos não cadastrados; a norma admite prorrogação.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/04/governo-publica-novas-regras-para-combater-golpes-por-sms-veja-o-que-muda.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
