@@ -217,3 +217,5 @@ O dono mandou: "retira todas as fotos, não publica foto e crie imagens em IA pa
 - A remoção das fotos já publicadas (`capa.json` e matérias no D1 `previsamarket-redacao`) exige sessão com o painel do Cloudflare aberto; esta rotina de pauta quente não tem acesso e não mexe nesses dados.
 
 - **Autorização permanente (dono, 07/11/2026):** toda matéria nova recebe imagem de IA gerada conforme a manchete e o conteúdo da matéria, sem pedir aprovação a cada uma. Método testado: Stable Diffusion Turbo (`stabilityai/sd-turbo`) na CPU da sessão, 512x512, 4 passos, `guidance_scale=0.0`, bfloat16 com `vae.enable_slicing()` e `enable_attention_slicing()` (sem isso falta memória), cerca de 12 s por imagem. Prompt: ilustração editorial do assunto da manchete, estilo plano e limpo, "no text, no logos, no people". Conferir a imagem antes de anexar e refazer se mostrar letras, rostos ou marcas.
+
+- **Sem imagem é permitido (dono, 07/11/2026):** matérias futuras saem **sem imagem** quando a sessão não conseguir gerar a imagem de IA (ou ela não passar na conferência). Nunca publicar foto no lugar. Não adiar matéria por falta de imagem.
