@@ -2,29 +2,6 @@
   "version": 1,
   "markets": [
     {
-      "id": "d20261020-eco-1",
-      "cat": "Economia",
-      "q": "O IPCA-15 de outubro, divulgado pelo IBGE, ficará acima de 0,50%?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.4,
-        0.6
-      ],
-      "close": "2026-10-23T07:00:00-03:00",
-      "crit": "Sim, se a variação mensal do IPCA-15 de outubro de 2026, divulgada pelo IBGE em 23/10/2026, for maior que 0,50%. Não, se for 0,50% ou menos.",
-      "src": "IBGE (IPCA-15)",
-      "desc": "Projeções de bancos para a prévia da inflação ficam entre 0,45% e 0,51% no mês, com alimentos como principal pressão.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/calendario-economico-segundo-turno-das-eleicoes-e-ipca-15-tem-as-atencoes-da-semana/"
-        }
-      ]
-    },
-    {
       "id": "d20261020-eco-2",
       "cat": "Economia",
       "q": "A taxa de desocupação do trimestre até setembro, segundo o IBGE, será de 5,2% ou menos?",
@@ -460,35 +437,6 @@
         {
           "name": "InfoMoney",
           "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-        }
-      ]
-    },
-    {
-      "id": "d20261021-esp-2",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Cruzeiro x Remo, pela 32ª rodada do Brasileirão?",
-      "outs": [
-        "Cruzeiro vence",
-        "Empate",
-        "Remo vence"
-      ],
-      "p": [
-        0.64,
-        0.22,
-        0.14
-      ],
-      "close": "2026-10-23T17:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula/tabela oficial da CBF, do jogo marcado para 23/10/2026. Se for adiado para depois de 31/10/2026, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial)",
-      "desc": "O Cruzeiro está entre os líderes do returno e joga em casa; o Remo está na zona de rebaixamento. No primeiro turno o Cruzeiro venceu por 1 x 0.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/semana-tera-liga-dos-campeoes-e-decisoes-na-libertadores-e-na-sul-americana"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/brasileirao-cruzeiro-assume-a-lideranca-do-returno-corinthians-e-o-ultimo"
         }
       ]
     },
@@ -3868,6 +3816,366 @@
           "url": "https://g1.globo.com/tecnologia/noticia/2026/11/06/ue-exige-que-tiktok-modifique-os-feeds-personalizados-devido-aos-efeitos-nocivos.ghtml"
         }
       ]
+    },
+    {
+      "id": "d20261107-eco-1",
+      "cat": "Economia",
+      "q": "Depois de saltar de 11,75% para 12,50% numa semana, a mediana do Focus para a Selic de 2027 ficará acima de 12,50% no boletim de 16/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-13T18:00:00-03:00",
+      "crit": "Sim, se a mediana da projeção para a Selic no fim de 2027 no Relatório Focus do Banco Central divulgado em 16/11/2026 for maior que 12,50%. Não, se for igual ou menor.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "No Focus de 3/11, a mediana da Selic de 2027 subiu de 11,75% para 12,50%. Dias depois, o Copom manteve a taxa em 13,75% e citou aumento das incertezas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-eco-2",
+      "cat": "Economia",
+      "q": "A Petrobras vai aumentar o preço do diesel para as distribuidoras até 30/11, com o produto cerca de 20% abaixo da paridade de importação e o subsídio federal em revisão?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se a Petrobras anunciar oficialmente, até 30/11/2026, aumento do preço do diesel vendido às distribuidoras (comunicado da empresa ou Agência Petrobras). Não, se não houver anúncio de aumento até essa data.",
+      "src": "Petrobras (comunicados e Agência Petrobras sobre preços)",
+      "desc": "Analistas estimam o diesel da estatal 20% a 25% abaixo da paridade de importação. O governo estendeu o subsídio de R$ 2,12 por litro, e o Brent recuou para perto de US$ 98.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr4-tera-que-reajustar-diesel-por-que-tema-segue-no-radar-mesmo-com-subsidios/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-cai-mais-de-20-em-2-semanas-apos-eleicoes-no-brasil-e-nos-eua-tese-mudou/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-fin-1",
+      "cat": "Finanças",
+      "q": "O Ibovespa, que subiu 1,39% e fechou a sexta (6/11) em 168.498 pontos, terminará a sexta seguinte (13/11) acima desse nível?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Ibovespa em 13/11/2026, conforme a B3, for maior que 168.498,45 pontos (fechamento de 06/11/2026). Não, se for igual ou menor.",
+      "src": "B3 (Ibovespa, fechamento de 13/11/2026)",
+      "desc": "A alta de 6/11 foi um repique depois de várias quedas e encerrou três semanas negativas, com o dólar a R$ 5,50, o maior nível de fechamento desde dezembro de 2025.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/bolsa-fecha-em-alta-de-139-e-dolar-encerra-semana-cotado-a-r-550"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/por-que-o-ibovespa-sobe-mais-de-1-mesmo-com-dados-fortes-do-payroll-nos-eua/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-fin-2",
+      "cat": "Finanças",
+      "q": "A B3, que divulga o balanço do 3º trimestre em 12/11, terá lucro líquido recorrente maior que os cerca de R$ 1,4 bilhão do 2T26?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-11T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido recorrente do 3T26 no release de resultados da B3 for maior que o do 2T26 (cerca de R$ 1,4 bilhão, conforme o release). Não, se for igual ou menor. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "B3 (Relações com Investidores, release 3T26)",
+      "desc": "No 2T26 a B3 teve lucro recorrente de R$ 1,4 bilhão, alta de 8% em um ano, em linha com o consenso. A divulgação do 3T26 está no calendário da bolsa para 12/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/b3-b3sa3-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-tec-1",
+      "cat": "Tecnologia",
+      "q": "A TIM, que lucrou R$ 1,036 bilhão no 2º trimestre e divulga balanço em 9/11, terá lucro líquido do 3T26 maior que esse valor?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-08T20:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 no release de resultados da TIM for maior que R$ 1,036 bilhão (valor do 2T26). Não, se for igual ou menor. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "TIM (Relações com Investidores, release 3T26)",
+      "desc": "No 2T26 o lucro líquido da operadora cresceu 6,2% em um ano. O calendário de balanços da bolsa marca a divulgação do 3T26 para 9/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/tim-tims3-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-tec-2",
+      "cat": "Tecnologia",
+      "q": "Com o temor de regulação da IA pesando nas ações do setor, a Alphabet (Google) fechará 13/11 acima do fechamento de 6/11 na Nasdaq?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Alphabet (GOOGL) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (fechamento diário de GOOGL)",
+      "desc": "Ações de IA e chips caíram em Nova York nos últimos dias, com investidores receosos de regras mais duras para o setor depois da vitória democrata nas eleições americanas.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-abre-em-alta-a-r-549-com-temor-do-mercado-sobre-setor-de-ia"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-neg-1",
+      "cat": "Negócios",
+      "q": "A Braskem, que lucrou R$ 3,33 bilhões no 2T26 e divulga balanço em 11/11, terá lucro líquido no 3º trimestre?",
+      "outs": [
+        "Sim, lucro",
+        "Não, prejuízo ou zero"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o resultado líquido do 3T26 no release da Braskem for lucro (maior que zero). Não, se for prejuízo ou zero. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "Braskem (Relações com Investidores, release 3T26)",
+      "desc": "O lucro do 2T26 reverteu prejuízo de R$ 267 milhões de um ano antes. A petroquímica tem dívida em dólar, e por isso o câmbio pesa no resultado. Balanço no calendário para 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/braskem-o-que-fez-acao-sair-de-alta-de-8-para-queda-de-77-apos-lucrar-r-333-bi/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-neg-2",
+      "cat": "Negócios",
+      "q": "A Ultrapar, que lucrou R$ 1,7 bilhão no 2T26 (alta de 46%) e divulga balanço em 11/11, terá lucro líquido do 3T26 maior que esse valor?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 no release da Ultrapar for maior que o do 2T26 informado no mesmo release (cerca de R$ 1,7 bilhão). Não, se for igual ou menor. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "Ultrapar (Relações com Investidores, release 3T26)",
+      "desc": "No 2T26 a Ultrapar anunciou dividendos de R$ 1,08 bilhão junto com o lucro. O balanço do 3T26 está no calendário da bolsa para 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ultrapar-ugpa3-resultados-segundo-trimestre-2026-anuncio-dividendos/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-esp-1",
+      "cat": "Esporte",
+      "q": "A Mercedes, líder com 630 pontos contra 504 da Ferrari, será campeã de construtores da F1 já no GP de São Paulo, neste domingo (8/11)?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-08T09:00:00-03:00",
+      "crit": "Sim, se a FIA/Fórmula 1 confirmar a Mercedes campeã de construtores de 2026 em até 24 horas após o fim do GP de São Paulo (8/11/2026). Não, se o título não for decidido nessa corrida.",
+      "src": "FIA / Fórmula 1 (classificação oficial de construtores)",
+      "desc": "Pelas contas do Metrópoles, a Mercedes precisa fazer 3 pontos a mais que a Ferrari em Interlagos, com os dois carros no top 10 ou um deles no pódio.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/f1-mercedes-pode-conquistar-titulo-de-construtores-no-gp-de-sao-paulo"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-esp-2",
+      "cat": "Esporte",
+      "q": "Quem leva Corinthians x Botafogo, na Neo Química Arena, em 18/11, pela 35ª rodada do Brasileirão?",
+      "outs": [
+        "Corinthians",
+        "Empate",
+        "Botafogo"
+      ],
+      "p": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Vence a opção que corresponder ao resultado ao fim dos 90 minutos de Corinthians x Botafogo em 18/11/2026, conforme a súmula da CBF. Se o jogo for adiado para depois de 30/11/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Campeonato Brasileiro)",
+      "desc": "A CBF marcou o jogo para quarta, 18/11, às 21h30. A chance inicial vem do mando de campo e do histórico recente da tabela.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-pol-1",
+      "cat": "Política",
+      "q": "Lula vai discursar presencialmente na COP31, em Antalya, na Turquia, até 20/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.75,
+        0.25
+      ],
+      "close": "2026-11-08T20:00:00-03:00",
+      "crit": "Sim, se o presidente Lula discursar presencialmente na COP31, em Antalya, entre 9 e 20/11/2026, conforme registro da ONU (UNFCCC) ou do Planalto/Agência Brasil. Não, se não discursar presencialmente nesse período.",
+      "src": "Planalto / Agência Brasil (EBC) e UNFCCC",
+      "desc": "O ministro da Fazenda disse que só enviará os ajustes do Orçamento depois da viagem de Lula à conferência do clima, marcada para a semana seguinte à da matéria (5/11).",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/durigan-diz-que-enviara-ajustes-no-orcamento-apos-viagem-de-lula-a-cop31"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-pol-2",
+      "cat": "Política",
+      "q": "O governo vai enviar ao Congresso, até 30/11, uma mensagem com ajustes no Orçamento de 2027, como o ministro da Fazenda disse que fará depois da COP31?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 o Executivo encaminhar ao Congresso mensagem presidencial que altere o PLOA 2027, conforme o site do Congresso Nacional ou da CMO. Não, se não houver envio até essa data.",
+      "src": "Congresso Nacional (CMO, mensagens do Executivo)",
+      "desc": "O Metrópoles informou em 5/11 que Dario Durigan enviará os ajustes ao presidente depois da viagem, sem prazo definido. O Orçamento de 2027 prevê superávit primário de R$ 18,6 bilhões.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/durigan-diz-que-enviara-ajustes-no-orcamento-apos-viagem-de-lula-a-cop31"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/parlamentares-de-saida-podem-indicar-r-116-bilhoes-em-emendas-de-2027"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-fin-3",
+      "cat": "Finanças",
+      "q": "Depois de cair mais de 20% em duas semanas, a Petrobras (PETR4) fechará 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial de PETR4 na B3 em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotação de fechamento de PETR4)",
+      "desc": "A queda veio depois das eleições no Brasil e nos EUA, com dúvidas sobre a política de preços de combustíveis. O Brent recuou cerca de 17% desde o pico de outubro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-cai-mais-de-20-em-2-semanas-apos-eleicoes-no-brasil-e-nos-eua-tese-mudou/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-neg-3",
+      "cat": "Negócios",
+      "q": "A Cosan, que teve prejuízo de R$ 320 milhões no 2T26 e divulga balanço em 13/11, terá lucro líquido no 3º trimestre?",
+      "outs": [
+        "Sim, lucro",
+        "Não, prejuízo ou zero"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o resultado líquido do 3T26 no release da Cosan for lucro (maior que zero). Não, se for prejuízo ou zero. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "Cosan (Relações com Investidores, release 3T26)",
+      "desc": "No 2T26 o prejuízo da holding foi 66% menor que um ano antes, e a dívida líquida caiu 47%. O balanço do 3T26 está no calendário da bolsa para 13/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/cosan-csan3-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -4006,6 +4314,14 @@
     "d20261031-neg-2": {
       "outcome": 0,
       "evidence": "https://ri.suzano.com.br/"
+    },
+    "d20261030-fin-2": {
+      "outcome": 1,
+      "evidence": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/ibovespa.htm"
+    },
+    "d20261104-eco-2": {
+      "outcome": 0,
+      "evidence": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/balanca-comercial"
     }
   },
   "withdrawn": [
