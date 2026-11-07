@@ -4176,6 +4176,29 @@
           "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
         }
       ]
+    },
+    {
+      "id": "d20261107-tec-3",
+      "cat": "Tecnologia",
+      "q": "Com mais de US$ 750 milhões em pré-venda e duas semanas para a estreia, GTA 6 chegará aos jogadores em 19/11 sem novo adiamento?",
+      "outs": [
+        "Sim, estreia em 19/11",
+        "Não, Rockstar adia"
+      ],
+      "p": [
+        0.88,
+        0.12
+      ],
+      "close": "2026-11-17T12:00:00-03:00",
+      "crit": "Sim, se, até o encerramento, a Rockstar Games não tiver anunciado nos canais oficiais um novo adiamento e o jogo estiver liberado para PS5 e Xbox Series X|S em 19/11/2026. Não, se a Rockstar anunciar qualquer data posterior a 19/11/2026 antes dessa data. Fonte: comunicados da Rockstar Games.",
+      "src": "Rockstar Games (comunicados oficiais e loja PlayStation/Xbox)",
+      "desc": "A Rockstar divulgou 39 novas imagens e mantém a estreia de GTA 6 em 19/11/2026 para PS5 e Xbox Series X|S. O jogo já foi adiado antes, o que mantém a dúvida entre os fãs.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/entretenimento/games/gta-6-rockstar-divulga-novas-imagens-do-jogo-antes-do-lancamento"
+        }
+      ]
     }
   ],
   "resolutions": {
