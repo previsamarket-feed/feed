@@ -3822,6 +3822,52 @@
           "url": "https://www.metropoles.com/brasil/enem-2026-veja-datas-horarios-documentos-e-o-que-levar-para-a-prova"
         }
       ]
+    },
+    {
+      "id": "d20261106-eco-4",
+      "cat": "Economia",
+      "q": "A balança comercial fechou outubro com superávit de US$ 9,3 bilhões, alta de 39,4% sobre um ano antes: o saldo de novembro será maior que o de outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-30T12:00:00-03:00",
+      "crit": "Sim, se o saldo da balança comercial de novembro de 2026, divulgado pelo MDIC até 15/12/2026, for superior a US$ 9,318 bilhões (saldo de outubro de 2026). Não, se for igual ou inferior a esse valor. Fonte: MDIC, estatísticas de comércio exterior (Comex Stat).",
+      "src": "MDIC, Balança Comercial Brasileira (Comex Stat)",
+      "desc": "Outubro somou US$ 9,318 bilhões de superávit, com exportações de US$ 37,8 bilhões; o acumulado do ano chegou a US$ 71,04 bilhões.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/11/06/balanca-comercial-tem-superavit-de-us-93-bilhoes-em-outubro-alta-de-394percent.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261106-tec-5",
+      "cat": "Tecnologia",
+      "q": "A União Europeia exigiu que o TikTok mude seus feeds personalizados por possíveis efeitos nocivos: a Comissão Europeia vai aplicar multa à plataforma pela Lei de Serviços Digitais até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.12,
+        0.88
+      ],
+      "close": "2026-12-28T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, a Comissão Europeia anunciar oficialmente decisão que imponha multa ao TikTok com base na Lei de Serviços Digitais (DSA). Não, se não houver decisão de multa anunciada até essa data (medidas preliminares ou exigências de mudança não contam). Fonte: comunicados da Comissão Europeia.",
+      "src": "Comunicados oficiais da Comissão Europeia (DSA)",
+      "desc": "A Comissão apontou que o sistema de recomendação pode violar o DSA; a multa só vem ao fim do processo, que costuma levar meses.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/tecnologia/noticia/2026/11/06/ue-exige-que-tiktok-modifique-os-feeds-personalizados-devido-aos-efeitos-nocivos.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
