@@ -4199,6 +4199,52 @@
           "url": "https://www.metropoles.com/entretenimento/games/gta-6-rockstar-divulga-novas-imagens-do-jogo-antes-do-lancamento"
         }
       ]
+    },
+    {
+      "id": "d20261107-esp-4",
+      "cat": "Esporte",
+      "q": "Gabriel Bortoleto, que foi o 10º no terceiro treino livre, vai terminar o GP de São Paulo de F1, em 8/11, entre os 10 primeiros?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-08T12:00:00-03:00",
+      "crit": "Sim, se o piloto da Audi aparecer em 10º lugar ou melhor na classificação final oficial do GP de São Paulo, no domingo (8/11), segundo a Fórmula 1/FIA. Não, se terminar em 11º ou pior, ou não completar a prova classificado.",
+      "src": "Fórmula 1 / FIA (classificação oficial da corrida)",
+      "desc": "Dois brasileiros correm em Interlagos pela primeira vez em dez anos. Bortoleto foi o 10º no treino livre de sábado, e a largada é no domingo, às 14h.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/esportes/gp-sao-paulo-horarios-onde-assistir/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-eco-3",
+      "cat": "Economia",
+      "q": "O governo vai oficializar nova prorrogação da alíquota de 12% sobre a exportação de petróleo, que vale até o fim de 2026, até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, a Camex ou o governo federal publicar no Diário Oficial a prorrogação do imposto de exportação de petróleo para além de 31/12/2026. Não, se não houver essa publicação até a data.",
+      "src": "Diário Oficial da União / Camex",
+      "desc": "A Camex aprovou na quinta (5/11) a manutenção da alíquota de 12% até o fim de 2026, a pedido da Fazenda, para preservar o abastecimento interno de combustíveis.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/imposto-de-exportacao-de-petroleo-e-prorrogado-como-afeta-petrobras-brava-e-prio/"
+        }
+      ]
     }
   ],
   "resolutions": {
