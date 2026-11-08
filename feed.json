@@ -4606,6 +4606,75 @@
           "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
         }
       ]
+    },
+    {
+      "id": "d20261108-esp-3",
+      "cat": "Esporte",
+      "q": "Palmeiras, que venceu a ida por 1 a 0, vai eliminar o Vasco em São Januário, neste domingo (8/11), e chegar à final da Copa do Brasil?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.68,
+        0.32
+      ],
+      "close": "2026-11-08T16:00:00-03:00",
+      "crit": "Sim, se o Palmeiras for declarado classificado à final da Copa do Brasil 2026 pela CBF após a volta de 8/11/2026, no tempo normal ou nos pênaltis. Não, se o Vasco se classificar.",
+      "src": "CBF (súmula e resultado oficial da semifinal)",
+      "desc": "Jogo de volta às 17h. O Palmeiras joga por um empate ou por derrota de até um gol de diferença, a depender da regra de desempate.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/palmeiras-vence-o-vasco-e-garante-vantagem-na-semifinal-da-copa-do-brasil"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-eco-3",
+      "cat": "Economia",
+      "q": "Com o mercado vendo crescimento de só 1,20% em 2027 e inflação de 4,76%, a mediana do Focus para o PIB de 2027 ficará abaixo de 1,20% no boletim de 16/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T18:00:00-03:00",
+      "crit": "Sim, se a mediana de crescimento do PIB de 2027 no Boletim Focus do Banco Central de 16/11/2026 for menor que 1,20%. Não, se for igual ou maior.",
+      "src": "Banco Central do Brasil (Boletim Focus de 16/11/2026)",
+      "desc": "A projeção para o PIB de 2027 caiu de 1,31% para 1,20% no boletim de 3/11, enquanto a de inflação subiu.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-fin-3",
+      "cat": "Finanças",
+      "q": "Depois de subir pelo segundo pregão seguido e fechar a R$ 5,508 na sexta (6/11), com o payroll forte nos EUA, o dólar fechará 13/11 acima desse valor?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T18:00:00-03:00",
+      "crit": "Sim, se o dólar comercial fechar o pregão de 13/11/2026 acima de R$ 5,508, segundo a cotação de fechamento do Banco Central/B3. Não, se fechar igual ou abaixo.",
+      "src": "Banco Central do Brasil / B3 (cotação de fechamento do dólar comercial)",
+      "desc": "Comparação com o fechamento semanal; o dólar subiu com dados de emprego americano acima do esperado.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/"
+        }
+      ]
     }
   ],
   "resolutions": {
