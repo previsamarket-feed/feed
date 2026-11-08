@@ -4245,6 +4245,52 @@
           "url": "https://www.infomoney.com.br/mercados/imposto-de-exportacao-de-petroleo-e-prorrogado-como-afeta-petrobras-brava-e-prio/"
         }
       ]
+    },
+    {
+      "id": "d20261107-tec-4",
+      "cat": "Tecnologia",
+      "q": "Depois de a Casa Civil prometer a regulamentação do Redata, o programa de incentivos a data centers, para as próximas duas semanas, o decreto será publicado no Diário Oficial até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T18:00:00-03:00",
+      "crit": "Sim, se o decreto (ou outro ato federal) que regulamenta a lei do Redata for publicado no Diário Oficial da União até 30/11/2026. Não, se não houver publicação até essa data. Fonte: Diário Oficial da União.",
+      "src": "Diário Oficial da União (imprensa.gov.br)",
+      "desc": "Na sexta (6/11), após reunião do CNPE, a ministra da Casa Civil disse que os termos estão praticamente finalizados e que o anúncio deve vir em cerca de duas semanas. O governo defende que data centers produzam a própria energia.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/lula-diz-que-energia-eletrica-do-povo-nao-podera-ser-usada-para-data-center/"
+        }
+      ]
+    },
+    {
+      "id": "d20261107-esp-5",
+      "cat": "Esporte",
+      "q": "Com a pole sob chuva forte em Interlagos, Lando Norris vai vencer o GP de São Paulo de F1, neste domingo (8/11)?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-08T12:00:00-03:00",
+      "crit": "Sim, se Lando Norris constar como vencedor na classificação final oficial do GP de São Paulo (8/11/2026), segundo a Fórmula 1/FIA. Não, se outro piloto vencer ou se Norris não vencer a corrida.",
+      "src": "Fórmula 1 / FIA (classificação oficial da corrida)",
+      "desc": "Norris largou na pole no sábado (7/11) num treino classificatório com chuva, bandeira vermelha e batidas de Bortoleto e Rafael Câmara. A largada é no domingo, às 14h.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/esportes/gp-sao-paulo-horarios-onde-assistir/"
+        }
+      ]
     }
   ],
   "resolutions": {
