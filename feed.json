@@ -4675,6 +4675,54 @@
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/"
         }
       ]
+    },
+    {
+      "id": "d20261108-esp-4",
+      "cat": "Esporte",
+      "q": "Quem leva Brasil x Japão, em Singapura, em 14/11, no primeiro amistoso da Seleção na última Data FIFA do ano?",
+      "outs": [
+        "Vitória do Brasil",
+        "Empate",
+        "Vitória do Japão"
+      ],
+      "p": [
+        0.52,
+        0.26,
+        0.22
+      ],
+      "close": "2026-11-14T03:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Brasil x Japão, em 14/11/2026, após os 90 minutos mais acréscimos, conforme súmula e site oficial da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e resultado oficial do amistoso)",
+      "desc": "O jogo é às 7h15 de Brasília, no Estádio Nacional de Singapura, com convocados de Ancelotti.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/selecao-brasileira-inicia-apresentacao-para-jogos-contra-japao-e-singapura"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-esp-5",
+      "cat": "Esporte",
+      "q": "O Brasil vai marcar 3 gols ou mais contra Singapura, em 17/11, no segundo amistoso na Ásia?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-11-17T03:00:00-03:00",
+      "crit": "Sim, se a Seleção Brasileira marcar 3 gols ou mais nos 90 minutos mais acréscimos de Singapura x Brasil, em 17/11/2026, conforme súmula da CBF. Não, se marcar 2 gols ou menos. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e resultado oficial do amistoso)",
+      "desc": "A partida é às 7h de Brasília, em Singapura, contra um adversário bem abaixo do Brasil no ranking da Fifa.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/selecao-brasileira-inicia-apresentacao-para-jogos-contra-japao-e-singapura"
+        }
+      ]
     }
   ],
   "resolutions": {
