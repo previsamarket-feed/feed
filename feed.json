@@ -4291,6 +4291,321 @@
           "url": "https://www.infomoney.com.br/esportes/gp-sao-paulo-horarios-onde-assistir/"
         }
       ]
+    },
+    {
+      "id": "d20261108-eco-1",
+      "cat": "Economia",
+      "q": "Com a inflação acima do teto da meta e analistas debatendo o assunto, o CMN vai alterar a meta de inflação de 3% até 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.1,
+        0.9
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se até 31/12/2026 o Conselho Monetário Nacional publicar resolução que mude a meta de inflação de 3%. Não, se a meta continuar em 3% até essa data.",
+      "src": "Banco Central do Brasil (resoluções do CMN)",
+      "desc": "Debate sobre mudar ou não a meta contínua de 3% ganhou espaço com a inflação em alta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/governo-nao-considera-mudar-meta-de-inflacao-de-3-dizem-fontes/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/economia-br/na-camara-galipolo-descarta-mudanca-na-meta-da-inflacao-de-3"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-eco-2",
+      "cat": "Economia",
+      "q": "O IGP-M de novembro, indicador que reajusta muitos aluguéis, vai subir mais do que o de outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-24T18:00:00-03:00",
+      "crit": "Sim, se a variação mensal do IGP-M de novembro/2026, divulgada pela FGV IBRE, for maior que a de outubro/2026. Não, se for igual ou menor.",
+      "src": "FGV IBRE (IGP-M)",
+      "desc": "O IGP-M mede preços no atacado, no consumo e na construção e é usado para reajustar contratos.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/economia-br/galipolo-se-explica-por-inflacao-fora-da-meta-e-preve-reducao-em-2026"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-fin-1",
+      "cat": "Finanças",
+      "q": "O BTG Pactual, que lucrou R$ 5,1 bilhões no 2º trimestre e divulga balanço em 10/11, vai superar esse lucro ajustado no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-10T09:00:00-03:00",
+      "crit": "Sim, se o lucro líquido ajustado do BTG Pactual no 3T26, no release de resultados, for maior que R$ 5,1 bilhões. Não, se for igual ou menor.",
+      "src": "BTG Pactual (Relações com Investidores, release 3T26)",
+      "desc": "O banco lucrou R$ 5,1 bilhões no 2T26, alta de 23% em um ano.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-fin-2",
+      "cat": "Finanças",
+      "q": "Depois da semana de tombo nas bolsas de tecnologia, o ouro fechará 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-09T08:00:00-03:00",
+      "crit": "Sim, se o preço de liquidação do contrato futuro de ouro mais negociado na COMEX em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "CME Group (preço de liquidação do ouro, COMEX)",
+      "desc": "Comparação entre os fechamentos semanais do ouro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/us-25-tri-evaporam-da-nasdaq-com-tsunami-azul-despertando-temores-em-relacao-a-ia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-tec-1",
+      "cat": "Tecnologia",
+      "q": "Com a Nasdaq tendo perdido US$ 2,5 trilhões no tombo ligado à IA, a Microsoft fechará 13/11 acima do fechamento de 6/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-09T08:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Microsoft (MSFT) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (fechamento diário de MSFT)",
+      "desc": "A Nasdaq caiu 5,5% em 5/11 com temor sobre regulação da infraestrutura de IA.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/us-25-tri-evaporam-da-nasdaq-com-tsunami-azul-despertando-temores-em-relacao-a-ia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Meta, dona de Facebook e Instagram, fechará 13/11 acima do fechamento de 6/11, em semana de tensão com a regulação da IA?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-09T08:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Meta Platforms (META) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (fechamento diário de META)",
+      "desc": "Big techs seguem sob pressão por gastos e regras de IA.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/nasdaq-tem-maior-queda-diaria-em-19-meses-com-temor-sobre-regulamentacoes-de-ia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-neg-1",
+      "cat": "Negócios",
+      "q": "A Casas Bahia, que perdeu R$ 10,1 bilhões no 2º trimestre, terá prejuízo líquido menor que esse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o prejuízo líquido da Casas Bahia no 3T26, no balanço divulgado em 11/11/2026, for menor que R$ 10,1 bilhões ou se houver lucro. Não, se o prejuízo for igual ou maior.",
+      "src": "Grupo Casas Bahia (Relações com Investidores, release 3T26)",
+      "desc": "A varejista divulga o balanço do 3º trimestre em 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-neg-2",
+      "cat": "Negócios",
+      "q": "A Petrobras, que lucrou R$ 52,44 bilhões no 2º trimestre, terá lucro líquido maior que esse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-10T09:00:00-03:00",
+      "crit": "Sim, se o lucro líquido da Petrobras no 3T26, no comunicado de resultados, for maior que R$ 52,44 bilhões. Não, se for igual ou menor.",
+      "src": "Petrobras (Relações com Investidores, resultado 3T26)",
+      "desc": "O lucro da estatal quase dobrou no 2T26. O balanço do 3T26 está previsto para a semana de 9/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr4-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-esp-1",
+      "cat": "Esporte",
+      "q": "Quem leva a final da Libertadores, em 28/11, em Montevidéu: Palmeiras ou Estudiantes?",
+      "outs": [
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "p": [
+        0.58,
+        0.42
+      ],
+      "close": "2026-11-28T12:00:00-03:00",
+      "crit": "Vence a opção do time declarado campeão da Libertadores 2026 pela Conmebol, no tempo normal, na prorrogação ou nos pênaltis. Fonte: Conmebol, em 28/11/2026.",
+      "src": "Conmebol (resultado oficial da final)",
+      "desc": "Final em jogo único, às 17h, no Estádio Centenário. Os dois chegaram nos pênaltis.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/esportes/palmeiras-estudiantes-final-libertadores-horario/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/palmeiras-e-estudiantes-voltam-a-decidir-a-copa-libertadores-apos-58-anos"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-esp-2",
+      "cat": "Esporte",
+      "q": "Quem leva a final da Sul-Americana, em 21/11, em Barranquilla: Atlético-MG ou Boca Juniors?",
+      "outs": [
+        "Atlético-MG",
+        "Boca Juniors"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-21T10:00:00-03:00",
+      "crit": "Vence a opção do time declarado campeão da Copa Sul-Americana 2026 pela Conmebol, no tempo normal, na prorrogação ou nos pênaltis. Fonte: Conmebol, em 21/11/2026.",
+      "src": "Conmebol (resultado oficial da final)",
+      "desc": "Final em jogo único, no Estádio Metropolitano Roberto Meléndez.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/atletico-mg-e-boca-juniors-se-reencontram-em-final-continental-apos-33-anos"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-pol-1",
+      "cat": "Política",
+      "q": "Com empresários pedindo ao STF mais prazo para o fim da escala 6x1 e audiência de conciliação em 10/11, o Supremo concederá liminar para adiar a mudança até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-11-09T18:00:00-03:00",
+      "crit": "Sim, se até 30/11/2026 o STF (relator ou Plenário) conceder liminar que suspenda ou adie o calendário de implementação do fim da escala 6x1, conforme a consulta processual do STF. Não, caso contrário.",
+      "src": "Portal do STF (consulta processual e notícias do STF)",
+      "desc": "CNC e CNI questionaram o prazo da emenda no STF em 4/11; houve audiência marcada para 10/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/motta-pauta-projeto-de-lei-da-escala-6x1-para-semana-que-vem/"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-pol-2",
+      "cat": "Política",
+      "q": "O Congresso vai aprovar o Orçamento de 2027, com superávit primário previsto de R$ 73,2 bilhões, em sessão conjunta até 22/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.65,
+        0.35
+      ],
+      "close": "2026-12-10T18:00:00-03:00",
+      "crit": "Sim, se o Congresso Nacional aprovar em sessão conjunta o projeto da Lei Orçamentária Anual de 2027 até 22/12/2026, conforme o site do Congresso Nacional. Não, se a votação ficar para depois dessa data.",
+      "src": "Congresso Nacional (Comissão Mista de Orçamento e sessões do Congresso)",
+      "desc": "O governo projeta superávit primário de R$ 73,2 bilhões em 2027; a LOA costuma ser votada perto do fim do ano.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/orcamento-2027-governo-espera-superavit-primario-de-r-732-bilhoes"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-neg-3",
+      "cat": "Negócios",
+      "q": "A Hapvida, que lucrou só R$ 12,5 milhões no 2º trimestre, terá lucro líquido maior que esse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-10T18:00:00-03:00",
+      "crit": "Sim, se o lucro líquido da Hapvida no 3T26, no release de resultados de 11/11/2026, for maior que R$ 12,5 milhões. Não, se for igual ou menor.",
+      "src": "Hapvida (Relações com Investidores, release 3T26)",
+      "desc": "O lucro caiu 96% no 2T26 com pressão de margem e sinistralidade; o balanço do 3T26 sai em 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/hapvida-hapv3-resultados-segundo-trimestre-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -4437,6 +4752,10 @@
     "d20261104-eco-2": {
       "outcome": 0,
       "evidence": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/balanca-comercial"
+    },
+    "d20261021-pol-2": {
+      "outcome": 0,
+      "evidence": "https://noticias.stf.jus.br/postsnoticias/confederacao-do-comercio-questiona-no-stf-prazo-para-fim-da-escala-61/"
     }
   },
   "withdrawn": [
