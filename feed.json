@@ -4723,6 +4723,52 @@
           "url": "https://www.metropoles.com/esportes/selecao-brasileira-inicia-apresentacao-para-jogos-contra-japao-e-singapura"
         }
       ]
+    },
+    {
+      "id": "d20261108-eco-4",
+      "cat": "Economia",
+      "q": "O governo, que paga R$ 2,12 por litro de diesel e já prorrogou o subsídio duas vezes, vai estendê-lo além de 26/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-11-17T12:00:00-03:00",
+      "crit": "Sim, se, até 26/11/2026, for publicado no Diário Oficial da União (decreto, medida provisória, portaria ou ato equivalente) ou anunciado oficialmente pelo governo federal ato que mantenha a subvenção ao diesel além de 26/11/2026. Não, se o prazo vencer em 26/11/2026 sem ato de prorrogação. Fonte: Diário Oficial da União e comunicados do governo federal.",
+      "src": "Diário Oficial da União e Agência Gov (comunicados oficiais do governo federal)",
+      "desc": "A subvenção de R$ 2,12 por litro vale até 26/11, custa cerca de R$ 40 bilhões no ano e já foi renovada em setembro e em outubro; o governo estuda nova extensão.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/governo-deve-prorrogar-subsidio-ao-diesel-para-conter-inflacao-e-greve"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-fin-4",
+      "cat": "Finanças",
+      "q": "A Caixa Seguridade, que lucrou R$ 1,14 bilhão no 2º trimestre e divulga balanço em 9/11, terá lucro líquido maior que esse valor no 3º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-09T08:00:00-03:00",
+      "crit": "Sim, se o lucro líquido da Caixa Seguridade (CXSE3) no 3º trimestre de 2026, no release de resultados divulgado em 9/11/2026, for maior que R$ 1,14 bilhão. Não, se for igual ou menor, ou se o balanço não for divulgado até 13/11/2026 (a pergunta será retirada nesse caso).",
+      "src": "Caixa Seguridade, site de Relações com Investidores (release de resultados do 3T26)",
+      "desc": "O resultado entra na semana de balanços de bancos e seguradoras; o lucro do 2º trimestre subiu 9,5% sobre um ano antes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/caixa-seguridade-tem-lucro-liquido-de-r-114-bi-no-2tri26-alta-de-95-ante-2tri25/"
+        }
+      ]
     }
   ],
   "resolutions": {
