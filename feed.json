@@ -4769,6 +4769,52 @@
           "url": "https://www.infomoney.com.br/mercados/caixa-seguridade-tem-lucro-liquido-de-r-114-bi-no-2tri26-alta-de-95-ante-2tri25/"
         }
       ]
+    },
+    {
+      "id": "d20261108-esp-6",
+      "cat": "Esporte",
+      "q": "Quem será campeão da Copa do Brasil na final única de 6/12, no Mané Garrincha, entre Grêmio e Palmeiras?",
+      "outs": [
+        "Palmeiras",
+        "Grêmio"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-06T10:00:00-03:00",
+      "crit": "Vence a opção do clube declarado campeão da Copa do Brasil 2026 pela CBF após a final de 6/12/2026, em Brasília (tempo normal, prorrogação ou pênaltis, se houver). Se a final for adiada para depois de 20/12/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela oficial da Copa do Brasil 2026)",
+      "desc": "Pela primeira vez a decisão é em jogo único. O Palmeiras eliminou o Vasco nos pênaltis neste domingo e o Grêmio chegou à final antes; a chance inicial é neutra.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/carlos-miguel-supera-weverton-em-vitorias-nos-penaltis-pelo-palmeiras"
+        }
+      ]
+    },
+    {
+      "id": "d20261108-neg-4",
+      "cat": "Negócios",
+      "q": "O Cade vai aprovar, até 31/12, a venda da CSN Cimentos para a chinesa Huaxin, negócio de R$ 12,7 bilhões fechado em 7/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.25,
+        0.75
+      ],
+      "close": "2026-12-10T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, o Cade publicar no Diário Oficial da União decisão aprovando a operação CSN Cimentos/Huaxin, com ou sem restrições. Não, se não houver decisão de aprovação publicada até essa data (incluindo se a operação ainda estiver em análise ou for reprovada).",
+      "src": "Cade (consulta de processos) e Diário Oficial da União",
+      "desc": "A CSN diz que a venda ajuda a reduzir a dívida, mas o fechamento depende de Cade, Aneel e aprovações na China. O rito sumário do Cade pode levar cerca de 30 dias após o pedido; a análise comum pode demorar meses.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/csn-fecha-acordo-de-r127-bi-para-vender-unidade-de-cimento-a-chinesa-huaxin/"
+        }
+      ]
     }
   ],
   "resolutions": {
