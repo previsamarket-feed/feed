@@ -4815,6 +4815,29 @@
           "url": "https://www.infomoney.com.br/mercados/csn-fecha-acordo-de-r127-bi-para-vender-unidade-de-cimento-a-chinesa-huaxin/"
         }
       ]
+    },
+    {
+      "id": "d20261110-pol-3",
+      "cat": "Política",
+      "q": "Com a Câmara dos EUA votando nesta terça (10/11) o primeiro passo do processo de impeachment contra o secretário de Defesa Pete Hegseth, ele ainda estará no cargo em 31/12/2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-12-30T18:00:00-03:00",
+      "crit": "Sim, se, em 31/12/2026, Pete Hegseth continuar exercendo o cargo de secretário de Defesa dos EUA, conforme o site oficial do Departamento de Defesa (defense.gov). Não, se até essa data ele tiver renunciado, sido demitido ou afastado definitivamente do cargo, mesmo que o processo na Câmara siga em andamento.",
+      "src": "Departamento de Defesa dos EUA (defense.gov) e Congresso dos EUA (congress.gov)",
+      "desc": "Mesmo que a Câmara aprove o impeachment, a remoção exige dois terços do Senado; a liderança republicana também pode segurar os artigos. A pergunta mede se ele segue no posto até o fim do ano.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/alvo-de-pedido-de-impeachment-chefe-do-pentagono-chama-processo-de-farsa"
+        }
+      ]
     }
   ],
   "resolutions": {
