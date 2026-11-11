@@ -5022,6 +5022,29 @@
           "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-por-que-o-dia-23-de-novembro-virou-uma-data-chave-para-a-estatal-plano-negocios-apos-balanco/"
         }
       ]
+    },
+    {
+      "id": "d20261111-eco-3",
+      "cat": "Economia",
+      "q": "Com os serviços em queda de 0,1% em setembro e bancos como XP e ASA projetando recuo, o PIB do 3º trimestre, divulgado pelo IBGE, vai fechar no negativo?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, até 15/12/2026, que o PIB do 3º trimestre de 2026 teve variação negativa frente ao 2º trimestre (série com ajuste sazonal, primeira divulgação). Não, se a variação for zero ou positiva, ou se o PIB não for divulgado até 15/12/2026.",
+      "src": "IBGE (Contas Nacionais Trimestrais)",
+      "desc": "O setor de serviços recuou 0,1% em setembro e as projeções para o PIB do 3º trimestre vão de estabilidade (Inter) a queda de cerca de 0,2% (XP e ASA), segundo o InfoMoney. Há quem veja desaceleração forte com juros altos e quem aposte em resultado próximo de zero.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/queda-setor-servicos-setembro-pib/"
+        }
+      ]
     }
   ],
   "resolutions": {
