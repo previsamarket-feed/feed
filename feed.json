@@ -4999,6 +4999,29 @@
           "url": "https://www.infomoney.com.br/politica/apos-reuniao-com-durigan-deputados-descartam-adiamento-da-reforma-tributaria/"
         }
       ]
+    },
+    {
+      "id": "d20261111-neg-3",
+      "cat": "Negócios",
+      "q": "Com capex maior e dividendos abaixo do esperado no 3º trimestre, o plano estratégico 2027-2031 da Petrobras terá investimento total acima dos US$ 109 bilhões do plano anterior?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.72,
+        0.28
+      ],
+      "close": "2026-11-23T06:00:00-03:00",
+      "crit": "Sim, se o Plano Estratégico 2027-2031, divulgado pela Petrobras (previsto para 23/11/2026), indicar investimento total superior a US$ 109 bilhões, valor do plano 2026-2030. Não, se indicar valor igual ou menor, ou se o plano não for divulgado até 30/11/2026.",
+      "src": "Petrobras (Plano Estratégico 2027-2031, fato relevante e site de Relações com Investidores)",
+      "desc": "Após o balanço do 3º trimestre, o mercado espera que o novo plano supere os US$ 109 bilhões do anterior, segundo o Broadcast. Analistas discutem se o aumento do capex é pontual ou estrutural e o efeito nos dividendos.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-por-que-o-dia-23-de-novembro-virou-uma-data-chave-para-a-estatal-plano-negocios-apos-balanco/"
+        }
+      ]
     }
   ],
   "resolutions": {
