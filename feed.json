@@ -4838,6 +4838,29 @@
           "url": "https://www.metropoles.com/mundo/alvo-de-pedido-de-impeachment-chefe-do-pentagono-chama-processo-de-farsa"
         }
       ]
+    },
+    {
+      "id": "d20261110-pol-4",
+      "cat": "Política",
+      "q": "Com a MP 1.376/2026, que libera crédito de até R$ 8 milhões para renegociar dívidas rurais, aprovada em comissão (10/11) e o agro com pressa, o Senado a aprovará em plenário até 18/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-11T06:00:00-03:00",
+      "crit": "Sim, se, até 18/11/2026, o plenário do Senado aprovar a MP 1.376/2026 (com ou sem alterações), conforme o registro de tramitação no site do Congresso Nacional ou do Senado Federal. Não, se até essa data o Senado não a tiver votado e aprovado, ou se a MP perder a eficácia.",
+      "src": "Congresso Nacional (congressonacional.leg.br) e Senado Federal (www12.senado.leg.br)",
+      "desc": "A MP vai à Câmara e depois ao Senado; a bancada do agro quer concluir tudo rápido, enquanto o governo defende regras de acesso mais restritas. A pergunta mede se a votação termina até a data.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/comissao-mista-aprova-mp-da-renegociacao-de-dividas-rurais"
+        }
+      ]
     }
   ],
   "resolutions": {
