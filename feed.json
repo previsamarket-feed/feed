@@ -341,29 +341,6 @@
       ]
     },
     {
-      "id": "d20261021-tec-1",
-      "cat": "Tecnologia",
-      "q": "A cobrança híbrida do Pix (boleto com QR Code Pix) será obrigatória em novembro de 2026, sem adiamento pelo Banco Central?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.75,
-        0.25
-      ],
-      "close": "2026-10-30T18:00:00-03:00",
-      "crit": "Sim, se até 30/11/2026 a regra do Banco Central que torna obrigatória a cobrança híbrida estiver em vigor, sem norma que a adie. Não, se o BC publicar norma adiando a obrigatoriedade.",
-      "src": "Banco Central do Brasil (normativos e Pix)",
-      "desc": "Entre as mudanças previstas para o Pix, a cobrança que pode ser paga por boleto deve passar a trazer também o QR Code Pix a partir de novembro de 2026.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/conheca-as-mudancas-previstas-para-o-pix"
-        }
-      ]
-    },
-    {
       "id": "d20261021-tec-2",
       "cat": "Tecnologia",
       "q": "O Pix como garantia (uso de recebíveis futuros) entrará em operação até 31/12/2026?",
@@ -1119,29 +1096,6 @@
         {
           "name": "Metrópoles",
           "url": "https://www.metropoles.com/brasil/reforma-tributaria-tcu-propoe-aliquota-da-cbs-em-113"
-        }
-      ]
-    },
-    {
-      "id": "d20261028-tec-3",
-      "cat": "Tecnologia",
-      "q": "O telescópio espacial Swift, da Nasa, vai reentrar na atmosfera da Terra até 31/12/2026, depois do fracasso da missão de resgate?",
-      "outs": [
-        "Sim, reentra até 31/12",
-        "Não, segue em órbita"
-      ],
-      "p": [
-        0.7,
-        0.3
-      ],
-      "close": "2026-11-05T12:00:00-03:00",
-      "crit": "Sim, se a Nasa ou o Comando Espacial dos EUA (Space-Track) confirmarem a reentrada do Swift na atmosfera entre a data de encerramento e 31/12/2026. Não, se o telescópio ainda estiver em órbita em 31/12/2026. Se a reentrada ocorrer antes do encerramento, a pergunta será retirada.",
-      "src": "Nasa (comunicados da missão Swift) e Space-Track",
-      "desc": "A Nasa informou em 23/10 que a tentativa de resgate do Swift, feita pela espaçonave LINK da Katalyst, não deu certo; o telescópio deve cair nas próximas semanas.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/ciencia/telescopio-da-nasa-vai-cair-na-terra-apos-fracasso-em-missao-de-resgate"
         }
       ]
     },
@@ -2523,33 +2477,6 @@
       ]
     },
     {
-      "id": "d20261104-neg-2",
-      "cat": "Negócios",
-      "q": "A Casas Bahia, em recuperação judicial e com prejuízo de R$ 10 bilhões no 2º trimestre, terá prejuízo menor que esse valor no 3º trimestre?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.7,
-        0.3
-      ],
-      "close": "2026-11-11T08:00:00-03:00",
-      "crit": "Sim, se o resultado líquido da Casas Bahia no 3T26, no balanço divulgado em 11/11/2026, for lucro ou prejuízo menor que R$ 10,0 bilhões. Não, se o prejuízo for igual ou maior.",
-      "src": "Casas Bahia (Relações com Investidores, release 3T26)",
-      "desc": "A varejista pediu recuperação judicial com dívidas de R$ 17,3 bilhões e busca empréstimo e marketplace para se reerguer. Balanço em 11/11.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/casas-bahia-bhia3-resultados-segundo-trimestre-2026/"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/apos-pedido-de-rj-casas-bahia-busca-emprestimo-de-r-1-bi-e-aposta-no-marketplace/"
-        }
-      ]
-    },
-    {
       "id": "d20261104-esp-1",
       "cat": "Esporte",
       "q": "Com a vitória por 1 a 0 na ida, o Palmeiras vai se classificar para a final da Copa do Brasil ao enfrentar o Vasco em São Januário?",
@@ -3168,23 +3095,6 @@
           "url": "https://www.metropoles.com/brasil/decreto-do-fim-da-escala-6x1-deve-sair-na-segunda-9-11-diz-ministro"
         }
       ]
-    },
-    {
-      "id": "d20261105-esp-8",
-      "cat": "Esporte",
-      "q": "Ronaldo marcará algum gol na sua última partida internacional em novembro?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-11-10T00:00:00-03:00",
-      "crit": "Sim, se Cristiano Ronaldo marcar pelo menos um gol na partida; Não, se não marcar. Fonte: CNN Brasil, 2026-11-05.",
-      "src": "CNN Brasil",
-      "desc": "Previsão se o jogador Cristiano Ronaldo marcará gol na sua última partida internacional em novembro, conforme anúncio da Federação Portuguesa."
     },
     {
       "id": "d20261105-eco-8",
@@ -3926,33 +3836,6 @@
       ]
     },
     {
-      "id": "d20261107-tec-1",
-      "cat": "Tecnologia",
-      "q": "A TIM, que lucrou R$ 1,036 bilhão no 2º trimestre e divulga balanço em 9/11, terá lucro líquido do 3T26 maior que esse valor?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.55,
-        0.45
-      ],
-      "close": "2026-11-08T20:00:00-03:00",
-      "crit": "Sim, se o lucro líquido do 3T26 no release de resultados da TIM for maior que R$ 1,036 bilhão (valor do 2T26). Não, se for igual ou menor. Sem divulgação até 20/11/2026, a pergunta será retirada.",
-      "src": "TIM (Relações com Investidores, release 3T26)",
-      "desc": "No 2T26 o lucro líquido da operadora cresceu 6,2% em um ano. O calendário de balanços da bolsa marca a divulgação do 3T26 para 9/11.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/tim-tims3-resultados-segundo-trimestre-2026/"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-        }
-      ]
-    },
-    {
       "id": "d20261107-tec-2",
       "cat": "Tecnologia",
       "q": "Com o temor de regulação da IA pesando nas ações do setor, a Alphabet (Google) fechará 13/11 acima do fechamento de 6/11 na Nasdaq?",
@@ -4435,29 +4318,6 @@
       ]
     },
     {
-      "id": "d20261108-neg-1",
-      "cat": "Negócios",
-      "q": "A Casas Bahia, que perdeu R$ 10,1 bilhões no 2º trimestre, terá prejuízo líquido menor que esse valor no 3º trimestre?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.7,
-        0.3
-      ],
-      "close": "2026-11-10T18:00:00-03:00",
-      "crit": "Sim, se o prejuízo líquido da Casas Bahia no 3T26, no balanço divulgado em 11/11/2026, for menor que R$ 10,1 bilhões ou se houver lucro. Não, se o prejuízo for igual ou maior.",
-      "src": "Grupo Casas Bahia (Relações com Investidores, release 3T26)",
-      "desc": "A varejista divulga o balanço do 3º trimestre em 11/11.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-        }
-      ]
-    },
-    {
       "id": "d20261108-neg-2",
       "cat": "Negócios",
       "q": "A Petrobras, que lucrou R$ 52,44 bilhões no 2º trimestre, terá lucro líquido maior que esse valor no 3º trimestre?",
@@ -4861,6 +4721,284 @@
           "url": "https://www.metropoles.com/brasil/comissao-mista-aprova-mp-da-renegociacao-de-dividas-rurais"
         }
       ]
+    },
+    {
+      "id": "d20261111-eco-1",
+      "cat": "Economia",
+      "q": "O governo vai protocolar no Congresso, até 30/11, o projeto de ajuste fiscal de R$ 70 bilhões a R$ 80 bilhões para 2027?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se, até 30/11/2026, um projeto de lei ou projeto de lei complementar de ajuste fiscal que altere o cálculo dos pisos de saúde e educação for protocolado na Câmara ou no Senado, conforme os sites do Congresso Nacional. Não, caso contrário.",
+      "src": "Congresso Nacional (Câmara dos Deputados e Senado Federal)",
+      "desc": "Segundo a imprensa, o texto retiraria receitas extraordinárias do cálculo dos pisos de saúde e educação e deve ser apresentado nos próximos dias.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-eco-2",
+      "cat": "Economia",
+      "q": "Com o dólar a R$ 5,60, maior valor em 15 meses, a cotação Ptax de 13/11 ficará acima de R$ 5,60?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-13T08:00:00-03:00",
+      "crit": "Sim, se a taxa Ptax de venda do dólar em 13/11/2026, divulgada pelo Banco Central, for maior que R$ 5,6000. Não, se for igual ou menor.",
+      "src": "Banco Central do Brasil (cotações e boletins, Ptax)",
+      "desc": "O dólar subiu após o dado de inflação nos EUA e renovou máxima em mais de um ano.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-10112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-fin-1",
+      "cat": "Finanças",
+      "q": "Depois de o Ibovespa ter caído com o dado de inflação dos EUA, ele fechará 13/11 acima do fechamento de 11/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T08:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Ibovespa em 13/11/2026 for maior que o fechamento de 11/11/2026, conforme a B3. Não, se for igual ou menor.",
+      "src": "B3 (pontuação de fechamento do Ibovespa)",
+      "desc": "O índice vinha de alta de mais de 2% na segunda-feira e recuou na terça com a inflação americana e a ata do Copom.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-10112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-fin-2",
+      "cat": "Finanças",
+      "q": "Com a ata do Copom indicando pausa nos cortes sem prazo definido, o Copom manterá a Selic em 13,75% em dezembro?",
+      "outs": [
+        "Sim, mantém em 13,75%",
+        "Não, altera a taxa"
+      ],
+      "p": [
+        0.65,
+        0.35
+      ],
+      "close": "2026-12-07T18:00:00-03:00",
+      "crit": "Sim, se o comunicado da reunião do Copom de dezembro de 2026 (8 e 9/12) mantiver a meta da Selic em 13,75% ao ano. Não, se a taxa for elevada ou reduzida. Se a reunião não ocorrer até 11/12/2026, a pergunta será retirada.",
+      "src": "Banco Central do Brasil (comunicado do Copom)",
+      "desc": "A ata de 10/11 manteve a leitura de pausa nos cortes; o mercado discute se o próximo movimento será de queda ou de alta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/decisao-copom-manutencao-taxa-selic-pressao-fiscal/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-tec-1",
+      "cat": "Tecnologia",
+      "q": "GTA 6, que já foi adiado duas vezes, estará disponível para jogar até 20/11, sem novo adiamento?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.85,
+        0.15
+      ],
+      "close": "2026-11-16T18:00:00-03:00",
+      "crit": "Sim, se o GTA 6 for liberado para jogar, em PlayStation ou Xbox, até 20/11/2026, conforme a Rockstar Games ou a Take-Two. Não, se a Rockstar anunciar novo adiamento ou se o jogo não estiver disponível nessa data.",
+      "src": "Rockstar Games / Take-Two Interactive (comunicados oficiais)",
+      "desc": "A estreia está marcada para 19/11, depois de adiamentos de 2025 para maio e depois para novembro de 2026.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/business/global/exercito-dos-eua-oferece-folga-para-jogar-gta-6-a-soldados-que-renovarem-contrato/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-tec-2",
+      "cat": "Tecnologia",
+      "q": "Com a Nasdaq tendo perdido US$ 2,5 trilhões no tombo ligado à IA, a Alphabet fechará 13/11 acima do fechamento de 11/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T08:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial das ações da Alphabet (GOOGL) na Nasdaq em 13/11/2026 for maior que o de 11/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (fechamento diário de GOOGL)",
+      "desc": "As big techs seguem pressionadas por dúvidas sobre os gastos em IA.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/us-25-tri-evaporam-da-nasdaq-com-tsunami-azul-despertando-temores-em-relacao-a-ia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-neg-1",
+      "cat": "Negócios",
+      "q": "A B3, que divulga balanço em 12/11, terá lucro líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-12T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 da B3, no release de resultados divulgado até 20/11/2026, for maior que o lucro líquido do 2T26 informado no mesmo documento. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "B3 (Relações com Investidores, release 3T26)",
+      "desc": "A B3 divulga o balanço do 3º trimestre em meio à oscilação do dólar e dos juros.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-neg-2",
+      "cat": "Negócios",
+      "q": "A Natura, que divulga balanço em 12/11, terá resultado líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T12:00:00-03:00",
+      "crit": "Sim, se o resultado líquido do 3T26 da Natura, no release de resultados divulgado até 20/11/2026, for maior que o resultado líquido do 2T26 informado no mesmo documento. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Natura (Relações com Investidores, release 3T26)",
+      "desc": "A temporada de balanços do 3º trimestre segue com varejo e consumo no radar do mercado.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-esp-1",
+      "cat": "Esporte",
+      "q": "No amistoso de 29/11 no Japão, a Seleção Brasileira Feminina vai vencer o Japão no tempo normal?",
+      "outs": [
+        "Vitória do Brasil",
+        "Empate",
+        "Vitória do Japão"
+      ],
+      "p": [
+        0.4,
+        0.25,
+        0.35
+      ],
+      "close": "2026-11-28T18:00:00-03:00",
+      "crit": "Vitória do Brasil, se o Brasil vencer no tempo normal o amistoso de 29/11/2026 em Hiroshima. Empate, se terminar empatado no tempo normal. Vitória do Japão, se o Japão vencer, conforme a CBF ou a federação japonesa (JFA). Se o jogo não ocorrer em 29/11, a pergunta será retirada.",
+      "src": "CBF (súmula e resultado oficial) e JFA",
+      "desc": "Arthur Elias fez a última convocação do ano para dois amistosos no Japão, em 29/11 e 5/12.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/arthur-elias-convoca-selecao-brasileira-feminina-para-ultimos-jogos-em-2026"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-esp-2",
+      "cat": "Esporte",
+      "q": "Na primeira final em jogo único da história da Copa do Brasil, em Brasília, o Palmeiras vai ser campeão contra o Grêmio?",
+      "outs": [
+        "Sim, Palmeiras campeão",
+        "Não, Grêmio campeão"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-12-05T18:00:00-03:00",
+      "crit": "Sim, se o Palmeiras for declarado campeão da Copa do Brasil 2026 na final de 06/12/2026 (tempo normal, prorrogação ou pênaltis), conforme a CBF. Não, se o Grêmio for o campeão. Se a final for adiada para depois de 20/12/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e resultado da final da Copa do Brasil)",
+      "desc": "A final será disputada no Estádio Mané Garrincha, no domingo, 6/12.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/gremio-pode-igualar-cruzeiro-como-maior-campeao-da-copa-do-brasil"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-pol-1",
+      "cat": "Política",
+      "q": "Flávio Dino vai publicar, até sexta (13/11), a decisão sobre as regras de transição do fim da escala 6x1?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.75,
+        0.25
+      ],
+      "close": "2026-11-12T12:00:00-03:00",
+      "crit": "Sim, se, até 13/11/2026, o ministro Flávio Dino publicar nos autos das ações sobre a escala 6x1 no STF a decisão com as regras de transição, conforme a consulta processual ou as notícias do STF. Não, se a decisão não for publicada até essa data.",
+      "src": "Portal do STF (consulta processual e notícias do STF)",
+      "desc": "Na audiência de 10/11, o ministro deu 24 horas para manifestações e disse que decidiria até sexta; a decisão seguirá para o plenário.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/6x1-dino-levara-decisao-sobre-regras-de-transicao-ao-plenario-do-stf"
+        }
+      ]
+    },
+    {
+      "id": "d20261111-pol-2",
+      "cat": "Política",
+      "q": "Apesar de tributaristas pedirem adiar o teste da reforma tributária para 2028, o Congresso vai aprovar esse adiamento até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.12,
+        0.88
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, o Congresso Nacional aprovar e for publicada no Diário Oficial da União norma que adie o cronograma de teste ou de implementação da CBS/IBS para 2028. Não, caso contrário.",
+      "src": "Diário Oficial da União e Congresso Nacional",
+      "desc": "Depois de reunião com o ministro da Fazenda em 10/11, deputados descartaram adiar o cronograma, com a CBS prevista para janeiro de 2027.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/apos-reuniao-com-durigan-deputados-descartam-adiamento-da-reforma-tributaria/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -5011,6 +5149,86 @@
     "d20261021-pol-2": {
       "outcome": 0,
       "evidence": "https://noticias.stf.jus.br/postsnoticias/confederacao-do-comercio-questiona-no-stf-prazo-para-fim-da-escala-61/"
+    },
+    "d20261028-neg-1": {
+      "outcome": 1,
+      "evidence": "https://www.tribunadosertao.com.br/geral/2026/11/09/1017426-magazine-luiza-registra-prejuizo-liquido-de-r-107-milhoes-no-terceiro-trimestre-de-2026"
+    },
+    "d20261104-neg-1": {
+      "outcome": 1,
+      "evidence": "https://www.tribunadosertao.com.br/geral/2026/11/09/1017426-magazine-luiza-registra-prejuizo-liquido-de-r-107-milhoes-no-terceiro-trimestre-de-2026"
+    },
+    "d20261029-neg-2": {
+      "outcome": 0,
+      "evidence": "https://www.cnnbrasil.com.br/economia/money/negocios/embraer-melhora-projecoes-para-2026-apos-recordes-no-3o-trimestre/"
+    },
+    "d20261106-neg-1": {
+      "outcome": 1,
+      "evidence": "https://www.opovo.com.br/noticias/economia/2026/11/10/embraer-registra-lucro-liquido-de-de-rs-3798-milhoes-no-3-trimestre-156-ante-um-ano.html"
+    },
+    "d20261108-neg-2": {
+      "outcome": 1,
+      "evidence": "https://www.otempo.com.br/economia/2026/11/10/lucro-da-petrobras-cresce-21-5-no-terceiro-trimestre-para-r-39-7-bilhoes"
+    },
+    "d20261108-fin-4": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/caixa-seguridade-cxse3-resultados-terceiro-trimestre-2026-anuncio-dividendos/"
+    },
+    "d20261106-pol-1": {
+      "outcome": 0,
+      "evidence": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+    },
+    "d20261106-tec-4": {
+      "outcome": 0,
+      "evidence": "https://mercadoeconsumo.com.br/07/11/2026/economia/nubank-normaliza-operacoes-em-plataforma-de-criptomoedas/amp/"
+    },
+    "d20261106-pol-4": {
+      "outcome": 1,
+      "evidence": "https://mais.opovo.com.br/jornal/cidades/2026/11/09/abstencao-no-primeiro-dia-do-enem-sobe-de-27-para-32-em-2026.html"
+    },
+    "d20261107-esp-1": {
+      "outcome": 0,
+      "evidence": "https://www.lance.com.br/formula-1/mercedes-conquista-mundial-de-construtores-da-f1-2026.html"
+    },
+    "d20261107-esp-4": {
+      "outcome": 1,
+      "evidence": "https://www.band.com.br/esportes/velocidade/formula-1/norris-vence-o-gp-de-sao-paulo-bortoleto-e-16o-e-camara-20o"
+    },
+    "d20261107-esp-5": {
+      "outcome": 0,
+      "evidence": "https://www.band.com.br/esportes/velocidade/formula-1/norris-vence-o-gp-de-sao-paulo-bortoleto-e-16o-e-camara-20o"
+    },
+    "d20261103-esp-3": {
+      "outcome": 1,
+      "evidence": "https://www.band.com.br/esportes/velocidade/formula-1/norris-vence-o-gp-de-sao-paulo-bortoleto-e-16o-e-camara-20o"
+    },
+    "d20261108-esp-3": {
+      "outcome": 0,
+      "evidence": "https://mais.opovo.com.br/jornal/esportes/2026/11/08/palmeiras-elimina-vasco-nos-penaltis-e-garante-vaga-na-final-da-copa-do-brasil.html"
+    },
+    "d20261104-esp-1": {
+      "outcome": 0,
+      "evidence": "https://mais.opovo.com.br/jornal/esportes/2026/11/08/palmeiras-elimina-vasco-nos-penaltis-e-garante-vaga-na-final-da-copa-do-brasil.html"
+    },
+    "d20261104-esp-2": {
+      "outcome": 0,
+      "evidence": "https://www.opovo.com.br/esportes/2026/11/08/gremio-avanca-a-final-da-copa-do-brasil-apos-empate-com-atletico-mg.html"
+    },
+    "d20261031-eco-1": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-09112026/"
+    },
+    "d20261104-eco-7": {
+      "outcome": 1,
+      "evidence": "https://www.noticiasagricolas.com.br/cotacoes/cafe/cafe-bolsa-de-nova-iorque-nybot"
+    },
+    "d20261023-fin-2": {
+      "outcome": 0,
+      "evidence": "https://www.nationthailand.com/news/40072956"
+    },
+    "d20261104-pol-4": {
+      "outcome": 0,
+      "evidence": "https://www.diariodepernambuco.com.br/politica/2026/11/11728648-lula-acusa-big-techs-de-interferencia-nas-eleicoes-e-diz-que-vai-governar-para-todos.html"
     }
   },
   "withdrawn": [
@@ -5032,6 +5250,12 @@
     "d20261030-esp-2",
     "d20261031-esp-1",
     "d20261031-esp-2",
-    "d20261031-esp-3"
+    "d20261031-esp-3",
+    "d20261021-tec-1",
+    "d20261028-tec-3",
+    "d20261105-esp-8",
+    "d20261107-tec-1",
+    "d20261104-neg-2",
+    "d20261108-neg-1"
   ]
 }
