@@ -5395,6 +5395,29 @@
           "url": "https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/"
         }
       ]
+    },
+    {
+      "id": "d20261112-neg-3",
+      "cat": "Negócios",
+      "q": "Com a oferta revisada em 5% pelos 10% do Santander Brasil, os acionistas do Santander (Espanha) aprovarão os aumentos de capital em 15/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.85,
+        0.15
+      ],
+      "close": "2026-12-14T12:00:00-03:00",
+      "crit": "Sim, se o Santander (Espanha) informar em comunicado oficial, até 18/12/2026, que a assembleia geral extraordinária de 15/12/2026 aprovou os aumentos de capital ligados à oferta pelas ações do Santander Brasil. Não, se a assembleia rejeitar a proposta ou se ela não aprovar os aumentos até essa data.",
+      "src": "Comunicados do Banco Santander e da CNMV; fato relevante do Santander Brasil na CVM",
+      "desc": "A oferta foi revista em 12/11 e prevê pagamento em ações, cerca de 1,9 bilhão de euros. A assembleia que decide os aumentos de capital está prevista para 15/12.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/santander-aumenta-oferta-e-comprara-10-do-santander-brasil-por-19-bilhao-de-euros/"
+        }
+      ]
     }
   ],
   "resolutions": {
