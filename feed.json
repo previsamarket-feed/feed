@@ -5045,6 +5045,29 @@
           "url": "https://www.infomoney.com.br/economia/queda-setor-servicos-setembro-pib/"
         }
       ]
+    },
+    {
+      "id": "d20261111-tec-3",
+      "cat": "Tecnologia",
+      "q": "Com o governo subindo o tom contra as big techs, a Câmara vai aprovar o texto-base do PL 4675/25, que regula economicamente as grandes plataformas digitais, até 21/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-16T18:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar o texto-base do PL 4675/25 até 21/11/2026, conforme o registro de votações no site da Câmara. Não, se o texto não for votado, for retirado de pauta, for rejeitado ou a votação ficar para depois de 21/11/2026.",
+      "src": "Câmara dos Deputados (Agência Câmara e painel de votações do plenário)",
+      "desc": "O relator, deputado Aliel Machado, disse ao InfoMoney que pretende levar o projeto ao plenário na terça-feira (17). Há quem defenda regras mais duras para as plataformas e quem veja risco à inovação e à liberdade de expressão; adiamentos de pauta são comuns.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/proposta-sobre-regulacao-das-big-techs-deve-ser-votada-na-semana-que-vem-diz-relator/"
+        }
+      ]
     }
   ],
   "resolutions": {
