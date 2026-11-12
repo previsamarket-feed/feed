@@ -5068,6 +5068,333 @@
           "url": "https://www.infomoney.com.br/politica/proposta-sobre-regulacao-das-big-techs-deve-ser-votada-na-semana-que-vem-diz-relator/"
         }
       ]
+    },
+    {
+      "id": "d20261112-eco-1",
+      "cat": "Economia",
+      "q": "Com o desemprego em 5,2%, o menor nível para um trimestre desde 2012, a taxa de desocupação do trimestre encerrado em outubro ficará abaixo de 5,2%?",
+      "outs": [
+        "Sim, abaixo de 5,2%",
+        "Não, 5,2% ou mais"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-11-25T18:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, até 15/12/2026, taxa de desocupação da PNAD Contínua do trimestre encerrado em outubro de 2026 menor que 5,2%. Não, se for 5,2% ou maior. Se o dado não sair até 15/12, a pergunta será retirada.",
+      "src": "IBGE (PNAD Contínua)",
+      "desc": "A taxa recuou a 5,2% no trimestre até setembro, segundo o IBGE. Uns veem o mercado de trabalho aquecido sustentando o consumo; outros, pressão sobre a Selic.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/taxa-de-desemprego-recua-5-2-menor-nivel-2012/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/desemprego-recua-para-52-no-trimestre-encerrado-em-setembro-aponta-ibge"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-eco-2",
+      "cat": "Economia",
+      "q": "Depois de crescer 0,5% no 2º trimestre, o PIB do 3º trimestre de 2026 vai crescer mais de 0,3% sobre o trimestre anterior?",
+      "outs": [
+        "Sim, mais de 0,3%",
+        "Não, 0,3% ou menos"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-30T18:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, até 15/12/2026, variação do PIB do 3º trimestre de 2026 maior que 0,3% frente ao 2º trimestre, na série com ajuste sazonal. Não, se for 0,3% ou menos. Se o dado não sair até 15/12, a pergunta será retirada.",
+      "src": "IBGE (Contas Nacionais Trimestrais)",
+      "desc": "O PIB do 2º trimestre subiu 0,5%, acima do esperado, mas analistas apontam desaceleração com juros e endividamento altos.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/pib-brasil-segundo-tri-2026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/desaceleracao-pib-segundo-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-fin-1",
+      "cat": "Finanças",
+      "q": "Depois de o dólar bater o maior fechamento do ano (R$ 5,586 em 10/11), a PTAX de venda de 30/11 ficará acima de R$ 5,50?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se a PTAX de venda de 30/11/2026, divulgada pelo Banco Central, for maior que R$ 5,5000. Não, se for igual ou menor.",
+      "src": "Banco Central do Brasil (PTAX)",
+      "desc": "O dólar comercial fechou a R$ 5,562 em 11/11, com o mercado de olho no pacote fiscal e no cenário externo.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/bolsa-sobe-042-com-expectativa-de-ajuste-fiscal-dolar-fecha-a-r-556"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-10112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-fin-2",
+      "cat": "Finanças",
+      "q": "A Vale, que teve lucro de US$ 1,25 bilhão no 3º trimestre (queda de 53% em um ano), terá ação VALE3 fechando 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de VALE3 na B3 em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotações históricas de VALE3)",
+      "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/vale-vale3-balanco-3t26/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-tec-1",
+      "cat": "Tecnologia",
+      "q": "Em meio à corrida bilionária das big techs por IA, a Amazon (AMZN) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de AMZN na Nasdaq em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (cotações históricas de AMZN)",
+      "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/google-amazon-meta-e-microsoft-investirao-us-650-bi-com-corrida-intensa-por-ia/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-tec-2",
+      "cat": "Tecnologia",
+      "q": "Depois do tombo das ações de IA em Wall Street, a Nvidia (NVDA) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de NVDA na Nasdaq em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (cotações históricas de NVDA)",
+      "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/nvidia-divulga-balanco-que-pode-definir-humor-no-mercado/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-neg-1",
+      "cat": "Negócios",
+      "q": "A Cyrela, que divulga balanço em 12/11, terá lucro líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 no release da Cyrela for maior que o do 2T26 informado no mesmo release. Não, se for igual ou menor. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "Cyrela (Relações com Investidores, release 3T26)",
+      "desc": "O setor de construção chega ao balanço com expectativas divididas entre analistas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-construtoras-cyre3-cury3-mrve3/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-neg-2",
+      "cat": "Negócios",
+      "q": "A Cemig, que divulga balanço em 12/11, terá lucro líquido no 3º trimestre maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-12T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 no release da Cemig for maior que o do 2T26 informado no mesmo release. Não, se for igual ou menor. Sem divulgação até 20/11/2026, a pergunta será retirada.",
+      "src": "Cemig (Relações com Investidores, release 3T26)",
+      "desc": "A elétrica mineira está na agenda de balanços de 12/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-esp-1",
+      "cat": "Esporte",
+      "q": "São Paulo x Fluminense, no Morumbis, em 19/11, pela 35ª rodada do Brasileirão: quem leva?",
+      "outs": [
+        "Vitória do São Paulo",
+        "Empate",
+        "Vitória do Fluminense"
+      ],
+      "p": [
+        0.4,
+        0.28,
+        0.32
+      ],
+      "close": "2026-11-19T18:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado após os 90 minutos mais acréscimos, conforme a súmula e a tabela oficial da CBF. Se o jogo não ocorrer até 26/11/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "Jogo marcado para quinta-feira (19/11), às 21h30, no Morumbis.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-esp-2",
+      "cat": "Esporte",
+      "q": "Grêmio x Bahia, na Arena do Grêmio, em 18/11, pela 35ª rodada do Brasileirão: quem leva?",
+      "outs": [
+        "Vitória do Grêmio",
+        "Empate",
+        "Vitória do Bahia"
+      ],
+      "p": [
+        0.42,
+        0.28,
+        0.3
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado após os 90 minutos mais acréscimos, conforme a súmula e a tabela oficial da CBF. Se o jogo não ocorrer até 25/11/2026, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "Jogo marcado para quarta-feira (18/11), às 21h30, em Porto Alegre.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-pol-1",
+      "cat": "Política",
+      "q": "O Plenário do Senado vai aprovar o texto-base do projeto de ajuste fiscal de R$ 50 a 60 bilhões, previsto para votação nesta quinta (12/11), até 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-12T10:00:00-03:00",
+      "crit": "Sim, se o Plenário do Senado Federal aprovar o texto-base do projeto de lei complementar do ajuste fiscal do governo até 13/11/2026, conforme a Agência Senado e o painel de votações. Não, se a votação for adiada, o texto for retirado de pauta ou rejeitado.",
+      "src": "Senado Federal (Agência Senado e painel de votações)",
+      "desc": "O pacote reduz o limite de alta das despesas de 2,5% para 2% ao ano a partir de 2027; a oposição tenta adiar a votação, e o governo diz que o texto é essencial para o Orçamento de 2027.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/senado-pode-votar-nesta-quinta-ajuste-fiscal-de-ate-r-60-bilhoes"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/alcolumbre-definira-na-quinta-feira-se-vota-ou-adia-projeto-de-ajuste-fiscal/"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-pol-2",
+      "cat": "Política",
+      "q": "Depois de o Senado aprovar a renegociação de dívidas rurais (MP 1.376/2026), a lei será sancionada e publicada no Diário Oficial até 27/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-17T18:00:00-03:00",
+      "crit": "Sim, se a lei de conversão da MP 1.376/2026 for sancionada e publicada no Diário Oficial da União até 27/11/2026. Não, se não for publicada até essa data ou se houver veto total.",
+      "src": "Diário Oficial da União e Planalto",
+      "desc": "O texto aprovado em 11/11 segue para sanção; produtores pedem pressa, e o governo e o setor financeiro discutem o custo da medida.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/comissao-mista-aprova-mp-da-renegociacao-de-dividas-rurais"
+        }
+      ]
+    },
+    {
+      "id": "d20261112-eco-3",
+      "cat": "Economia",
+      "q": "O pacote fiscal de R$ 50 a 60 bilhões, que reduz o limite de alta das despesas de 2,5% para 2% ao ano, virará lei, com publicação no Diário Oficial, até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-12-10T18:00:00-03:00",
+      "crit": "Sim, se a lei complementar do ajuste fiscal do governo for sancionada e publicada no Diário Oficial da União até 31/12/2026. Não, caso contrário.",
+      "src": "Diário Oficial da União e Planalto",
+      "desc": "O Senado deve votar o projeto em 12/11; depois ele ainda passa pela Câmara dos Deputados e pela sanção presidencial.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/senado-pode-votar-nesta-quinta-ajuste-fiscal-de-ate-r-60-bilhoes"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -5298,6 +5625,34 @@
     "d20261104-pol-4": {
       "outcome": 0,
       "evidence": "https://www.diariodepernambuco.com.br/politica/2026/11/11728648-lula-acusa-big-techs-de-interferencia-nas-eleicoes-e-diz-que-vai-governar-para-todos.html"
+    },
+    "d20261110-pol-4": {
+      "outcome": 0,
+      "evidence": "https://www12.senado.leg.br/noticias/materias/2026/11/11/renegociacao-de-dividas-rurais-e-aprovada-pelo-senado-e-vai-a-sancao-presidencial"
+    },
+    "d20261023-neg-2": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/"
+    },
+    "d20261104-fin-1": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/"
+    },
+    "d20261106-fin-2": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/"
+    },
+    "d20261030-neg-2": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/petrobras-petr4-balanco-3t26/"
+    },
+    "d20261106-neg-2": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/americanas-amer3-resultados-terceiro-trimestre-2026/"
+    },
+    "d20261107-neg-2": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/grupo-ultra-ugpa3-resultados-terceiro-trimestre-2026-anuncio-dividendos/"
     }
   },
   "withdrawn": [
