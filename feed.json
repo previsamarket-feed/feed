@@ -5506,6 +5506,29 @@
           "url": "https://www.metropoles.com/esportes/confira-a-provavel-escalacao-do-brasil-para-amistoso-contra-o-japao"
         }
       ]
+    },
+    {
+      "id": "d20261113-fin-3",
+      "cat": "Finanças",
+      "q": "Depois de perder os US$ 70 mil pela primeira vez desde agosto e acumular queda de mais de 21% em 2026, o Bitcoin vai fechar 20/11 acima de US$ 70 mil?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-20T12:00:00-03:00",
+      "crit": "Sim, se a cotação de fechamento diário (23h59 UTC) do Bitcoin em 20/11/2026 for superior a US$ 70.000, conforme o histórico do CoinMarketCap. Não, se for igual ou inferior.",
+      "src": "CoinMarketCap (coinmarketcap.com/currencies/bitcoin/historical-data)",
+      "desc": "O Bitcoin voltou a ficar abaixo de US$ 70 mil em 13/11, com incerteza sobre os juros nos EUA, menor apetite por risco e menos entrada de dinheiro institucional; a pergunta mede se ele recupera esse patamar em uma semana.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bitcoin-perde-us-70-mil-e-amplia-queda-ate-onde-o-btc-pode-cair/"
+        }
+      ]
     }
   ],
   "resolutions": {
