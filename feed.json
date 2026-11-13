@@ -5454,6 +5454,33 @@
           "url": "https://www.metropoles.com/brasil/apos-senado-ajuste-fiscal-vira-incognita-na-camara-governo-busca-motta"
         }
       ]
+    },
+    {
+      "id": "d20261113-eco-3",
+      "cat": "Economia",
+      "q": "Depois de ameaçar dobrar as tarifas sobre o México por causa de uma caravana de cerca de 1.500 migrantes, os EUA vão oficializar aumento de tarifas sobre produtos mexicanos até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se a Casa Branca ou o Federal Register publicarem, até 30/11/2026, ordem executiva ou proclamação que eleve tarifas de importação sobre produtos do México. Não, se não houver ato oficial publicado até essa data (declarações e ameaças não contam).",
+      "src": "Casa Branca (whitehouse.gov) e Federal Register",
+      "desc": "A ameaça foi feita em 12/11, sem prazo formal; a pergunta só conta ato oficial publicado.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/trump-ameaca-dobrar-tarifas-sobre-mexico-caso-pais-nao-barre-imigrantes/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/trump-ameaca-dobrar-tarifas-e-cobra-mexico-por-caravanas-de-imigrantes"
+        }
+      ]
     }
   ],
   "resolutions": {
