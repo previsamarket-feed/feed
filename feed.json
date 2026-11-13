@@ -5481,6 +5481,31 @@
           "url": "https://www.metropoles.com/mundo/trump-ameaca-dobrar-tarifas-e-cobra-mexico-por-caravanas-de-imigrantes"
         }
       ]
+    },
+    {
+      "id": "d20261113-esp-3",
+      "cat": "Esporte",
+      "q": "Na primeira das duas despedidas da Seleção em 2026, o Brasil de Ancelotti vai vencer o Japão, que já o derrotou em 2025, no tempo normal em 14/11?",
+      "outs": [
+        "Vitória do Brasil",
+        "Empate",
+        "Vitória do Japão"
+      ],
+      "p": [
+        0.45,
+        0.27,
+        0.28
+      ],
+      "close": "2026-11-13T22:00:00-03:00",
+      "crit": "Vitória do Brasil, se o Brasil vencer no tempo normal o amistoso contra o Japão de 14/11/2026 (7h15 de Brasília, em Singapura). Empate, se terminar empatado no tempo normal. Vitória do Japão, se o Japão vencer, conforme a súmula e o resultado oficial da CBF. Se o jogo não ocorrer em 14/11, a pergunta será retirada.",
+      "src": "CBF (súmula e resultado oficial)",
+      "desc": "Os amistosos da Data Fifa de novembro são contra o Japão (14/11) e Singapura (17/11), no Estádio Nacional de Singapura.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/confira-a-provavel-escalacao-do-brasil-para-amistoso-contra-o-japao"
+        }
+      ]
     }
   ],
   "resolutions": {
