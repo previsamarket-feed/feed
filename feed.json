@@ -5441,6 +5441,35 @@
           "url": "https://www.infomoney.com.br/mercados/braskem-deixa-de-pagar-debentures-de-r-12-bilhao-e-cita-recuperacao-extrajudicial/"
         }
       ]
+    },
+    {
+      "id": "d20261113-pol-3",
+      "cat": "Política",
+      "q": "Em quem você votaria em 2030? Nikolas Ferreira, Tarcísio de Freitas ou Flávio Bolsonaro?",
+      "outs": [
+        "Nikolas Ferreira",
+        "Tarcísio de Freitas",
+        "Flávio Bolsonaro"
+      ],
+      "p": [
+        0.34,
+        0.33,
+        0.33
+      ],
+      "close": "2027-03-05T18:00:00-03:00",
+      "crit": "Vence o nome com maior percentual no cenário de primeiro turno da primeira pesquisa nacional de intenção de voto para Presidente em 2030, divulgada entre 06/03/2027 e 30/04/2027 por Datafolha, Quaest ou AtlasIntel, que inclua os três nomes. Se nenhuma pesquisa com os três for divulgada nesse período, a pergunta será retirada e os PTS devolvidos.",
+      "src": "Pesquisas registradas e divulgadas por Datafolha, Quaest ou AtlasIntel",
+      "desc": "Enquete sobre os nomes citados para 2030. A pergunta é resolvida pelo resultado de pesquisa de instituto, não por votos do site, e é só simulação com PTS virtuais.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/2030-ja-comecou-tarcisio-nikolas-e-renan-ja-jogam-a-proxima-eleicao-diz-analista/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/sao-paulo/tarcisio-se-afasta-aos-poucos-do-bolsonarismo-enquanto-flerta-com-2030"
+        }
+      ]
     }
   ],
   "resolutions": {
