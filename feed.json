@@ -2,56 +2,6 @@
   "version": 1,
   "markets": [
     {
-      "id": "d20261020-eco-2",
-      "cat": "Economia",
-      "q": "A taxa de desocupação do trimestre até setembro, segundo o IBGE, será de 5,2% ou menos?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.45,
-        0.55
-      ],
-      "close": "2026-10-27T18:00:00-03:00",
-      "crit": "Sim, se a taxa de desocupação da PNAD Contínua do trimestre encerrado em setembro de 2026, divulgada pelo IBGE até 06/11/2026, for 5,2% ou menor. Não, se for maior. Se não for divulgada até 06/11, a pergunta será retirada.",
-      "src": "IBGE (PNAD Contínua)",
-      "desc": "No trimestre até agosto a taxa foi de 5,3%, em linha com o esperado pelo mercado.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/economia/brasil-tem-desemprego-de-53-no-tri-ate-agosto-diz-ibge-em-linha-com-o-esperado/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/ibge-desemprego-varia-para-em-agost"
-        }
-      ]
-    },
-    {
-      "id": "d20261020-fin-2",
-      "cat": "Finanças",
-      "q": "A PTAX de venda do dólar em 30/10 ficará abaixo de R$ 5,00?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.4,
-        0.6
-      ],
-      "close": "2026-10-29T18:00:00-03:00",
-      "crit": "Sim, se a taxa PTAX de venda do dólar divulgada pelo Banco Central para 30/10/2026 (fechamento) for menor que R$ 5,0000. Não, caso contrário.",
-      "src": "Banco Central do Brasil (PTAX)",
-      "desc": "O dólar comercial fechou a terça-feira (20/10) a R$ 5,019 na venda, após queda de 0,58%.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-20102026/"
-        }
-      ]
-    },
-    {
       "id": "d20261020-tec-2",
       "cat": "Tecnologia",
       "q": "A Anatel aprovará o edital do leilão de 6G até 4 de dezembro de 2026?",
@@ -98,60 +48,6 @@
         {
           "name": "InfoMoney",
           "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-        }
-      ]
-    },
-    {
-      "id": "d20261020-esp-1",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Palmeiras x Bragantino, pela 32ª rodada do Brasileirão?",
-      "outs": [
-        "Palmeiras vence",
-        "Empate",
-        "Bragantino vence"
-      ],
-      "p": [
-        0.58,
-        0.25,
-        0.17
-      ],
-      "close": "2026-10-24T10:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula/tabela oficial da CBF, do jogo marcado para 24/10/2026. Se for adiado para depois de 31/10/2026, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial)",
-      "desc": "O Palmeiras tem 66 pontos, é vice-líder e joga em casa na rodada.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/luta-pelo-titulo-veja-reta-final-de-flamengo-e-palmeiras-no-brasileirao"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/palmeiras-vence-athletico-pr-e-assume-a-lideranca-do-brasileirao"
-        }
-      ]
-    },
-    {
-      "id": "d20261020-esp-2",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Flamengo x Atlético-MG, pela 32ª rodada do Brasileirão?",
-      "outs": [
-        "Flamengo vence",
-        "Empate",
-        "Atlético-MG vence"
-      ],
-      "p": [
-        0.58,
-        0.24,
-        0.18
-      ],
-      "close": "2026-10-26T12:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula/tabela oficial da CBF, do jogo marcado para 26/10/2026. Se for adiado para depois de 31/10/2026, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial)",
-      "desc": "O Flamengo lidera com 67 pontos, após vencer o Bahia por 3 a 0 no domingo (18/10).",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/luta-pelo-titulo-veja-reta-final-de-flamengo-e-palmeiras-no-brasileirao"
         }
       ]
     },
@@ -225,64 +121,6 @@
       ]
     },
     {
-      "id": "d20261021-eco-1",
-      "cat": "Economia",
-      "q": "No Boletim Focus de 26/10, a mediana para o IPCA de 2026 ficará acima de 5,22%?",
-      "outs": [
-        "Acima de 5,22%",
-        "Igual a 5,22%",
-        "Abaixo de 5,22%"
-      ],
-      "p": [
-        0.36,
-        0.34,
-        0.3
-      ],
-      "close": "2026-10-26T06:00:00-03:00",
-      "crit": "Vale a mediana da projeção para o IPCA de 2026 no Relatório Focus do Banco Central divulgado em 26/10/2026, comparada com 5,22%, valor do Focus de 19/10.",
-      "src": "Banco Central do Brasil (Relatório Focus)",
-      "desc": "Na semana passada o mercado manteve a projeção de inflação de 2026 em 5,22%, depois de revisões para cima nas semanas anteriores.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/focus-mercado-mantem-projecao-para-inflacao-em-522-mas-reduz-a-do-pib"
-        }
-      ]
-    },
-    {
-      "id": "d20261021-eco-2",
-      "cat": "Economia",
-      "q": "No Boletim Focus de 26/10, a mediana para o crescimento do PIB de 2026 ficará abaixo de 1,83%?",
-      "outs": [
-        "Abaixo de 1,83%",
-        "Igual a 1,83%",
-        "Acima de 1,83%"
-      ],
-      "p": [
-        0.5,
-        0.22,
-        0.28
-      ],
-      "close": "2026-10-26T06:00:00-03:00",
-      "crit": "Vale a mediana da projeção para o PIB de 2026 no Relatório Focus do Banco Central divulgado em 26/10/2026, comparada com 1,83%, valor do Focus de 19/10.",
-      "src": "Banco Central do Brasil (Relatório Focus)",
-      "desc": "O mercado reduziu a projeção do PIB de 2026 de 1,85% para 1,83% no Focus de 19/10.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/focus-mercado-mantem-projecao-para-inflacao-em-522-mas-reduz-a-do-pib"
-        }
-      ]
-    },
-    {
       "id": "d20261021-fin-1",
       "cat": "Finanças",
       "q": "O Copom vai cortar a taxa Selic na reunião de 3 e 4 de novembro?",
@@ -312,35 +150,6 @@
       ]
     },
     {
-      "id": "d20261021-fin-2",
-      "cat": "Finanças",
-      "q": "No Boletim Focus de 26/10, a mediana do dólar no fim de 2026 ficará abaixo de R$ 5,13?",
-      "outs": [
-        "Abaixo de R$ 5,13",
-        "Igual a R$ 5,13",
-        "Acima de R$ 5,13"
-      ],
-      "p": [
-        0.55,
-        0.2,
-        0.25
-      ],
-      "close": "2026-10-26T06:00:00-03:00",
-      "crit": "Vale a mediana da projeção para a taxa de câmbio no fim de 2026 no Relatório Focus do Banco Central divulgado em 26/10/2026, comparada com R$ 5,13, valor do Focus de 19/10.",
-      "src": "Banco Central do Brasil (Relatório Focus)",
-      "desc": "O Focus de 19/10 reduziu a projeção do dólar para o fim de 2026 de R$ 5,15 para R$ 5,13; o dólar comercial fechou a R$ 5,02 em 20/10.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-20102026/"
-        }
-      ]
-    },
-    {
       "id": "d20261021-tec-2",
       "cat": "Tecnologia",
       "q": "O Pix como garantia (uso de recebíveis futuros) entrará em operação até 31/12/2026?",
@@ -360,33 +169,6 @@
         {
           "name": "Metrópoles",
           "url": "https://www.metropoles.com/brasil/conheca-as-mudancas-previstas-para-o-pix"
-        }
-      ]
-    },
-    {
-      "id": "d20261021-neg-1",
-      "cat": "Negócios",
-      "q": "A Vale terá EBITDA ajustado proforma acima de US$ 3,5 bilhões no 3º trimestre de 2026?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-10-29T12:00:00-03:00",
-      "crit": "Sim, se o EBITDA ajustado proforma do 3T26 no release de resultados da Vale (previsto para 29/10/2026) for maior que US$ 3,50 bilhões. Não, se for igual ou menor.",
-      "src": "Vale S.A. (release de resultados do 3T26)",
-      "desc": "O Itaú BBA projeta EBITDA proforma de cerca de US$ 3,5 bilhões, queda de 14% sobre um ano antes, com minério de ferro mais barato e fretes mais altos.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-mineracao-siderurgia-vale3-ggbr4/"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
         }
       ]
     },
@@ -418,29 +200,6 @@
       ]
     },
     {
-      "id": "d20261021-pol-1",
-      "cat": "Política",
-      "q": "O Tesouro Nacional vai informar superávit primário do Governo Central em setembro de 2026?",
-      "outs": [
-        "Sim, superávit",
-        "Não, déficit"
-      ],
-      "p": [
-        0.35,
-        0.65
-      ],
-      "close": "2026-10-26T18:00:00-03:00",
-      "crit": "Sim, se o resultado primário do Governo Central de setembro de 2026, divulgado pelo Tesouro Nacional, for positivo. Não, se for déficit ou zero.",
-      "src": "Tesouro Nacional (Resultado do Tesouro Nacional)",
-      "desc": "Em agosto o Governo Central teve déficit de R$ 13,6 bilhões; no acumulado de 12 meses, o déficit é de R$ 68,7 bilhões (0,53% do PIB).",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/contas-do-governo-registram-deficit-de-r-136-bilhoes-em-agosto"
-        }
-      ]
-    },
-    {
       "id": "d20261020-pol-7",
       "cat": "Política",
       "q": "A dívida bruta do governo (R$ 11,1 trilhões em agosto) passará de 84% do PIB até dezembro, segundo o Banco Central?",
@@ -460,29 +219,6 @@
         {
           "name": "Metrópoles",
           "url": "https://www.metropoles.com/brasil/divida-publica-do-governo-sobe-para-819-do-pib-em-2026"
-        }
-      ]
-    },
-    {
-      "id": "d20261021-pol-2",
-      "cat": "Política",
-      "q": "O STF receberá uma ação contra a emenda do fim da escala 6x1 até 30/11/2026?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.6,
-        0.4
-      ],
-      "close": "2026-10-26T18:00:00-03:00",
-      "crit": "Sim, se até 30/11/2026 for protocolada no STF ao menos uma ação (como uma ADI) que questione a Emenda Constitucional 141/2026, conforme a consulta de processos do portal do STF. Não, caso contrário.",
-      "src": "Portal do STF (consulta processual) e Diário Oficial da União",
-      "desc": "A emenda do fim da 6x1 foi promulgada em 16/10/2026. Entidades do setor rural discutiram acionar o STF contra a regra que deixa de fora empregados com diploma e salário alto. Até 16/10 nenhuma ação havia sido noticiada.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/fim-da-6x1-diario-oficial-prazos-comecam-valer"
         }
       ]
     },
@@ -625,29 +361,6 @@
         {
           "name": "InfoMoney",
           "url": "https://www.infomoney.com.br/politica/anatel-libera-operacao-da-spacesail-concorrente-da-starlink-no-brasil/"
-        }
-      ]
-    },
-    {
-      "id": "d20261023-neg-1",
-      "cat": "Negócios",
-      "q": "O Santander Brasil terá lucro líquido acima de R$ 3 bilhões no 3º trimestre de 2026?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.62,
-        0.38
-      ],
-      "close": "2026-10-28T12:00:00-03:00",
-      "crit": "Sim, se o lucro líquido do Santander Brasil no 3T26, no release de resultados divulgado em 28/10/2026, for maior que R$ 3,0 bilhões.",
-      "src": "Santander Brasil (Relações com Investidores, release 3T26)",
-      "desc": "O consenso reunido por analistas fica perto de R$ 3,2 bi, mas as projeções variam entre R$ 2,7 bi e R$ 3,2 bi.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bancos-itub4-bbas3/"
         }
       ]
     },
@@ -1096,31 +809,6 @@
         {
           "name": "Metrópoles",
           "url": "https://www.metropoles.com/brasil/reforma-tributaria-tcu-propoe-aliquota-da-cbs-em-113"
-        }
-      ]
-    },
-    {
-      "id": "d20261028-esp-4",
-      "cat": "Esporte",
-      "q": "Qual será o resultado de Vasco x Flamengo, no Brasileirão, nesta quinta-feira no Nilton Santos?",
-      "outs": [
-        "Vasco vence",
-        "Empate",
-        "Flamengo vence"
-      ],
-      "p": [
-        0.25,
-        0.28,
-        0.47
-      ],
-      "close": "2026-10-29T18:00:00-03:00",
-      "crit": "Vale o placar dos 90 minutos mais acréscimos, conforme súmula oficial da CBF, do jogo marcado para 29/10/2026 às 20h. Se for adiado para depois de 05/11/2026, a pergunta será retirada.",
-      "src": "CBF (súmula e tabela oficial do Brasileirão)",
-      "desc": "Clássico carioca com policiamento reforçado, na quinta às 20h. O Flamengo vem de vitória sobre o Atlético-MG.",
-      "news": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/semana-do-futebol-tem-classicos-nacionais-e-duelos-de-gigantes-na-europa"
         }
       ]
     },
@@ -5470,6 +5158,302 @@
           "url": "https://www.metropoles.com/sao-paulo/tarcisio-se-afasta-aos-poucos-do-bolsonarismo-enquanto-flerta-com-2030"
         }
       ]
+    },
+    {
+      "id": "d20261113-eco-1",
+      "cat": "Economia",
+      "q": "Com o dólar disparando para R$ 5,60, a mediana do Focus para o câmbio no fim de 2026 ficará acima de R$ 5,35 no boletim de 23/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se a mediana do dólar para o fim de 2026 no Boletim Focus de 23/11/2026 for maior que R$ 5,35. Não, se for igual ou menor. Fonte: Banco Central do Brasil (Focus, tabela de expectativas de mercado).",
+      "src": "Banco Central do Brasil (Boletim Focus)",
+      "desc": "No Focus de 9/11 a mediana do câmbio para o fim do ano estava em R$ 5,35, enquanto o dólar à vista chegou perto de R$ 5,60.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-09112026/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/focus-mercado-volta-a-subir-projecoes-para-juros-e-dolar-em-2026"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-eco-2",
+      "cat": "Economia",
+      "q": "Depois de o IPCA de outubro desacelerar para 0,14% e ficar abaixo do esperado, o IPCA-15 de novembro vai subir mais de 0,30%?",
+      "outs": [
+        "Sim, acima de 0,30%",
+        "Não, 0,30% ou menos"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se o IPCA-15 de novembro de 2026, divulgado pelo IBGE até 30/11/2026, tiver variação mensal maior que 0,30%. Não, se for 0,30% ou menor. Se não for divulgado até 30/11, a pergunta será retirada.",
+      "src": "IBGE (IPCA-15, SIDRA)",
+      "desc": "A inflação oficial de outubro foi de 0,14%, abaixo dos 0,25% esperados, e a de 12 meses ficou em 4,63%, acima do teto da meta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-fin-1",
+      "cat": "Finanças",
+      "q": "Depois de divulgar balanço fraco e cortar a projeção de lucro de 2026, o Banco do Brasil (BBAS3) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de BBAS3 na B3 em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotação de fechamento de BBAS3)",
+      "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-fin-2",
+      "cat": "Finanças",
+      "q": "Com o Brent em torno de US$ 92 depois de ter passado de US$ 115, o preço spot do petróleo fechará 20/11 abaixo de US$ 90 o barril?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.38,
+        0.62
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o preço spot do Brent em 20/11/2026, na série diária da EIA (Europe Brent Spot Price FOB), for menor que US$ 90,00 por barril. Não, se for igual ou maior.",
+      "src": "EIA (Europe Brent Spot Price FOB, série diária)",
+      "desc": "O Brent recuou nas últimas semanas com a expectativa de desfecho no conflito com o Irã; em 12/11 operava perto de US$ 92.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-tec-1",
+      "cat": "Tecnologia",
+      "q": "Com as big techs sob pressão por gastos bilionários em IA, a Microsoft (MSFT) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de MSFT na Nasdaq em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (cotações históricas de MSFT)",
+      "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/futuros-de-ny-caem-com-incertezas-sobre-a-nvidia-e-inflacao-ao-produtor-no-radar/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-tec-2",
+      "cat": "Tecnologia",
+      "q": "Com as ações de tecnologia ainda oscilando por incertezas em Wall Street, a Apple (AAPL) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de AAPL na Nasdaq em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "Nasdaq (cotações históricas de AAPL)",
+      "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/futuros-de-ny-caem-com-incertezas-sobre-a-nvidia-e-inflacao-ao-produtor-no-radar/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-neg-1",
+      "cat": "Negócios",
+      "q": "A Copasa, que divulga balanço do 3º trimestre em 13/11, terá lucro líquido maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 no release da Copasa, divulgado até 20/11/2026, for maior que o do 2T26 informado no mesmo release. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Copasa (Relações com Investidores, release 3T26)",
+      "desc": "A companhia de saneamento de Minas Gerais está no calendário de balanços de sexta-feira (13/11).",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-neg-2",
+      "cat": "Negócios",
+      "q": "A Celesc, que divulga balanço do 3º trimestre em 13/11, terá lucro líquido maior que o do 2º trimestre de 2026?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-13T12:00:00-03:00",
+      "crit": "Sim, se o lucro líquido do 3T26 no release da Celesc, divulgado até 20/11/2026, for maior que o do 2T26 informado no mesmo release. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
+      "src": "Celesc (Relações com Investidores, release 3T26)",
+      "desc": "A distribuidora de energia de Santa Catarina está no calendário de balanços de sexta-feira (13/11).",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-esp-1",
+      "cat": "Esporte",
+      "q": "Quem leva Vasco x Internacional, em 19/11, pela 35ª rodada do Brasileirão?",
+      "outs": [
+        "Vitória do Vasco",
+        "Empate",
+        "Vitória do Internacional"
+      ],
+      "p": [
+        0.42,
+        0.29,
+        0.29
+      ],
+      "close": "2026-11-19T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Vasco x Internacional, em 19/11/2026, após os 90 minutos mais acréscimos, conforme súmula e site oficial da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O jogo está marcado para as 19h30 de quinta-feira (19/11), na volta do campeonato após a Data Fifa.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-esp-2",
+      "cat": "Esporte",
+      "q": "Quem leva Santos x Grêmio, no Morumbis, em 23/11, pela 36ª rodada do Brasileirão?",
+      "outs": [
+        "Vitória do Santos",
+        "Empate",
+        "Vitória do Grêmio"
+      ],
+      "p": [
+        0.4,
+        0.28,
+        0.32
+      ],
+      "close": "2026-11-23T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Santos x Grêmio, em 23/11/2026, após os 90 minutos mais acréscimos, conforme súmula e site oficial da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O jogo está marcado para as 21h de segunda-feira (23/11), no Morumbis.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-pol-1",
+      "cat": "Política",
+      "q": "O Plenário do STF vai referendar, por maioria, a liminar de Dino que manteve o fim da escala 6x1 em 16/12 e flexibilizou as regras de transição?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.72,
+        0.28
+      ],
+      "close": "2026-11-13T10:00:00-03:00",
+      "crit": "Sim, se, até 20/11/2026, a maioria dos ministros do STF votar para referendar a liminar concedida em 12/11/2026 pelo ministro Flávio Dino nas ações sobre a escala 6x1, conforme o portal do STF. Não, se a liminar for rejeitada ou se a análise for suspensa (pedido de vista ou destaque) sem conclusão até 20/11.",
+      "src": "Portal do STF (consulta processual e notícias do STF)",
+      "desc": "A sessão virtual extraordinária vai das 11h de 13/11 às 11h de 16/11. A liminar manteve a mudança para 16/12 e permitiu distribuir as 42 horas semanais em cinco dias.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/fim-da-escala-6x1-stf-analisa-a-partir-de-sexta-feira-decisao-de-dino/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/dino-mantem-fim-da-escala-6x1-em-dezembro-e-flexibiliza-regras"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-pol-2",
+      "cat": "Política",
+      "q": "Depois de o Senado aprovar o ajuste fiscal por 45 votos a 31, a Câmara vai aprovar o texto-base do PLP 299/2026 em plenário até 2/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar o texto-base do PLP 299/2026 até 02/12/2026, conforme o site da Câmara. Não, caso contrário.",
+      "src": "Câmara dos Deputados (tramitação do PLP 299/2026)",
+      "desc": "O Senado aprovou o texto-base em 12/11 e votará destaques em 17/11; na Câmara, o destino do projeto ainda é incerto.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/senado-aprova-texto-base-do-ajuste-fiscal-do-governo-lula-por-45-votos-a-31/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/apos-senado-ajuste-fiscal-vira-incognita-na-camara-governo-busca-motta"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -5728,6 +5712,46 @@
     "d20261107-neg-2": {
       "outcome": 0,
       "evidence": "https://www.infomoney.com.br/mercados/grupo-ultra-ugpa3-resultados-terceiro-trimestre-2026-anuncio-dividendos/"
+    },
+    "d20261023-eco-2": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
+    },
+    "d20261029-eco-4": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
+    },
+    "d20261106-eco-1": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
+    },
+    "d20261021-neg-2": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/btg-pactual-bpac11-resultado-terceiro-trimestre-2026/"
+    },
+    "d20261104-fin-2": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/btg-pactual-bpac11-resultado-terceiro-trimestre-2026/"
+    },
+    "d20261108-fin-1": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/btg-pactual-bpac11-resultado-terceiro-trimestre-2026/"
+    },
+    "d20261029-neg-1": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/nubank-roxo34-resultado-terceiro-trimestre-2026/"
+    },
+    "d20261112-pol-1": {
+      "outcome": 0,
+      "evidence": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado"
+    },
+    "d20261111-pol-1": {
+      "outcome": 0,
+      "evidence": "https://www.metropoles.com/colunas/manoela-alcantara/dino-mantem-fim-da-escala-6x1-em-dezembro-e-flexibiliza-regras"
+    },
+    "d20261107-pol-1": {
+      "outcome": 0,
+      "evidence": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-planeta-nao-pode-esperar-em-meio-guerras-e-conflitos"
     }
   },
   "withdrawn": [
