@@ -5418,6 +5418,29 @@
           "url": "https://www.infomoney.com.br/mercados/santander-aumenta-oferta-e-comprara-10-do-santander-brasil-por-19-bilhao-de-euros/"
         }
       ]
+    },
+    {
+      "id": "d20261112-neg-4",
+      "cat": "Negócios",
+      "q": "Depois de deixar de pagar R$ 1,2 bilhão em debêntures com vencimento em 9/11, a Braskem vai informar ao mercado, até 30/11, que regularizou o pagamento desses papéis?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se a Braskem divulgar, até 30/11/2026, fato relevante ou comunicado oficial (CVM/B3) informando o pagamento, total ou parcial, dos juros e da amortização das debêntures de R$ 1,2 bilhão que venceram em 9/11. Não, se não houver esse comunicado até essa data.",
+      "src": "Fatos relevantes e comunicados da Braskem na CVM e na B3",
+      "desc": "A empresa citou a recuperação extrajudicial, em andamento desde agosto, e a suspensão judicial de cobranças de 120 dias para justificar o não pagamento. Ela não informou quando pretende regularizar.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/braskem-deixa-de-pagar-debentures-de-r-12-bilhao-e-cita-recuperacao-extrajudicial/"
+        }
+      ]
     }
   ],
   "resolutions": {
