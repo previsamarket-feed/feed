@@ -5529,6 +5529,79 @@
           "url": "https://www.infomoney.com.br/mercados/bitcoin-perde-us-70-mil-e-amplia-queda-ate-onde-o-btc-pode-cair/"
         }
       ]
+    },
+    {
+      "id": "d20261113-neg-3",
+      "cat": "Negócios",
+      "q": "Depois de a FAA parar todas as decolagens nos EUA por falha de comunicação, atrasando mais de 10 mil voos, o governo americano vai divulgar a causa oficial do problema até 20/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-16T12:00:00-03:00",
+      "crit": "Sim, se, até 20/11/2026 (23h59, horário de Brasília), a FAA ou outro órgão do governo dos EUA divulgar em comunicado oficial a causa da paralisação nacional de voos de 13/11/2026. Não, se não houver comunicado oficial com a causa até essa data (relatos de fontes ou da imprensa não valem).",
+      "src": "FAA (faa.gov/newsroom) e comunicados do Departamento de Transportes dos EUA",
+      "desc": "A FAA mandou parar as decolagens em todo o país em 13/11 por problemas de comunicação entre controladores e pilotos. Em 2023, uma pane parecida teve causa apontada em poucos dias; a pergunta mede se o órgão oficial dará a explicação em uma semana.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/mundo/noticia/2026/11/13/suspensao-de-voos-nos-eua-e-a-segunda-paralisacao-nacional-desde-o-11-de-setembro.ghtml"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/fbi-investiga-se-atualizacao-de-software-provocou-apagao-aereo-nos-eua/"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-tec-3",
+      "cat": "Tecnologia",
+      "q": "Depois de o propulsor da Starship cair no Golfo do México na tentativa de retorno em 13/11, a SpaceX vai fazer um novo lançamento da Starship até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-11-27T12:00:00-03:00",
+      "crit": "Sim, se a SpaceX realizar um novo lançamento da Starship (decolagem do foguete completo, a partir da base no Texas) entre 14/11/2026 e 31/12/2026, conforme o site da SpaceX ou da FAA. Não, se não houver nova decolagem nesse período.",
+      "src": "SpaceX (spacex.com/launches) e FAA",
+      "desc": "No voo de 13/11 a nave chegou à órbita, mas o propulsor Super Heavy falhou ao tentar voltar à plataforma. Os intervalos entre voos da Starship costumam ser de semanas ou meses; a pergunta mede se o próximo sai ainda em 2026.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/mundo/noticia/2026/11/13/spacex-lanca-foguete-starship-para-teste-de-manobra-inedita.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261113-tec-4",
+      "cat": "Tecnologia",
+      "q": "Com a OpenAI lançando nos EUA a ChatGPT Wallet, que faz compras e pagamentos pelo usuário, o recurso estará disponível no Brasil até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.12,
+        0.88
+      ],
+      "close": "2026-12-15T12:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, a OpenAI anunciar oficialmente a disponibilidade da ChatGPT Wallet para usuários no Brasil, em comunicado ou página de ajuda da empresa. Não, se não houver esse anúncio até a data.",
+      "src": "OpenAI (openai.com/news e help.openai.com)",
+      "desc": "A carteira digital, feita com Visa, Mastercard e American Express, estreou em 13/11 só nos EUA e só para assinantes do plano Pro. A pergunta mede se chega ao Brasil em menos de dois meses.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/tecnologia/noticia/2026/11/13/chat-gpt-wallet.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
