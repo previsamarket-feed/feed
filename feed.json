@@ -5882,6 +5882,29 @@
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
         }
       ]
+    },
+    {
+      "id": "d20261114-pol-3",
+      "cat": "Política",
+      "q": "Com a Câmara pedindo ao STF que derrube seis pontos da liminar de Dino sobre a escala 6x1, o Supremo vai alterar ao menos um deles até 16/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-16T10:00:00-03:00",
+      "crit": "Sim, se, até 16/12/2026, o STF (Plenário ou o ministro Flávio Dino) publicar decisão que modifique ou revogue ao menos um dos seis pontos questionados pela Câmara (jornada diária de 8h24, travas de compensação, prazos de 180 dias, contratos públicos ou regra das estatais), conforme o portal do STF. Não, se todos forem mantidos sem alteração até essa data.",
+      "src": "Portal do STF (consulta processual e notícias do STF)",
+      "desc": "Em 13/11, a Câmara pediu ao STF que não referende seis pontos da cautelar. O prazo para acordo coletivo vai a 15/12 e a regra de 42 horas vale a partir de 16/12.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/fim-da-6x1-camara-pede-que-stf-derrube-parte-das-regras-fixadas-por-dino"
+        }
+      ]
     }
   ],
   "resolutions": {
