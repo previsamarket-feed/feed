@@ -5602,6 +5602,286 @@
           "url": "https://g1.globo.com/tecnologia/noticia/2026/11/13/chat-gpt-wallet.ghtml"
         }
       ]
+    },
+    {
+      "id": "d20261114-eco-1",
+      "cat": "Economia",
+      "q": "O Copom vai manter a Selic em 13,75% na reunião que termina em 9/12, a última do ano?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-12-08T12:00:00-03:00",
+      "crit": "Sim, se o comunicado do Copom divulgado em 9/12/2026 mantiver a meta da Selic em 13,75% ao ano. Não, se elevar ou reduzir a taxa.",
+      "src": "Banco Central do Brasil (comunicado do Copom)",
+      "desc": "O Copom manteve a Selic em 13,75% em 4/11 e sinalizou juros altos por mais tempo; a inflação em 12 meses segue acima do teto da meta.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-10112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-eco-2",
+      "cat": "Economia",
+      "q": "O IPCA de novembro, que o IBGE divulga em dezembro, vai ficar acima dos 0,14% de outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.62,
+        0.38
+      ],
+      "close": "2026-12-08T12:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, até 15/12/2026, variação mensal do IPCA de novembro de 2026 acima de 0,14%. Não, se for igual ou menor.",
+      "src": "IBGE (SIDRA, IPCA)",
+      "desc": "O IPCA de outubro desacelerou para 0,14%, abaixo do esperado; o mercado debate se o alívio dos preços voláteis continua.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/negocios/ipca-15-confirma-alivio-nos-precos-mas-ainda-ha-risco-avalia-mercado"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-fin-1",
+      "cat": "Finanças",
+      "q": "O Ibovespa, que fechou a 171.324 pontos em 12/11 e tem a segunda semana seguida no azul, fechará 27/11 acima desse nível?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-27T10:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Ibovespa em 27/11/2026 for superior a 171.324,31 pontos. Não, se for igual ou inferior.",
+      "src": "B3 (pontuação de fechamento do Ibovespa)",
+      "desc": "O índice oscila entre o fiscal, o exterior e a temporada de balanços; o dólar subiu mais de 1,6% em 12/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-fin-2",
+      "cat": "Finanças",
+      "q": "O dólar comercial, que fechou a R$ 5,652 em 12/11, vai fechar 27/11 acima de R$ 5,65?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-27T10:00:00-03:00",
+      "crit": "Sim, se a cotação de venda do dólar comercial no fechamento de 27/11/2026 for superior a R$ 5,65. Não, se for igual ou inferior.",
+      "src": "Banco Central do Brasil (cotações de fechamento)",
+      "desc": "A moeda disparou 1,62% em 12/11, em dia de votação do ajuste fiscal no Senado e de inflação nos EUA.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-tec-1",
+      "cat": "Tecnologia",
+      "q": "GTA 6 será lançado em 19/11, como marcado, sem novo adiamento?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.88,
+        0.12
+      ],
+      "close": "2026-11-17T12:00:00-03:00",
+      "crit": "Sim, se o jogo Grand Theft Auto VI ficar disponível ao público para PS5 e Xbox Series X|S em 19/11/2026, conforme a Rockstar Games. Não, se o lançamento for adiado.",
+      "src": "Rockstar Games e Take-Two Interactive (comunicados oficiais)",
+      "desc": "A versão física padrão virá sem disco, só com código de download, e o jogo ocupará 212 GB no PS5.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/metropoles-games/gta-6-tera-versao-fisica-sem-disco-e-exigira-212-gb-no-ps5"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-tec-2",
+      "cat": "Tecnologia",
+      "q": "A Nvidia vai projetar para o próximo trimestre receita acima dos US$ 108 bilhões previstos para o atual?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.78,
+        0.22
+      ],
+      "close": "2026-11-17T12:00:00-03:00",
+      "crit": "Sim, se o comunicado de resultados da Nvidia, divulgado em 17/11/2026, trouxer projeção (valor central) de receita para o trimestre seguinte acima de US$ 108 bilhões. Não, se for igual ou menor.",
+      "src": "Nvidia (Relações com Investidores, comunicado de resultados)",
+      "desc": "O balanço sai em 17/11, em meio à troca de comando na empresa e à pressão sobre as ações de IA.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/nvidia-o-que-14-saidas-repentinas-de-ceos-podem-dizer-sobre-o-futuro-das-acoes/"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-neg-1",
+      "cat": "Negócios",
+      "q": "A Magazine Luiza (MGLU3), que subiu forte após o balanço do 3º tri, fechará 27/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-27T10:00:00-03:00",
+      "crit": "Sim, se o fechamento de MGLU3 em 27/11/2026 for superior ao de 13/11/2026, conforme a B3. Não, se for igual ou inferior.",
+      "src": "B3 (cotação de fechamento de MGLU3)",
+      "desc": "A varejista teve lucro ajustado de R$ 14 milhões no 3º tri (queda de 34% em um ano) e analistas debatem se a alta é recuperação ou repique.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/magalu-mglu3-dispara-apos-balanco-recuperacao-ganha-forca-ou-e-so-repique/"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-neg-2",
+      "cat": "Negócios",
+      "q": "A Petrobras (PETR4), que lucrou R$ 39,8 bilhões no 3º tri mas frustrou no provento, fechará 27/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-27T10:00:00-03:00",
+      "crit": "Sim, se o fechamento de PETR4 em 27/11/2026 for superior ao de 13/11/2026, conforme a B3. Não, se for igual ou inferior.",
+      "src": "B3 (cotação de fechamento de PETR4)",
+      "desc": "As ações caíram após o balanço por causa de investimentos maiores e dividendo abaixo do esperado.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-desempenho-acoes-resultados-3t26-proventos-novas-projecoes/"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-esp-1",
+      "cat": "Esporte",
+      "q": "Quem leva Flamengo x Palmeiras, no Nubank Parque, em 21/11, jogo apontado como o do título na 36ª rodada do Brasileirão?",
+      "outs": [
+        "Vitória do Flamengo",
+        "Empate",
+        "Vitória do Palmeiras"
+      ],
+      "p": [
+        0.36,
+        0.3,
+        0.34
+      ],
+      "close": "2026-11-21T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Flamengo x Palmeiras em 21/11/2026, após os 90 minutos mais acréscimos, conforme a súmula da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O jogo está marcado para as 16h30 de sábado (21/11) e é a atração da 36ª rodada.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-esp-2",
+      "cat": "Esporte",
+      "q": "Quem leva Atlético-MG x Corinthians, na Arena MRV, em 25/11, jogo que fecha a 36ª rodada do Brasileirão?",
+      "outs": [
+        "Vitória do Atlético-MG",
+        "Empate",
+        "Vitória do Corinthians"
+      ],
+      "p": [
+        0.4,
+        0.29,
+        0.31
+      ],
+      "close": "2026-11-25T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Atlético-MG x Corinthians em 25/11/2026, após os 90 minutos mais acréscimos, conforme a súmula da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "A partida encerra a 36ª rodada, na quarta-feira (25/11).",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-pol-1",
+      "cat": "Política",
+      "q": "O Senado vai rejeitar os quatro destaques do ajuste fiscal em 17/11 e enviar à Câmara o texto-base sem mudanças?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-17T10:00:00-03:00",
+      "crit": "Sim, se, até 18/11/2026, o Plenário do Senado concluir a votação do projeto sem aprovar nenhum dos destaques e o enviar à Câmara com o texto-base inalterado, conforme a Agência Senado. Não, se algum destaque for aprovado ou a votação não terminar.",
+      "src": "Agência Senado e site do Senado Federal",
+      "desc": "O texto-base passou por 45 votos a 31 em 12/11; restam quatro destaques, que podem alterar trechos como o corte de benefícios tributários.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/motta-sinaliza-votacao-de-ajuste-fiscal-de-lula-na-proxima-semana"
+        }
+      ]
+    },
+    {
+      "id": "d20261114-pol-2",
+      "cat": "Política",
+      "q": "Os presidentes dos EUA e da China vão se reunir pessoalmente na cúpula da Apec, em Shenzhen, até 20/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.7,
+        0.3
+      ],
+      "close": "2026-11-16T12:00:00-03:00",
+      "crit": "Sim, se, até 20/11/2026, houver encontro presencial entre os presidentes dos EUA e da China na cúpula da Apec, em Shenzhen, confirmado por comunicado oficial da Casa Branca ou da chancelaria chinesa. Não, caso contrário.",
+      "src": "Casa Branca e Ministério das Relações Exteriores da China (comunicados)",
+      "desc": "A cúpula da Apec ocorre na próxima semana e o mercado acompanha o clima entre as duas maiores economias.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
     }
   ],
   "resolutions": {
