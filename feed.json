@@ -6189,6 +6189,29 @@
           "url": "https://www.metropoles.com/esportes/seedorf-exalta-torcida-do-corinthians-em-meio-a-luta-contra-o-rebaixamento"
         }
       ]
+    },
+    {
+      "id": "d20261115-pol-3",
+      "cat": "Política",
+      "q": "Depois da pane que parou os voos nos EUA por mais de quatro horas, o Congresso americano vai aprovar verba extra para modernizar o controle de tráfego aéreo até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.2,
+        0.8
+      ],
+      "close": "2026-11-30T12:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, as duas Casas do Congresso dos EUA aprovarem lei com recursos adicionais para modernizar o sistema de controle de tráfego aéreo, conforme congress.gov. Não, se isso não ocorrer até essa data (pedidos, projetos e promessas não valem).",
+      "src": "Congresso dos EUA (congress.gov) e comunicados oficiais da Casa Branca",
+      "desc": "O presidente Trump cobrou do Congresso, nas redes sociais, dinheiro urgente para renovar o controle aéreo, que ele diz ter peças com 50 anos. Verbas assim costumam levar meses para passar nas duas Casas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/trump-culpa-biden-por-pane-no-trafego-aereo-e-pede-verba-urgente-ao-congresso/"
+        }
+      ]
     }
   ],
   "resolutions": {
