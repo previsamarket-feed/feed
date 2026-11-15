@@ -6118,6 +6118,52 @@
           "url": "https://www.infomoney.com.br/politica/proposta-sobre-regulacao-das-big-techs-deve-ser-votada-na-semana-que-vem-diz-relator/"
         }
       ]
+    },
+    {
+      "id": "d20261115-fin-3",
+      "cat": "Finanças",
+      "q": "Com Bradesco e Itaú já com juros maiores no crédito imobiliário, a Caixa, dona de 68% do mercado, vai anunciar aumento da taxa do financiamento até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se, entre 21/11/2026 e 31/12/2026, a Caixa Econômica Federal divulgar em comunicado oficial ou em seu site um aumento da taxa de juros de suas linhas de financiamento imobiliário. Não, se não houver aumento anunciado nesse período, conforme os canais oficiais da Caixa.",
+      "src": "Caixa Econômica Federal (site e comunicados oficiais)",
+      "desc": "Em 13/11, executivos da Caixa disseram que o banco estuda reajustar os juros, a depender do volume de recursos para o próximo período. A carteira imobiliária chegou a R$ 1,043 trilhão em setembro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/minhas-financas/caixa-estuda-aumentar-juros-do-financiamento-imobiliario-diz-vice-presidente/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-neg-3",
+      "cat": "Negócios",
+      "q": "Com o CEO Marcelo Martins deixando a Cosan em 4/1/2027 e um executivo interino no comando, a Cosan vai anunciar o nome do novo CEO definitivo até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se, entre 28/11/2026 e 31/12/2026, a Cosan divulgar por comunicado ou fato relevante (site de RI e CVM) o nome do novo CEO definitivo. Não, se até 31/12/2026 só houver o interino Guilherme Penin ou nenhum anúncio.",
+      "src": "Cosan (site de Relações com Investidores) e CVM",
+      "desc": "A Cosan anunciou a saída de Martins, que fica nos conselhos do grupo, e elegeu Guilherme Penin como interino durante a transição.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/cosan-anuncia-saida-do-ceo-marcelo-martins-e-nomeia-guilherme-penin-como-interino/"
+        }
+      ]
     }
   ],
   "resolutions": {
