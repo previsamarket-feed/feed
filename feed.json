@@ -273,75 +273,6 @@
       ]
     },
     {
-      "id": "d20261023-fin-1",
-      "cat": "Finanças",
-      "q": "O Ibovespa, que fechou em 204.120 pontos em 22/10, terminará o mês de 30/10 acima de 204.000?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.52,
-        0.48
-      ],
-      "close": "2026-10-30T09:00:00-03:00",
-      "crit": "Sim, se a pontuação de fechamento do Ibovespa em 30/10/2026, conforme a B3, for maior que 204.000 pontos.",
-      "src": "B3 (fechamento do Ibovespa)",
-      "desc": "O índice acumula alta de cerca de 9,5% em outubro, mas caiu dois pregões seguidos.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
-        }
-      ]
-    },
-    {
-      "id": "d20261023-fin-2",
-      "cat": "Finanças",
-      "q": "O petróleo Brent, que chegou a US$ 113 em 22/10, fechará 30/10 acima de US$ 110 o barril?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.55,
-        0.45
-      ],
-      "close": "2026-10-30T09:00:00-03:00",
-      "crit": "Sim, se o preço spot do Brent (Europe Brent Spot Price FOB) em 30/10/2026, na série diária da EIA, for maior que US$ 110,00 por barril.",
-      "src": "EIA - Energy Information Administration (Brent spot)",
-      "desc": "O petróleo subiu forte com tensões no Oriente Médio e pesa sobre combustíveis e inflação.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
-        }
-      ]
-    },
-    {
-      "id": "d20261023-tec-1",
-      "cat": "Tecnologia",
-      "q": "Com o temor de gastos bilionários em IA, o Nasdaq Composite fechará 30/10 acima do nível de 22/10, quando caiu 2,6%?",
-      "outs": [
-        "Sim",
-        "Não"
-      ],
-      "p": [
-        0.5,
-        0.5
-      ],
-      "close": "2026-10-30T09:00:00-03:00",
-      "crit": "Sim, se o fechamento oficial do Nasdaq Composite em 30/10/2026 for maior que o fechamento oficial de 22/10/2026, conforme a Nasdaq.",
-      "src": "Nasdaq (histórico do Nasdaq Composite)",
-      "desc": "Na quinta-feira, o índice recuou após uma big tech projetar investimentos de US$ 135 a 145 bilhões.",
-      "news": [
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
-        }
-      ]
-    },
-    {
       "id": "d20261023-tec-2",
       "cat": "Tecnologia",
       "q": "A SpaceSail, rival chinesa da Starlink, começará a vender internet por satélite no Brasil até 31/12/2026?",
@@ -5905,6 +5836,288 @@
           "url": "https://www.metropoles.com/brasil/fim-da-6x1-camara-pede-que-stf-derrube-parte-das-regras-fixadas-por-dino"
         }
       ]
+    },
+    {
+      "id": "d20261115-eco-1",
+      "cat": "Economia",
+      "q": "Depois de desacelerar para 0,32% em outubro, o IPCA-15 de novembro vai ficar acima de 0,32%?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-25T18:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar, em 26/11/2026, IPCA-15 de novembro de 2026 acima de 0,32% na variação mensal. Não, se for igual ou menor.",
+      "src": "IBGE (IPCA-15, SIDRA)",
+      "desc": "O IPCA-15 de outubro caiu de 0,70% para 0,32%, com 4,62% em 12 meses. O IBGE divulga a prévia de novembro em 26/11.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/previa-da-inflacao-ipca-15-desacelera-para-032-em-outubro"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-eco-2",
+      "cat": "Economia",
+      "q": "Com a Selic em 13,75% e o Focus apostando em juros altos por mais tempo, o Copom vai manter a taxa na reunião de 8 e 9 de dezembro?",
+      "outs": [
+        "Mantém",
+        "Reduz",
+        "Aumenta"
+      ],
+      "p": [
+        0.7,
+        0.12,
+        0.18
+      ],
+      "close": "2026-12-07T18:00:00-03:00",
+      "crit": "Mantém, se o comunicado do Copom de 09/12/2026 fixar a Selic meta em 13,75% ao ano. Reduz, se fixar abaixo disso. Aumenta, se fixar acima. Fonte: Banco Central.",
+      "src": "Banco Central do Brasil (comunicado do Copom)",
+      "desc": "A última reunião do ano do Copom acontece em 8 e 9 de dezembro. A Selic está em 13,75% ao ano.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/minhas-financas/calendario-copom-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-fin-1",
+      "cat": "Finanças",
+      "q": "Depois de subir 2,35% na semana e fechar a 172.457 pontos, o Ibovespa fechará 20/11 acima desse nível?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se o fechamento oficial do Ibovespa em 20/11/2026, segundo a B3, for maior que 172.457,76 pontos (fechamento de 13/11/2026). Não, se for igual ou menor.",
+      "src": "B3 (Ibovespa, fechamento de 20/11/2026)",
+      "desc": "O Ibovespa subiu 0,66% na sexta (13/11) e 2,35% na semana, com o mercado de olho no pacote fiscal.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-fin-2",
+      "cat": "Finanças",
+      "q": "Com o dólar a R$ 5,65 depois de subir 2,6% na semana, a Ptax de venda de 20/11 ficará acima de R$ 5,6518?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-19T18:00:00-03:00",
+      "crit": "Sim, se a taxa Ptax de venda do dólar em 20/11/2026, divulgada pelo Banco Central, for maior que R$ 5,6518 (Ptax de 13/11/2026). Não, se for igual ou menor.",
+      "src": "Banco Central do Brasil (Ptax)",
+      "desc": "O dólar comercial fechou a R$ 5,655 em 13/11, com alta acumulada de 2,63% na semana.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-tec-1",
+      "cat": "Tecnologia",
+      "q": "Depois de tantos adiamentos, GTA 6 chegará aos consoles em 19/11, como marcado, sem novo adiamento?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.85,
+        0.15
+      ],
+      "close": "2026-11-17T12:00:00-03:00",
+      "crit": "Sim, se o jogo Grand Theft Auto VI for lançado oficialmente, com download ou venda liberados, em 19/11/2026 (horário de Brasília ou fuso local de lançamento), conforme comunicado da Rockstar Games ou da Take-Two. Não, se o lançamento for adiado ou ocorrer em outra data.",
+      "src": "Rockstar Games / Take-Two Interactive (comunicados oficiais)",
+      "desc": "O lançamento está marcado para 19/11/2026, para PS5 e Xbox Series, em versão digital e física.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/entretenimento/game/gta-6-preco-r-416"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-tec-2",
+      "cat": "Tecnologia",
+      "q": "Em meio ao vaivém das big techs de Wall Street, a Tesla fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se o preço de fechamento da ação TSLA na Nasdaq em 20/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor. Fonte: Nasdaq.",
+      "src": "Nasdaq (cotação de fechamento de TSLA)",
+      "desc": "A Nasdaq caiu 0,91% em 13/11 e as ações de tecnologia seguem oscilando.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-neg-1",
+      "cat": "Negócios",
+      "q": "Depois de disparar 17,5% em um dia e de uma sequência de quatro altas, a ação do Magalu (MGLU3) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se o preço de fechamento de MGLU3 na B3 em 20/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotação de fechamento de MGLU3)",
+      "desc": "O Magalu teve prejuízo de R$ 10,7 milhões no 3T26, mas mostrou alta de 16% nas lojas físicas em outubro e a ação fechou a R$ 7,66 em 11/11.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/magalu-mglu3-acao-tem-nova-disparada-apos-outubro-mostrar-ponto-de-virada/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-neg-2",
+      "cat": "Negócios",
+      "q": "Depois de cair mais de 20% em duas semanas, a Petrobras (PETR4) fechará 20/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se o preço de fechamento de PETR4 na B3 em 20/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotação de fechamento de PETR4)",
+      "desc": "O Brent recuou para cerca de US$ 96 depois de passar de US$ 115. A estatal divulgou lucro de R$ 39,8 bilhões no 3T26.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-esp-1",
+      "cat": "Esporte",
+      "q": "Depois da derrota para o Japão, o Brasil vai vencer Singapura no último amistoso do ano, em 17/11?",
+      "outs": [
+        "Vitória do Brasil",
+        "Empate",
+        "Vitória de Singapura"
+      ],
+      "p": [
+        0.74,
+        0.16,
+        0.1
+      ],
+      "close": "2026-11-17T05:00:00-03:00",
+      "crit": "Vitória do Brasil, se o Brasil vencer no tempo normal o amistoso contra Singapura de 17/11/2026 (7h de Brasília, em Singapura). Empate, se terminar empatado. Vitória de Singapura, se Singapura vencer, conforme a súmula e o resultado oficial da CBF.",
+      "src": "CBF (súmula e resultado oficial)",
+      "desc": "A Seleção perdeu para o Japão por 3 x 2 em 14/11 e fecha a Data Fifa contra Singapura.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/selecao-brasileira-inicia-apresentacao-para-jogos-contra-japao-e-singapura"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-esp-2",
+      "cat": "Esporte",
+      "q": "Quem leva Palmeiras x Flamengo, no Nubank Parque, pela 36ª rodada do Brasileirão, em 21/11?",
+      "outs": [
+        "Vitória do Palmeiras",
+        "Empate",
+        "Vitória do Flamengo"
+      ],
+      "p": [
+        0.36,
+        0.28,
+        0.36
+      ],
+      "close": "2026-11-21T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Palmeiras x Flamengo em 21/11/2026, após os 90 minutos mais acréscimos, conforme súmula e tabela oficial da CBF. Se o jogo for adiado para depois de 31/12/2026, a pergunta será retirada.",
+      "src": "CBF (tabela e súmula do Brasileirão)",
+      "desc": "O duelo está marcado para sábado (21/11), às 16h30, pela 36ª rodada.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-pol-1",
+      "cat": "Política",
+      "q": "Com o texto-base do ajuste fiscal de R$ 50 bi a R$ 60 bi aprovado por 45 a 31, o Senado vai concluir a votação do projeto, com os destaques, até 19/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.75,
+        0.25
+      ],
+      "close": "2026-11-16T20:00:00-03:00",
+      "crit": "Sim, se o Plenário do Senado Federal concluir, até 19/11/2026, a votação do PLP 299/2026 (texto-base e destaques) e enviar o projeto à Câmara, conforme o site do Senado. Não, caso contrário.",
+      "src": "Agência Senado / site do Senado Federal",
+      "desc": "Os destaques estavam previstos para terça (17/11). O texto prevê novo corte linear de 10% em benefícios tributários e teto menor para o crescimento das despesas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/senado-aprova-texto-base-do-ajuste-fiscal-do-governo-lula-por-45-votos-a-31/"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-pol-2",
+      "cat": "Política",
+      "q": "Com votação anunciada para terça (17/11), a Câmara vai aprovar o projeto de regulação econômica das big techs, o PL 4675/25, até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.35,
+        0.65
+      ],
+      "close": "2026-11-17T10:00:00-03:00",
+      "crit": "Sim, se o Plenário da Câmara dos Deputados aprovar o texto-base do PL 4675/2025 até 30/11/2026, conforme o site da Câmara. Não, caso contrário.",
+      "src": "Câmara dos Deputados (site e Agência Câmara)",
+      "desc": "O relator disse que o projeto, que cria no Cade uma superintendência para mercados digitais, deve ir ao plenário em 17/11, se houver votos.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/proposta-sobre-regulacao-das-big-techs-deve-ser-votada-na-semana-que-vem-diz-relator/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -6203,6 +6416,146 @@
     "d20261107-pol-1": {
       "outcome": 0,
       "evidence": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-planeta-nao-pode-esperar-em-meio-guerras-e-conflitos"
+    },
+    "d20261108-esp-4": {
+      "outcome": 2,
+      "evidence": "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/a/brasil-e-superado-pelo-japao-em-singapura"
+    },
+    "d20261113-esp-3": {
+      "outcome": 2,
+      "evidence": "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/a/brasil-e-superado-pelo-japao-em-singapura"
+    },
+    "d20261106-esp-2": {
+      "outcome": 1,
+      "evidence": "https://www.cbf.com.br/futebol-brasileiro/noticias/campeonato-brasileiro-serie-a/a/brasileirao-35-rodada-comeca-com-empate-sem-gols-entre-mirassol-e-galo"
+    },
+    "d20261029-fin-2": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+    },
+    "d20261030-tec-2": {
+      "outcome": 1,
+      "evidence": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+    },
+    "d20261030-fin-3": {
+      "outcome": 1,
+      "evidence": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-13-2026/"
+    },
+    "d20261031-fin-1": {
+      "outcome": 0,
+      "evidence": "https://www.piranot.com.br/2026/11/13/noticias/economia/dolar-ptax-fecha-em-r-56518-nesta-sexta-feira-13-11-2026-veja-a/"
+    },
+    "d20261105-eco-2": {
+      "outcome": 0,
+      "evidence": "https://www.correiobraziliense.com.br/economia/2026/11/7538028-comercio-varejista-fica-estavel-em-setembro-com-alta-de-02-aponta-ibge.html"
+    },
+    "d20261105-fin-2": {
+      "outcome": 0,
+      "evidence": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026"
+    },
+    "d20261105-tec-2": {
+      "outcome": 0,
+      "evidence": "https://stockanalysis.com/stocks/tsla/history/"
+    },
+    "d20261105-fin-3": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+    },
+    "d20261106-fin-1": {
+      "outcome": 1,
+      "evidence": "https://www.piranot.com.br/2026/11/13/noticias/economia/dolar-ptax-fecha-em-r-56518-nesta-sexta-feira-13-11-2026-veja-a/"
+    },
+    "d20261106-tec-1": {
+      "outcome": 1,
+      "evidence": "https://www.cnnbrasil.com.br/economia/money/mercado/wall-street-13-novembro-2026/"
+    },
+    "d20261106-tec-2": {
+      "outcome": 0,
+      "evidence": "https://stockanalysis.com/stocks/aapl/history/"
+    },
+    "d20261106-fin-3": {
+      "outcome": 0,
+      "evidence": "https://tradingeconomics.com/japan/stock-market/news/598952"
+    },
+    "d20261107-fin-1": {
+      "outcome": 0,
+      "evidence": "https://www.dgabc.com.br/Noticia/4368732/fechamento-do-mercado-financeiro"
+    },
+    "d20261107-tec-2": {
+      "outcome": 0,
+      "evidence": "https://www.financialcontent.com/quote/NQ%3AGOOGL/historical"
+    },
+    "d20261107-fin-3": {
+      "outcome": 1,
+      "evidence": "https://www.moneytimes.com.br/ibovespa-06-11-2026-davs/"
+    },
+    "d20261108-fin-2": {
+      "outcome": 1,
+      "evidence": "https://thegoldinvestor.substack.com/p/the-gold-weekly-2-november-7th-2026"
+    },
+    "d20261108-tec-1": {
+      "outcome": 1,
+      "evidence": "https://stockanalysis.com/stocks/msft/history/"
+    },
+    "d20261108-tec-2": {
+      "outcome": 0,
+      "evidence": "https://stockanalysis.com/stocks/meta/history/"
+    },
+    "d20261108-fin-3": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+    },
+    "d20261111-eco-2": {
+      "outcome": 0,
+      "evidence": "https://www.piranot.com.br/2026/11/13/noticias/economia/dolar-ptax-fecha-em-r-56518-nesta-sexta-feira-13-11-2026-veja-a/"
+    },
+    "d20261111-fin-1": {
+      "outcome": 0,
+      "evidence": "https://brasil61.com/n/ibovespa-sobe-0-42-nesta-quarta-feira-11-com-mercado-atento-a-pacote-fiscal-de-r-80-bilhoes-para-2027-bras2617457"
+    },
+    "d20261111-tec-2": {
+      "outcome": 0,
+      "evidence": "https://www.financialcontent.com/quote/NQ%3AGOOGL/historical"
+    },
+    "d20261105-neg-1": {
+      "outcome": 0,
+      "evidence": "https://www.dadosdemercado.com.br/acoes/rdor3"
+    },
+    "d20261107-fin-2": {
+      "outcome": 0,
+      "evidence": "https://melhorinvestimento.net/noticias/lucro-da-b3-b3sa3-3t26"
+    },
+    "d20261107-neg-1": {
+      "outcome": 1,
+      "evidence": "https://www.infomoney.com.br/mercados/braskem-tem-prejuizo-liquido-de-r-1068-bi-no-3o-trimestre/"
+    },
+    "d20261107-neg-3": {
+      "outcome": 0,
+      "evidence": "https://trademap.com.br/noticias/news-8601602"
+    },
+    "d20261111-neg-2": {
+      "outcome": 0,
+      "evidence": "https://euqueroinvestir.com/mercados/natura-balanco-3t26-lucro-vendas"
+    },
+    "d20261112-neg-1": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/cyrela-cyre3-resultados-terceiro-trimestre-2026/"
+    },
+    "d20261112-neg-2": {
+      "outcome": 0,
+      "evidence": "https://trademap.com.br/noticias/news-8596644"
+    },
+    "d20261113-neg-1": {
+      "outcome": 0,
+      "evidence": "https://jornalportuario.com.br/noticias/lucro-da-copasa-csmg3-caiu-70-no-terceiro-trimestre-de-2026-para-r-3357-milhoes"
+    },
+    "d20261113-neg-2": {
+      "outcome": 1,
+      "evidence": "https://trademap.com.br/noticias/news-8601676"
+    },
+    "d20261106-pol-2": {
+      "outcome": 0,
+      "evidence": "https://www.correiodamanha.com.br/politica/2026/11/334065-camara-aprova-credito-de-rs-135-bilhoes-para-setores-afetados-pelo-tarifaco.html"
     }
   },
   "withdrawn": [
