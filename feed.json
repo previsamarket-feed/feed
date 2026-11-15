@@ -6164,6 +6164,31 @@
           "url": "https://www.infomoney.com.br/mercados/cosan-anuncia-saida-do-ceo-marcelo-martins-e-nomeia-guilherme-penin-como-interino/"
         }
       ]
+    },
+    {
+      "id": "d20261115-esp-3",
+      "cat": "Esporte",
+      "q": "Quem leva Corinthians x Botafogo, na Neo Química Arena, em 18/11, pela 35ª rodada do Brasileirão, com o Corinthians na zona de rebaixamento?",
+      "outs": [
+        "Vitória do Corinthians",
+        "Empate",
+        "Vitória do Botafogo"
+      ],
+      "p": [
+        0.38,
+        0.3,
+        0.32
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Corinthians x Botafogo em 18/11/2026, após os 90 minutos mais acréscimos, conforme a súmula da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O Corinthians ocupa a 17ª posição, dentro do Z4, e recebe o Botafogo na quarta-feira (18/11).",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/seedorf-exalta-torcida-do-corinthians-em-meio-a-luta-contra-o-rebaixamento"
+        }
+      ]
     }
   ],
   "resolutions": {
