@@ -6212,6 +6212,52 @@
           "url": "https://www.infomoney.com.br/mundo/trump-culpa-biden-por-pane-no-trafego-aereo-e-pede-verba-urgente-ao-congresso/"
         }
       ]
+    },
+    {
+      "id": "d20261115-pol-4",
+      "cat": "Política",
+      "q": "Com 36% de faltas no 2º dia do Enem 2026 e ataques hackers à página do Inep, o gabarito oficial sai mesmo na quarta (18/11), como o governo prometeu?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.85,
+        0.15
+      ],
+      "close": "2026-11-17T20:00:00-03:00",
+      "crit": "Sim, se o Inep divulgar o gabarito oficial das provas do Enem 2026 até 23h59 de 18/11/2026, conforme seu site oficial. Não, se a divulgação ocorrer depois dessa data.",
+      "src": "Inep (gov.br/inep)",
+      "desc": "O Inep marcou o gabarito oficial para 18/11, e as notas individuais só saem em janeiro de 2027. O segundo dia teve abstenção preliminar de 36%, a maior em anos.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/enem-2026-mais-de-um-terco-dos-candidatos-nao-compareceu-ao-2o-dia"
+        }
+      ]
+    },
+    {
+      "id": "d20261115-neg-4",
+      "cat": "Negócios",
+      "q": "Com R$ 7,5 bilhões de prejuízo só até setembro, os Correios vão fechar 2026 com perda maior que os R$ 8,5 bilhões de 2025?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se o balanço anual de 2026 dos Correios, divulgado até 30/04/2027, mostrar prejuízo líquido acima de R$ 8,5 bilhões. Não, se o prejuízo for igual ou menor, ou se o balanço não for divulgado até essa data.",
+      "src": "Correios (demonstrações financeiras) e Tesouro Nacional",
+      "desc": "A estatal perdeu R$ 1,9 bilhão no 3º trimestre e depende de empréstimos com garantia da União, enquanto o Orçamento de 2027 prevê aporte de R$ 6 bilhões.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/correios-tem-prejuizo-de-r-19-bilhao-no-terceiro-trimestre-alta-de-19-em-um-ano/"
+        }
+      ]
     }
   ],
   "resolutions": {
