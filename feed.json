@@ -6258,6 +6258,177 @@
           "url": "https://www.infomoney.com.br/mercados/correios-tem-prejuizo-de-r-19-bilhao-no-terceiro-trimestre-alta-de-19-em-um-ano/"
         }
       ]
+    },
+    {
+      "id": "d20261116-pol-1",
+      "cat": "Política",
+      "q": "Depois de o Kremlin e a Casa Branca confirmarem o encontro entre Putin, Trump e Xi em Shenzhen, na cúpula da Apec, os três líderes se reunirão pessoalmente até 20/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.75,
+        0.25
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se, até 20/11/2026, os governos da Rússia, dos EUA ou da China (ou agências oficiais como Xinhua e TASS) confirmarem que Putin, Trump e Xi Jinping participaram da mesma reunião presencial em Shenzhen. Não, se a reunião for cancelada, adiada para depois de 20/11 ou ocorrer sem a presença dos três.",
+      "src": "Kremlin (kremlin.ru), Casa Branca (whitehouse.gov) e agência Xinhua",
+      "desc": "O Kremlin marcou o encontro para 19/11, às margens da Apec; a China ainda não havia se manifestado publicamente.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/kremlin-confirma-reuniao-entre-putin-trump-e-xi-em-19-de-novembro"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/casa-branca-confirma-reuniao-de-trump-com-putin-e-xi-jinping-na-china"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-pol-2",
+      "cat": "Política",
+      "q": "O Cidadania vai aprovar, na reunião de 21/11, a incorporação do partido ao PP, que está prevista para 27/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se, até 27/11/2026, o Cidadania ou o PP divulgarem oficialmente que a direção nacional do Cidadania aprovou a incorporação ao PP por maioria absoluta. Não, se a proposta for rejeitada, adiada ou não aprovada até essa data.",
+      "src": "Cidadania, PP e Tribunal Superior Eleitoral (TSE)",
+      "desc": "A direção nacional do Cidadania foi convocada para 21/11, às 14h, por videoconferência, para votar a proposta.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/cidadania-convoca-reuniao-para-votar-incorporacao-ao-pp"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-eco-1",
+      "cat": "Economia",
+      "q": "A mediana do Focus para o IPCA de 2026 no boletim de 23/11 será maior que a do boletim de 16/11, divulgado hoje?",
+      "outs": [
+        "Sim, maior",
+        "Não, igual ou menor"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-20T18:00:00-03:00",
+      "crit": "Sim, se a mediana de IPCA 2026 no Relatório Focus de 23/11/2026 for maior que a do Focus de 16/11/2026. Não, se for igual ou menor. Fonte: tabela de expectativas de mercado do Banco Central.",
+      "src": "Banco Central do Brasil (Relatório Focus)",
+      "desc": "O Focus é divulgado toda segunda-feira, às 8h25; o de 16/11 sai na mesma manhã em que a pergunta abre.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/previa-pib-focus-falas-fed-agenda-segunda-feira-16112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-esp-1",
+      "cat": "Esporte",
+      "q": "Alemanha x Holanda, na última rodada da fase de grupos da Nations League, em 16/11: quem leva?",
+      "outs": [
+        "Alemanha",
+        "Empate",
+        "Holanda"
+      ],
+      "p": [
+        0.36,
+        0.28,
+        0.36
+      ],
+      "close": "2026-11-16T12:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado do jogo Alemanha x Holanda de 16/11/2026 nos 90 minutos mais acréscimos, conforme a súmula e o site oficial da UEFA. Empate, se terminar igualado.",
+      "src": "UEFA (uefa.com, Nations League)",
+      "desc": "O jogo está na agenda de segunda-feira (16/11), na última rodada da fase de grupos, com 10 partidas.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/nations-league-com-alemanha-x-holanda-veja-agenda-desta-segunda-feira"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-tec-1",
+      "cat": "Tecnologia",
+      "q": "A Nvidia vai anunciar um novo CEO permanente até 31/12/2026, depois de Colette Kress assumir de forma interina?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.3,
+        0.7
+      ],
+      "close": "2026-12-15T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, a Nvidia anunciar oficialmente, em comunicado ou documento enviado à SEC, o nome de um novo presidente e CEO permanente. Não, se continuar com CEO interino ou sem anúncio até essa data.",
+      "src": "Nvidia (comunicados e Relações com Investidores) e SEC (formulário 8-K)",
+      "desc": "Jensen Huang deixou os cargos de presidente e CEO em 12/11 e a diretora financeira, Colette Kress, assumiu interinamente.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/nvidia-saida-de-huang-provoca-queda-de-ate-13-nas-acoes-da-empresa"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-fin-1",
+      "cat": "Finanças",
+      "q": "Com o dólar no maior nível desde junho de 2025 (R$ 5,65) e investidores atrás de segurança, o ouro fechará 27/11 acima do fechamento de 13/11 na COMEX?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-27T10:00:00-03:00",
+      "crit": "Sim, se o preço de liquidação (settlement) do contrato de ouro mais negociado da COMEX (CME Group) em 27/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor.",
+      "src": "CME Group (COMEX, preços de liquidação do ouro)",
+      "desc": "O dólar fechou a R$ 5,65 em 13/11, o maior valor desde junho de 2025, e o Ibovespa encerrou a segunda semana positiva.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-13-novembro"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-neg-1",
+      "cat": "Negócios",
+      "q": "Depois de reverter o lucro e registrar prejuízo de R$ 352 milhões no 3º trimestre, a Americanas (AMER3) fechará 27/11 acima do fechamento de 13/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-27T10:00:00-03:00",
+      "crit": "Sim, se o fechamento de AMER3 na B3 em 27/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotação de fechamento de AMER3)",
+      "desc": "A varejista divulgou prejuízo de R$ 352 milhões no 3º trimestre de 2026, revertendo o lucro de um ano antes.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/americanas-amer3-resultados-terceiro-trimestre-2026/"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -6696,6 +6867,10 @@
     "d20261106-pol-2": {
       "outcome": 0,
       "evidence": "https://www.correiodamanha.com.br/politica/2026/11/334065-camara-aprova-credito-de-rs-135-bilhoes-para-setores-afetados-pelo-tarifaco.html"
+    },
+    "d20261105-pol-3": {
+      "outcome": 1,
+      "evidence": "https://www.metropoles.com/brasil/decreto-que-regulamenta-fim-da-6x1-fica-para-depois-da-viagem-de-lula"
     }
   },
   "withdrawn": [
