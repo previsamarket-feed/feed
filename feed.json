@@ -6429,6 +6429,79 @@
           "url": "https://www.infomoney.com.br/mercados/americanas-amer3-resultados-terceiro-trimestre-2026/"
         }
       ]
+    },
+    {
+      "id": "d20261116-tec-3",
+      "cat": "Tecnologia",
+      "q": "Com a nova regra dos EUA que exige licença para exportar chips de IA ao Brasil, o governo americano vai tirar o Brasil da lista até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.12,
+        0.88
+      ],
+      "close": "2026-12-01T12:00:00-03:00",
+      "crit": "Sim, se, entre 16/11/2026 e 31/12/2026, o Bureau of Industry and Security (BIS) do Departamento de Comércio dos EUA publicar ato oficial que retire o Brasil da lista de países que exigem licença para esses chips de IA, conforme o Federal Register ou o site do BIS. Não, se o Brasil continuar na lista em 31/12/2026.",
+      "src": "Federal Register e BIS (bis.gov)",
+      "desc": "Em 16/11 os EUA publicaram regra que exige licença para enviar chips avançados de IA a data centers no Brasil, Indonésia, Malásia, Singapura e Tailândia, por risco de desvio para empresas chinesas.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/eua-restringe-exportacao-de-chips-de-ia-e-inclue-brasil-na-lista"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-esp-3",
+      "cat": "Esporte",
+      "q": "Quem leva Cruzeiro x Palmeiras, em 18/11, pela 35ª rodada do Brasileirão, com o Cruzeiro vice-líder com 73 pontos e o Palmeiras em 3º com 60?",
+      "outs": [
+        "Vitória do Cruzeiro",
+        "Empate",
+        "Vitória do Palmeiras"
+      ],
+      "p": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "close": "2026-11-18T14:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Cruzeiro x Palmeiras em 18/11/2026 (20h30), após os 90 minutos mais acréscimos, conforme a súmula da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O Palmeiras precisa vencer para seguir na caça ao líder Flamengo, que tem 76 pontos.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/brasileirao-retorna-nesta-semana-confira-todos-os-jogos-da-35a-rodada"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-esp-4",
+      "cat": "Esporte",
+      "q": "Quem leva Flamengo x Athletico-PR, em 18/11, pela 35ª rodada do Brasileirão, com o Flamengo líder com 76 pontos e o Athletico em 5º com 54?",
+      "outs": [
+        "Vitória do Flamengo",
+        "Empate",
+        "Vitória do Athletico-PR"
+      ],
+      "p": [
+        0.6,
+        0.24,
+        0.16
+      ],
+      "close": "2026-11-18T14:00:00-03:00",
+      "crit": "Vence a opção correspondente ao resultado de Flamengo x Athletico-PR em 18/11/2026 (20h30), após os 90 minutos mais acréscimos, conforme a súmula da CBF. Se o jogo for adiado ou cancelado, a pergunta será retirada.",
+      "src": "CBF (súmula e tabela do Brasileirão)",
+      "desc": "O líder Flamengo recebe o Athletico-PR, quinto colocado, na quarta-feira (18/11), na briga pelo título.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/brasileirao-retorna-nesta-semana-confira-todos-os-jogos-da-35a-rodada"
+        }
+      ]
     }
   ],
   "resolutions": {
