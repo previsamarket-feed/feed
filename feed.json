@@ -6502,6 +6502,29 @@
           "url": "https://www.metropoles.com/esportes/brasileirao-retorna-nesta-semana-confira-todos-os-jogos-da-35a-rodada"
         }
       ]
+    },
+    {
+      "id": "d20261116-fin-3",
+      "cat": "Finanças",
+      "q": "Com o dólar fechando a R$ 5,77 em 16/11, a maior cotação desde abril de 2025, a Ptax de venda do Banco Central de 30/11 chegará a R$ 6,00 ou mais?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.12,
+        0.88
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se a Ptax de venda do dólar divulgada pelo Banco Central para 30/11/2026 for igual ou superior a R$ 6,00. Não, se for inferior a R$ 6,00. Fonte: Banco Central do Brasil (cotações e boletins, Ptax).",
+      "src": "Banco Central do Brasil (Ptax)",
+      "desc": "A moeda subiu 2,15% na segunda-feira em meio a dúvidas fiscais e juros altos nos EUA, e analistas debatem se os R$ 6 entram no radar.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/por-que-dolar-sobe-nesta-segunda/"
+        }
+      ]
     }
   ],
   "resolutions": {
