@@ -6525,6 +6525,52 @@
           "url": "https://www.infomoney.com.br/mercados/por-que-dolar-sobe-nesta-segunda/"
         }
       ]
+    },
+    {
+      "id": "d20261116-neg-3",
+      "cat": "Negócios",
+      "q": "Depois de a ação cair quase 30% com o corte na projeção de lucro e de o governo estudar trocar o comando do Banco do Brasil, o banco vai anunciar a saída ou a substituição da sua presidente até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-19T18:00:00-03:00",
+      "crit": "Sim, se, entre 17/11/2026 e 31/12/2026, o Banco do Brasil divulgar comunicado ou fato relevante informando a saída da atual presidente ou a indicação de um novo presidente para o cargo. Não, se nenhum anúncio desse tipo for divulgado até 31/12/2026. Fonte: Banco do Brasil (Relações com Investidores) e Diário Oficial da União.",
+      "src": "Banco do Brasil (RI) e Diário Oficial da União",
+      "desc": "A Bloomberg informou que o governo se prepara para trocar a cúpula do banco estatal após a piora da carteira do agro; nenhuma decisão final foi tomada.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bbas3-governo-avalia-mudanca-no-comando-do-banco-do-brasil-apos-queda-nos-lucros/"
+        }
+      ]
+    },
+    {
+      "id": "d20261116-tec-4",
+      "cat": "Tecnologia",
+      "q": "Com bancos e fintechs pedindo ao Cade que a Apple abra o NFC do iPhone ao Pix por aproximação, o órgão vai impor a abertura ou a Apple vai se comprometer a liberá-lo no Brasil até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.15,
+        0.85
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se, até 31/12/2026, o Cade publicar decisão (medida preventiva ou acordo) que obrigue ou formalize o compromisso da Apple de liberar o acesso ao NFC do iPhone a aplicativos de terceiros para pagamentos por aproximação no Brasil. Não, se nenhuma decisão ou acordo desse tipo for publicado até 31/12/2026. Fonte: Cade (despachos e atos no Diário Oficial da União).",
+      "src": "Cade / Diário Oficial da União",
+      "desc": "Zetta (Nubank, Mercado Pago, PicPay) e Febraban dizem que o iPhone favorece o Apple Pay; a Apple alega segurança e nega barrar a concorrência.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/economia/noticia/2026/11/16/apple-e-investigada-no-cade-por-barrar-pix-por-aproximacao-no-iphone-entenda-a-disputa.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
