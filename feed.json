@@ -6871,6 +6871,29 @@
           "url": "https://www.metropoles.com/brasil/apos-eleicoes-foco-de-lula-e-consolidar-ministerio-da-seguranca-este-mes"
         }
       ]
+    },
+    {
+      "id": "d20261117-tec-3",
+      "cat": "Tecnologia",
+      "q": "Com o balanço da Nvidia saindo hoje após o fechamento e dúvidas sobre o ritmo da IA, a receita do 3º trimestre fiscal passará de US$ 108 bilhões?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.8,
+        0.2
+      ],
+      "close": "2026-11-17T17:30:00-03:00",
+      "crit": "Sim, se o comunicado de resultados do 3º trimestre do ano fiscal de 2027 da Nvidia, divulgado em 17/11/2026, informar receita total acima de US$ 108 bilhões. Não, se a receita informada for de US$ 108 bilhões ou menos.",
+      "src": "Comunicado de resultados da Nvidia (nvidia.com/investor-relations)",
+      "desc": "O Goldman Sachs projeta receita de US$ 110,1 bilhões, ligeiramente acima do consenso, segundo a imprensa; a Nvidia costuma superar a própria projeção.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/nvidia-divulga-balanco-cercada-por-duvidas-sobre-expansao-da-ia-e-sucessao-de-ceo/"
+        }
+      ]
     }
   ],
   "resolutions": {
