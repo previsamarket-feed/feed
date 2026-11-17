@@ -6571,6 +6571,306 @@
           "url": "https://g1.globo.com/economia/noticia/2026/11/16/apple-e-investigada-no-cade-por-barrar-pix-por-aproximacao-no-iphone-entenda-a-disputa.ghtml"
         }
       ]
+    },
+    {
+      "id": "d20261117-eco-1",
+      "cat": "Economia",
+      "q": "Com o desemprego em 5,2% no trimestre até setembro, o IBGE vai mostrar taxa abaixo de 5,2% no trimestre até outubro?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-24T18:00:00-03:00",
+      "crit": "Sim, se a taxa de desocupação do trimestre encerrado em outubro de 2026, divulgada pelo IBGE na PNAD Contínua até 12/12/2026, for menor que 5,2%. Não, se for igual ou maior. Se não for divulgada até 12/12, a pergunta será retirada.",
+      "src": "IBGE (PNAD Contínua)",
+      "desc": "A taxa recuou de 5,4% para 5,2% no trimestre encerrado em setembro, nível mais baixo da série. O dado seguinte sai no fim do mês.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/desemprego-recua-para-52-no-trimestre-encerrado-em-setembro-aponta-ibge"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-eco-2",
+      "cat": "Economia",
+      "q": "Depois de o IBC-Br cair 0,2% em setembro, o PIB do 3º trimestre terá variação negativa frente ao 2º trimestre?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.55,
+        0.45
+      ],
+      "close": "2026-11-27T18:00:00-03:00",
+      "crit": "Sim, se o IBGE divulgar até 12/12/2026 variação do PIB do 3º trimestre de 2026 menor que 0,0% na comparação com o 2º trimestre, com ajuste sazonal. Não, se for 0,0% ou positiva. Se não sair até 12/12, a pergunta será retirada.",
+      "src": "IBGE (Contas Nacionais Trimestrais)",
+      "desc": "Varejo, serviços e indústria fracos levaram analistas a projetar estagnação ou leve queda no trimestre; o IBC-Br, prévia do PIB, recuou em setembro.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ibc-br-setembro-2026-queda-economia-pib-2027/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/ibc-br-previa-do-pib-setembro-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-fin-1",
+      "cat": "Finanças",
+      "q": "Com o fiscal no radar, o Tesouro Prefixado 2032, que pagava 15,26% ao ano em 16/11, terá taxa de compra acima disso em 27/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.45,
+        0.55
+      ],
+      "close": "2026-11-26T18:00:00-03:00",
+      "crit": "Sim, se a taxa de compra do Tesouro Prefixado 2032 em 27/11/2026, no fechamento, conforme o Tesouro Transparente, for maior que 15,26% ao ano. Não, se for igual ou menor.",
+      "src": "Tesouro Nacional (Tesouro Transparente, taxas e preços)",
+      "desc": "As taxas dos títulos longos subiram na segunda-feira (16/11) com a preocupação fiscal, e o prefixado 2032 foi de 15,19% para 15,26%.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-taxas-sobem-e-prefixado-2032-paga-1526-com-fiscal-no-radar/"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-fin-2",
+      "cat": "Finanças",
+      "q": "O Pix, que fez 6 anos com recorde de 319,7 milhões de transações em um dia, vai bater esse recorde de novo até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.4,
+        0.6
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se o Banco Central registrar, entre 19/11/2026 e 30/11/2026, um dia com mais de 319,7 milhões de transações Pix. Não, se nenhum dia do período superar esse número.",
+      "src": "Banco Central do Brasil (estatísticas do Pix)",
+      "desc": "O recorde anterior foi em 6/11/2026. A Black Friday (27/11) e a virada do mês costumam concentrar pagamentos.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/pix-completa-6-anos-com-1-bilhao-de-chaves-e-recorde-de-transacoes"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/minhas-financas/pix-faz-6-anos-e-ja-responde-por-mais-da-metade-dos-pagamentos-no-brasil/"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-tec-1",
+      "cat": "Tecnologia",
+      "q": "Com GTA 6 chegando em 19/11, a Take-Two (TTWO) fechará 27/11 acima do fechamento de 18/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se o fechamento da ação TTWO na Nasdaq em 27/11/2026 for maior que o fechamento de 18/11/2026. Não, se for igual ou menor. Se 27/11 não tiver pregão, vale o último fechamento disponível até essa data.",
+      "src": "Nasdaq (cotações históricas de TTWO)",
+      "desc": "O lançamento do jogo mais esperado da década está marcado para 19/11; a pergunta compara o papel da dona do jogo antes e depois da estreia.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/business/global/treze-anos-de-espera-por-que-gta-6-virou-um-fenomeno-que-une-tres-geracoes/"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-tec-2",
+      "cat": "Tecnologia",
+      "q": "Com a Câmara votando a regulação das big techs, a Alphabet (GOOGL) fechará 27/11 acima do fechamento de 16/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.52,
+        0.48
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se o fechamento da ação GOOGL na Nasdaq em 27/11/2026 for maior que o fechamento de 16/11/2026. Não, se for igual ou menor. Se 27/11 não tiver pregão, vale o último fechamento disponível até essa data.",
+      "src": "Nasdaq (cotações históricas de GOOGL)",
+      "desc": "O projeto que regula economicamente as grandes plataformas digitais estava na pauta da Câmara em 17/11.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/camara-relator-pressiona-oposicao-para-votar-pl-das-big-techs-hoje-17-11"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-neg-1",
+      "cat": "Negócios",
+      "q": "Depois de saltar 9,3% com o balanço do 3º tri e bater recorde, a Embraer (EMBJ3) fechará 27/11 acima do fechamento de 16/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.5,
+        0.5
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de EMBJ3 na B3 em 27/11/2026 for maior que o fechamento de 16/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotações históricas de EMBJ3)",
+      "desc": "A fabricante de aviões divulgou resultado acima do previsto e projeções positivas, e a ação renovou máximas.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/embraer-embj3-analise-resultados-terceiro-trimestre-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-neg-2",
+      "cat": "Negócios",
+      "q": "Depois de saltar 15% mesmo com lucro ajustado 68% menor, a Hapvida (HAPV3) fechará 27/11 acima do fechamento de 16/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.48,
+        0.52
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se o fechamento de HAPV3 na B3 em 27/11/2026 for maior que o fechamento de 16/11/2026. Não, se for igual ou menor.",
+      "src": "B3 (cotações históricas de HAPV3)",
+      "desc": "O lucro ajustado do 3º trimestre foi de R$ 107 milhões, mas analistas viram sinais iniciais de melhora, com pressão sobre margens e caixa.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/hapvida-hapv3-analise-3t26-sinais-iniciais-de-melhora-mas-pressao-sobre-margens-e-caixa-persiste-acoes/"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-esp-1",
+      "cat": "Esporte",
+      "q": "Quem será campeão da Copa Sul-Americana na final entre Atlético-MG e Boca Juniors, em 21/11, na Colômbia?",
+      "outs": [
+        "Atlético-MG",
+        "Boca Juniors"
+      ],
+      "p": [
+        0.42,
+        0.58
+      ],
+      "close": "2026-11-21T15:00:00-03:00",
+      "crit": "Vence a opção do time declarado campeão pela Conmebol após a final de 21/11/2026 (19h30 de Brasília, em Barranquilla), incluindo prorrogação e pênaltis, conforme o site oficial da Conmebol.",
+      "src": "Conmebol (site oficial da Sul-Americana)",
+      "desc": "Os dois clubes se reencontram em final continental depois de 33 anos; o Atlético-MG chega após uma sequência negativa.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/atletico-mg-e-boca-juniors-se-reencontram-em-final-continental-apos-33-anos"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/conmebol-divulga-horarios-das-finais-da-libertadores-e-sul-americana"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-esp-2",
+      "cat": "Esporte",
+      "q": "Quem será campeão da Libertadores na final entre Palmeiras e Estudiantes, em 28/11, no Uruguai?",
+      "outs": [
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-28T12:00:00-03:00",
+      "crit": "Vence a opção do time declarado campeão pela Conmebol após a final de 28/11/2026 (17h de Brasília, Estádio Centenário), incluindo prorrogação e pênaltis, conforme o site oficial da Conmebol.",
+      "src": "Conmebol (site oficial da Libertadores)",
+      "desc": "O Palmeiras chegou à 8ª final de Libertadores da sua história, avançando nos pênaltis na semifinal.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/palmeiras-chega-a-8a-final-da-libertadores-e-se-torna-3o-com-mais-decisoes"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/conmebol-divulga-horarios-das-finais-da-libertadores-e-sul-americana"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-pol-1",
+      "cat": "Política",
+      "q": "Depois do Senado, a Câmara vai aprovar o texto-base do projeto de ajuste fiscal em plenário até 12/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se o plenário da Câmara dos Deputados aprovar o texto-base do projeto de ajuste fiscal enviado pelo governo até 12/12/2026, conforme a Agência Câmara ou o painel de votações. Não, se não houver aprovação do texto-base até essa data.",
+      "src": "Câmara dos Deputados (Agência Câmara e painel de votações)",
+      "desc": "O Senado concluiria em 17/11 a votação dos destaques; o pacote, com impacto estimado em R$ 60 bilhões em 2027, segue então para os deputados.",
+      "news": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/ajuste-fiscal-motta-vai-reunir-lideres-para-definir-votacao-na-camara/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/senado-vota-destaques-da-oposicao-no-ajuste-fiscal-governo-foca-na-camara"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-pol-2",
+      "cat": "Política",
+      "q": "O governo vai publicar no Diário Oficial a medida provisória que cria o Ministério da Segurança Pública até 30/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-18T12:00:00-03:00",
+      "crit": "Sim, se for publicada no Diário Oficial da União, até 30/11/2026, medida provisória que cria o Ministério da Segurança Pública. Não, se não houver publicação até essa data.",
+      "src": "Diário Oficial da União (imprensa.gov.br)",
+      "desc": "A criação da pasta por MP era esperada para os próximos dias, segundo a imprensa, com o texto ainda em revisão no governo.",
+      "news": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/de-volta-a-brasilia-lula-vai-definir-desenho-do-novo-governo-veja-cotados"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/apos-eleicoes-foco-de-lula-e-consolidar-ministerio-da-seguranca-este-mes"
+        }
+      ]
     }
   ],
   "resolutions": {
@@ -7013,6 +7313,10 @@
     "d20261105-pol-3": {
       "outcome": 1,
       "evidence": "https://www.metropoles.com/brasil/decreto-que-regulamenta-fim-da-6x1-fica-para-depois-da-viagem-de-lula"
+    },
+    "d20261107-eco-1": {
+      "outcome": 0,
+      "evidence": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-16112026/"
     }
   },
   "withdrawn": [
