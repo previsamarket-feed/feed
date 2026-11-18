@@ -7003,6 +7003,29 @@
      "url": "https://www.metropoles.com/brasil/relator-do-pl-das-big-techs-nao-consegue-consenso-e-votacao-e-adiada"
     }
    ]
+  },
+  {
+   "id": "d20261118-neg-3",
+   "cat": "Negócios",
+   "q": "Depois de a Rede D'Or assinar a venda da Sul América Investimentos à BlackRock por cerca de R$ 850 milhões, o Cade vai aprovar a operação até 18/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Sim, se, até 18/12/2026, o Cade publicar a aprovação do ato de concentração da venda da Sul América Investimentos à BlackRock, conforme o Diário Oficial da União ou o site do Cade. Não, se até essa data não houver decisão de aprovação ou se o Cade barrar a operação.",
+   "src": "Cade (Diário Oficial da União e consulta processual do Cade)",
+   "desc": "A venda foi anunciada em fato relevante de 18/11: R$ 700 milhões à vista e R$ 150 milhões em parcelas futuras. O fechamento depende de aprovações do Banco Central e do Cade.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/rede-dor-vende-sul-america-investimentos-para-blackrock-por-r-850-mi/"
+    }
+   ]
   }
  ],
  "resolutions": {
