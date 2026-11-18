@@ -6980,6 +6980,29 @@
      "url": "https://www.metropoles.com/esportes/brasileirao-retorna-nesta-quarta-com-seis-jogos-na-reta-final-do-torneio"
     }
    ]
+  },
+  {
+   "id": "d20261118-pol-3",
+   "cat": "Política",
+   "q": "Depois de a votação do PL 4675/25 (regulação econômica das big techs) ser adiada por falta de consenso, o Plenário da Câmara vai aprovar o texto-base até 18/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-11-30T18:00:00-03:00",
+   "crit": "Sim, se, até 18/12/2026, o Plenário da Câmara dos Deputados aprovar o texto-base do PL 4675/25, conforme registro no site da Câmara. Não, se a votação do texto-base não ocorrer ou ele for rejeitado até essa data.",
+   "src": "Câmara dos Deputados (Agência Câmara / pauta do Plenário)",
+   "desc": "A votação prevista para a semana de 17/11 foi adiada: o relator ainda negocia o texto com as bancadas e não há nova data definida.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/relator-do-pl-das-big-techs-nao-consegue-consenso-e-votacao-e-adiada"
+    }
+   ]
   }
  ],
  "resolutions": {
