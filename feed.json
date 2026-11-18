@@ -6894,6 +6894,52 @@
           "url": "https://www.infomoney.com.br/mercados/nvidia-divulga-balanco-cercada-por-duvidas-sobre-expansao-da-ia-e-sucessao-de-ceo/"
         }
       ]
+    },
+    {
+      "id": "d20261117-pol-3",
+      "cat": "Política",
+      "q": "Com Lula pedindo ajustes e a assinatura prevista para quinta (19/11), o decreto que regulamenta o fim da escala 6x1 será publicado no Diário Oficial da União até 21/11?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-18T18:00:00-03:00",
+      "crit": "Sim, se um decreto presidencial regulamentando a nova jornada de trabalho (emenda do fim da escala 6x1) for publicado no Diário Oficial da União entre 18/11/2026 e 21/11/2026. Não, se não houver publicação nesse período.",
+      "src": "Diário Oficial da União (in.gov.br)",
+      "desc": "O ministro do Trabalho disse que o presidente pediu mudanças no texto e deve assinar na quinta; o governo já adiou a publicação de outro decreto sobre o tema.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/politica/noticia/2026/11/17/lula-se-reune-com-ministro-do-trabalho-para-ajustes-no-decreto-que-regulamentara-fim-da-escala-6x1.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "d20261117-neg-3",
+      "cat": "Negócios",
+      "q": "Com quatro dos cinco diretores da Aneel votando pelo fim antecipado da concessão da Enel em São Paulo e um pedido de vista, a agência vai concluir a votação aprovando a recomendação até 31/12?",
+      "outs": [
+        "Sim",
+        "Não"
+      ],
+      "p": [
+        0.6,
+        0.4
+      ],
+      "close": "2026-11-24T18:00:00-03:00",
+      "crit": "Sim, se, entre 24/11/2026 e 31/12/2026, a diretoria da Aneel concluir o julgamento e aprovar a recomendação de encerramento antecipado da concessão da Enel Distribuição São Paulo, conforme reunião pública ou comunicado da agência. Não, se a votação não for concluída ou se a recomendação for rejeitada nesse período.",
+      "src": "Aneel (gov.br/aneel), reuniões públicas da diretoria",
+      "desc": "A votação foi suspensa em 17/11 por pedido de vista do diretor-geral, sem data para retomar; a decisão final sobre a concessão caberia ao Ministério de Minas e Energia.",
+      "news": [
+        {
+          "name": "g1",
+          "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/17/aneel-forma-maioria-para-recomendar-o-encerramento-antecipado-da-concessao-da-enel-em-sp.ghtml"
+        }
+      ]
     }
   ],
   "resolutions": {
