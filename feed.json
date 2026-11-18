@@ -7026,6 +7026,52 @@
      "url": "https://www.infomoney.com.br/mercados/rede-dor-vende-sul-america-investimentos-para-blackrock-por-r-850-mi/"
     }
    ]
+  },
+  {
+   "id": "d20261118-fin-3",
+   "cat": "Finanças",
+   "q": "Depois de a ata do Fed mostrar que quase todos os dirigentes veem novas altas de juros, o banco central americano vai elevar a taxa de 3,75%-4% ao ano na reunião de 8 e 9 de dezembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.72,
+    0.28
+   ],
+   "close": "2026-12-08T18:00:00-03:00",
+   "crit": "Sim, se o comunicado do Fed (FOMC) divulgado em 9/12/2026 anunciar aumento da faixa-alvo dos Fed Funds acima de 3,75%-4,00%. Não, se a faixa for mantida ou reduzida.",
+   "src": "Federal Reserve (comunicado do FOMC de 9/12/2026)",
+   "desc": "O Fed subiu os juros em setembro e manteve a faixa em outubro, por 10 votos a 2. A ata divulgada em 18/11 diz que dois dirigentes admitem discutir alta maior que 0,25 ponto em dezembro, se a inflação vier ruim.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/dirigentes-do-fed-projetam-altas-de-juros-e-tem-cautela-com-ia-na-inflacao-diz-ata/"
+    }
+   ]
+  },
+  {
+   "id": "d20261118-pol-4",
+   "cat": "Política",
+   "q": "Com Nikolas Ferreira ameaçando deixar o PL se o partido apoiar Hugo Motta, o atual presidente da Câmara será reeleito no comando da Casa na eleição de fevereiro de 2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.75,
+    0.25
+   ],
+   "close": "2027-01-29T18:00:00-03:00",
+   "crit": "Sim, se Hugo Motta for eleito presidente da Câmara dos Deputados na eleição de fevereiro de 2027, conforme o site da Câmara. Não, se outro deputado for eleito ou se Motta não disputar.",
+   "src": "Câmara dos Deputados (resultado da eleição da Mesa Diretora)",
+   "desc": "Nikolas Ferreira não descarta disputar a presidência da Câmara e diz que ficar no PL pode ficar insustentável se o partido apoiar Motta. O PL está dividido: uma ala quer candidato próprio, outra prefere negociar cargos na Mesa e em comissões.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/nikolas-ameaca-sair-do-pl-se-partido-apoiar-reeleicao-de-motta-na-camara"
+    }
+   ]
   }
  ],
  "resolutions": {
