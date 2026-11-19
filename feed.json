@@ -7072,6 +7072,33 @@
      "url": "https://www.metropoles.com/brasil/nikolas-ameaca-sair-do-pl-se-partido-apoiar-reeleicao-de-motta-na-camara"
     }
    ]
+  },
+  {
+   "id": "d20261118-fin-4",
+   "cat": "Finanças",
+   "q": "Depois de cair 1,34% e fechar a 167.538 pontos, com o dólar a R$ 5,87 e o fiscal no radar, o Ibovespa fechará 27/11 acima desse nível?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-19T09:30:00-03:00",
+   "crit": "Sim, se o fechamento do Ibovespa na B3 em 27/11/2026 for maior que 167.537,95 pontos (fechamento de 18/11/2026). Não, se for igual ou menor.",
+   "src": "B3 (cotações históricas do Ibovespa)",
+   "desc": "A bolsa recuou 1,34% em 18/11 em meio a incertezas sobre o pacote de ajuste fiscal, enquanto o dólar subiu 1,46% e encerrou a R$ 5,87, o maior valor desde abril de 2025.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/bolsa-fecha-em-queda-com-incertezas-sobre-pacote-de-ajuste-fiscal"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/"
+    }
+   ]
   }
  ],
  "resolutions": {
