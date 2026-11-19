@@ -7433,6 +7433,56 @@
      "url": "https://www.metropoles.com/mundo/cop31-divulga-1o-resumo-apos-semana-sem-avancos-e-cita-proposta-do-brasil"
     }
    ]
+  },
+  {
+   "id": "d20261119-pol-4",
+   "cat": "Política",
+   "q": "Pressionado pelo mercado a revelar a equipe econômica, Lula vai anunciar oficialmente o novo ministro da Fazenda até 30/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.4,
+    0.6
+   ],
+   "close": "2026-11-21T12:00:00-03:00",
+   "crit": "Sim, se, até 30/11/2026, o presidente Lula ou o Palácio do Planalto anunciar oficialmente o nome do novo ministro da Fazenda (comunicado oficial, publicação no Diário Oficial da União ou declaração pública do presidente). Não, se até essa data não houver anúncio oficial; reportagens com fontes e especulações não contam.",
+   "src": "Planalto (gov.br/planalto) e Diário Oficial da União",
+   "desc": "Lula disse que não tem pressa para definir os ministros, mas o mercado cobra os nomes. A Reuters apontou que a decisão pode sair na próxima semana.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/lula-pode-definir-nome-da-fazenda-na-proxima-semana-fonteles-e-alckmin-sao-favoritos/"
+    },
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/19/pressionado-a-apresentar-nomes-da-equipe-economica-lula-diz-que-vai-indicar-ministerios-quando-quiser"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-fin-3",
+   "cat": "Finanças",
+   "q": "Depois de suspender os prefixados e o IPCA+ em 19/11 com os juros disparando, o Tesouro Direto vai interromper de novo a negociação desses títulos em algum pregão até 27/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-20T08:00:00-03:00",
+   "crit": "Sim, se, em qualquer dia útil entre 20/11/2026 e 27/11/2026, o Tesouro Nacional suspender a negociação dos títulos prefixados e/ou IPCA+ no Tesouro Direto por volatilidade, conforme aviso na plataforma ou comunicado do Tesouro. Não, se nesse período não houver nova suspensão.",
+   "src": "Tesouro Nacional (comunicados do Tesouro Direto)",
+   "desc": "Na quinta (19), só o Tesouro Reserva e o Tesouro Selic ficaram disponíveis depois de uma disparada das taxas, com o Prefixado 2029 acima de 15% ao ano.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/onde-investir/juros-disparam-e-tesouro-direto-suspende-negociacao-de-prefixados-e-ipca/"
+    }
+   ]
   }
  ],
  "resolutions": {
