@@ -7406,6 +7406,33 @@
      "url": "https://www.metropoles.com/esportes/matheus-pereira-marca-golaco-e-cruzeiro-bate-o-palmeiras-de-virada"
     }
    ]
+  },
+  {
+   "id": "d20261119-pol-3",
+   "cat": "Política",
+   "q": "Depois de um novo rascunho da COP31 tirar todas as menções a combustíveis fósseis, o texto final aprovado em Antália voltará a citá-los?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.3,
+    0.7
+   ],
+   "close": "2026-11-20T06:00:00-03:00",
+   "crit": "Sim, se a decisão final aprovada na plenária de encerramento da COP31 (até 23/11/2026) contiver a expressão 'combustíveis fósseis' (fossil fuels) no texto oficial publicado pela UNFCCC. Não, se o texto final aprovado até 23/11/2026 não trouxer a expressão ou se nenhuma decisão final for aprovada até essa data.",
+   "src": "UNFCCC (texto oficial das decisões da COP31)",
+   "desc": "A conferência termina em 20/11. O primeiro rascunho falava em transição para longe dos combustíveis fósseis; a versão de 19/11 trocou o termo por sistemas de energia limpos e renováveis.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/nova-minuta-de-documento-final-da-cop31-tira-mencao-a-combustiveis-fosseis"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/cop31-divulga-1o-resumo-apos-semana-sem-avancos-e-cita-proposta-do-brasil"
+    }
+   ]
   }
  ],
  "resolutions": {
