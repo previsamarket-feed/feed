@@ -7099,6 +7099,313 @@
      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/"
     }
    ]
+  },
+  {
+   "id": "d20261119-eco-1",
+   "cat": "Economia",
+   "q": "O IPCA acumulado em 12 meses de novembro, que estava em 4,63% em outubro, ficará abaixo de 4,63%?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.42,
+    0.58
+   ],
+   "close": "2026-12-08T08:00:00-03:00",
+   "crit": "Sim, se o IBGE divulgar, até 15/12/2026, IPCA acumulado em 12 meses até novembro de 2026 abaixo de 4,63%. Não, se for igual ou acima.",
+   "src": "IBGE (SIDRA, IPCA)",
+   "desc": "Em outubro a inflação mensal surpreendeu para baixo (0,14%) por causa da energia elétrica, mas alimentos seguem pressionando.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/ipca-inflacao-outubro-2026-dados-ibge/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-eco-2",
+   "cat": "Economia",
+   "q": "Depois de o IPCA de outubro vir em 0,14%, abaixo do esperado, a prévia da inflação de novembro (IPCA-15) ficará acima de 0,20%?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-24T08:00:00-03:00",
+   "crit": "Sim, se o IBGE divulgar, até 30/11/2026, IPCA-15 de novembro de 2026 acima de 0,20% no mês. Não, se for 0,20% ou menos.",
+   "src": "IBGE (SIDRA, IPCA-15)",
+   "desc": "A prévia mede a inflação do meio de outubro ao meio de novembro e ajuda a calibrar a expectativa para a Selic.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/ipca-inflacao-outubro-2026-dados-ibge/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-fin-1",
+   "cat": "Finanças",
+   "q": "Com o dólar a R$ 5,86 em meio ao fiscal no radar, a PTAX de venda de 27/11 ficará acima de R$ 5,86?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-20T10:00:00-03:00",
+   "crit": "Sim, se a PTAX de venda do Banco Central em 27/11/2026 for superior a R$ 5,86. Não, se for igual ou inferior.",
+   "src": "Banco Central do Brasil (cotações PTAX)",
+   "desc": "O real vem perdendo valor com a cautela sobre as contas públicas e juros mais altos nos EUA.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-fin-2",
+   "cat": "Finanças",
+   "q": "O Copom, que manteve a Selic em 13,75% na última reunião, vai mantê-la nesse nível na decisão de 9/12?",
+   "outs": [
+    "Sim, mantém em 13,75%",
+    "Não, altera a taxa"
+   ],
+   "p": [
+    0.72,
+    0.28
+   ],
+   "close": "2026-12-08T12:00:00-03:00",
+   "crit": "Sim, se o comunicado do Copom de 9/12/2026 mantiver a Selic em 13,75% ao ano. Não, se subir ou cair.",
+   "src": "Banco Central do Brasil (comunicado do Copom)",
+   "desc": "A última reunião do ano do Copom é em 8 e 9 de dezembro, com inflação de alimentos e fiscal em debate.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/minhas-financas/calendario-copom-2026/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-inflacao-e-destaque-no-brasil-e-nos-estados-unidos/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-tec-1",
+   "cat": "Tecnologia",
+   "q": "O Departamento de Comércio dos EUA vai publicar no Federal Register, até 30/11, a regra que exige licença para vender chips de IA avançados a data centers no Brasil?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-11-26T18:00:00-03:00",
+   "crit": "Sim, se a regra provisória do Departamento de Comércio dos EUA sobre licenças para chips avançados de IA, que inclui o Brasil, for publicada no Federal Register até 30/11/2026. Não, caso contrário.",
+   "src": "Federal Register (federalregister.gov) e Departamento de Comércio dos EUA",
+   "desc": "A minuta foi divulgada em 16/11 e só vale depois da publicação oficial.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/business/brasil-entra-na-mira-de-nova-restricao-dos-eua-para-chips-avancados-de-ia/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-tec-2",
+   "cat": "Tecnologia",
+   "q": "Com Google, Amazon, Meta e Microsoft prometendo cerca de US$ 650 bilhões em IA, a Meta (META) fechará 27/11 acima do fechamento de 18/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-20T10:00:00-03:00",
+   "crit": "Sim, se o fechamento de META na Nasdaq em 27/11/2026 for superior ao de 18/11/2026. Não, se for igual ou inferior.",
+   "src": "Nasdaq (cotações históricas de META)",
+   "desc": "As big techs aceleram investimentos em IA e o mercado oscila com dúvidas sobre o retorno.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/google-amazon-meta-e-microsoft-investirao-us-650-bi-com-corrida-intensa-por-ia/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-neg-1",
+   "cat": "Negócios",
+   "q": "Depois de uma semana de pressão sobre os bancos, o Itaú (ITUB4) fechará 27/11 acima do fechamento de 18/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-20T10:00:00-03:00",
+   "crit": "Sim, se o fechamento de ITUB4 na B3 em 27/11/2026 for superior ao de 18/11/2026. Não, se for igual ou inferior.",
+   "src": "B3 (cotações históricas de ITUB4)",
+   "desc": "Os bancos reagem ao fiscal e ao juro alto, com Banco do Brasil sob mais pressão que o Itaú.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/bbas3-afunda-petr4-tenta-reacao-e-o-que-esperar-de-itub4-e-vale3/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-neg-2",
+   "cat": "Negócios",
+   "q": "Com a Vale superando a Petrobras em novembro, a VALE3 terá alta maior que a PETR4 entre 30/10 e 27/11?",
+   "outs": [
+    "Sim, VALE3 sobe mais (ou cai menos)",
+    "Não, PETR4 sobe mais (ou cai menos)"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-11-20T10:00:00-03:00",
+   "crit": "Sim, se a variação do fechamento de VALE3 entre 30/10 e 27/11/2026 (cotação sem ajuste de proventos) for maior que a de PETR4. Não, se for igual ou menor.",
+   "src": "B3 (cotações históricas de VALE3 e PETR4)",
+   "desc": "As duas maiores empresas da Bolsa seguem caminhos opostos: minério em recuperação e petróleo em queda.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/vale-vale3-supera-petrobras-petr4-novembro-2026-jogo-virou-gigantes-da-bolsa-brasileira/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Palmeiras x Flamengo, no Nubank Parque, em 21/11, pela 36ª rodada, com o Flamengo líder com 79 pontos e o Palmeiras com 73?",
+   "outs": [
+    "Vitória do Palmeiras",
+    "Empate",
+    "Vitória do Flamengo"
+   ],
+   "p": [
+    0.36,
+    0.28,
+    0.36
+   ],
+   "close": "2026-11-21T12:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após os 90 minutos mais acréscimos, conforme a súmula oficial da CBF.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "Um confronto direto pelo título: seis pontos separam as equipes.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/matheus-pereira-marca-golaco-e-cruzeiro-bate-o-palmeiras-de-virada"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-esp-2",
+   "cat": "Esporte",
+   "q": "Depois de liderar com 390 pontos contra 366 de Piastri, Norris terá mais de 24 pontos de vantagem sobre o companheiro após o GP de Las Vegas?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-21T18:00:00-03:00",
+   "crit": "Sim, se na classificação oficial de pilotos da FIA após o GP de Las Vegas (corrida de 22/11, horário de Brasília) Norris tiver mais de 24 pontos de vantagem sobre Piastri. Não, se tiver 24 ou menos.",
+   "src": "FIA / Fórmula 1 (classificação oficial de pilotos)",
+   "desc": "A corrida é a 22ª do ano e a chuva forte em Las Vegas pode mexer no cronograma.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/f1-gp-de-las-vegas-tera-inicio-nesta-quinta-feira-veja-horarios"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-pol-1",
+   "cat": "Política",
+   "q": "Depois de o Senado aprovar o pacote fiscal, a Câmara vai aprovar o texto-base em plenário já na sessão extraordinária marcada para 23/11 (até 24/11)?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.4,
+    0.6
+   ],
+   "close": "2026-11-23T10:00:00-03:00",
+   "crit": "Sim, se o plenário da Câmara aprovar o texto-base do projeto de ajuste fiscal (PLP 299/2026) até 24/11/2026. Não, caso contrário.",
+   "src": "Câmara dos Deputados (Agência Câmara e painel de votações)",
+   "desc": "O presidente da Câmara marcou sessão extraordinária para segunda-feira (23/11) para começar a discutir o pacote.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-aguarda-hugo-motta-e-camara-votara-ajuste-fiscal-na-proxima-semana"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-pol-2",
+   "cat": "Política",
+   "q": "O Conselho da Paz vai apresentar ao Conselho de Segurança da ONU, até 30/11, o relatório sobre Gaza previsto para o fim do mês?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-25T12:00:00-03:00",
+   "crit": "Sim, se a ONU (ou o Conselho da Paz) registrar a apresentação do relatório sobre Gaza ao Conselho de Segurança até 30/11/2026. Não, caso contrário.",
+   "src": "ONU (press.un.org / Conselho de Segurança)",
+   "desc": "A apresentação foi anunciada como prevista para o fim de novembro, em Nova York.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261119-esp-3",
+   "cat": "Esporte",
+   "q": "Quem leva Cruzeiro x Chapecoense, na Arena Condá, em 21/11, pela 36ª rodada, com o Cruzeiro em 3º com 63 pontos?",
+   "outs": [
+    "Vitória do Cruzeiro",
+    "Empate",
+    "Vitória da Chapecoense"
+   ],
+   "p": [
+    0.5,
+    0.27,
+    0.23
+   ],
+   "close": "2026-11-21T17:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após os 90 minutos mais acréscimos, conforme a súmula oficial da CBF.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Cruzeiro, embalado pela virada sobre o Palmeiras, tenta manter o terceiro lugar.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/matheus-pereira-marca-golaco-e-cruzeiro-bate-o-palmeiras-de-virada"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -7581,6 +7888,46 @@
   "d20261028-neg-2": {
    "outcome": 1,
    "evidence": "https://agencia.petrobras.com.br/en/w/negocio/petrobras-registra-lucro-l%C3%ADquido-de-r-39-8-bilh%C3%B5es-no-terceiro-trimestre-de-2026"
+  },
+  "d20261115-pol-1": {
+   "outcome": 0,
+   "evidence": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara"
+  },
+  "d20261105-esp-1": {
+   "outcome": 0,
+   "evidence": "https://www.metropoles.com/esportes/flamengo-vence-athletico-pr-no-maracana-e-segue-na-lideranca-do-brasileirao"
+  },
+  "d20261116-esp-4": {
+   "outcome": 0,
+   "evidence": "https://www.metropoles.com/esportes/flamengo-vence-athletico-pr-no-maracana-e-segue-na-lideranca-do-brasileirao"
+  },
+  "d20261105-esp-2": {
+   "outcome": 0,
+   "evidence": "https://www.metropoles.com/esportes/matheus-pereira-marca-golaco-e-cruzeiro-bate-o-palmeiras-de-virada"
+  },
+  "d20261106-esp-1": {
+   "outcome": 0,
+   "evidence": "https://www.brasileirao.com.br/cruzeiro-vira-sobre-o-palmeiras-em-tres-minutos-o-que-a-vitoria-garantiu?completa=1"
+  },
+  "d20261116-esp-3": {
+   "outcome": 0,
+   "evidence": "https://www.brasileirao.com.br/cruzeiro-vira-sobre-o-palmeiras-em-tres-minutos-o-que-a-vitoria-garantiu?completa=1"
+  },
+  "d20261107-esp-2": {
+   "outcome": 0,
+   "evidence": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/corinthians-goleia-botafogo-deixa-z4-hat-trick-kaio-cesar/"
+  },
+  "d20261115-esp-3": {
+   "outcome": 0,
+   "evidence": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/corinthians-goleia-botafogo-deixa-z4-hat-trick-kaio-cesar/"
+  },
+  "d20261112-esp-2": {
+   "outcome": 1,
+   "evidence": "https://www.vavel.com/br/futebol/2026/11/19/1279759-gremio-empata-sem-gols-com-o-bahia-e-segue-no-z-4-do-brasileirao.html"
+  },
+  "d20261118-esp-1": {
+   "outcome": 2,
+   "evidence": "https://sportbuzz.com.br/futebol/2026/11/18/com-gol-de-gabigol-santos-vence-o-coritiba-no-brasileirao/"
   }
  },
  "withdrawn": [
