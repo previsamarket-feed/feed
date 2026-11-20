@@ -94,35 +94,6 @@
    ]
   },
   {
-   "id": "d20261021-fin-1",
-   "cat": "Finanças",
-   "q": "O Copom vai cortar a taxa Selic na reunião de 3 e 4 de novembro?",
-   "outs": [
-    "Corta a Selic",
-    "Mantém em 13,75%",
-    "Eleva a Selic"
-   ],
-   "p": [
-    0.58,
-    0.38,
-    0.04
-   ],
-   "close": "2026-11-04T12:00:00-03:00",
-   "crit": "Vale a decisão sobre a meta da Selic no comunicado do Copom divulgado após a reunião de 3 e 4/11/2026. Corte = meta abaixo de 13,75%; manutenção = 13,75%; elevação = acima de 13,75%.",
-   "src": "Banco Central do Brasil (comunicado do Copom)",
-   "desc": "A Selic está em 13,75% ao ano após cinco cortes seguidos. O Focus projeta 13,25% ao fim de 2026, o que indica novas reduções, mas parte dos analistas vê pausa.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-16092026/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/economia/ata-do-copom-projecoes-selic-setembro2026/"
-    }
-   ]
-  },
-  {
    "id": "d20261021-tec-2",
    "cat": "Tecnologia",
    "q": "O Pix como garantia (uso de recebíveis futuros) entrará em operação até 31/12/2026?",
@@ -192,29 +163,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/brasil/divida-publica-do-governo-sobe-para-819-do-pib-em-2026"
-    }
-   ]
-  },
-  {
-   "id": "d20261023-eco-1",
-   "cat": "Economia",
-   "q": "A produção industrial de setembro, que vem depois de queda de 0,6% em agosto, vai crescer na comparação com o mês anterior?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-04T18:00:00-03:00",
-   "crit": "Sim, se o IBGE divulgar, em 05/11/2026, variação positiva (acima de 0,0%) da produção industrial nacional de setembro de 2026 frente a agosto, na série com ajuste sazonal. Zero ou negativa vale Não.",
-   "src": "IBGE (Pesquisa Industrial Mensal - PIM-PF)",
-   "desc": "A indústria recuou em agosto; o IBGE calendariza o dado de setembro para 5 de novembro.",
-   "news": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/ibge-producao-industrial-recua-06-em-agosto"
     }
    ]
   },
@@ -338,33 +286,6 @@
    ]
   },
   {
-   "id": "d20261028-fin-1",
-   "cat": "Finanças",
-   "q": "O dólar (PTAX de venda) de 4/11 ficará acima de R$ 5,30?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-04T09:00:00-03:00",
-   "crit": "Sim, se a PTAX de venda de 04/11/2026, divulgada pelo Banco Central, for maior que R$ 5,30. Não, se for R$ 5,30 ou menos.",
-   "src": "Banco Central do Brasil (PTAX)",
-   "desc": "O dólar subiu mais de 8% em 26/10, a maior alta em 23 anos, e depois devolveu parte do avanço. Fechou a R$ 5,40 na segunda.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/"
-    },
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/dolar-nesta-terca-3"
-    }
-   ]
-  },
-  {
    "id": "d20261028-fin-2",
    "cat": "Finanças",
    "q": "O Tesouro vai voltar a fazer leilão de títulos prefixados até 6/11, depois de cancelar os da semana passada?",
@@ -434,33 +355,6 @@
     {
      "name": "InfoMoney",
      "url": "https://www.infomoney.com.br/business/meta-aposta-em-agente-muse-e-novos-oculos-com-ia-para-ampliar-uso-da-tecnologia/"
-    }
-   ]
-  },
-  {
-   "id": "d20261028-neg-1",
-   "cat": "Negócios",
-   "q": "A Magazine Luiza, que perdeu mais da metade do valor na bolsa em 26/10, terá lucro líquido no 3º trimestre de 2026?",
-   "outs": [
-    "Sim, lucro",
-    "Não, prejuízo ou zero"
-   ],
-   "p": [
-    0.35,
-    0.65
-   ],
-   "close": "2026-11-04T12:00:00-03:00",
-   "crit": "Sim, se o lucro líquido do 3T26 da Magazine Luiza, no release de resultados divulgado até 20/11/2026, for positivo. Não, se for prejuízo ou zero. Se não for divulgado até 20/11, a pergunta será retirada.",
-   "src": "Magazine Luiza (Relações com Investidores, release 3T26)",
-   "desc": "A varejista teve prejuízo de R$ 50 milhões no 2º trimestre e vinha de juros mais altos. O balanço está previsto para 5/11.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/magazine-luiza-mglu3-resultados-segundo-trimestre-2026/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
     }
    ]
   },
@@ -1433,29 +1327,6 @@
    ]
   },
   {
-   "id": "d20261031-neg-2",
-   "cat": "Negócios",
-   "q": "A Suzano, que lucrou R$ 1,8 bilhão no 2º trimestre (queda de 64% no ano), terá lucro líquido acima de R$ 1,8 bilhão no 3º trimestre?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.4,
-    0.6
-   ],
-   "close": "2026-11-04T18:00:00-03:00",
-   "crit": "Sim, se o lucro líquido do 3T26 divulgado pela Suzano (previsto para 5/11/2026) for maior que R$ 1,8 bilhão. Não, se for igual ou menor. Se o balanço não sair até 20/11, a pergunta será retirada.",
-   "src": "Suzano (Relações com Investidores) e comunicado de resultados",
-   "desc": "O lucro do 2º trimestre foi 64% menor que o do ano anterior. O resultado da empresa, exportadora de celulose, é sensível ao câmbio e ao preço da celulose.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/suzano-suzb3-resultados-segundo-trimestre-2026/"
-    }
-   ]
-  },
-  {
    "id": "d20261031-pol-2",
    "cat": "Política",
    "q": "O Senado dos EUA terá a democrata Mary Peltola como vencedora da disputa pelo Alasca, certificada até 30/11?",
@@ -1673,31 +1544,6 @@
    ]
   },
   {
-   "id": "d20261104-eco-1",
-   "cat": "Economia",
-   "q": "O Copom, que mantém a Selic em 13,75% ao ano, vai manter a taxa na decisão desta quarta (4/11), a primeira depois da reeleição?",
-   "outs": [
-    "Manter em 13,75%",
-    "Cortar a taxa",
-    "Elevar a taxa"
-   ],
-   "p": [
-    0.68,
-    0.28,
-    0.04
-   ],
-   "close": "2026-11-04T16:00:00-03:00",
-   "crit": "Vale a decisão do Copom divulgada em 04/11/2026 no comunicado do Banco Central: manter a Selic em 13,75% ao ano, cortá-la (qualquer valor) ou elevá-la.",
-   "src": "Banco Central do Brasil (comunicado do Copom)",
-   "desc": "Mercado se divide: as opções de Copom da B3 indicavam cerca de 70% de chance de manutenção e 30% de corte de 0,25 ponto, com pressão fiscal e inflação acima do teto.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/economia/o-que-esta-em-jogo-na-primeira-decisao-do-copom-apos-a-reeleicao-de-lula/"
-    }
-   ]
-  },
-  {
    "id": "d20261104-eco-2",
    "cat": "Economia",
    "q": "Depois do superávit de US$ 7,7 bilhões em setembro, a balança comercial de outubro terá saldo positivo maior que esse valor?",
@@ -1898,31 +1744,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/brasil/apos-eleicoes-foco-de-lula-e-consolidar-ministerio-da-seguranca-este-mes"
-    }
-   ]
-  },
-  {
-   "id": "d20261104-esp-3",
-   "cat": "Esporte",
-   "q": "Líder do Brasileirão com 73 pontos e três de vantagem sobre o Palmeiras, o Flamengo vai vencer o Grêmio, 17º colocado, no Maracanã nesta quarta (4/11)?",
-   "outs": [
-    "Vitória do Flamengo",
-    "Empate",
-    "Vitória do Grêmio"
-   ],
-   "p": [
-    0.65,
-    0.22,
-    0.13
-   ],
-   "close": "2026-11-04T17:00:00-03:00",
-   "crit": "Vitória do Flamengo, se o placar final do jogo da 34ª rodada, em 04/11/2026, for favorável ao Flamengo no tempo regulamentar; Empate, se terminar igualado; Vitória do Grêmio, se o Grêmio vencer. Fonte: súmula e tabela oficiais da CBF.",
-   "src": "CBF (súmula e tabela do Brasileirão)",
-   "desc": "O Flamengo recebe o Grêmio às 19h30 no Maracanã, pela 34ª rodada, para tentar ampliar a liderança na briga pelo título.",
-   "news": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/esportes/saiba-onde-assistir-a-flamengo-x-gremio-no-brasileirao"
     }
    ]
   },
@@ -7506,6 +7327,333 @@
      "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-pauta-julgamento-de-acoes-que-questionam-lei-da-dosimetria-no-stf"
     }
    ]
+  },
+  {
+   "id": "d20261120-eco-1",
+   "cat": "Economia",
+   "q": "Com o dólar a R$ 5,93, a maior cotação desde abril de 2025, e o Focus ainda projetando R$ 5,40 para o fim de 2026, a mediana do câmbio no boletim de 23/11 será de R$ 5,50 ou mais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-11-22T18:00:00-03:00",
+   "crit": "Sim, se o Boletim Focus do Banco Central divulgado em 23/11/2026 trouxer mediana da taxa de câmbio para o fim de 2026 igual ou superior a R$ 5,50 por dólar. Não, se a mediana for inferior a R$ 5,50 ou se o boletim não sair até 25/11/2026.",
+   "src": "Banco Central do Brasil (Boletim Focus, Expectativas de Mercado)",
+   "desc": "No Focus de 16/11, a mediana do câmbio para o fim de 2026 subiu de R$ 5,35 para R$ 5,40. Na quinta (19/11), o dólar à vista fechou a R$ 5,9323, na sexta alta seguida, mesmo com leilão de US$ 1 bilhão do Banco Central.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-eco-2",
+   "cat": "Economia",
+   "q": "Depois de 121.305 vagas formais em setembro, 43% a menos que um ano antes, o Caged de outubro, previsto para 30/11, terá saldo acima de 100 mil vagas?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-11-28T18:00:00-03:00",
+   "crit": "Sim, se o saldo de empregos formais de outubro de 2026 divulgado pelo Novo Caged do Ministério do Trabalho e Emprego, até 15/12/2026, for superior a 100.000 vagas. Não, se for igual ou inferior a 100.000 ou se não for divulgado até 15/12/2026.",
+   "src": "Ministério do Trabalho e Emprego (Novo Caged)",
+   "desc": "Setembro teve 121.305 vagas, contra 165,8 mil em agosto e 213 mil em setembro de 2025. O calendário do ministério aponta o Caged de outubro para 30/11, data sujeita a mudança.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/vendas-black-friday-2026-juros-inflacao-cnc/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-fin-1",
+   "cat": "Finanças",
+   "q": "Depois de vender US$ 1 bilhão em leilão à vista em 19/11 e ver o dólar fechar mesmo assim a R$ 5,93, o Banco Central fará novo leilão à vista de dólares entre 23 e 27/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-23T08:00:00-03:00",
+   "crit": "Sim, se o Banco Central realizar ao menos um leilão de venda de dólares à vista (ou leilão de linha, conforme comunicado oficial) com liquidação entre 23/11 e 27/11/2026. Não, caso contrário. Fonte: notas à imprensa e Mercado Aberto do Banco Central.",
+   "src": "Banco Central do Brasil (comunicados de leilões de câmbio)",
+   "desc": "Em 19/11, o BC vendeu US$ 1 bilhão em leilão à vista entre 12h03 e 12h08; o dólar chegou perto de R$ 5,85, mas voltou acima de R$ 5,90 e fechou a R$ 5,9323, maior valor desde 8/4/2025.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-fin-2",
+   "cat": "Finanças",
+   "q": "Com o petróleo Brent a US$ 91,95 em 18/11 e os EUA dizendo que querem normalizar o fluxo por Ormuz, o Brent fechará 27/11 acima de US$ 90?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-11-26T18:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento (liquidação) do contrato Brent de primeiro vencimento na ICE em 27/11/2026 for superior a US$ 90,00 por barril. Não, se for igual ou inferior a US$ 90,00.",
+   "src": "ICE Futures Europe (liquidação do Brent) e EIA",
+   "desc": "O Brent recuou 1,28% em 18/11, para US$ 91,95. Em 19/11, Trump disse que EUA e China têm interesse em restabelecer o fluxo de petróleo pelo Estreito de Ormuz. A Agência Internacional de Energia vê oferta superando a demanda em cerca de 1,7 milhão de barris por dia no 4º trimestre.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/dolar-alta-minerio-petroleo-queda-real/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/eua-e-china-possuem-interesse-em-restabelecer-fluxo-de-petroleo-por-ormuz-diz-trump/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-tec-1",
+   "cat": "Tecnologia",
+   "q": "Depois de capturar a nave Starship pela primeira vez, no 15º voo de teste em 14/11, a SpaceX vai lançar o 16º voo até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.3,
+    0.7
+   ],
+   "close": "2026-11-30T18:00:00-03:00",
+   "crit": "Sim, se a Starship decolar no Voo 16 (liftoff) entre 21/11 e 31/12/2026, conforme SpaceX ou FAA. Não, se não houver decolagem do Voo 16 até 31/12/2026 (tentativa abortada antes da decolagem não conta).",
+   "src": "SpaceX (página de lançamentos) e FAA",
+   "desc": "O Voo 15 saiu em 13/11, com 26 satélites Starlink V3, e a nave foi capturada pela torre. O propulsor Super Heavy foi destruído no Golfo do México. Os intervalos entre os últimos voos foram de 63, 66 e 46 dias; a SpaceX ainda não anunciou data do Voo 16.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/starship-vai-tentar-pouso-inedito-na-historia-dos-foguetes-hoje-veja-como-sera/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-neg-1",
+   "cat": "Negócios",
+   "q": "Com US$ 410 milhões em cartas de bancos para renegociar o financiamento PPE de até US$ 535 milhões, a MBRF vai informar adesões que cubram o valor total até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-11-23T12:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, a MBRF divulgar em fato relevante ou comunicado à CVM que as cartas de compromisso de bancos somam US$ 535 milhões ou mais. Não, se o valor divulgado até 31/12/2026 for inferior ou se não houver novo comunicado.",
+   "src": "MBRF (fatos relevantes e comunicados no site de RI e na CVM)",
+   "desc": "A MBRF informou em 18/11 a conclusão da renegociação do financiamento sindicalizado PPE de até US$ 535 milhões (R$ 3,135 bilhões). Novos credores podem aderir, e os atuais podem ampliar a participação, até 31/12/2026.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/mbrf-mbrf3-anuncia-renegociacao-do-financiamento-ppe-no-valor-de-r-3135-bi/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-neg-2",
+   "cat": "Negócios",
+   "q": "Com o minério de ferro na menor cotação em mais de 16 meses e a Vale caindo, o contrato de janeiro em Dalian fechará 27/11 acima de 646 yuans por tonelada?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-11-26T18:00:00-03:00",
+   "crit": "Sim, se o preço de liquidação do contrato de minério de ferro de janeiro/2027 na Bolsa de Commodities de Dalian em 27/11/2026 for superior a 646 yuans por tonelada. Não, se for igual ou inferior a 646 yuans.",
+   "src": "Dalian Commodity Exchange",
+   "desc": "Em 18/11, o contrato de janeiro ficou estável a 646 yuans. Em 16/11, os futuros tocaram o menor nível em mais de 16 meses, e os investimentos imobiliários da China caíram 33% em outubro, segundo o Bradesco BBI. A Vale (VALE3) recuou 4% no início da semana.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/dolar-alta-minerio-petroleo-queda-real/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Internacional x Vitória, no Beira-Rio, em 23/11, pela 36ª rodada do Brasileirão, com o Inter no Z4 com 38 pontos e o Vitória com 41?",
+   "outs": [
+    "Vitória do Internacional",
+    "Empate",
+    "Vitória do Vitória"
+   ],
+   "p": [
+    0.42,
+    0.28,
+    0.3
+   ],
+   "close": "2026-11-23T15:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Internacional x Vitória, em 23/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Inter perdeu por 2 a 1 para o Vasco em 19/11 e caiu para o Z4, com 38 pontos. O Vitória venceu o Bragantino por 2 a 1 e chegou a 41. O jogo está marcado para 19h30.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-confira-os-melhores-momentos-dessa-quinta-feira-19-11"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva Athletico-PR x Remo, na Arena da Baixada, em 22/11, pela 36ª rodada do Brasileirão, com o Remo na zona de rebaixamento?",
+   "outs": [
+    "Vitória do Athletico-PR",
+    "Empate",
+    "Vitória do Remo"
+   ],
+   "p": [
+    0.52,
+    0.28,
+    0.2
+   ],
+   "close": "2026-11-22T12:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Athletico-PR x Remo, em 22/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O jogo abre o domingo da 36ª rodada, às 16h. Após a 35ª rodada, o Remo ocupa a zona de rebaixamento ao lado de Internacional, Grêmio e Chapecoense.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-esp-3",
+   "cat": "Esporte",
+   "q": "Quem leva Fluminense x Mirassol, no Maracanã, em 22/11, pela 36ª rodada do Brasileirão, com o Fluminense com 60 pontos depois de bater o São Paulo?",
+   "outs": [
+    "Vitória do Fluminense",
+    "Empate",
+    "Vitória do Mirassol"
+   ],
+   "p": [
+    0.55,
+    0.27,
+    0.18
+   ],
+   "close": "2026-11-22T14:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Fluminense x Mirassol, em 22/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Fluminense venceu o São Paulo por 1 a 0 em 19/11 e chegou aos 60 pontos, na briga por vaga direta na Libertadores. A partida está marcada para as 18h30.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-confira-os-melhores-momentos-dessa-quinta-feira-19-11"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-esp-4",
+   "cat": "Esporte",
+   "q": "Quem leva Santos x Grêmio, no Morumbis, em 23/11, pela 36ª rodada do Brasileirão, com o Grêmio na zona de rebaixamento?",
+   "outs": [
+    "Vitória do Santos",
+    "Empate",
+    "Vitória do Grêmio"
+   ],
+   "p": [
+    0.4,
+    0.3,
+    0.3
+   ],
+   "close": "2026-11-23T17:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Santos x Grêmio, em 23/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O jogo fecha a segunda-feira da 36ª rodada, às 21h. Após a 35ª rodada, o Grêmio está no Z4, junto com Internacional, Remo e Chapecoense.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-pol-1",
+   "cat": "Política",
+   "q": "Com a Câmara marcando para 23/11 a votação do ajuste fiscal, o texto será sancionado e publicado no Diário Oficial até 27/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-22T18:00:00-03:00",
+   "crit": "Sim, se a lei do projeto de ajuste fiscal (PLP aprovado pelo Senado em 18/11) for sancionada e publicada no Diário Oficial da União até 27/11/2026. Não, se a sanção ou a publicação ocorrer depois, se a Câmara alterar o texto e ele voltar ao Senado ou se a votação não for concluída.",
+   "src": "Diário Oficial da União e Agência Câmara",
+   "desc": "O Senado concluiu a votação em 18/11 (69 a 2). O relator na Câmara manteve o texto sem mudanças para ir direto à sanção, e o presidente da Câmara marcou a votação para segunda (23/11). O governo quer a sanção neste ciclo para evitar mais contingenciamento.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/relator-da-camara-apresenta-parecer-sem-mudancas-no-ajuste-fiscal-de-lula"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-lula-tenta-vencer-resistencias-e-concluir-votacao-do-ajuste-fiscal"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-pol-2",
+   "cat": "Política",
+   "q": "Depois de assinar o decreto da escala 5x2 em 19/11, o Ministério do Trabalho vai publicar no Diário Oficial, até 27/11, portaria com regras para regimes especiais de jornada?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-22T12:00:00-03:00",
+   "crit": "Sim, se o Diário Oficial da União publicar, de 21 a 27/11/2026, portaria do Ministério do Trabalho e Emprego (isolada ou conjunta) com regras complementares da nova jornada para regimes especiais, como 12x36, turnos de revezamento ou setores específicos. Não, caso contrário.",
+   "src": "Diário Oficial da União e Ministério do Trabalho e Emprego",
+   "desc": "O decreto, assinado em 19/11, regulamenta a transição do fim da escala 6x1: jornada de 42 horas em 16/12/2026 e de 40 horas em dezembro de 2027. Segundo reportagem, o ministério deve editar portarias complementares na próxima semana.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/entenda-os-proximos-passos-apos-regulamentacao-da-nova-jornada-5x2"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/lula-assina-hoje-decreto-que-regulamenta-fim-da-escala-6x1/"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -8028,6 +8176,54 @@
   "d20261118-esp-1": {
    "outcome": 2,
    "evidence": "https://sportbuzz.com.br/futebol/2026/11/18/com-gol-de-gabigol-santos-vence-o-coritiba-no-brasileirao/"
+  },
+  "d20261104-tec-1": {
+   "outcome": 0,
+   "evidence": "https://rockstargames.com/br/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+  },
+  "d20261107-tec-3": {
+   "outcome": 0,
+   "evidence": "https://rockstargames.com/br/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+  },
+  "d20261111-tec-1": {
+   "outcome": 0,
+   "evidence": "https://rockstargames.com/br/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+  },
+  "d20261114-tec-1": {
+   "outcome": 0,
+   "evidence": "https://rockstargames.com/br/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+  },
+  "d20261115-tec-1": {
+   "outcome": 0,
+   "evidence": "https://rockstargames.com/br/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+  },
+  "d20261112-esp-1": {
+   "outcome": 2,
+   "evidence": "https://sportbuzz.com.br/futebol/2026/11/19/fluminense-vence-sao-paulo-no-morumbis-e-encaminha-vaga-na-libertadores/"
+  },
+  "d20261113-esp-1": {
+   "outcome": 0,
+   "evidence": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/vasco/vasco-vence-o-internacional-afunda-o-rival-e-sobe-na-classificacao-do-brasileiro/"
+  },
+  "d20261118-esp-2": {
+   "outcome": 0,
+   "evidence": "https://revistaforum.com.br/futebol/remo-vence-chapecoense-por-2-a-0-no-mangueirao/"
+  },
+  "d20261114-pol-2": {
+   "outcome": 0,
+   "evidence": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+  },
+  "d20261116-pol-1": {
+   "outcome": 0,
+   "evidence": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+  },
+  "d20261115-pol-4": {
+   "outcome": 0,
+   "evidence": "https://agenciagov.ebc.com.br/noticias/202611/enem-2026-inep-libera-para-consulta-gabaritos-e-cadernos-de-questoes-do-exame"
+  },
+  "d20261113-neg-3": {
+   "outcome": 0,
+   "evidence": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers"
   }
  },
  "withdrawn": [
