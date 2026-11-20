@@ -7483,6 +7483,29 @@
      "url": "https://www.infomoney.com.br/onde-investir/juros-disparam-e-tesouro-direto-suspende-negociacao-de-prefixados-e-ipca/"
     }
    ]
+  },
+  {
+   "id": "d20261119-pol-5",
+   "cat": "Política",
+   "q": "Com Moraes levando a Lei da Dosimetria ao plenário virtual do STF de 4 a 15/12, o julgamento será concluído, com resultado proclamado, até 15/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-12-03T18:00:00-03:00",
+   "crit": "Sim, se, até 15/12/2026, o Plenário do STF encerrar o julgamento das ações sobre a Lei da Dosimetria, com resultado proclamado, conforme o portal do STF. Não, se houver pedido de vista, destaque para sessão presencial, suspensão ou prorrogação além de 15/12.",
+   "src": "Portal do STF (pauta e resultado do Plenário Virtual)",
+   "desc": "O relator, Alexandre de Moraes, liberou as ações e marcou a sessão virtual de 4 a 15 de dezembro; a lei segue suspensa até o julgamento. Pedidos de vista ou destaque costumam adiar sessões virtuais.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-pauta-julgamento-de-acoes-que-questionam-lei-da-dosimetria-no-stf"
+    }
+   ]
   }
  ],
  "resolutions": {
