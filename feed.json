@@ -7654,6 +7654,56 @@
      "url": "https://www.infomoney.com.br/politica/lula-assina-hoje-decreto-que-regulamenta-fim-da-escala-6x1/"
     }
    ]
+  },
+  {
+   "id": "d20261120-esp-5",
+   "cat": "Esporte",
+   "q": "Quem leva Bahia x Coritiba, na Arena Fonte Nova, em 21/11, pela 36ª rodada do Brasileirão?",
+   "outs": [
+    "Vitória do Bahia",
+    "Empate",
+    "Vitória do Coritiba"
+   ],
+   "p": [
+    0.55,
+    0.25,
+    0.2
+   ],
+   "close": "2026-11-21T15:30:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Bahia x Coritiba, em 21/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O jogo abre a 36ª rodada às 17h30 de sábado. O Bahia ainda busca vaga entre os cinco primeiros, enquanto o Coritiba tenta escapar da zona de rebaixamento.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-esp-6",
+   "cat": "Esporte",
+   "q": "Quem leva Botafogo x São Paulo, no Nilton Santos, em 23/11, pela 36ª rodada do Brasileirão?",
+   "outs": [
+    "Vitória do Botafogo",
+    "Empate",
+    "Vitória do São Paulo"
+   ],
+   "p": [
+    0.45,
+    0.28,
+    0.27
+   ],
+   "close": "2026-11-23T18:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Botafogo x São Paulo, em 23/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "A partida está marcada para as 20h de segunda-feira, 23/11. Os dois clubes estão no meio da tabela, na faixa entre o 6º e o 11º lugar.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
+    }
+   ]
   }
  ],
  "resolutions": {
