@@ -7704,6 +7704,52 @@
      "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
     }
    ]
+  },
+  {
+   "id": "d20261120-fin-3",
+   "cat": "Finanças",
+   "q": "Com a venda de ações de IA levando investidores aos títulos do Tesouro dos EUA, o juro do Treasury de 10 anos em 27/11 ficará abaixo do de 20/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-27T10:00:00-03:00",
+   "crit": "Sim, se a taxa dos títulos do Tesouro dos EUA de 10 anos em 27/11/2026, na Daily Treasury Par Yield Curve Rates, for menor que a de 20/11/2026. Não, se for igual ou maior.",
+   "src": "Departamento do Tesouro dos EUA (Daily Treasury Par Yield Curve Rates)",
+   "desc": "Em meio ao nervosismo com o setor de IA, os títulos do governo americano, mercado de US$ 32 trilhões, subiram e os juros de curto prazo caíram com a busca por segurança.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/titulos-do-tesouro-dos-eua-sobem-com-sell-off-em-ia-e-busca-por-ativos-seguros/"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-tec-2",
+   "cat": "Tecnologia",
+   "q": "Depois de uma semana de queda das ações de IA, o índice Nasdaq Composite fechará 27/11 acima do fechamento de 20/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.52,
+    0.48
+   ],
+   "close": "2026-11-27T10:00:00-03:00",
+   "crit": "Sim, se o fechamento do Nasdaq Composite em 27/11/2026 for maior que o fechamento de 20/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (fechamento diário do Nasdaq Composite)",
+   "desc": "O Nasdaq voltou a cair numa semana marcada pela estreia de uma grande empresa de IA na bolsa e por dúvidas sobre o ritmo dos investimentos no setor.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/nasdaq-registra-queda-seguindo-baixa-de-acoes-da-anthropic/"
+    }
+   ]
   }
  ],
  "resolutions": {
