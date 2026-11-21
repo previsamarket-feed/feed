@@ -7750,6 +7750,52 @@
      "url": "https://www.infomoney.com.br/mercados/nasdaq-registra-queda-seguindo-baixa-de-acoes-da-anthropic/"
     }
    ]
+  },
+  {
+   "id": "d20261120-eco-3",
+   "cat": "Economia",
+   "q": "Depois de Trump dizer que as Filipinas passarão a comprar 100% dos produtos agrícolas dos EUA a partir de 1º de janeiro, os dois países vão assinar um acordo comercial formal até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-11-25T12:00:00-03:00",
+   "crit": "Sim, se o governo dos EUA (USTR ou Casa Branca) ou o governo das Filipinas anunciar oficialmente a assinatura de um acordo comercial entre os dois países até 31/12/2026. Não, se não houver assinatura anunciada até essa data (entendimentos e declarações de intenção não contam).",
+   "src": "USTR (ustr.gov) e Presidência das Filipinas (pco.gov.ph)",
+   "desc": "Trump afirmou em 20/11 ter combinado com as Filipinas a preferência por produtos agrícolas americanos, o que atingiria as vendas brasileiras (cerca de US$ 3 bilhões por ano). O gabinete filipino falou apenas em entendimento de cooperação econômica, e o embaixador disse que nada foi assinado.",
+   "news": [
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/20/trump-brasil-filipinas.ghtml"
+    }
+   ]
+  },
+  {
+   "id": "d20261120-fin-4",
+   "cat": "Finanças",
+   "q": "Com o Bitcoin na mínima de mais de dois anos, perto de US$ 57 mil, ele fechará 27/11 acima de US$ 60 mil?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-11-27T10:00:00-03:00",
+   "crit": "Sim, se a cotação de fechamento diário (23h59 UTC) do Bitcoin em 27/11/2026 for superior a US$ 60.000, conforme o histórico do CoinMarketCap. Não, se for igual ou inferior.",
+   "src": "CoinMarketCap (coinmarketcap.com/currencies/bitcoin/historical-data)",
+   "desc": "O Bitcoin caiu até US$ 57.716 em 20/11, o menor valor desde setembro de 2024, com saídas de ETFs e o tombo do setor de IA; a pergunta mede se ele recupera os US$ 60 mil em uma semana.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/bitcoin-cai-abaixo-de-us-60-mil-pela-primeira-vez-desde-julho/"
+    }
+   ]
   }
  ],
  "resolutions": {
