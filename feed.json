@@ -943,29 +943,6 @@
    ]
   },
   {
-   "id": "d20261030-fin-2",
-   "cat": "Finanças",
-   "q": "O Ibovespa, que fechou em 171.006 pontos em 28/10 após cair 16,6% na semana, terminará 6/11 acima de 170.000 pontos?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-06T09:30:00-03:00",
-   "crit": "Sim, se o fechamento oficial do Ibovespa em 06/11/2026, conforme a B3, for maior que 170.000 pontos. Não, se for igual ou menor.",
-   "src": "B3 (Ibovespa, fechamento de 06/11/2026)",
-   "desc": "O índice acumulava queda de 16,62% na semana até 28/10 e de 8,23% em outubro, mas ainda subia 6,13% no ano. O dólar comercial estava em R$ 5,34.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
-    }
-   ]
-  },
-  {
    "id": "d20261030-neg-1",
    "cat": "Negócios",
    "q": "A Petrobras, que fez a 3ª descoberta na Foz do Amazonas, anunciará petróleo no poço Mãe de Ouro, na Bacia Potiguar, até 31/12?",
@@ -1150,33 +1127,6 @@
     {
      "name": "InfoMoney",
      "url": "https://www.infomoney.com.br/mercados/vale3-vale-balanco-3t26-teleconferencia-coletiva/"
-    }
-   ]
-  },
-  {
-   "id": "d20261031-eco-1",
-   "cat": "Economia",
-   "q": "No Boletim Focus de 9/11, a mediana do PIB de 2026 ficará abaixo de 1,80%, depois de o dólar ter disparado na semana pós-eleição?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-06T18:00:00-03:00",
-   "crit": "Sim, se a mediana da projeção de crescimento do PIB de 2026 no Relatório Focus do Banco Central divulgado em 9/11/2026 for menor que 1,80%. Não, se for igual ou maior.",
-   "src": "Banco Central do Brasil (Relatório Focus)",
-   "desc": "No Focus de 19/10 a projeção do mercado para o PIB de 2026 era de 1,83%. A semana seguinte teve forte alta do dólar e queda da bolsa.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/"
-    },
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/dolar-sobe-9-pos-eleicao-maior-alta-semanal-desde-2008-e-bolsa-cai-18"
     }
    ]
   },
@@ -1544,33 +1494,6 @@
    ]
   },
   {
-   "id": "d20261104-eco-2",
-   "cat": "Economia",
-   "q": "Depois do superávit de US$ 7,7 bilhões em setembro, a balança comercial de outubro terá saldo positivo maior que esse valor?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.45,
-    0.55
-   ],
-   "close": "2026-11-05T07:00:00-03:00",
-   "crit": "Sim, se o superávit da balança comercial de outubro de 2026, divulgado pelo MDIC (Comex Stat) até 14/11/2026, for maior que US$ 7,7 bilhões. Não, se for igual ou menor, ou se houver déficit.",
-   "src": "MDIC (Comex Stat, balança comercial)",
-   "desc": "O saldo acumulado de 2026 até setembro chegou a US$ 62,4 bilhões, e a 3ª semana de outubro registrou superávit de US$ 2,66 bilhões.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/economia/balanca-comercial-tem-superavit-acumulado-em-2026-ate-setembro-de-us-62396-bi/"
-    },
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/balanca-comercial-tem-superavit-de-us-77-bilhoes-em-setembro"
-    }
-   ]
-  },
-  {
    "id": "d20261104-fin-1",
    "cat": "Finanças",
    "q": "O Banco do Brasil, que lucrou R$ 3,9 bilhões no 2º trimestre, terá lucro líquido ajustado acima de R$ 4,0 bilhões no 3º trimestre?",
@@ -1640,33 +1563,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/entretenimento/game/gta-6-preco-r-416"
-    }
-   ]
-  },
-  {
-   "id": "d20261104-neg-1",
-   "cat": "Negócios",
-   "q": "A Magazine Luiza, que teve prejuízo de R$ 725 milhões no 2º trimestre, terá lucro líquido no 3º trimestre?",
-   "outs": [
-    "Sim, terá lucro",
-    "Não, terá prejuízo"
-   ],
-   "p": [
-    0.2,
-    0.8
-   ],
-   "close": "2026-11-05T12:00:00-03:00",
-   "crit": "Sim, se o resultado líquido da Magazine Luiza no 3T26, divulgado no balanço de 05/11/2026, for lucro (maior que zero). Não, se for prejuízo ou resultado zero.",
-   "src": "Magazine Luiza (Relações com Investidores, release 3T26)",
-   "desc": "O Magalu aprofundou o prejuízo no 2T26 e tenta voltar ao lucro sem depender da queda dos juros. O balanço do 3T sai na quinta (5/11).",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/varejo-no-2t-como-cenario-macro-impactou-casas-bahia-renner-magalu-e-riachuelo/"
     }
    ]
   },
@@ -1851,23 +1747,6 @@
    "desc": "Com gol de Valverde nos acréscimos contra o AEK, o Real Madrid manteve 100% de aproveitamento na Champions, segundo a CNN Brasil. O próximo jogo é contra o PSV, em Madri."
   },
   {
-   "id": "d20261104-eco-7",
-   "cat": "Economia",
-   "q": "Com estoques em alta, o café arábica em Nova York fechará a sexta-feira, 6/11, abaixo do preço de 4/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-06T09:00:00-03:00",
-   "crit": "Sim, se o preço de ajuste do contrato de referência do café arábica (KC) na ICE Futures US em 6/11/2026 for menor que o de 4/11/2026; Não, se for igual ou maior.",
-   "src": "ICE Futures US (preço de ajuste do café arábica)",
-   "desc": "Estoques certificados em alta pressionam as cotações do café na bolsa de Nova York, segundo a CNN Brasil em 4/11/2026."
-  },
-  {
    "id": "d20261104-eco-4",
    "cat": "Economia",
    "q": "O Copom manteve a Selic em 13,75% e falou em \"aumento significativo das incertezas\": na reunião de dezembro, a taxa vai subir?",
@@ -1893,29 +1772,6 @@
     {
      "name": "g1",
      "url": "https://g1.globo.com/economia/noticia/2026/11/04/copom-mantem-taxa-basica-de-juros-da-economia-em-1375percent-ao-ano.ghtml"
-    }
-   ]
-  },
-  {
-   "id": "d20261104-pol-4",
-   "cat": "Política",
-   "q": "Depois da sangria na Bolsa após a reeleição, Lula vai falar ao país em cadeia nacional de rádio e TV, como anunciado para domingo (8/11), até 9/11?",
-   "outs": [
-    "Sim, falará até 9/11",
-    "Não, adiará ou cancelará"
-   ],
-   "p": [
-    0.85,
-    0.15
-   ],
-   "close": "2026-11-06T18:00:00-03:00",
-   "crit": "Sim, se houver pronunciamento do presidente Lula em cadeia nacional de rádio e TV entre 5/11 e 9/11/2026, registrado pelo Planalto ou pela EBC/Agência Brasil. Não, se não ocorrer nesse período.",
-   "src": "Planalto / Agência Brasil (EBC)",
-   "desc": "Segundo o Estadão/Broadcast, será a primeira fala formal após a reeleição e deve tratar de responsabilidade fiscal e de medidas de ajuste.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/politica/lula-fara-pronunciamento-para-anunciar-medidas-de-ajuste-e-tentar-acalmar-mercado/"
     }
    ]
   },
@@ -2023,29 +1879,6 @@
    ]
   },
   {
-   "id": "d20261105-fin-2",
-   "cat": "Finanças",
-   "q": "Com os democratas no controle do Congresso dos EUA, o S&P 500 vai fechar 13/11 acima do fechamento de 6/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-06T12:00:00-03:00",
-   "crit": "Sim, se o fechamento oficial do S&P 500 em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
-   "src": "S&P Dow Jones Indices (fechamento diário do S&P 500)",
-   "desc": "Em semanas comuns, o índice americano sobe um pouco mais da metade das vezes.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mundo/democratas-conquistam-congresso-em-esmagadora-rejeicao-a-trump-nas-midterms/"
-    }
-   ]
-  },
-  {
    "id": "d20261105-tec-1",
    "cat": "Tecnologia",
    "q": "A Câmara vai aprovar em plenário o PL 2.338/2023, o marco legal da inteligência artificial, até 31/12?",
@@ -2067,23 +1900,6 @@
      "url": "https://www.metropoles.com/brasil/ia-fazenda-tambem-quer-atualizar-regulacao-do-mercado-diz-secretario"
     }
    ]
-  },
-  {
-   "id": "d20261105-tec-2",
-   "cat": "Tecnologia",
-   "q": "A Tesla, que viu o valor de seu principal acionista cair após a derrota eleitoral de aliados de Trump, vai fechar 13/11 acima do fechamento de 6/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-06T12:00:00-03:00",
-   "crit": "Sim, se o fechamento oficial das ações da Tesla (TSLA) na Nasdaq em 13/11/2026 for maior que o de 06/11/2026. Não, se for igual ou menor.",
-   "src": "Nasdaq (fechamento diário de TSLA)",
-   "desc": "A ação é uma das mais voláteis entre as grandes empresas de tecnologia dos EUA."
   },
   {
    "id": "d20261105-neg-1",
@@ -2797,33 +2613,6 @@
     {
      "name": "g1",
      "url": "https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml"
-    }
-   ]
-  },
-  {
-   "id": "d20261106-tec-4",
-   "cat": "Tecnologia",
-   "q": "Nubank e Mercado Pago suspenderam transferências de criptomoedas por falha em fornecedor: o Nubank vai informar a retomada das transferências de cripto até 10/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.7,
-    0.3
-   ],
-   "close": "2026-11-06T23:00:00-03:00",
-   "crit": "Sim, se, até 10/11/2026 às 23h59 (Brasília), o Nubank comunicar oficialmente (aplicativo, central de ajuda ou nota à imprensa) que as transferências de criptomoedas voltaram a funcionar. Não, se não houver esse comunicado até o prazo. Fonte: comunicados do Nubank.",
-   "src": "Comunicados oficiais do Nubank",
-   "desc": "Na sexta (6/11), Nubank e Mercado Pago suspenderam saques e depósitos de cripto por instabilidade em fornecedores; a compra e venda segue normal e não há prazo de retomada.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/onde-investir/nubank-e-mercado-pago-suspendem-transferencias-de-criptomoedas/"
-    },
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto"
     }
    ]
   },
@@ -5436,52 +5225,6 @@
    ]
   },
   {
-   "id": "d20261115-fin-1",
-   "cat": "Finanças",
-   "q": "Depois de subir 2,35% na semana e fechar a 172.457 pontos, o Ibovespa fechará 20/11 acima desse nível?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-18T18:00:00-03:00",
-   "crit": "Sim, se o fechamento oficial do Ibovespa em 20/11/2026, segundo a B3, for maior que 172.457,76 pontos (fechamento de 13/11/2026). Não, se for igual ou menor.",
-   "src": "B3 (Ibovespa, fechamento de 20/11/2026)",
-   "desc": "O Ibovespa subiu 0,66% na sexta (13/11) e 2,35% na semana, com o mercado de olho no pacote fiscal.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
-    }
-   ]
-  },
-  {
-   "id": "d20261115-fin-2",
-   "cat": "Finanças",
-   "q": "Com o dólar a R$ 5,65 depois de subir 2,6% na semana, a Ptax de venda de 20/11 ficará acima de R$ 5,6518?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.48,
-    0.52
-   ],
-   "close": "2026-11-19T18:00:00-03:00",
-   "crit": "Sim, se a taxa Ptax de venda do dólar em 20/11/2026, divulgada pelo Banco Central, for maior que R$ 5,6518 (Ptax de 13/11/2026). Não, se for igual ou menor.",
-   "src": "Banco Central do Brasil (Ptax)",
-   "desc": "O dólar comercial fechou a R$ 5,655 em 13/11, com alta acumulada de 2,63% na semana.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
-    }
-   ]
-  },
-  {
    "id": "d20261115-tec-1",
    "cat": "Tecnologia",
    "q": "Depois de tantos adiamentos, GTA 6 chegará aos consoles em 19/11, como marcado, sem novo adiamento?",
@@ -5520,52 +5263,6 @@
    "crit": "Sim, se o preço de fechamento da ação TSLA na Nasdaq em 20/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor. Fonte: Nasdaq.",
    "src": "Nasdaq (cotação de fechamento de TSLA)",
    "desc": "A Nasdaq caiu 0,91% em 13/11 e as ações de tecnologia seguem oscilando.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/"
-    }
-   ]
-  },
-  {
-   "id": "d20261115-neg-1",
-   "cat": "Negócios",
-   "q": "Depois de disparar 17,5% em um dia e de uma sequência de quatro altas, a ação do Magalu (MGLU3) fechará 20/11 acima do fechamento de 13/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.48,
-    0.52
-   ],
-   "close": "2026-11-18T18:00:00-03:00",
-   "crit": "Sim, se o preço de fechamento de MGLU3 na B3 em 20/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor.",
-   "src": "B3 (cotação de fechamento de MGLU3)",
-   "desc": "O Magalu teve prejuízo de R$ 10,7 milhões no 3T26, mas mostrou alta de 16% nas lojas físicas em outubro e a ação fechou a R$ 7,66 em 11/11.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/magalu-mglu3-acao-tem-nova-disparada-apos-outubro-mostrar-ponto-de-virada/"
-    }
-   ]
-  },
-  {
-   "id": "d20261115-neg-2",
-   "cat": "Negócios",
-   "q": "Depois de cair mais de 20% em duas semanas, a Petrobras (PETR4) fechará 20/11 acima do fechamento de 13/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-18T18:00:00-03:00",
-   "crit": "Sim, se o preço de fechamento de PETR4 na B3 em 20/11/2026 for maior que o de 13/11/2026. Não, se for igual ou menor.",
-   "src": "B3 (cotação de fechamento de PETR4)",
-   "desc": "O Brent recuou para cerca de US$ 96 depois de passar de US$ 115. A estatal divulgou lucro de R$ 39,8 bilhões no 3T26.",
    "news": [
     {
      "name": "InfoMoney",
@@ -7796,6 +7493,290 @@
      "url": "https://www.infomoney.com.br/mercados/bitcoin-cai-abaixo-de-us-60-mil-pela-primeira-vez-desde-julho/"
     }
    ]
+  },
+  {
+   "id": "d20261121-eco-1",
+   "cat": "Economia",
+   "q": "Com o dólar a R$ 5,93, o Banco Central, que vendeu US$ 1 bilhão em 19/11, fará novo leilão de venda à vista até 30/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-24T18:00:00-03:00",
+   "crit": "Sim, se o Banco Central do Brasil realizar, entre 20/11 e 30/11/2026, ao menos um novo leilão de venda de dólares à vista, conforme as notas do BC à imprensa. Não, caso contrário.",
+   "src": "Banco Central do Brasil (notas à imprensa, mercado de câmbio)",
+   "desc": "O BC vendeu US$ 1 bilhão em leilão à vista na quinta (19/11), sem efeito relevante: o dólar comercial fechou a R$ 5,934, alta de 4,88% na semana.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-eco-2",
+   "cat": "Economia",
+   "q": "Com o Brent perto de US$ 92, o preço spot do petróleo Brent fechará 27/11 acima de US$ 90 o barril?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-27T09:00:00-03:00",
+   "crit": "Sim, se o preço spot Brent (FOB) de 27/11/2026 divulgado pela EIA for superior a US$ 90,00 por barril. Não, se for igual ou inferior.",
+   "src": "EIA (Europe Brent Spot Price FOB)",
+   "desc": "O Brent estava em US$ 91,95 em 18/11, bem abaixo dos mais de US$ 115 atingidos antes; a pergunta mede se a queda das bolsas pesa também sobre o barril.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/mercados-globais-desabam-em-feriado-na-b3-e-goldman-alerta-quedas-devem-continuar/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-fin-1",
+   "cat": "Finanças",
+   "q": "Com o VIX acima de 40 pontos na sexta e o S&P 500 em correção, o índice de medo VIX fechará 27/11 acima de 30 pontos?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-27T09:00:00-03:00",
+   "crit": "Sim, se o fechamento oficial do índice VIX (Cboe) em 27/11/2026 for superior a 30,00 pontos. Não, se for igual ou inferior.",
+   "src": "Cboe (histórico do VIX)",
+   "desc": "Wall Street desabou em 20/11: S&P 500 -3,70% (6.910 pontos), Nasdaq -5,28% e semana de -10%, a pior desde março de 2020; o VIX chegou a superar 40 pontos.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/mercados-globais-desabam-em-feriado-na-b3-e-goldman-alerta-quedas-devem-continuar/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-fin-2",
+   "cat": "Finanças",
+   "q": "Com o Ibovespa em 166.376 pontos e queda de 0,92% em novembro, a bolsa fechará o mês (30/11) em baixa frente a outubro?",
+   "outs": [
+    "Sim, em baixa",
+    "Não, em alta ou estável"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-30T09:00:00-03:00",
+   "crit": "Sim, se o fechamento do Ibovespa em 30/11/2026, segundo a B3, for menor que o fechamento de 30/10/2026. Não, se for igual ou maior.",
+   "src": "B3 (série histórica do Ibovespa)",
+   "desc": "Até 19/11 o índice acumulava -0,92% no mês e -3,53% na semana, com dólar em alta, fiscal no radar e Wall Street em queda; em 20/11 a B3 não abriu (feriado).",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-tec-1",
+   "cat": "Tecnologia",
+   "q": "Com o Nasdaq tendo perdido 10% na semana, a Microsoft (MSFT) fechará 27/11 acima do fechamento de 20/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-23T10:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de MSFT na Nasdaq em 27/11/2026 for maior que o de 20/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (cotação histórica de MSFT)",
+   "desc": "O Nasdaq caiu 5,28% em 20/11 e 10,02% na semana, a pior desde março de 2020, com a venda de ações de IA.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/mercados-globais-desabam-em-feriado-na-b3-e-goldman-alerta-quedas-devem-continuar/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-tec-2",
+   "cat": "Tecnologia",
+   "q": "Com GTA 6 vendendo US$ 3,79 bilhões em 24 horas, a Take-Two (TTWO) fechará 27/11 acima do fechamento de 20/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-23T10:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de TTWO na Nasdaq em 27/11/2026 for maior que o de 20/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (cotação histórica de TTWO)",
+   "desc": "A Rockstar informou US$ 3,79 bilhões em vendas no varejo nas primeiras 24 horas do GTA 6, o maior lançamento de videogame da história; as ações subiram nos dois dias anteriores, mas Wall Street caiu forte em 20/11.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/consumo/gta-6-recorde-us379-bilhoes-lancamento/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-neg-1",
+   "cat": "Negócios",
+   "q": "Na semana da Black Friday, o Magalu (MGLU3) fechará 27/11 acima do fechamento de 19/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-23T10:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de MGLU3 na B3 em 27/11/2026 for maior que o de 19/11/2026 (último pregão antes do feriado de 20/11). Não, se for igual ou menor.",
+   "src": "B3 (cotação de fechamento de MGLU3)",
+   "desc": "A B3 ficou fechada em 20/11 (feriado) e o Ibovespa acumulava queda de 3,53% na semana até 19/11; a Black Friday em 27/11 testa o varejo.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/consumo/a-black-friday-ja-nao-e-mais-em-novembro-e-a-culpa-e-do-consumidor/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-neg-2",
+   "cat": "Negócios",
+   "q": "Com o banco entre as maiores quedas da semana, o Bradesco (BBDC4) fechará 27/11 acima do fechamento de 19/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-23T10:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de BBDC4 na B3 em 27/11/2026 for maior que o de 19/11/2026. Não, se for igual ou menor.",
+   "src": "B3 (cotação de fechamento de BBDC4)",
+   "desc": "BBDC4 caiu 1,78% em 19/11 em meio à pressão sobre os bancos e a revisões de bancos internacionais para o Brasil; o ADR perdeu 3,04% em Nova York em 20/11.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Chapecoense x Palmeiras, na Arena Condá, em 24/11, pelo Brasileirão, com o Palmeiras na vice-liderança?",
+   "outs": [
+    "Chapecoense",
+    "Empate",
+    "Palmeiras"
+   ],
+   "p": [
+    0.25,
+    0.27,
+    0.48
+   ],
+   "close": "2026-11-24T14:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado do jogo nos 90 minutos mais acréscimos, conforme a súmula e a tabela da CBF. Se o jogo não for disputado em 24/11/2026, a pergunta é retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Palmeiras é vice-líder com 73 pontos (antes do clássico com o Flamengo em 21/11) e encara a Chapecoense na terça (24/11), às 18h.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/flamengo-chega-a-986-de-chance-de-titulo-no-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva Coritiba x Flamengo, no Couto Pereira, em 29/11, pelo Brasileirão?",
+   "outs": [
+    "Coritiba",
+    "Empate",
+    "Flamengo"
+   ],
+   "p": [
+    0.27,
+    0.27,
+    0.46
+   ],
+   "close": "2026-11-29T12:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado do jogo nos 90 minutos mais acréscimos, conforme a súmula e a tabela da CBF. Se o jogo não for disputado em 29/11/2026, a pergunta é retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Flamengo lidera com 79 pontos e tem 98,6% de chance de título, segundo estudo da UFMG; o jogo em Curitiba está marcado para domingo (29/11), às 16h.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/flamengo-chega-a-986-de-chance-de-titulo-no-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-esp-3",
+   "cat": "Esporte",
+   "q": "Quem será campeão da Copa do Brasil na final entre Palmeiras e Grêmio, em 6/12, no Mané Garrincha?",
+   "outs": [
+    "Palmeiras",
+    "Grêmio"
+   ],
+   "p": [
+    0.62,
+    0.38
+   ],
+   "close": "2026-12-06T10:00:00-03:00",
+   "crit": "Vence a opção do time declarado campeão da Copa do Brasil de 2026 pela CBF, incluindo prorrogação e pênaltis, se houver. Se a final não for decidida em 6/12/2026, a pergunta é retirada.",
+   "src": "CBF (Copa do Brasil 2026)",
+   "desc": "A decisão está marcada para 6 de dezembro, na Arena Mané Garrincha, em Brasília; o Palmeiras tem o elenco mais valioso do país.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/finalista-da-copa-do-brasil-palmeiras-tem-elenco-mais-valioso-do-pais"
+    }
+   ]
+  },
+  {
+   "id": "d20261121-pol-1",
+   "cat": "Política",
+   "q": "Ao votar o ajuste fiscal em 23/11, a Câmara aprovará o texto-base com pelo menos 300 votos favoráveis?",
+   "outs": [
+    "Sim, 300 ou mais",
+    "Não, menos de 300 ou sem aprovação"
+   ],
+   "p": [
+    0.4,
+    0.6
+   ],
+   "close": "2026-11-23T14:00:00-03:00",
+   "crit": "Sim, se o Plenário da Câmara aprovar o texto-base do projeto de lei complementar do ajuste fiscal em 23/11/2026 com 300 ou mais votos 'sim', conforme o painel da Câmara. Não, se tiver menos de 300 votos ou não houver aprovação nessa data.",
+   "src": "Câmara dos Deputados (painel de votação e Agência Câmara)",
+   "desc": "O presidente da Câmara marcou a votação para segunda (23/11); são necessários 257 votos e o relator diz já tê-los. No Senado, o texto-base passou por 45 a 31.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/relator-da-camara-apresenta-parecer-sem-mudancas-no-ajuste-fiscal-de-lula"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/papel-de-alcolumbre-na-votacao-do-ajuste-fiscal-amplia-dependencia-de-lula"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -8393,6 +8374,10 @@
   "d20261105-esp-8",
   "d20261107-tec-1",
   "d20261104-neg-2",
-  "d20261108-neg-1"
+  "d20261108-neg-1",
+  "d20261115-fin-1",
+  "d20261115-fin-2",
+  "d20261115-neg-1",
+  "d20261115-neg-2"
  ]
 }
