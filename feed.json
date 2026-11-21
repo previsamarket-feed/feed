@@ -7777,6 +7777,29 @@
      "url": "https://www.metropoles.com/brasil/papel-de-alcolumbre-na-votacao-do-ajuste-fiscal-amplia-dependencia-de-lula"
     }
    ]
+  },
+  {
+   "id": "d20261121-pol-3",
+   "cat": "Política",
+   "q": "A um mês do recesso, com 87 instituições mandando propostas e resistência dentro do próprio Supremo, o STF vai divulgar até 19/12 a versão final do relatório do grupo de reforma do sistema de Justiça?",
+   "outs": [
+    "Sim, divulgado até 19/12",
+    "Não, fica para 2027 ou sem divulgação"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se o STF publicar, até 19/12/2026, o relatório final do grupo de trabalho sobre a modernização do sistema de Justiça criado pelo presidente da Corte, conforme o site do STF ou a Agência do STF. Não, se o relatório final não for publicado até essa data.",
+   "src": "Supremo Tribunal Federal (portal e Agência STF)",
+   "desc": "O grupo recebeu contribuições de 87 instituições, com propostas como mandato para ministros e limite a decisões individuais. O cronograma prevê relatório até 10/12 e versão final em 19/12, mas integrantes admitem risco de atraso.",
+   "news": [
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/a-um-mes-do-recesso-fachin-tenta-avancar-com-agenda-de-reformas-no-stf-mas-enfrenta-resistencias.ghtml"
+    }
+   ]
   }
  ],
  "resolutions": {
