@@ -7800,6 +7800,215 @@
      "url": "https://g1.globo.com/politica/noticia/2026/11/21/a-um-mes-do-recesso-fachin-tenta-avancar-com-agenda-de-reformas-no-stf-mas-enfrenta-resistencias.ghtml"
     }
    ]
+  },
+  {
+   "id": "d20261122-eco-1",
+   "cat": "Economia",
+   "q": "Com a projeção do Focus para o IPCA de 2027 em 5,00%, depois de subir de 4,90%, o boletim de 30/11 vai manter a mediana em 5,00% ou mais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.68,
+    0.32
+   ],
+   "close": "2026-11-30T07:00:00-03:00",
+   "crit": "Sim, se o Boletim Focus divulgado em 30/11/2026 trouxer mediana do IPCA de 2027 igual ou superior a 5,00%. Não, se for inferior.",
+   "src": "Banco Central do Brasil (Boletim Focus)",
+   "desc": "A mediana para 2027 subiu de 4,90% para 5,00% no boletim de 16/11, com dólar e fiscal pressionando as expectativas.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-16112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-eco-2",
+   "cat": "Economia",
+   "q": "Depois de cair de 1,15% para 1,02% em uma semana, a projeção do Focus para o PIB de 2027 ficará abaixo de 1,02% no boletim de 30/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-30T07:00:00-03:00",
+   "crit": "Sim, se a mediana do PIB de 2027 no Boletim Focus de 30/11/2026 for menor que 1,02%. Não, se for igual ou maior.",
+   "src": "Banco Central do Brasil (Boletim Focus)",
+   "desc": "Juros altos e incerteza fiscal vêm puxando para baixo a projeção de crescimento para 2027.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-16112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-fin-1",
+   "cat": "Finanças",
+   "q": "Com os juros futuros subindo em toda a curva por causa do fiscal, o contrato DI para janeiro de 2029 terá ajuste acima de 15,00% ao ano em 27/11?",
+   "outs": [
+    "Sim, acima de 15,00%",
+    "Não, 15,00% ou menos"
+   ],
+   "p": [
+    0.75,
+    0.25
+   ],
+   "close": "2026-11-27T10:00:00-03:00",
+   "crit": "Sim, se a taxa de ajuste do contrato DI1F29 em 27/11/2026, divulgada pela B3, for superior a 15,00% ao ano. Não, se for igual ou inferior.",
+   "src": "B3 (ajustes do DI de 1 dia)",
+   "desc": "O DI1F29 foi a 15,275% em 19/11, último pregão antes do feriado de 20/11, com o mercado atento ao fiscal e à votação na Câmara.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-fin-2",
+   "cat": "Finanças",
+   "q": "Com a Selic projetada em 13,75% para o fim de 2026 desde o boletim de 9/11, o Focus de 30/11 vai manter essa mediana exatamente em 13,75%?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.78,
+    0.22
+   ],
+   "close": "2026-11-30T07:00:00-03:00",
+   "crit": "Sim, se a mediana da Selic para o fim de 2026 no Boletim Focus de 30/11/2026 for exatamente 13,75%. Não, se for diferente.",
+   "src": "Banco Central do Brasil (Boletim Focus)",
+   "desc": "A mediana ficou em 13,75% nos boletins de 9/11 e 16/11, com o Copom marcado para 9/12.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-16112026/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/decisao-copom-manutencao-taxa-selic-pressao-fiscal/"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-tec-1",
+   "cat": "Tecnologia",
+   "q": "Com a Wall Street olhando para os grandes IPOs de IA, a OpenAI vai tornar público o seu pedido de abertura de capital (formulário S-1) na SEC até 31/12/2026?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.1,
+    0.9
+   ],
+   "close": "2026-12-28T12:00:00-03:00",
+   "crit": "Sim, se a OpenAI (ou holding sucessora) tiver um S-1 público no EDGAR da SEC com data de protocolo até 31/12/2026. Não, se até essa data houver só pedido confidencial ou nenhum S-1 público.",
+   "src": "SEC EDGAR (sec.gov/edgar)",
+   "desc": "A empresa aponta abertura de capital para 2027; o S-1 público costuma sair semanas antes do roadshow, por isso a chance inicial é baixa.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/queda-da-anthropic-apos-estreia-no-mercado-traz-choque-de-realidade-para-setor-de-ia/"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-neg-1",
+   "cat": "Negócios",
+   "q": "Depois da OPA que levou a Helbor (HBOR3) a abrir prazo extra de venda até 28/11, a empresa vai sair do Novo Mercado e ter o registro de companhia aberta cancelado até 5/1/2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2027-01-04T12:00:00-03:00",
+   "crit": "Sim, se, até 5/1/2027, B3 ou CVM comunicarem a saída da Helbor do Novo Mercado e o cancelamento do registro de companhia aberta (fato relevante, comunicado da B3 ou página da CVM). Não, se até essa data a empresa continuar listada ou com registro ativo.",
+   "src": "Fatos relevantes da Helbor (RI), comunicados da B3 e da CVM",
+   "desc": "O leilão da OPA foi em 28/10 e os acionistas podem vender nas mesmas condições até 28/11. Se a oferta atingir o quórum, o registro é cancelado.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/helbor-hbor3-acionistas-tem-ate-dia-28-para-vender-acoes-apos-opa/"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Fluminense x Cruzeiro, no Maracanã, em 27/11, pela 37ª rodada do Brasileirão?",
+   "outs": [
+    "Vitória do Fluminense",
+    "Empate",
+    "Vitória do Cruzeiro"
+   ],
+   "p": [
+    0.38,
+    0.28,
+    0.34
+   ],
+   "close": "2026-11-27T17:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula oficial)",
+   "desc": "Jogo da 37ª rodada na sexta, 27/11, às 20h, segundo a tabela detalhada da CBF. O Cruzeiro venceu a Chapecoense por 2 a 1 na 36ª rodada.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-confira-os-melhores-momentos-desse-sabado-21-11"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva São Paulo x Remo, em 26/11, pela 37ª rodada do Brasileirão?",
+   "outs": [
+    "Vitória do São Paulo",
+    "Empate",
+    "Vitória do Remo"
+   ],
+   "p": [
+    0.5,
+    0.27,
+    0.23
+   ],
+   "close": "2026-11-26T17:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula oficial)",
+   "desc": "Jogo da 37ª rodada na quinta, 26/11, às 20h, segundo a tabela detalhada da CBF.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-confira-os-melhores-momentos-desse-sabado-21-11"
+    }
+   ]
+  },
+  {
+   "id": "d20261122-pol-1",
+   "cat": "Política",
+   "q": "Com o prazo de propostas à Lei Orçamentária de 2027 terminando em 23/11, o Congresso vai aprovar a LOA em sessão conjunta até 22/12, antes do recesso?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-12-14T08:00:00-03:00",
+   "crit": "Sim, se o Congresso Nacional aprovar o projeto da LOA 2027 em sessão conjunta até 22/12/2026, conforme congressonacional.leg.br ou Agência Câmara/Senado. Não, se não for aprovado até essa data.",
+   "src": "Congresso Nacional",
+   "desc": "A Comissão Mista de Orçamento aprovou em 16/11 cerca de R$ 39 bilhões em emendas. O histórico é de votação perto do recesso."
   }
  ],
  "resolutions": {
@@ -8370,6 +8579,46 @@
   "d20261113-neg-3": {
    "outcome": 0,
    "evidence": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers"
+  },
+  "d20261031-esp-6": {
+   "outcome": 1,
+   "evidence": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17544359/flamengo-empata-palmeiras-e-campeao-brasileiro-no-nubank-parque"
+  },
+  "d20261114-esp-1": {
+   "outcome": 1,
+   "evidence": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17544359/flamengo-empata-palmeiras-e-campeao-brasileiro-no-nubank-parque"
+  },
+  "d20261115-esp-2": {
+   "outcome": 1,
+   "evidence": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17544359/flamengo-empata-palmeiras-e-campeao-brasileiro-no-nubank-parque"
+  },
+  "d20261119-esp-1": {
+   "outcome": 1,
+   "evidence": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17544359/flamengo-empata-palmeiras-e-campeao-brasileiro-no-nubank-parque"
+  },
+  "d20261031-esp-7": {
+   "outcome": 1,
+   "evidence": "https://placar.com.br/copa-sul-americana/boca-juniors-vence-o-atletico-mg-na-final-e-conquista-a-sul-americana/"
+  },
+  "d20261108-esp-2": {
+   "outcome": 1,
+   "evidence": "https://placar.com.br/copa-sul-americana/boca-juniors-vence-o-atletico-mg-na-final-e-conquista-a-sul-americana/"
+  },
+  "d20261117-esp-1": {
+   "outcome": 1,
+   "evidence": "https://placar.com.br/copa-sul-americana/boca-juniors-vence-o-atletico-mg-na-final-e-conquista-a-sul-americana/"
+  },
+  "d20261119-esp-3": {
+   "outcome": 0,
+   "evidence": "https://www.espn.com/soccer/match/_/gameId/401841325"
+  },
+  "d20261120-esp-5": {
+   "outcome": 2,
+   "evidence": "https://www.terra.com.br/esportes/futebol/breno-lopes-decide-coritiba-vence-bahia-na-fonte-nova-e-se-afasta-do-z4,18ff4be48286064e2a18cb31f9a674a8raxgto85.html"
+  },
+  "d20261113-pol-1": {
+   "outcome": 1,
+   "evidence": "https://www.gazetadopovo.com.br/republica/fux-suspende-julgamento-fim-escala-6x1-leva-caso-plenario-stf/"
   }
  },
  "withdrawn": [
