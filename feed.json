@@ -8009,6 +8009,29 @@
    "crit": "Sim, se o Congresso Nacional aprovar o projeto da LOA 2027 em sessão conjunta até 22/12/2026, conforme congressonacional.leg.br ou Agência Câmara/Senado. Não, se não for aprovado até essa data.",
    "src": "Congresso Nacional",
    "desc": "A Comissão Mista de Orçamento aprovou em 16/11 cerca de R$ 39 bilhões em emendas. O histórico é de votação perto do recesso."
+  },
+  {
+   "id": "d20261122-pol-3",
+   "cat": "Política",
+   "q": "Depois de o ministro Zanin, do STF, suspender o congresso extraordinário do Cidadania, que votaria a incorporação do partido ao PP, a legenda aprovará essa incorporação até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.2,
+    0.8
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, o Cidadania ou o PP divulgarem oficialmente, ou o TSE registrar, que o congresso nacional do Cidadania aprovou a incorporação do partido ao PP. Não, se a incorporação não for aprovada até essa data, seja por suspensão judicial, cancelamento ou rejeição.",
+   "src": "Cidadania, PP e Tribunal Superior Eleitoral (TSE)",
+   "desc": "O congresso do Cidadania estava marcado para 21/11, mas o presidente do partido já o cancelara e o ministro do STF o suspendeu a pedido do diretório de Goiás. Sem deputados eleitos em 2026, o partido precisa se incorporar a outra sigla ou formar federação.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/zanin-suspende-congresso-que-aprovaria-incorporacao-do-cidadania-ao-pp/"
+    }
+   ]
   }
  ],
  "resolutions": {
