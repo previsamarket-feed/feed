@@ -8005,6 +8005,29 @@
      "url": "https://www.metropoles.com/brasil/alcolumbre-insiste-em-pacheco-para-vaga-no-stf-e-espera-reuniao-com-lula"
     }
    ]
+  },
+  {
+   "id": "d20261123-tec-3",
+   "cat": "Tecnologia",
+   "q": "Depois de saltar cerca de 30% com a volta de Jensen Huang ao cargo de CEO, para perto de US$ 161, a Nvidia (NVDA) fechará 27/11 acima de US$ 150?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.62,
+    0.38
+   ],
+   "close": "2026-11-24T12:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento das ações da Nvidia (NVDA) na Nasdaq em 27/11/2026 for superior a US$ 150,00. Não, se for igual ou inferior a esse valor.",
+   "src": "Nasdaq (cotação oficial de fechamento de NVDA)",
+   "desc": "Os papéis despencaram 14% na sexta (20/11) e dispararam na segunda (23/11), após o conselho reconduzir Huang ao posto por unanimidade. A pergunta mede se o salto se sustenta ao longo da semana.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/acao-da-nvidia-salta-cerca-de-30-com-reintegracao-de-jensen-huang-como-ceo/"
+    }
+   ]
   }
  ],
  "resolutions": {
