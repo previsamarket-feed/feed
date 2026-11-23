@@ -7909,6 +7909,56 @@
      "url": "https://www.infomoney.com.br/politica/zanin-suspende-congresso-que-aprovaria-incorporacao-do-cidadania-ao-pp/"
     }
    ]
+  },
+  {
+   "id": "d20261123-neg-3",
+   "cat": "Negócios",
+   "q": "Com fontes falando em mais de US$ 120 bilhões, o plano 2027-2031 da Petrobras, previsto para hoje à noite, terá investimentos de US$ 120 bilhões ou mais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.68,
+    0.32
+   ],
+   "close": "2026-11-23T18:00:00-03:00",
+   "crit": "Sim, se o Plano de Negócios 2027-2031 divulgado pela Petrobras em comunicado oficial, até 24/11/2026, previr investimentos totais de US$ 120 bilhões ou mais no período. Não, se o valor total divulgado for menor que US$ 120 bilhões ou se o plano não for divulgado até 24/11/2026.",
+   "src": "Petrobras (comunicado ao mercado e site de Relações com Investidores)",
+   "desc": "O plano atual (2026-2030) prevê US$ 109 bilhões. Segundo a Reuters, o conselho analisa o novo plano nesta segunda e a divulgação está prevista para a noite, com foco em exploração, Margem Equatorial e refino de diesel.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/petr4-plano-de-investimentos-da-petrobras-2027-2031-deve-superar-us-120-bi-dizem-fontes/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/camara-ajuste-fiscal-petrobras-plano-negocios-agenda-23112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261123-fin-3",
+   "cat": "Finanças",
+   "q": "Depois de o dólar comercial tocar R$ 6,00 nesta segunda e recuar para perto de R$ 5,95, a PTAX de venda de 27/11 ficará acima de R$ 6,00?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.3,
+    0.7
+   ],
+   "close": "2026-11-24T10:00:00-03:00",
+   "crit": "Sim, se a PTAX de venda de 27/11/2026 divulgada pelo Banco Central (média do fechamento) for maior que R$ 6,0000. Não, se for igual ou menor que R$ 6,0000.",
+   "src": "Banco Central do Brasil (PTAX)",
+   "desc": "O dólar chegou a R$ 6,00 no pregão, mas reduziu os ganhos com o fiscal e a votação do ajuste na Câmara no radar. A terceira parcial da PTAX saiu a R$ 5,9487 (venda).",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/"
+    }
+   ]
   }
  ],
  "resolutions": {
