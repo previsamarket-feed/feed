@@ -7959,6 +7959,52 @@
      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/"
     }
    ]
+  },
+  {
+   "id": "d20261123-neg-4",
+   "cat": "Negócios",
+   "q": "Depois de fontes dizerem que a Braskem chegou a acordo com credores, com aporte de US$ 4,9 bilhões, sendo US$ 1,3 bilhão da Petrobras, a BRKM5 fechará 27/11 acima do fechamento de 23/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-24T10:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento da BRKM5 na B3 em 27/11/2026 for maior que o fechamento de 23/11/2026. Não, se for igual ou menor.",
+   "src": "B3 (cotações de fechamento)",
+   "desc": "A ação subiu forte na segunda-feira com a notícia de um plano de reestruturação que prevê conversão de US$ 3,6 bilhões em dívida e manutenção do controle com Petrobras e IG4, segundo fontes citadas pela Reuters.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/braskem-sobe-forte-com-noticia-sobre-acordo-com-credores-para-reestruturar-dividas/"
+    }
+   ]
+  },
+  {
+   "id": "d20261123-pol-3",
+   "cat": "Política",
+   "q": "Com a vaga de Barroso no STF ainda sem indicado e o Senado pedindo a escolha de Pacheco, Lula vai enviar ao Senado a mensagem de indicação do novo ministro até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, o Senado Federal registrar o recebimento de mensagem presidencial indicando nome para a vaga de Luís Roberto Barroso no STF. Não, se não houver mensagem de indicação até essa data.",
+   "src": "Senado Federal (tramitação de mensagens presidenciais)",
+   "desc": "O presidente do Senado insiste em Rodrigo Pacheco, enquanto a reunião com o governo, prevista para 18/11, ainda não aconteceu; o governo quer aprovar o substituto antes da posse dos novos senadores, em 2027.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/alcolumbre-insiste-em-pacheco-para-vaga-no-stf-e-espera-reuniao-com-lula"
+    }
+   ]
   }
  ],
  "resolutions": {
