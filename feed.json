@@ -1254,29 +1254,6 @@
    ]
   },
   {
-   "id": "d20261031-neg-1",
-   "cat": "Negócios",
-   "q": "A Hapvida, que lucrou só R$ 12,5 milhões no 2º trimestre, terá lucro líquido acima desse valor no 3º trimestre?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.6,
-    0.4
-   ],
-   "close": "2026-11-10T18:00:00-03:00",
-   "crit": "Sim, se o lucro líquido do 3T26 divulgado pela Hapvida (previsto para 11/11/2026) for maior que R$ 12,5 milhões. Não, se for igual, menor ou se houver prejuízo. Se o balanço não sair até 20/11, a pergunta será retirada.",
-   "src": "Hapvida (Relações com Investidores) e comunicado de resultados",
-   "desc": "O lucro do 2º trimestre caiu 96% na comparação anual, com sinistralidade maior e margens pressionadas. A ação chegou a cair 33% após o balanço.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/hapvida-hapv3-resultados-segundo-trimestre-2026/"
-    }
-   ]
-  },
-  {
    "id": "d20261031-pol-2",
    "cat": "Política",
    "q": "O Senado dos EUA terá a democrata Mary Peltola como vencedora da disputa pelo Alasca, certificada até 30/11?",
@@ -3399,33 +3376,6 @@
    ]
   },
   {
-   "id": "d20261108-neg-3",
-   "cat": "Negócios",
-   "q": "A Hapvida, que lucrou só R$ 12,5 milhões no 2º trimestre, terá lucro líquido maior que esse valor no 3º trimestre?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-10T18:00:00-03:00",
-   "crit": "Sim, se o lucro líquido da Hapvida no 3T26, no release de resultados de 11/11/2026, for maior que R$ 12,5 milhões. Não, se for igual ou menor.",
-   "src": "Hapvida (Relações com Investidores, release 3T26)",
-   "desc": "O lucro caiu 96% no 2T26 com pressão de margem e sinistralidade; o balanço do 3T26 sai em 11/11.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/hapvida-hapv3-resultados-segundo-trimestre-2026/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
-    }
-   ]
-  },
-  {
    "id": "d20261108-esp-3",
    "cat": "Esporte",
    "q": "Palmeiras, que venceu a ida por 1 a 0, vai eliminar o Vasco em São Januário, neste domingo (8/11), e chegar à final da Copa do Brasil?",
@@ -4109,29 +4059,6 @@
    ]
   },
   {
-   "id": "d20261112-fin-2",
-   "cat": "Finanças",
-   "q": "A Vale, que teve lucro de US$ 1,25 bilhão no 3º trimestre (queda de 53% em um ano), terá ação VALE3 fechando 20/11 acima do fechamento de 13/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-13T12:00:00-03:00",
-   "crit": "Sim, se o fechamento de VALE3 na B3 em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
-   "src": "B3 (cotações históricas de VALE3)",
-   "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/vale-vale3-balanco-3t26/"
-    }
-   ]
-  },
-  {
    "id": "d20261112-tec-1",
    "cat": "Tecnologia",
    "q": "Em meio à corrida bilionária das big techs por IA, a Amazon (AMZN) fechará 20/11 acima do fechamento de 13/11?",
@@ -4476,33 +4403,6 @@
     {
      "name": "InfoMoney",
      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
-    }
-   ]
-  },
-  {
-   "id": "d20261113-fin-1",
-   "cat": "Finanças",
-   "q": "Depois de divulgar balanço fraco e cortar a projeção de lucro de 2026, o Banco do Brasil (BBAS3) fechará 20/11 acima do fechamento de 13/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.48,
-    0.52
-   ],
-   "close": "2026-11-13T12:00:00-03:00",
-   "crit": "Sim, se o fechamento de BBAS3 na B3 em 20/11/2026 for maior que o fechamento de 13/11/2026. Não, se for igual ou menor.",
-   "src": "B3 (cotação de fechamento de BBAS3)",
-   "desc": "Pergunta sobre a variação semanal da ação; não é recomendação de investimento.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/"
     }
    ]
   },
@@ -5104,29 +5004,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
-    }
-   ]
-  },
-  {
-   "id": "d20261114-pol-1",
-   "cat": "Política",
-   "q": "O Senado vai rejeitar os quatro destaques do ajuste fiscal em 17/11 e enviar à Câmara o texto-base sem mudanças?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-17T10:00:00-03:00",
-   "crit": "Sim, se, até 18/11/2026, o Plenário do Senado concluir a votação do projeto sem aprovar nenhum dos destaques e o enviar à Câmara com o texto-base inalterado, conforme a Agência Senado. Não, se algum destaque for aprovado ou a votação não terminar.",
-   "src": "Agência Senado e site do Senado Federal",
-   "desc": "O texto-base passou por 45 votos a 31 em 12/11; restam quatro destaques, que podem alterar trechos como o corte de benefícios tributários.",
-   "news": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/motta-sinaliza-votacao-de-ajuste-fiscal-de-lula-na-proxima-semana"
     }
    ]
   },
@@ -8642,6 +8519,74 @@
   "d20261113-pol-1": {
    "outcome": 1,
    "evidence": "https://www.gazetadopovo.com.br/republica/fux-suspende-julgamento-fim-escala-6x1-leva-caso-plenario-stf/"
+  },
+  "d20261030-pol-3": {
+   "outcome": 0,
+   "evidence": "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328/votacoes"
+  },
+  "d20261105-neg-2": {
+   "outcome": 1,
+   "evidence": "https://quartr.com/events/rumo-s-a-rail3-q3-2026_F36m2Jv0"
+  },
+  "d20261111-neg-1": {
+   "outcome": 1,
+   "evidence": "https://www.jornaldocomercio.com/economia/2026/11/1270732-lucro-da-b3-cresce-30-no-trimestre-e-renda-fixa-supera-rs-10-trilhoes-pela-primeira-vez.html"
+  },
+  "d20261112-tec-1": {
+   "outcome": 1,
+   "evidence": "https://stockanalysis.com/stocks/amzn/history/"
+  },
+  "d20261112-tec-2": {
+   "outcome": 1,
+   "evidence": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-november-23-2026/"
+  },
+  "d20261113-fin-2": {
+   "outcome": 1,
+   "evidence": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+  },
+  "d20261113-fin-3": {
+   "outcome": 1,
+   "evidence": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+  },
+  "d20261031-fin-2": {
+   "outcome": 1,
+   "evidence": "https://www.moneytimes.com.br/ouro-fechamento-30102026-davs/"
+  },
+  "d20261113-tec-1": {
+   "outcome": 1,
+   "evidence": "https://stockanalysis.com/stocks/msft/history/"
+  },
+  "d20261113-tec-2": {
+   "outcome": 1,
+   "evidence": "https://247wallst.com/investing/2026/11/18/apple-is-the-only-magnificent-seven-stock-near-a-record/"
+  },
+  "d20261111-tec-3": {
+   "outcome": 1,
+   "evidence": "https://www.diariodepernambuco.com.br/politica/2026/11/11729386-votacao-do-pl-das-big-techs-devera-ficar-para-a-proxima-semana-diz-hugo-motta.html"
+  },
+  "d20261119-pol-3": {
+   "outcome": 1,
+   "evidence": "https://acritica.net/meio-ambiente/cop31-termina-sem-consenso-apos-impasse-sobre-combustiveis-fosseis/"
+  },
+  "d20261120-esp-3": {
+   "outcome": 0,
+   "evidence": "https://www.fluminense.com.br/noticia/fluminense-vence-o-mirassol-com-gol-de-riquelme-no-maracana"
+  },
+  "d20261116-pol-2": {
+   "outcome": 1,
+   "evidence": "https://www.oliberal.com/politica/zanin-suspende-congresso-do-cidadania-que-incorporaria-partido-ao-pp-1.1196905"
+  },
+  "d20261117-pol-3": {
+   "outcome": 0,
+   "evidence": "https://www.canalrural.com.br/diversos/decreto-regulamenta-fim-da-escala-6x1-e-inclui-empregados-rurais/"
+  },
+  "d20261119-esp-2": {
+   "outcome": 0,
+   "evidence": "https://www.planetf1.com/news/f1-championship-standings-2026-las-vegas-grand-prix"
+  },
+  "d20261120-esp-2": {
+   "outcome": 0,
+   "evidence": "https://www.vavel.com/br/futebol/2026/11/22/atletico-pr/1280403-athletico-goleia-o-remo-vence-por-4-a-2-e-confirma-rebaixamento-do-leao.html"
   }
  },
  "withdrawn": [
@@ -8673,6 +8618,11 @@
   "d20261115-fin-1",
   "d20261115-fin-2",
   "d20261115-neg-1",
-  "d20261115-neg-2"
+  "d20261115-neg-2",
+  "d20261031-neg-1",
+  "d20261108-neg-3",
+  "d20261113-fin-1",
+  "d20261112-fin-2",
+  "d20261114-pol-1"
  ]
 }
