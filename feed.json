@@ -8335,6 +8335,29 @@
      "url": "https://www.infomoney.com.br/mercados/nasdaq-disparada-volta-de-huang-a-nvidia-dow-e-sp-tambem-saltam/"
     }
    ]
+  },
+  {
+   "id": "d20261124-pol-3",
+   "cat": "Política",
+   "q": "Com Lula autorizando a Fazenda a preparar uma PEC para limitar despesas obrigatórias, mas com o governo descartando outra PEC em 2026, o texto será protocolado no Congresso até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.3,
+    0.7
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, uma PEC do Poder Executivo para conter o crescimento de despesas obrigatórias da União for protocolada na Câmara ou no Senado, conforme o registro de proposições. Não, se isso não ocorrer até essa data.",
+   "src": "Câmara dos Deputados e Senado Federal (registro de proposições)",
+   "desc": "A Fazenda defende a medida para aprofundar o ajuste a partir de 2027, mas a ala política resiste e o momento de envio ao Congresso ainda está em discussão.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/lula-autoriza-nova-pec-para-conter-gastos-com-saude-educacao-e-emendas/"
+    }
+   ]
   }
  ],
  "resolutions": {
