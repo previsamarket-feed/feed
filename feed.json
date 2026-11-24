@@ -8358,6 +8358,33 @@
      "url": "https://www.infomoney.com.br/politica/lula-autoriza-nova-pec-para-conter-gastos-com-saude-educacao-e-emendas/"
     }
    ]
+  },
+  {
+   "id": "d20261124-esp-3",
+   "cat": "Esporte",
+   "q": "Com 38 pontos, em 18º lugar, depois de levar 5 x 2 do Vitória, o Internacional terá o rebaixamento para a Série B confirmado matematicamente ao fim da 37ª rodada do Brasileirão?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-11-26T12:00:00-03:00",
+   "crit": "Sim, se, ao término da 37ª rodada do Brasileirão (jogos de 26 a 29/11/2026), a tabela oficial da CBF mostrar o Internacional matematicamente rebaixado para a Série B. Não, se o clube ainda tiver chance matemática de escapar após essa rodada.",
+   "src": "CBF (tabela e regulamento do Campeonato Brasileiro Série A)",
+   "desc": "O Inter precisa vencer o Bragantino em 29/11 e depende dos resultados de Grêmio e Mirassol para seguir vivo na briga contra a queda.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/internacional-pode-cair-para-a-serie-b-na-proxima-rodada-confira-cenarios"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/presidente-do-inter-dispara-apos-goleada-para-o-vitoria-inadmissivel"
+    }
+   ]
   }
  ],
  "resolutions": {
