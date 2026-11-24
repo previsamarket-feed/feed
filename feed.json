@@ -8028,6 +8028,313 @@
      "url": "https://www.infomoney.com.br/mercados/acao-da-nvidia-salta-cerca-de-30-com-reintegracao-de-jensen-huang-como-ceo/"
     }
    ]
+  },
+  {
+   "id": "d20261124-eco-1",
+   "cat": "Economia",
+   "q": "Depois de desacelerar a 1,47% em outubro, o IGP-M, a chamada inflação do aluguel, vai subir menos de 1,47% em novembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-26T18:00:00-03:00",
+   "crit": "Sim, se a FGV divulgar IGP-M de novembro de 2026 menor que 1,47%. Não, se for igual ou maior. Divulgação prevista para 27/11/2026.",
+   "src": "FGV IBRE (divulgação do IGP-M de novembro de 2026)",
+   "desc": "O IGP-M subiu 1,47% em outubro (1,57% em setembro) e acumula 5,24% em 12 meses; o dólar mais alto em novembro pressiona os preços no atacado.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/igp-m-desacelera-alta-em-outubro-para-147-com-menor-pressao-de-precos-do-agro/"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-eco-2",
+   "cat": "Economia",
+   "q": "Com o mercado subindo a inflação de 2026 para 5,15%, o Focus de 30/11 vai elevar de novo essa mediana?",
+   "outs": [
+    "Sim, acima de 5,15%",
+    "Não, 5,15% ou menos"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-30T07:00:00-03:00",
+   "crit": "Sim, se a mediana do IPCA de 2026 no Boletim Focus de 30/11/2026 for maior que 5,15%. Não, se for igual ou menor. Fonte: tabela de expectativas de mercado do Banco Central.",
+   "src": "Banco Central do Brasil (Boletim Focus de 30/11/2026)",
+   "desc": "A mediana do IPCA 2026 subiu de 5,11% para 5,15% entre 16 e 23/11, e a Fazenda também elevou sua projeção para 5,3%.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/focus-mercado-volta-a-subir-projecoes-para-a-inflacao-em-2026-e-2027"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-eleva-projecao-de-inflacao-para-o-fim-de-2026-de-49-para-53"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-fin-1",
+   "cat": "Finanças",
+   "q": "Depois de tocar R$ 6,00 pela primeira vez desde abril de 2025, o dólar vai fechar acima de R$ 6,00 em 27/11?",
+   "outs": [
+    "Sim, acima de R$ 6,00",
+    "Não, R$ 6,00 ou menos"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-11-27T10:00:00-03:00",
+   "crit": "Sim, se a cotação de fechamento do dólar comercial (venda) em 27/11/2026 for maior que R$ 6,00, conforme a cotação de fechamento do Banco Central/B3. Não, se for igual ou menor.",
+   "src": "Banco Central do Brasil (cotação de fechamento do dólar em 27/11/2026)",
+   "desc": "Em 23/11 o dólar bateu R$ 6,006 na máxima do dia, mas fechou a R$ 5,926 em meio ao debate fiscal.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-fin-2",
+   "cat": "Finanças",
+   "q": "Com o Ibovespa acumulando queda de 1,86% em novembro até 23/11, o índice vai fechar o mês em baixa?",
+   "outs": [
+    "Sim, em baixa",
+    "Não, em alta ou estável"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-11-30T10:00:00-03:00",
+   "crit": "Sim, se a variação do Ibovespa em novembro de 2026 (fechamento de 30/11 contra o fechamento de 30/10) for negativa, conforme a B3. Não, se for zero ou positiva.",
+   "src": "B3 (série histórica do Ibovespa)",
+   "desc": "O Ibovespa fechou a 164.796 pontos em 23/11, terceira queda seguida, e está +2,28% no ano.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-tec-1",
+   "cat": "Tecnologia",
+   "q": "Na semana em que a Amazon espera uma Black Friday recorde no Brasil, a ação AMZN fechará 27/11 acima do fechamento de 24/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-24T12:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de AMZN na Nasdaq em 27/11/2026 (pregão reduzido) for maior que o de 24/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (cotação de fechamento de AMZN)",
+   "desc": "A Amazon espera a Black Friday com 350 centros logísticos e IA no Brasil, e as bolsas dos EUA fecham em 26/11 e encerram mais cedo em 27/11.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/business/amazon-espera-black-friday-recorde-no-brasil-com-350-centros-logisticos-e-ia/"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-tec-2",
+   "cat": "Tecnologia",
+   "q": "Com as big techs sacudindo Wall Street, a Apple (AAPL) fechará 27/11 acima do fechamento de 24/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-24T12:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de AAPL na Nasdaq em 27/11/2026 for maior que o de 24/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (cotação de fechamento de AAPL)",
+   "desc": "Os índices de Nova York tiveram a pior semana em seis anos até 20/11 e depois dispararam em 23/11.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/nasdaq-disparada-volta-de-huang-a-nvidia-dow-e-sp-tambem-saltam/"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-neg-1",
+   "cat": "Negócios",
+   "q": "Depois de divulgar plano de US$ 122 bilhões até 2031, a Petrobras (PETR4) fechará 27/11 acima do fechamento de 24/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-24T12:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de PETR4 na B3 em 27/11/2026 for maior que o de 24/11/2026. Não, se for igual ou menor.",
+   "src": "B3 (cotação de fechamento de PETR4)",
+   "desc": "A Petrobras aprovou em 23/11 o plano de negócios 2027-2031 com US$ 122 bilhões de investimentos.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-neg-2",
+   "cat": "Negócios",
+   "q": "Com o Ibovespa em três quedas seguidas, a Vale (VALE3) fechará 27/11 acima do fechamento de 24/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-24T12:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento de VALE3 na B3 em 27/11/2026 for maior que o de 24/11/2026. Não, se for igual ou menor.",
+   "src": "B3 (cotação de fechamento de VALE3)",
+   "desc": "O Ibovespa caiu 0,95% em 23/11, a terceira queda seguida, com o fiscal e o dólar no radar.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Vila Nova x Atlético-GO, nos playoffs da Série B, em 27/11?",
+   "outs": [
+    "Vitória do Vila Nova",
+    "Empate",
+    "Vitória do Atlético-GO"
+   ],
+   "p": [
+    0.42,
+    0.3,
+    0.28
+   ],
+   "close": "2026-11-27T17:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Vila Nova x Atlético-GO, em 27/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela oficial da Série B)",
+   "desc": "O jogo está marcado para sexta (27/11), às 20h, na agenda da semana do futebol.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-de-segunda-a-sexta-e-champions-confira-a-agenda-da-semana"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva Atlético-MG x Corinthians, em 25/11, com o Corinthians na zona de rebaixamento do Brasileirão?",
+   "outs": [
+    "Vitória do Atlético-MG",
+    "Empate",
+    "Vitória do Corinthians"
+   ],
+   "p": [
+    0.45,
+    0.3,
+    0.25
+   ],
+   "close": "2026-11-25T15:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Atlético-MG x Corinthians, em 25/11/2026, no tempo regulamentar (90 minutos mais acréscimos), conforme súmula e tabela oficiais da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela oficial do Brasileirão)",
+   "desc": "Jogo atrasado da rodada, quarta (25/11), às 20h; o Corinthians tem 40 pontos e briga para sair do Z4.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/apos-titulo-do-flamengo-veja-o-que-esta-em-jogo-no-campeonato-brasileiro"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-pol-1",
+   "cat": "Política",
+   "q": "Com Eduardo Braga escolhido relator, o Congresso vai aprovar o Orçamento de 2027 até 22/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se o Plenário do Congresso Nacional aprovar o projeto da Lei Orçamentária Anual de 2027 (PLOA 2027) até 22/12/2026, conforme o site do Congresso Nacional. Não, caso contrário.",
+   "src": "Congresso Nacional (site da tramitação do PLN da LOA 2027)",
+   "desc": "O senador Eduardo Braga foi escolhido relator do Orçamento de 2027; o Congresso costuma votar a LOA nas semanas finais de dezembro.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/eduardo-braga-sera-relator-do-orcamento-de-2027"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-pol-2",
+   "cat": "Política",
+   "q": "Ao sancionar o ajuste fiscal aprovado pela Câmara sem alterações, Lula vai vetar algum trecho do texto?",
+   "outs": [
+    "Sim, com ao menos um veto",
+    "Não, sanção sem vetos"
+   ],
+   "p": [
+    0.3,
+    0.7
+   ],
+   "close": "2026-11-25T18:00:00-03:00",
+   "crit": "Sim, se a lei do PLP 299/2026 for publicada no Diário Oficial da União até 15/12/2026 com ao menos um veto, total ou parcial, a dispositivo. Não, se for sancionada sem vetos ou se não houver sanção expressa até essa data.",
+   "src": "Diário Oficial da União (lei de sanção do PLP 299/2026)",
+   "desc": "A Câmara aprovou o PLP 299/2026 em 23/11, sem mudanças em relação ao texto do Senado, e ele segue para sanção presidencial.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/camara-ajuste-fiscal-lula"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-tec-3",
+   "cat": "Tecnologia",
+   "q": "Depois de saltar 6,5% em 23/11 com a volta de Jensen Huang à Nvidia, o Nasdaq Composite fechará 27/11 acima do fechamento de 23/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-25T12:00:00-03:00",
+   "crit": "Sim, se o fechamento do Nasdaq Composite em 27/11/2026 for maior que o de 23/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (cotação de fechamento do Nasdaq Composite)",
+   "desc": "O Nasdaq disparou em 23/11 depois da pior semana em mais de seis anos; em 27/11 o pregão encerra às 15h (Brasília).",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/nasdaq-disparada-volta-de-huang-a-nvidia-dow-e-sp-tambem-saltam/"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -8706,6 +9013,54 @@
   "d20261120-esp-2": {
    "outcome": 0,
    "evidence": "https://www.vavel.com/br/futebol/2026/11/22/atletico-pr/1280403-athletico-goleia-o-remo-vence-por-4-a-2-e-confirma-rebaixamento-do-leao.html"
+  },
+  "d20261119-pol-1": {
+   "outcome": 0,
+   "evidence": "https://www.camara.leg.br/noticias/1322146-camara-aprova-texto-base-do-projeto-de-ajuste-fiscal-acompanhe"
+  },
+  "d20261121-pol-1": {
+   "outcome": 0,
+   "evidence": "https://www.camara.leg.br/noticias/1322146-camara-aprova-texto-base-do-projeto-de-ajuste-fiscal-acompanhe"
+  },
+  "d20261113-pol-2": {
+   "outcome": 0,
+   "evidence": "https://www.camara.leg.br/noticias/1322152-camara-aprova-ajuste-fiscal-sem-alteracoes-projeto-segue-para-sancao-presidencial"
+  },
+  "d20261117-pol-1": {
+   "outcome": 0,
+   "evidence": "https://www.camara.leg.br/noticias/1322152-camara-aprova-ajuste-fiscal-sem-alteracoes-projeto-segue-para-sancao-presidencial"
+  },
+  "d20261113-eco-1": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+  },
+  "d20261120-eco-1": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+  },
+  "d20261116-eco-1": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+  },
+  "d20261118-eco-2": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+  },
+  "d20261111-neg-3": {
+   "outcome": 0,
+   "evidence": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/"
+  },
+  "d20261123-neg-3": {
+   "outcome": 0,
+   "evidence": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/"
+  },
+  "d20261113-esp-2": {
+   "outcome": 2,
+   "evidence": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17554559/com-show-weverton-gremio-vence-santos-morumbi-deixa-zona-rebaixamento"
+  },
+  "d20261120-esp-4": {
+   "outcome": 2,
+   "evidence": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17554559/com-show-weverton-gremio-vence-santos-morumbi-deixa-zona-rebaixamento"
   }
  },
  "withdrawn": [
