@@ -8385,6 +8385,52 @@
      "url": "https://www.metropoles.com/esportes/presidente-do-inter-dispara-apos-goleada-para-o-vitoria-inadmissivel"
     }
    ]
+  },
+  {
+   "id": "d20261124-neg-3",
+   "cat": "Negócios",
+   "q": "Com Tesla e SpaceX negociando uma fusão de US$ 3,5 trilhões, a maior da história, as duas vão anunciar oficialmente um acordo de fusão até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, a Tesla ou a SpaceX divulgarem em comunicado oficial ou em documento protocolado na SEC a assinatura de um acordo definitivo de fusão entre as duas empresas. Não, se não houver esse anúncio até 31/12/2026 ou se as conversas forem encerradas.",
+   "src": "SEC (documentos protocolados pela Tesla e pela SpaceX) e comunicados oficiais das empresas",
+   "desc": "Segundo o Financial Times, cada empresa criou um comitê especial e a operação, por troca de ações, poderia sair até o fim do ano, mas as conversas ainda estão em estágio inicial e sem consenso.",
+   "news": [
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/24/tesla-e-spacex-negociam-fusao-ate-o-fim-do-ano.ghtml"
+    }
+   ]
+  },
+  {
+   "id": "d20261124-eco-3",
+   "cat": "Economia",
+   "q": "Com os EUA preparando novas tarifas sobre China, União Europeia e outras 14 economias, o governo americano vai anunciar oficialmente essas tarifas até 30/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-11-25T08:00:00-03:00",
+   "crit": "Sim, se, até 30/11/2026, o Escritório do Representante Comercial dos EUA (USTR) ou a Casa Branca anunciarem oficialmente novas tarifas com base na Seção 301 sobre produtos da China e da União Europeia. Não, se não houver anúncio oficial até essa data.",
+   "src": "USTR (ustr.gov) e Casa Branca (comunicados oficiais)",
+   "desc": "Segundo o Wall Street Journal e a Bloomberg, o anúncio é esperado ainda nesta semana, após a conclusão da investigação do USTR sobre excesso de capacidade produtiva. Alíquotas, produtos e data de vigência ainda não foram divulgados.",
+   "news": [
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/24/eua-tarifas.ghtml"
+    }
+   ]
   }
  ],
  "resolutions": {
