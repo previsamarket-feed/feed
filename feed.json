@@ -7892,6 +7892,62 @@
      "url": "https://g1.globo.com/economia/noticia/2026/11/25/acoes-embraer-eua.ghtml"
     }
    ]
+  },
+  {
+   "id": "d20261125-eco-3",
+   "cat": "Economia",
+   "q": "Com os subsídios aos combustíveis já em cerca de R$ 75 bilhões no ano, o governo vai estender a ajuda ao diesel também para 2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-12-18T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 for publicado no Diário Oficial da União ato que mantenha subvenção federal ao diesel, de qualquer valor, válida em 1º/1/2027 ou depois. Não, se nenhum ato assim for publicado até essa data.",
+   "src": "Diário Oficial da União",
+   "desc": "Em 25/11, o Ministério do Planejamento informou que a ajuda de R$ 2,12 por litro deve ganhar mais um mês e que espera reduzir o valor se o petróleo ceder.",
+   "news": [
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/25/em-meio-a-alta-do-petroleo-governo-deve-prorrogar-subvencao-ao-diesel-por-mais-30-dias-diz-ministro.ghtml"
+    },
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/25/subsidios-aos-combustiveis-somam-cerca-de-r-75-bilhoes-em-2026-diz-equipe-economica.ghtml"
+    }
+   ]
+  },
+  {
+   "id": "d20261125-esp-3",
+   "cat": "Esporte",
+   "q": "Quem leva Corinthians x Grêmio, em 29/11, na Neo Química Arena, no confronto direto da 37ª rodada na briga contra o rebaixamento?",
+   "outs": [
+    "Vitória do Corinthians",
+    "Empate",
+    "Vitória do Grêmio"
+   ],
+   "p": [
+    0.45,
+    0.3,
+    0.25
+   ],
+   "close": "2026-11-29T17:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado de Corinthians x Grêmio pela 37ª rodada do Brasileirão, no tempo regulamentar (90 minutos mais acréscimos), conforme a súmula oficial da CBF. Se o jogo for adiado para depois de 30/11, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "Jogo marcado para domingo, 29/11, às 18h30. O Grêmio chegou a 41 pontos e saiu da zona de rebaixamento ao vencer o Santos na 36ª rodada.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/gremio-vence-santos-por-2-x-0-e-sai-da-zona-de-rebaixamento-do-brasileirao"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/internacional-pode-cair-para-a-serie-b-na-proxima-rodada-confira-cenarios"
+    }
+   ]
   }
  ],
  "resolutions": {
