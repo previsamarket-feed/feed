@@ -7865,6 +7865,33 @@
      "url": "https://www.infomoney.com.br/politica/fim-da-escala-6x1-governo-publica-portaria-com-regra-de-descanso-semanal-remunerado/"
     }
    ]
+  },
+  {
+   "id": "d20261125-neg-3",
+   "cat": "Negócios",
+   "q": "Depois de cair até 9% com a proposta dos EUA de taxar em 10% os aviões prontos do Brasil, a Embraer (EMBJ3) fechará 4/12 acima do fechamento de 25/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-26T10:00:00-03:00",
+   "crit": "Sim, se o fechamento oficial de EMBJ3 em 4/12/2026 for superior ao fechamento de 25/11/2026, segundo a B3. Não, se for igual ou inferior.",
+   "src": "B3 (cotações históricas de EMBJ3)",
+   "desc": "A tarifa ainda é só proposta: a audiência pública nos EUA está marcada para 14/1/2027. A pergunta compara o fechamento de duas datas.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/embraer-embj3-acao-cai-forte-com-proposta-dos-eua-para-taxar-aeronaves-brasileiras/"
+    },
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/25/acoes-embraer-eua.ghtml"
+    }
+   ]
   }
  ],
  "resolutions": {
