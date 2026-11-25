@@ -7948,6 +7948,56 @@
      "url": "https://www.metropoles.com/esportes/internacional-pode-cair-para-a-serie-b-na-proxima-rodada-confira-cenarios"
     }
    ]
+  },
+  {
+   "id": "d20261125-neg-4",
+   "cat": "Negócios",
+   "q": "A Black Friday vai faturar R$ 13,3 bilhões ou mais no comércio eletrônico entre 26 e 29/11, como projeta a Confi Neotrust?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.28,
+    0.72
+   ],
+   "close": "2026-11-26T12:00:00-03:00",
+   "crit": "Sim, se o primeiro balanço consolidado da Confi Neotrust para 26 a 29/11/2026 apontar faturamento do comércio eletrônico de R$ 13,3 bilhões ou mais. Não, se apontar menos. Sem balanço até 10/12, a pergunta será retirada.",
+   "src": "Confi Neotrust (balanço da Black Friday 2026)",
+   "desc": "A projeção representa alta de 20,7% sobre os mesmos dias de 2025. Já a CNC, em outro recorte do varejo, prevê crescimento de 1,8% nas vendas da data, citando juros e inflação.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/business/black-friday-forte-e-varejo-tradicional-quebrado-o-paradoxo-brasileiro/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/vendas-black-friday-2026-juros-inflacao-cnc/"
+    }
+   ]
+  },
+  {
+   "id": "d20261125-esp-4",
+   "cat": "Esporte",
+   "q": "Depois de perder a ida por 1 a 0, o Fortaleza vai superar o Criciúma no Castelão em 28/11 e subir para a Série A?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.52,
+    0.48
+   ],
+   "close": "2026-11-28T17:00:00-03:00",
+   "crit": "Sim, se a CBF confirmar o Fortaleza como vencedor do playoff de acesso contra o Criciúma (jogo de volta previsto para 28/11). Não, se a vaga ficar com o Criciúma. Se o jogo não ocorrer até 5/12, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela da Série B)",
+   "desc": "Jogo marcado para sábado, 28/11, às 20h. Pelo formato do playoff, não há pênaltis: se o placar somado terminar empatado, sobe o Fortaleza, que teve a melhor campanha na primeira fase.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/serie-b-criciuma-vence-fortaleza-e-abre-vantagem-em-playoff-de-acesso"
+    }
+   ]
   }
  ],
  "resolutions": {
