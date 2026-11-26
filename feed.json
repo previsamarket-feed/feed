@@ -8079,6 +8079,340 @@
      "url": "https://www.metropoles.com/colunas/igor-gadelha/cresce-aposta-de-que-trabuco-sera-ministro-de-lula"
     }
    ]
+  },
+  {
+   "id": "d20261126-eco-1",
+   "cat": "Economia",
+   "q": "O salário mínimo de 2027 será fixado abaixo dos R$ 1.741 previstos no projeto de Orçamento enviado ao Congresso?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-12-08T18:00:00-03:00",
+   "crit": "Sim, se o decreto ou a lei publicada no Diário Oficial da União até 31/12/2026 fixar o salário mínimo de 2027 em menos de R$ 1.741. Não, se o valor for de R$ 1.741 ou mais. Se nenhum ato for publicado até 31/12/2026, a pergunta será retirada.",
+   "src": "Diário Oficial da União",
+   "desc": "O mínimo atual é de R$ 1.621. O projeto de Orçamento prevê R$ 1.741, alta de 7,4%; o valor final depende da inflação medida pelo INPC, que somava 4,49% em 12 meses até outubro.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/minhas-financas/governo-confirma-que-salario-minimo-sera-de-r-1-741-em-2027/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/confira-os-principais-pontos-do-orcamento-de-2027-enviado-ao-congresso"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-eco-2",
+   "cat": "Economia",
+   "q": "A PEC que mantém o IPI sobre alguns produtos até o Imposto Seletivo começar a ser cobrado será promulgada até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se a emenda constitucional originada da PEC 22/2026, que mantém o IPI sobre produtos do Imposto Seletivo durante a transição, for promulgada pelo Congresso até 31/12/2026, conforme o Diário Oficial da União ou os portais da Câmara e do Senado. Não, caso contrário.",
+   "src": "Congresso Nacional e Diário Oficial da União",
+   "desc": "O governo enviou a proposta à Câmara em novembro. Ela precisa de dois turnos em cada Casa, e o recesso parlamentar começa em 22/12.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/alem-do-pacote-fiscal-veja-pautas-economicas-que-governo-tenta-aprovar-ate-dezembro/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-fin-1",
+   "cat": "Finanças",
+   "q": "Depois de saída líquida de R$ 8,8 bilhões em outubro, a poupança vai fechar novembro com mais saques do que depósitos?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.7,
+    0.3
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Sim, se o relatório de poupança do Banco Central referente a novembro de 2026 mostrar captação líquida negativa no total (SBPE e rural). Não, se a captação líquida for zero ou positiva. Se o dado não for divulgado até 15/12/2026, a pergunta será retirada.",
+   "src": "Banco Central (relatório de poupança)",
+   "desc": "A caderneta teve mais retiradas do que depósitos em setembro e em outubro, segundo o Banco Central.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/brasileiros-sacaram-r-88-bilhoes-da-poupanca-em-outubro-diz-bc"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-fin-2",
+   "cat": "Finanças",
+   "q": "O Senado vai aprovar em plenário, até 22/12, algum novo nome para a diretoria do Banco Central ou da CVM enviado a partir de 23/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.65,
+    0.35
+   ],
+   "close": "2026-12-08T18:00:00-03:00",
+   "crit": "Sim, se até 22/12/2026 o plenário do Senado aprovar ao menos uma indicação para a diretoria do Banco Central ou da CVM enviada pela Presidência da República a partir de 23/11/2026, conforme o site do Senado. Não, caso contrário.",
+   "src": "Senado Federal",
+   "desc": "A expectativa noticiada em 23/11 era de envio das primeiras indicações na mesma semana. Cada nome passa por sabatina em comissão antes do plenário, e o recesso começa em 22/12.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/lula-deve-iniciar-indicacoes-para-stf-e-banco-central-ainda-nesta-semana/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-fin-3",
+   "cat": "Finanças",
+   "q": "Com o CMN apertando as regras do crédito rotativo, o juro médio do rotativo do cartão em novembro ficará acima do de outubro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se a taxa média de juros do rotativo total do cartão de crédito para pessoas físicas em novembro de 2026, nas estatísticas de crédito do Banco Central divulgadas no fim de dezembro, for maior que a de outubro de 2026 na mesma divulgação. Não, se for igual ou menor.",
+   "src": "Banco Central (estatísticas monetárias e de crédito)",
+   "desc": "As medidas contra o endividamento aprovadas em 25/11 só passam a valer em julho de 2027. A pergunta mede o juro cobrado antes disso.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/cmn-e-bc-aprovam-medidas-para-conter-riscos-do-endividamento/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-tec-1",
+   "cat": "Tecnologia",
+   "q": "Com aval dos EUA para até 1 milhão de satélites-data center, a SpaceX (SPCX) fechará 4/12 acima do fechamento de 25/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-11-27T10:00:00-03:00",
+   "crit": "Sim, se o preço de fechamento da ação SPCX na Nasdaq em 4/12/2026 for maior que o de 25/11/2026. Não, se for igual ou menor.",
+   "src": "Nasdaq (cotação oficial de fechamento)",
+   "desc": "A agência de comunicações dos EUA (FCC) autorizou em 25/11 a constelação planejada pela empresa para processar dados em órbita. A autorização não traz data de lançamento.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/musk-recebe-autorizacao-dos-eua-para-lancar-1-milhao-de-satelites-no-espaco"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-tec-2",
+   "cat": "Tecnologia",
+   "q": "Após os EUA restringirem operadoras chinesas no acesso a números de telefone, a China anunciará contramedida até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.12,
+    0.88
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 o Ministério do Comércio ou outro órgão do governo chinês anunciar oficialmente medida concreta contra os EUA ou empresas americanas e o próprio comunicado a apresentar como resposta à decisão da FCC de 19/11/2026. Não, se houver só protestos ou advertências, ou nenhuma medida ligada expressamente a essa decisão.",
+   "src": "Ministério do Comércio da China e comunicados oficiais do governo chinês",
+   "desc": "Pequim pediu a retirada das restrições e disse que tomará as medidas necessárias, sem detalhar quais nem quando.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/china-ameaca-retaliar-contra-eua-apos-restricao-a-gigantes-da-telefonia"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-neg-1",
+   "cat": "Negócios",
+   "q": "Para reduzir a dívida, a Cosan vai anunciar até 31/12 um acordo para se desfazer de fatia na Rumo, na Compass ou na Moove?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.2,
+    0.8
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se, entre 27/11 e 31/12/2026, a Cosan publicar fato relevante ou comunicado informando a assinatura de acordo para transferir a outro investidor participação na Rumo, na Compass ou na Moove. Não, se não houver esse anúncio no período.",
+   "src": "Cosan (fatos relevantes) e CVM",
+   "desc": "A companhia negocia participações nessas empresas como forma de diminuir o endividamento.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/business/cosan-negocia-venda-de-participacoes-na-rumo-compass-e-moove-para-reduzir-divida/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-neg-2",
+   "cat": "Negócios",
+   "q": "O Cade vai aprovar sem restrições, até 31/12, o negócio de R$ 1,8 bilhão entre clubes da CFU/FFU e a Sports Media?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.2,
+    0.8
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 houver decisão definitiva do Cade aprovando sem restrições a operação entre os clubes da CFU/FFU e a Sports Media sobre direitos do Brasileirão, publicada no Diário Oficial da União ou no site do órgão. Não, em caso de restrições, reprovação ou falta de decisão definitiva.",
+   "src": "Cade e Diário Oficial da União",
+   "desc": "Os clubes pedem aval irrestrito ao negócio, que envolve uma fatia dos direitos comerciais. A Superintendência-Geral tratou o caso como complexo.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/business/clubes-do-cfu-ffu-pedem-ao-cade-aval-irrestrito-a-venda-de-direitos-do-brasileirao/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Mirassol x Athletico-PR, em 29/11, com o Mirassol com 41 pontos na briga contra o rebaixamento?",
+   "outs": [
+    "Mirassol",
+    "Empate",
+    "Athletico-PR"
+   ],
+   "p": [
+    0.4,
+    0.28,
+    0.32
+   ],
+   "close": "2026-11-29T15:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado do tempo normal, com acréscimos, de Mirassol x Athletico-PR pela 37ª rodada do Brasileirão 2026, conforme a CBF. Se a partida não for disputada até 6/12/2026, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Mirassol joga em casa a duas rodadas do fim. O Athletico-PR chega com 57 pontos, na parte de cima da tabela.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/campeonato-brasileiro-tera-pelo-menos-um-campeao-nacional-rebaixado"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-37a-rodada-pode-definir-rebaixamento-e-vagas-na-libertadores"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva Botafogo x Bahia, em 28/11, no Nilton Santos, pela 37ª rodada do Brasileirão?",
+   "outs": [
+    "Botafogo",
+    "Empate",
+    "Bahia"
+   ],
+   "p": [
+    0.36,
+    0.28,
+    0.36
+   ],
+   "close": "2026-11-28T18:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado do tempo normal, com acréscimos, de Botafogo x Bahia pela 37ª rodada do Brasileirão 2026, conforme a CBF. Se a partida não for disputada até 6/12/2026, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela do Brasileirão)",
+   "desc": "O Bahia soma 54 pontos e disputa posições na parte de cima da tabela; o Botafogo tem 43.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-37a-rodada-pode-definir-rebaixamento-e-vagas-na-libertadores"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-pol-1",
+   "cat": "Política",
+   "q": "A comissão mista do Congresso vai aprovar até 11/12 o relatório da medida provisória do Desenrola 3.0?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Sim, se a comissão mista da MP 1.393/2026 aprovar o parecer do relator até 11/12/2026, conforme o registro no site do Congresso Nacional. Não, caso contrário.",
+   "src": "Congresso Nacional (comissão mista da MP 1.393/2026)",
+   "desc": "A comissão foi instalada em 17/11, e o relator, senador Cid Gomes, prometeu apresentar o parecer no início de dezembro.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/apos-aval-a-ajuste-fiscal-governo-tem-outras-medidas-economicas-pendentes"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-pol-2",
+   "cat": "Política",
+   "q": "A PEC da tarifa zero nos fins de semana, bancada com cerca de R$ 12 bilhões de emendas, passa no plenário da Câmara até 22/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.1,
+    0.9
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se até 22/12/2026 o plenário da Câmara dos Deputados aprovar em dois turnos a PEC 18/2026, que destina parte das emendas parlamentares à gratuidade do transporte. Não, caso contrário.",
+   "src": "Câmara dos Deputados",
+   "desc": "A proposta foi apresentada pelo Executivo em outubro. Prefeitos questionam se as emendas são uma fonte segura de recursos.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/prefeitos-questionam-pec-da-tarifa-zero-e-discutirao-texto-com-alcolumbre"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-pol-3",
+   "cat": "Política",
+   "q": "O governo vai recuar e anunciar até 31/12 um convite oficial ao presidente argentino, Javier Milei, para a posse de 5/1/2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.1,
+    0.9
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 a Presidência da República ou o Itamaraty informar oficialmente que convidou Javier Milei para a posse presidencial de 5/1/2027. Não, caso contrário.",
+   "src": "Presidência da República e Ministério das Relações Exteriores",
+   "desc": "Segundo o noticiário, o governo decidiu não chamar o presidente argentino, o que aumentou o atrito entre os dois países.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-decide-nao-convidar-milei-para-a-posse-de-lula"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -8841,6 +9175,34 @@
   "d20261121-esp-1": {
    "outcome": 0,
    "evidence": "https://sportbuzz.com.br/futebol/2026/11/24/chapecoense-vence-palmeiras-por-3-a-0-em-noite-de-homenagens-na-arena-conda/"
+  },
+  "d20261114-esp-2": {
+   "outcome": 1,
+   "evidence": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/atletico-mineiro-x-corinthians/832246"
+  },
+  "d20261125-esp-1": {
+   "outcome": 1,
+   "evidence": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/atletico-mineiro-x-corinthians/832246"
+  },
+  "d20261124-esp-2": {
+   "outcome": 1,
+   "evidence": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/atletico-mineiro-x-corinthians/832246"
+  },
+  "d20261118-esp-3": {
+   "outcome": 0,
+   "evidence": "https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2026"
+  },
+  "d20261105-eco-3": {
+   "outcome": 0,
+   "evidence": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48748-inscricoes-para-pss-de-recenseador-do-ibge-sao-prorrogadas-ate-o-dia-30-de-novembro"
+  },
+  "d20261118-pol-1": {
+   "outcome": 0,
+   "evidence": "https://noticias.stf.jus.br/postsnoticias/nota-do-gabinete-do-ministro-alexandre-de-moraes-7/"
+  },
+  "d20261124-pol-2": {
+   "outcome": 1,
+   "evidence": "https://www.gov.br/sri/pt-br/noticias/governo-lula-sanciona-lei-que-combate-privilegios-tributarios-e-fortalece-o-equilibrio-das-contas-publicas"
   }
  },
  "withdrawn": [
