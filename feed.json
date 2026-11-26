@@ -8413,6 +8413,56 @@
      "url": "https://www.metropoles.com/brasil/governo-decide-nao-convidar-milei-para-a-posse-de-lula"
     }
    ]
+  },
+  {
+   "id": "d20261126-esp-3",
+   "cat": "Esporte",
+   "q": "Com 41 pontos, a mesma soma do primeiro time do Z4, o Corinthians será rebaixado para a Série B ao fim do Brasileirão?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-11-29T12:00:00-03:00",
+   "crit": "Sim, se, na tabela final do Brasileirão 2026 divulgada pela CBF, o Corinthians terminar entre o 17º e o 20º lugar. Não, se terminar em 16º ou acima. Se a tabela final não for fechada até 20/12/2026, a pergunta será retirada.",
+   "src": "CBF (tabela oficial do Brasileirão Série A)",
+   "desc": "Após o 1 a 1 com o Atlético-MG em 25/11, restam dois jogos: Grêmio, em casa, em 29/11, e Remo, fora, em 2/12. Cálculo da UFMG apontava risco de queda perto de 25%.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cuello-marca-no-fim-e-atletico-mg-empata-com-corinthians-pelo-brasileirao"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-37a-rodada-pode-definir-rebaixamento-e-vagas-na-libertadores"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-neg-3",
+   "cat": "Negócios",
+   "q": "Os primeiros leilões de baterias do país, em 2 e 4 de dezembro, vão contratar juntos 3 GW de potência ou mais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.55,
+    0.45
+   ],
+   "close": "2026-12-01T18:00:00-03:00",
+   "crit": "Sim, se a soma da potência contratada nos dois leilões de armazenamento (LRCAP 2026) divulgada pela Aneel ou pela CCEE for de 3.000 MW ou mais. Não, se ficar abaixo disso, inclusive se os leilões não forem realizados até 31/12/2026.",
+   "src": "Aneel e CCEE (resultado oficial dos leilões)",
+   "desc": "Os contratos são de 15 anos, com entrega a partir de agosto de 2028. Cabe ao governo definir a demanda, e as estimativas publicadas sobre o volume a contratar variam bastante.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ministerio-agenda-leilao-de-baterias-e-weg-tem-oportunidade-bilionaria-pela-frente/"
+    }
+   ]
   }
  ],
  "resolutions": {
