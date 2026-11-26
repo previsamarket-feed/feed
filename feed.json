@@ -8582,6 +8582,56 @@
      "url": "https://www.infomoney.com.br/economia/durigan-juro-nao-vai-cair-na-marretada-e-mais-medidas-fiscais-devem-sair-neste-ano/"
     }
    ]
+  },
+  {
+   "id": "d20261126-eco-6",
+   "cat": "Economia",
+   "q": "Depois de CNA, CNC e CNT irem ao STF, uma decisão do tribunal vai adiar até 31/12 a cobrança dos novos tributos da reforma, prevista para 1º/1/2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.1,
+    0.9
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 uma decisão do STF (de ministro ou do plenário), em vigor nessa data, adiar o início da cobrança da CBS ou do IBS previsto para 1º/1/2027. Não, se o pedido for negado ou não for decidido, ou se a decisão tratar só de multas, obrigações acessórias ou período educativo.",
+   "src": "STF (portal de notícias e andamento da ADI 8.053)",
+   "desc": "As confederações da agricultura, do comércio e do transporte dizem que faltam regras para a nova etapa e pedem ao menos 90 dias após a regulamentação. O Senado tem até 15/12 para fixar a alíquota de referência da CBS de 2027.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/brasil/entidades-do-agro-comercio-e-transporte-acionam-stf-para-adiar-reforma-tributaria/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-pol-5",
+   "cat": "Política",
+   "q": "No julgamento de 4 a 15/12, o STF vai determinar um 2º turno para o governo do Rio, como pede o PSD, após a anulação de votos que deu a vitória a Douglas Ruas no 1º?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.1,
+    0.9
+   ],
+   "close": "2026-12-03T18:00:00-03:00",
+   "crit": "Sim, se até 15/12/2026 o STF proclamar resultado na ADPF 1.362 que determine 2º turno para governador do Rio de Janeiro. Não, se o pedido for rejeitado ou não for conhecido, ou se não houver resultado proclamado até essa data, inclusive por pedido de vista ou de destaque.",
+   "src": "STF (andamento da ADPF 1.362 e portal de notícias)",
+   "desc": "O relator, ministro Cristiano Zanin, negou a liminar em novembro. Com a anulação pelo TSE dos votos de Anthony Garotinho, Ruas passou de 49,27% para 50,88% dos votos válidos. O PSD, de Eduardo Paes, contesta o resultado.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/zanin-leva-ao-plenario-virtual-do-stf-pedido-do-psd-por-2o-turno-na-eleicao-do-rio/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/stf-marca-julgamento-de-acao-que-pede-2o-turno-para-governador-do-rj"
+    }
+   ]
   }
  ],
  "resolutions": {
