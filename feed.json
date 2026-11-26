@@ -8463,6 +8463,75 @@
      "url": "https://www.infomoney.com.br/mercados/ministerio-agenda-leilao-de-baterias-e-weg-tem-oportunidade-bilionaria-pela-frente/"
     }
    ]
+  },
+  {
+   "id": "d20261126-eco-3",
+   "cat": "Economia",
+   "q": "Depois de outubro e novembro sem cobrança extra, a conta de luz continuará com bandeira verde em dezembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.88,
+    0.12
+   ],
+   "close": "2026-11-27T08:00:00-03:00",
+   "crit": "Sim, se a Aneel anunciar bandeira tarifária verde para dezembro de 2026. Não, se anunciar bandeira amarela ou vermelha (patamar 1 ou 2). Vale o comunicado oficial da agência.",
+   "src": "Aneel (anúncio oficial da bandeira tarifária)",
+   "desc": "O anúncio está marcado para 27/11. Ao manter a bandeira verde em novembro, a agência citou mais chuvas nas regiões das principais hidrelétricas.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/conta-de-luz-tera-bandeira-tarifaria-verde-em-outubro"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-pol-4",
+   "cat": "Política",
+   "q": "O Senado vai aprovar até 4/12 o projeto que encurta a quarentena de 36 meses para indicados a cargos de direção em estatais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.7,
+    0.3
+   ],
+   "close": "2026-12-01T10:00:00-03:00",
+   "crit": "Sim, se o plenário do Senado aprovar até 4/12/2026 o PL 2.896/2022, com ou sem mudanças, reduzindo o prazo de 36 meses. Não, se rejeitar, não votar até essa data ou aprovar sem reduzir o prazo.",
+   "src": "Senado Federal (tramitação do PL 2.896/2022)",
+   "desc": "A urgência passou em 25/11 e a votação é esperada para 1º/12. O novo prazo divide os senadores, e o texto também eleva o limite de gastos das estatais com publicidade.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/senado-acelera-votacao-da-reducao-da-quarentena-para-estatais-e-reguladoras"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-esp-4",
+   "cat": "Esporte",
+   "q": "Com 37 pontos de folga sobre Hamilton, Verstappen sairá do GP do Catar com mais de 25 de vantagem na luta pelo vice da F1?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.72,
+    0.28
+   ],
+   "close": "2026-11-28T08:00:00-03:00",
+   "crit": "Sim, se na classificação oficial de pilotos após o GP do Catar (corrida de 29/11) Verstappen for o 2º, mais de 25 pontos à frente do 3º. Não, se a diferença for de até 25, se ele não for o 2º ou se a corrida não ocorrer até 6/12.",
+   "src": "Fórmula 1 / FIA (classificação oficial de pilotos)",
+   "desc": "Antonelli já é o campeão. Depois de vencer em Las Vegas, Verstappen tem 304 pontos, contra 267 de Hamilton, e restam o Catar e Abu Dhabi.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/f1-max-verstappen-vence-gp-de-las-vegas-e-se-mantem-na-segunda-posicao"
+    }
+   ]
   }
  ],
  "resolutions": {
