@@ -8532,6 +8532,56 @@
      "url": "https://www.metropoles.com/esportes/f1-max-verstappen-vence-gp-de-las-vegas-e-se-mantem-na-segunda-posicao"
     }
    ]
+  },
+  {
+   "id": "d20261126-eco-4",
+   "cat": "Economia",
+   "q": "Barrado desde setembro, o frango brasileiro terá a volta ao mercado da União Europeia aprovada até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.7,
+    0.3
+   ],
+   "close": "2026-12-04T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 a Comissão Europeia confirmar oficialmente que o comitê SCoPAFF aprovou a reinclusão do Brasil na lista de países autorizados a exportar carne de aves à União Europeia, ou publicar o ato no Jornal Oficial da UE. Não, se isso não ocorrer até essa data.",
+   "src": "Comissão Europeia e Jornal Oficial da União Europeia",
+   "desc": "A votação foi adiada em 17/11 e deve voltar à pauta em 7 e 8 de dezembro. A auditoria europeia avaliou bem o controle das aves, mas a França defende o bloqueio aos produtos brasileiros.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/brasil-liga-para-ue-e-manifesta-preocupacao-sobre-veto-ao-frango-nacional"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/macron-chama-carne-brasileira-de-dopada-e-endurece-discurso-contra-mercosul/"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-eco-5",
+   "cat": "Economia",
+   "q": "Com a Fazenda prometendo novas medidas fiscais ainda em 2026, o governo vai enviar ao Congresso, até 31/12, uma proposta contra os supersalários?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-12-10T12:00:00-03:00",
+   "crit": "Sim, se o Poder Executivo protocolar na Câmara ou no Senado, entre 27/11 e 31/12/2026, PEC, projeto de lei ou medida provisória com regra para limitar pagamentos acima do teto constitucional no serviço público. Não, se não protocolar texto com essa regra nesse período; anúncio sem texto protocolado não conta.",
+   "src": "Câmara dos Deputados, Senado Federal e Diário Oficial da União",
+   "desc": "Em 26/11, o ministro da Fazenda citou a revisão dos supersalários entre os temas de um novo pacote, que também trata de contenção de despesas e de uma meta de superávit maior a partir de 2027.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/durigan-juro-nao-vai-cair-na-marretada-e-mais-medidas-fiscais-devem-sair-neste-ano/"
+    }
+   ]
   }
  ],
  "resolutions": {
