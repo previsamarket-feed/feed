@@ -7998,6 +7998,87 @@
      "url": "https://www.metropoles.com/esportes/serie-b-criciuma-vence-fortaleza-e-abre-vantagem-em-playoff-de-acesso"
     }
    ]
+  },
+  {
+   "id": "d20261125-eco-4",
+   "cat": "Economia",
+   "q": "Depois de chamar de inaceitável a nova proposta de tarifa dos EUA, o governo vai avançar com contramedidas pela Lei da Reciprocidade até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.12,
+    0.88
+   ],
+   "close": "2026-12-04T18:00:00-03:00",
+   "crit": "Sim, se, entre 26/11 e 31/12/2026, sair no Diário Oficial da União ato do governo federal (Camex ou comitê de contramedidas) que abra consulta pública sobre contramedidas contra os EUA ou aprove contramedida, provisória ou definitiva, pela Lei 15.122/2025. Não, se não sair ato assim; notas, declarações, consultas diplomáticas e ações na OMC não contam.",
+   "src": "Diário Oficial da União e Camex (gov.br/mdic)",
+   "desc": "Os EUA propõem taxa extra sobre aviões e açúcar do Brasil. Em nota de 25/11, o Planalto disse buscar saída negociada, sem descartar reciprocidade. O processo foi aberto em 13/8.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/brasil-nao-cedera-leia-nota-do-governo-sobre-ameaca-de-tarifas-dos-eua"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-lula-abre-processo-de-reciprocidade-contra-tarifaco-dos-eua"
+    }
+   ]
+  },
+  {
+   "id": "d20261125-fin-3",
+   "cat": "Finanças",
+   "q": "Com o governo do DF dizendo que a Caixa tem interesse no BRB, sairá até 31/12 proposta ou acordo oficial para a Caixa assumir o controle do banco?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.18,
+    0.82
+   ],
+   "close": "2026-11-30T18:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, a Caixa ou o BRB divulgar comunicado oficial ou fato relevante informando proposta formal, memorando ou acordo para a Caixa adquirir o controle do BRB, mesmo que dependa de aprovações. Não, se isso não ocorrer; declarações de interesse, estudos ou venda de carteiras e ativos não contam.",
+   "src": "Comunicados oficiais e fatos relevantes da Caixa e do BRB",
+   "desc": "Em 25/11, a governadora Celina Leão disse que a Caixa tem interesse no banco e que espera uma solução definitiva em duas semanas. A Fazenda afirma não ter tratativa sobre o BRB.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/distrito-federal/celina-leao-diz-que-caixa-economica-tem-interesse-em-aquisicao-do-brb"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/distrito-federal/brb-tera-solucao-definitiva-em-duas-semanas-afirma-celina-leao"
+    }
+   ]
+  },
+  {
+   "id": "d20261125-pol-3",
+   "cat": "Política",
+   "q": "Com o dólar caindo para R$ 5,81 em meio a especulações, Luiz Carlos Trabuco será anunciado como ministro da Fazenda até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-27T12:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, o presidente Lula ou o Palácio do Planalto anunciar oficialmente Luiz Carlos Trabuco como ministro da Fazenda (comunicado oficial, Diário Oficial da União ou declaração pública do presidente). Não, se for anunciado outro nome ou se não houver anúncio oficial dele até essa data; reportagens com fontes não contam.",
+   "src": "Planalto (gov.br/planalto) e Diário Oficial da União",
+   "desc": "Trabuco preside o conselho do Bradesco. Segundo O Globo, reuniu-se com Lula em 23/11, fora da agenda, e aliados o veem como o preferido. Outros nomes também são citados.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/lula-se-reuniu-com-trabuco-fora-da-agenda-no-alvorada/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/igor-gadelha/cresce-aposta-de-que-trabuco-sera-ministro-de-lula"
+    }
+   ]
   }
  ],
  "resolutions": {
