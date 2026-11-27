@@ -8989,6 +8989,75 @@
      "url": "https://www.metropoles.com/esportes/basquete-brasil-anuncia-convocados-para-jogos-decisivos-das-eliminatorias"
     }
    ]
+  },
+  {
+   "id": "d20261127-fin-3",
+   "cat": "Finanças",
+   "q": "Com o calote das famílias no crédito livre em 8,2%, recorde do Banco Central, a taxa vai subir de novo em novembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.3,
+    0.7
+   ],
+   "close": "2026-12-18T18:00:00-03:00",
+   "crit": "Sim, se a inadimplência das pessoas físicas no crédito livre em novembro de 2026, na primeira divulgação das estatísticas de crédito do Banco Central com esse mês, for maior que a de outubro de 2026 na mesma divulgação. Não, se for igual ou menor.",
+   "src": "Banco Central (estatísticas monetárias e de crédito)",
+   "desc": "O índice conta atrasos de mais de 90 dias em linhas como cartão, cheque especial e empréstimo pessoal. Segundo o BC, parte da alta recente vem de mudança nas regras contábeis.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/inadimplencia-das-familias-chega-a-82-em-outubro-e-bate-recorde-diz-bc"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-neg-4",
+   "cat": "Negócios",
+   "q": "Com dívida de R$ 65 bilhões, a Raízen vai anunciar até 31/1/2027 um acordo para vender sua distribuidora de combustíveis?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.12,
+    0.88
+   ],
+   "close": "2026-12-18T18:00:00-03:00",
+   "crit": "Sim, se a Raízen divulgar até 31/01/2027, em fato relevante ou comunicado oficial, acordo assinado para vender o controle ou uma fatia do negócio de distribuição de combustíveis. Não, se não houver; negociação, estudo ou proposta não vinculante não contam.",
+   "src": "Raízen (fatos relevantes) e CVM",
+   "desc": "A venda é uma das alternativas avaliadas pela empresa, que ainda não abriu um processo formal. A distribuidora está sendo separada da área de açúcar, etanol e bioenergia.",
+   "news": [
+    {
+     "name": "g1",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/27/raizen-avalia-venda-de-sua-divisao-de-distribuicao-de-combustiveis.ghtml"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-esp-5",
+   "cat": "Esporte",
+   "q": "Com a saída de Dorival Júnior marcada para o fim do Brasileirão, o São Paulo vai anunciar o novo técnico até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-12-07T18:00:00-03:00",
+   "crit": "Sim, se o São Paulo anunciar oficialmente, até 31/12/2026, um treinador efetivo para o time masculino profissional que não seja Dorival Júnior. Não, se não houver esse anúncio até a data; nome interino não conta.",
+   "src": "São Paulo FC (comunicado oficial)",
+   "desc": "Dorival avisou que fica até a última rodada. O clube deve escolher a nova diretoria na primeira quinzena de dezembro.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/dorival-junior-comunica-saida-do-sao-paulo-ao-fim-do-brasileirao"
+    }
+   ]
   }
  ],
  "resolutions": {
