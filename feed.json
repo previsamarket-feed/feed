@@ -190,29 +190,6 @@
    ]
   },
   {
-   "id": "d20261023-neg-2",
-   "cat": "Negócios",
-   "q": "O Banco do Brasil terá lucro líquido acima de R$ 3 bilhões no 3º trimestre de 2026, em meio a projeções muito divergentes?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-11T12:00:00-03:00",
-   "crit": "Sim, se o lucro líquido do Banco do Brasil no 3T26, no release de resultados divulgado em 11/11/2026, for maior que R$ 3,0 bilhões.",
-   "src": "Banco do Brasil (Relações com Investidores, release 3T26)",
-   "desc": "As projeções vão de R$ 1,8 bi a R$ 3,7 bi, uma das maiores divergências da temporada.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/temporada-balanco-3t26-bancos-itub4-bbas3/"
-    }
-   ]
-  },
-  {
    "id": "d20261023-pol-1",
    "cat": "Política",
    "q": "O governo vai prorrogar o prazo de 30/10 para credores aderirem ao Desenrola 3.0, que compra dívidas de até R$ 10 mil?",
@@ -1292,33 +1269,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/brasil/senado-pec-da-seguranca-maioridade"
-    }
-   ]
-  },
-  {
-   "id": "d20261104-fin-1",
-   "cat": "Finanças",
-   "q": "O Banco do Brasil, que lucrou R$ 3,9 bilhões no 2º trimestre, terá lucro líquido ajustado acima de R$ 4,0 bilhões no 3º trimestre?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.58,
-    0.42
-   ],
-   "close": "2026-11-11T08:00:00-03:00",
-   "crit": "Sim, se o lucro líquido ajustado do Banco do Brasil no 3T26, no balanço divulgado em 11/11/2026, for maior que R$ 4,0 bilhões. Não, se for igual ou menor.",
-   "src": "Banco do Brasil (Relações com Investidores, release 3T26)",
-   "desc": "A projeção de lucro de 2026 foi reduzida para a faixa de R$ 18 bi a R$ 22 bi, com inadimplência do agro no radar. O balanço sai em 11/11.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-reduz-projecao-de-lucro-para-r-18-bi-a-r-22-bi-em-2026/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/"
     }
    ]
   },
@@ -2730,29 +2680,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/mundo/alvo-de-pedido-de-impeachment-chefe-do-pentagono-chama-processo-de-farsa"
-    }
-   ]
-  },
-  {
-   "id": "d20261110-pol-4",
-   "cat": "Política",
-   "q": "Com a MP 1.376/2026, que libera crédito de até R$ 8 milhões para renegociar dívidas rurais, aprovada em comissão (10/11) e o agro com pressa, o Senado a aprovará em plenário até 18/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.6,
-    0.4
-   ],
-   "close": "2026-11-11T06:00:00-03:00",
-   "crit": "Sim, se, até 18/11/2026, o plenário do Senado aprovar a MP 1.376/2026 (com ou sem alterações), conforme o registro de tramitação no site do Congresso Nacional ou do Senado Federal. Não, se até essa data o Senado não a tiver votado e aprovado, ou se a MP perder a eficácia.",
-   "src": "Congresso Nacional (congressonacional.leg.br) e Senado Federal (www12.senado.leg.br)",
-   "desc": "A MP vai à Câmara e depois ao Senado; a bancada do agro quer concluir tudo rápido, enquanto o governo defende regras de acesso mais restritas. A pergunta mede se a votação termina até a data.",
-   "news": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/comissao-mista-aprova-mp-da-renegociacao-de-dividas-rurais"
     }
    ]
   },
@@ -5718,29 +5645,6 @@
    ]
   },
   {
-   "id": "d20261119-tec-1",
-   "cat": "Tecnologia",
-   "q": "O Departamento de Comércio dos EUA vai publicar no Federal Register, até 30/11, a regra que exige licença para vender chips de IA avançados a data centers no Brasil?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.45,
-    0.55
-   ],
-   "close": "2026-11-26T18:00:00-03:00",
-   "crit": "Sim, se a regra provisória do Departamento de Comércio dos EUA sobre licenças para chips avançados de IA, que inclui o Brasil, for publicada no Federal Register até 30/11/2026. Não, caso contrário.",
-   "src": "Federal Register (federalregister.gov) e Departamento de Comércio dos EUA",
-   "desc": "A minuta foi divulgada em 16/11 e só vale depois da publicação oficial.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/business/brasil-entra-na-mira-de-nova-restricao-dos-eua-para-chips-avancados-de-ia/"
-    }
-   ]
-  },
-  {
    "id": "d20261119-tec-2",
    "cat": "Tecnologia",
    "q": "Com Google, Amazon, Meta e Microsoft prometendo cerca de US$ 650 bilhões em IA, a Meta (META) fechará 27/11 acima do fechamento de 18/11?",
@@ -5877,29 +5781,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/brasil/governo-aguarda-hugo-motta-e-camara-votara-ajuste-fiscal-na-proxima-semana"
-    }
-   ]
-  },
-  {
-   "id": "d20261119-pol-2",
-   "cat": "Política",
-   "q": "O Conselho da Paz vai apresentar ao Conselho de Segurança da ONU, até 30/11, o relatório sobre Gaza previsto para o fim do mês?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-25T12:00:00-03:00",
-   "crit": "Sim, se a ONU (ou o Conselho da Paz) registrar a apresentação do relatório sobre Gaza ao Conselho de Segurança até 30/11/2026. Não, caso contrário.",
-   "src": "ONU (press.un.org / Conselho de Segurança)",
-   "desc": "A apresentação foi anunciada como prevista para o fim de novembro, em Nova York.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18112026/"
     }
    ]
   },
@@ -6071,29 +5952,6 @@
     {
      "name": "InfoMoney",
      "url": "https://www.infomoney.com.br/economia/vendas-black-friday-2026-juros-inflacao-cnc/"
-    }
-   ]
-  },
-  {
-   "id": "d20261120-fin-1",
-   "cat": "Finanças",
-   "q": "Depois de vender US$ 1 bilhão em leilão à vista em 19/11 e ver o dólar fechar mesmo assim a R$ 5,93, o Banco Central fará novo leilão à vista de dólares entre 23 e 27/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-23T08:00:00-03:00",
-   "crit": "Sim, se o Banco Central realizar ao menos um leilão de venda de dólares à vista (ou leilão de linha, conforme comunicado oficial) com liquidação entre 23/11 e 27/11/2026. Não, caso contrário. Fonte: notas à imprensa e Mercado Aberto do Banco Central.",
-   "src": "Banco Central do Brasil (comunicados de leilões de câmbio)",
-   "desc": "Em 19/11, o BC vendeu US$ 1 bilhão em leilão à vista entre 12h03 e 12h08; o dólar chegou perto de R$ 5,85, mas voltou acima de R$ 5,90 e fechou a R$ 5,9323, maior valor desde 8/4/2025.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/"
     }
    ]
   },
@@ -7536,29 +7394,6 @@
    ]
   },
   {
-   "id": "d20261124-eco-3",
-   "cat": "Economia",
-   "q": "Com os EUA preparando novas tarifas sobre China, União Europeia e outras 14 economias, o governo americano vai anunciar oficialmente essas tarifas até 30/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-25T08:00:00-03:00",
-   "crit": "Sim, se, até 30/11/2026, o Escritório do Representante Comercial dos EUA (USTR) ou a Casa Branca anunciarem oficialmente novas tarifas com base na Seção 301 sobre produtos da China e da União Europeia. Não, se não houver anúncio oficial até essa data.",
-   "src": "USTR (ustr.gov) e Casa Branca (comunicados oficiais)",
-   "desc": "Segundo o Wall Street Journal e a Bloomberg, o anúncio é esperado ainda nesta semana, após a conclusão da investigação do USTR sobre excesso de capacidade produtiva. Alíquotas, produtos e data de vigência ainda não foram divulgados.",
-   "news": [
-    {
-     "name": "g1",
-     "url": "https://g1.globo.com/economia/noticia/2026/11/24/eua-tarifas.ghtml"
-    }
-   ]
-  },
-  {
    "id": "d20261125-eco-1",
    "cat": "Economia",
    "q": "Com o IBC-Br, a \"prévia do PIB\", em queda de 0,2% em setembro, o PIB do 3º trimestre de 2026 divulgado pelo IBGE terá variação negativa sobre o 2º trimestre?",
@@ -8682,6 +8517,355 @@
      "url": "https://www.metropoles.com/esportes/basquete-brasil-anuncia-convocados-para-jogos-decisivos-das-eliminatorias"
     }
    ]
+  },
+  {
+   "id": "d20261127-eco-1",
+   "cat": "Economia",
+   "q": "Depois de cair 0,8% em setembro, a produção industrial do Brasil vai voltar a crescer em outubro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.7,
+    0.3
+   ],
+   "close": "2026-12-01T18:00:00-03:00",
+   "crit": "Sim, se o IBGE divulgar, até 15/12/2026, alta da produção industrial de outubro frente a setembro (com ajuste sazonal) acima de zero. Não, se houver estabilidade ou queda. Sem divulgação até essa data, a pergunta será retirada.",
+   "src": "IBGE (Pesquisa Industrial Mensal, PIM-PF)",
+   "desc": "A indústria encolheu em setembro. O dado de outubro mostra como o setor começou o último trimestre.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/industria-recua-em-nove-dos-15-locais-pesquisados-em-setembro-diz-ibge"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-eco-2",
+   "cat": "Economia",
+   "q": "Às vésperas do Natal, o IBGE vai mostrar que o varejo cresceu mais em outubro do que o 0,2% de setembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-12-07T18:00:00-03:00",
+   "crit": "Sim, se o IBGE divulgar, até 18/12/2026, alta do volume de vendas do varejo em outubro frente a setembro (com ajuste sazonal) maior que 0,2%. Não, se for 0,2% ou menos. Sem divulgação até essa data, a pergunta será retirada.",
+   "src": "IBGE (Pesquisa Mensal de Comércio, PMC)",
+   "desc": "O comércio avançou 0,2% em setembro e 1,7% em 12 meses.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/vendas-no-varejo-sobem-02-em-setembro-e-17-em-12-meses-diz-ibge"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-eco-3",
+   "cat": "Economia",
+   "q": "Depois de os EUA barrarem o primeiro pedido, a OMC vai abrir até 31/12 o painel que o Brasil quer contra as tarifas americanas?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.85,
+    0.15
+   ],
+   "close": "2026-12-16T18:00:00-03:00",
+   "crit": "Sim, se o Órgão de Solução de Controvérsias da OMC estabelecer, até 31/12/2026, o painel pedido pelo Brasil contra as tarifas dos EUA, conforme registro da OMC ou comunicado do governo brasileiro. Não, se o painel não for estabelecido até essa data.",
+   "src": "OMC (wto.org) e Ministério das Relações Exteriores",
+   "desc": "Os EUA bloquearam o primeiro pedido em 24/11. Um segundo pedido não pode ser barrado por eles, mas o painel não suspende as tarifas.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/governo-trump-ameaca-ampliar-tarifas-sobre-acucar-e-avioes-do-brasil"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-fin-1",
+   "cat": "Finanças",
+   "q": "Depois de cair para perto de R$ 5,74 com Trabuco na Fazenda, o dólar (PTAX de venda) estará abaixo de R$ 5,70 em 4/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-12-03T18:00:00-03:00",
+   "crit": "Sim, se a PTAX de venda do Banco Central em 04/12/2026 for menor que R$ 5,7000. Não, se for igual ou maior que R$ 5,7000.",
+   "src": "Banco Central do Brasil (cotações PTAX)",
+   "desc": "O câmbio chegou a tocar R$ 6,00 nesta semana e recuou com as novidades sobre o comando da economia em 2027.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/trabuco-na-fazenda-e-acenos-do-governo-aliviam-bolsa-e-dolar-apos-pressao"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-fin-2",
+   "cat": "Finanças",
+   "q": "Depois de abrir 165 mil vagas em outubro, a economia dos EUA vai mostrar menos de 100 mil novos empregos em novembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-12-03T18:00:00-03:00",
+   "crit": "Sim, se a primeira divulgação do BLS sobre novembro de 2026 (prevista para 04/12) mostrar variação do emprego não agrícola (payroll) abaixo de 100 mil. Não, se for de 100 mil ou mais. Sem divulgação até 18/12, a pergunta será retirada.",
+   "src": "U.S. Bureau of Labor Statistics (Employment Situation)",
+   "desc": "O relatório de emprego é um dos últimos dados antes da reunião de juros do Fed em 8 e 9 de dezembro.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/payroll-eua-outubro-2026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-tec-1",
+   "cat": "Tecnologia",
+   "q": "Parado desde a explosão em um teste em maio, o foguete New Glenn, da Blue Origin, vai voltar a voar até 31/1/2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-12-31T12:00:00-03:00",
+   "crit": "Sim, se a Blue Origin lançar um foguete New Glenn (decolagem efetiva) até 31/01/2027, conforme comunicado oficial da empresa ou da NASA. Não, se não houver decolagem até essa data; testes em solo não contam.",
+   "src": "Blue Origin (comunicados oficiais) e NASA",
+   "desc": "O foguete explodiu na plataforma em 28/5, sem feridos, segundo a empresa. A meta de retorno passou para janeiro de 2027.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/foguete-da-blue-origin-explode-em-teste"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-tec-2",
+   "cat": "Tecnologia",
+   "q": "A Amazon Leo, rival da Starlink, vai começar a vender internet por satélite a clientes no Brasil até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.12,
+    0.88
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se a Amazon ou sua parceira no Brasil anunciar oficialmente, até 31/12/2026, que a internet Amazon Leo está disponível para contratação por clientes no país. Não, se até essa data houver só previsão, lista de espera ou testes.",
+   "src": "Amazon (comunicados oficiais) e parceira comercial no Brasil",
+   "desc": "O serviço ainda depende de instalação e autorizações antes do lançamento oficial no país.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/consumo/operadoras-internet-satelite-brasil/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-neg-1",
+   "cat": "Negócios",
+   "q": "Com dívida perto de US$ 11 bilhões e acordo preliminar com credores, a Braskem vai protocolar o plano atualizado até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.88,
+    0.12
+   ],
+   "close": "2026-12-08T18:00:00-03:00",
+   "crit": "Sim, se a Braskem informar, em fato relevante ou comunicado à CVM até 31/12/2026, que protocolou na Justiça o plano atualizado de reestruturação da dívida (recuperação extrajudicial). Não, se não houver protocolo informado até essa data.",
+   "src": "Braskem (Relações com Investidores) e CVM",
+   "desc": "O acordo preliminar prevê aporte de US$ 4,9 bilhões, e a empresa pediu mais 20 dias úteis para entregar o plano.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/braskem-anuncia-acordo-preliminar-com-credores-sobre-plano-de-reestruturacao/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-neg-2",
+   "cat": "Negócios",
+   "q": "Os EUA vão confirmar até 31/1/2027 a tarifa extra de 10% proposta para aviões brasileiros, que atinge a Embraer?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.2,
+    0.8
+   ],
+   "close": "2026-12-29T18:00:00-03:00",
+   "crit": "Sim, se o USTR ou o governo dos EUA publicar, até 31/01/2027, decisão final que imponha tarifa adicional de 10% ou mais sobre aviões do Brasil na investigação da Seção 301. Não, se não houver decisão até lá, se a tarifa for menor ou se os aviões ficarem isentos.",
+   "src": "USTR (ustr.gov) e Federal Register",
+   "desc": "A proposta está em consulta pública até 30 de dezembro. O governo brasileiro contesta a medida.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/governo-trump-ameaca-ampliar-tarifas-sobre-acucar-e-avioes-do-brasil"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Internacional x Red Bull Bragantino, em 29/11, com o Inter em 18º lugar e ameaçado de cair para a Série B?",
+   "outs": [
+    "Vitória do Internacional",
+    "Empate",
+    "Vitória do Bragantino"
+   ],
+   "p": [
+    0.45,
+    0.28,
+    0.27
+   ],
+   "close": "2026-11-29T16:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula oficial)",
+   "desc": "O Inter começou a 37ª rodada com 38 pontos e precisa vencer no Beira-Rio para seguir com boas chances.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/internacional-pode-cair-para-a-serie-b-na-proxima-rodada-confira-cenarios"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva Vitória x Santos, em 29/11, no Barradão, pela penúltima rodada do Brasileirão?",
+   "outs": [
+    "Vitória do Vitória",
+    "Empate",
+    "Vitória do Santos"
+   ],
+   "p": [
+    0.42,
+    0.28,
+    0.3
+   ],
+   "close": "2026-11-29T13:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "CBF (súmula oficial)",
+   "desc": "O Vitória chega depois de fazer 5 a 2 no Internacional.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/brasileirao-37a-rodada-pode-definir-rebaixamento-e-vagas-na-libertadores"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-esp-3",
+   "cat": "Esporte",
+   "q": "A final da Libertadores entre Palmeiras e Estudiantes, neste sábado (28/11), vai terminar empatada no tempo normal?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.28,
+    0.72
+   ],
+   "close": "2026-11-28T15:00:00-03:00",
+   "crit": "Sim, se o placar estiver empatado ao fim dos 90 minutos mais acréscimos da final de 28/11/2026, conforme o registro oficial da Conmebol. Não, se um dos times vencer no tempo normal. Se o jogo for adiado, a pergunta será retirada.",
+   "src": "Conmebol (registro oficial da partida)",
+   "desc": "A decisão está marcada para as 17h de Brasília, no estádio Centenario, em Montevidéu.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/palmeiras-em-montevideu-abel-ferreira-demonstra-confianca-antes-de-final"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-pol-1",
+   "cat": "Política",
+   "q": "Com o ministro da Fazenda citando a aposentadoria de militares, o governo vai enviar até 31/12 uma proposta para mudá-la?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.12,
+    0.88
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se o Executivo enviar ao Congresso, até 31/12/2026, projeto, PEC ou medida provisória que altere regras da aposentadoria ou da proteção social dos militares das Forças Armadas, conforme Câmara, Senado ou Diário Oficial. Não, caso contrário.",
+   "src": "Câmara, Senado e Diário Oficial da União",
+   "desc": "O ministro Dario Durigan mencionou o tema em evento em 26/11, sem detalhar uma proposta.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/durigan-quer-combater-supersalarios-e-ajustar-previdencia-dos-militares"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-pol-2",
+   "cat": "Política",
+   "q": "Cotado para o futuro Ministério da Segurança Pública, Geraldo Alckmin será anunciado para o cargo até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.15,
+    0.85
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se a Presidência da República ou o próprio presidente anunciar oficialmente, até 31/12/2026, Geraldo Alckmin como ministro da Segurança Pública (ou a nomeação sair no Diário Oficial). Não, se outro nome for anunciado ou não houver anúncio até essa data.",
+   "src": "Presidência da República e Diário Oficial da União",
+   "desc": "O vice-presidente é citado como opção, mas não há anúncio oficial e a pasta ainda não foi criada.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/alckmin-ganha-forca-para-assumir-ministerio-da-seguranca-publica/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-pol-3",
+   "cat": "Política",
+   "q": "Depois de aceitar comandar a Fazenda em 2027, Trabuco terá o secretário-executivo da pasta anunciado até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.25,
+    0.75
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 o futuro ministro, a Presidência da República ou o Ministério da Fazenda anunciar oficialmente quem será o secretário-executivo da Fazenda na gestão a partir de 2027 (inclusive se confirmar o atual). Não, caso contrário.",
+   "src": "Presidência da República e Ministério da Fazenda",
+   "desc": "Luiz Carlos Trabuco aceitou o convite em 26/11. O restante da equipe ainda não foi divulgado.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/trabuco-aceita-convite-de-lula-para-comandar-o-ministerio-da-fazenda"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -9472,6 +9656,54 @@
   "d20261124-pol-2": {
    "outcome": 1,
    "evidence": "https://www.gov.br/sri/pt-br/noticias/governo-lula-sanciona-lei-que-combate-privilegios-tributarios-e-fortalece-o-equilibrio-das-contas-publicas"
+  },
+  "d20261029-eco-1": {
+   "outcome": 0,
+   "evidence": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48751-noticiaipca15novembro"
+  },
+  "d20261113-eco-2": {
+   "outcome": 1,
+   "evidence": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48751-noticiaipca15novembro"
+  },
+  "d20261115-eco-1": {
+   "outcome": 1,
+   "evidence": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48751-noticiaipca15novembro"
+  },
+  "d20261119-eco-2": {
+   "outcome": 0,
+   "evidence": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48751-noticiaipca15novembro"
+  },
+  "d20261029-eco-2": {
+   "outcome": 1,
+   "evidence": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticassetorexterno/202611_Texto_de_estatisticas_do_setor_externo.pdf"
+  },
+  "d20261029-eco-3": {
+   "outcome": 1,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal"
+  },
+  "d20261108-eco-4": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-prorroga-subsidio-de-r-212-ao-diesel-por-mais-30-dias"
+  },
+  "d20261030-pol-1": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto"
+  },
+  "d20261119-pol-4": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto"
+  },
+  "d20261120-pol-2": {
+   "outcome": 0,
+   "evidence": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+  },
+  "d20261028-pol-2": {
+   "outcome": 0,
+   "evidence": "https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-realiza-audiencia-publica-em-fortaleza-sobre-proposta-de-edital-para-a-faixa-de-6-ghz"
+  },
+  "d20261122-esp-2": {
+   "outcome": 0,
+   "evidence": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/sao-paulo-x-remo/832253"
   }
  },
  "withdrawn": [
@@ -9508,6 +9740,10 @@
   "d20261108-neg-3",
   "d20261113-fin-1",
   "d20261112-fin-2",
-  "d20261114-pol-1"
+  "d20261114-pol-1",
+  "d20261119-tec-1",
+  "d20261119-pol-2",
+  "d20261124-eco-3",
+  "d20261120-fin-1"
  ]
 }
