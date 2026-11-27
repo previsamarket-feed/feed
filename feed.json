@@ -8939,6 +8939,56 @@
      "url": "https://www.metropoles.com/brasil/petrobras-compra-fatia-de-empresa-de-etanol-de-milho-por-r-28-bilhoes"
     }
    ]
+  },
+  {
+   "id": "d20261127-eco-4",
+   "cat": "Economia",
+   "q": "Depois de igualar a mínima histórica de 5,1%, o desemprego vai bater novo recorde de baixa no trimestre encerrado em novembro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.75,
+    0.25
+   ],
+   "close": "2026-12-18T18:00:00-03:00",
+   "crit": "Sim, se a primeira divulgação da PNAD Contínua do IBGE mostrar taxa de desocupação de 5,0% ou menos no trimestre de setembro a novembro de 2026. Não, se mostrar 5,1% ou mais.",
+   "src": "IBGE (PNAD Contínua mensal)",
+   "desc": "A taxa foi de 5,1% no trimestre até outubro, contra 5,4% um ano antes. O IBGE ainda vai divulgar o resultado até novembro.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/brasil-tem-desemprego-de-51-no-tri-ate-outubro-em-linha-com-o-esperado/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/desemprego-recua-para-51-no-trimestre-e-iguala-minima-historica"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-esp-4",
+   "cat": "Esporte",
+   "q": "Na briga por vaga na Copa do Mundo de basquete de 2027, o Brasil vai vencer o México em 30/11, no Ibirapuera?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.68,
+    0.32
+   ],
+   "close": "2026-11-30T18:00:00-03:00",
+   "crit": "Sim, se o Brasil vencer o México no jogo marcado para 30/11/2026 pelas Eliminatórias, com eventual prorrogação, conforme o resultado oficial da FIBA. Não, se o México vencer ou o jogo não ocorrer nessa data.",
+   "src": "FIBA e CBB",
+   "desc": "É o segundo jogo da seleção em São Paulo na janela de novembro, depois do duelo com os Estados Unidos em 27/11.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/basquete-brasil-anuncia-convocados-para-jogos-decisivos-das-eliminatorias"
+    }
+   ]
   }
  ],
  "resolutions": {
