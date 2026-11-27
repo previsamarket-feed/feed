@@ -9058,6 +9058,56 @@
      "url": "https://www.metropoles.com/esportes/dorival-junior-comunica-saida-do-sao-paulo-ao-fim-do-brasileirao"
     }
    ]
+  },
+  {
+   "id": "d20261127-eco-5",
+   "cat": "Economia",
+   "q": "Com o Iraque pedindo uma cota maior, a Opep+ vai aprovar já neste domingo (29/11) as novas cotas de produção de petróleo para 2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.12,
+    0.88
+   ],
+   "close": "2026-11-28T18:00:00-03:00",
+   "crit": "Sim, se o comunicado oficial da reunião ministerial da Opep+ de 29/11/2026 anunciar a aprovação de novas cotas ou níveis de referência de produção por país para 2027. Não, se apenas mantiver ou prorrogar os níveis atuais, adiar a definição ou não anunciar essa aprovação até 30/11.",
+   "src": "OPEP (comunicado oficial da reunião da Opep+)",
+   "desc": "O grupo ainda avalia a capacidade de produção de cada país, base das futuras cotas. O mercado discute se a definição sai agora ou fica para 2027.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/opep-mantem-metas-de-producao-de-petroleo-para-dezembro-antes-de-decisao-sobre-2027/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/eua-pressionaram-venezuela-e-iraque-a-considerarem-saida-da-opep-dizem-fontes/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-esp-6",
+   "cat": "Esporte",
+   "q": "Mais rápido nos dois treinos livres desta sexta, Antonelli vai vencer o GP do Catar de Fórmula 1 neste domingo (29/11)?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.4,
+    0.6
+   ],
+   "close": "2026-11-28T18:00:00-03:00",
+   "crit": "Sim, se Kimi Antonelli for declarado vencedor da corrida principal do GP do Catar de 2026 no resultado oficial da FIA/Fórmula 1. Não, se outro piloto vencer ou se não houver vencedor oficial dessa corrida até 30/11.",
+   "src": "FIA e Fórmula 1 (resultado oficial)",
+   "desc": "O italiano da Mercedes liderou as duas primeiras sessões em Lusail. Na segunda, George Russell ficou logo atrás.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/f1-antonelli-e-o-mais-rapido-no-2o-treino-bortoleto-e-11o-e-camara-17o"
+    }
+   ]
   }
  ],
  "resolutions": {
