@@ -8866,6 +8866,79 @@
      "url": "https://www.metropoles.com/brasil/trabuco-aceita-convite-de-lula-para-comandar-o-ministerio-da-fazenda"
     }
    ]
+  },
+  {
+   "id": "d20261127-pol-4",
+   "cat": "Política",
+   "q": "Na eleição deste domingo (29/11) na Espanha, PP e Vox vão somar 176 cadeiras ou mais, a maioria absoluta do Congresso?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.84,
+    0.16
+   ],
+   "close": "2026-11-28T18:00:00-03:00",
+   "crit": "Sim, se as listas do PP (incluídas as coligações das quais ele faça parte) e do Vox somarem 176 ou mais das 350 cadeiras do Congresso dos Deputados na apuração provisória do Ministério do Interior da Espanha ao fim da contagem de 29/11/2026. Não, se somarem 175 ou menos.",
+   "src": "Ministério do Interior da Espanha",
+   "desc": "As projeções publicadas antes do período em que a lei veda novas sondagens apontavam vantagem da soma PP e Vox. São 350 cadeiras em disputa.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/partidos-psoe-pp-e-vox-esquentam-a-reta-final-das-eleicoes-na-espanha/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-pol-5",
+   "cat": "Política",
+   "q": "Aprovada no Senado por 43 a 29, a suspensão das primárias de 2027 na Argentina passará na Câmara dos Deputados até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.6,
+    0.4
+   ],
+   "close": "2026-12-03T18:00:00-03:00",
+   "crit": "Sim, se até 31/12/2026 o plenário da Câmara dos Deputados da Argentina aprovar projeto que suspenda as primárias (PASO) de 2027, conforme comunicado oficial da Casa ou o Boletim Oficial. Não, caso contrário.",
+   "src": "Câmara dos Deputados da Argentina",
+   "desc": "O Senado aprovou o texto em 26/11. Falta a votação dos deputados, que pode ocorrer em sessões extraordinárias.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/senado-argentino-aprova-reforma-que-suspende-primarias-e-pode-favorecer-milei/"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-neg-3",
+   "cat": "Negócios",
+   "q": "Para voltar ao etanol, a Petrobras acertou um negócio de R$ 2,8 bilhões na Neomille: o Cade vai aprová-lo até 31/1/2027?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.35,
+    0.65
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se até 31/1/2027 a Superintendência-Geral ou o Tribunal do Cade aprovar, com ou sem restrições, a compra de participação na Neomille pela Petrobras, conforme o Diário Oficial da União ou o sistema do Cade. Não, caso contrário.",
+   "src": "Cade e Diário Oficial da União",
+   "desc": "Anunciado em 23/11, o acordo dá à Petrobras 42% da produtora de etanol de milho do grupo Cerradinho. A conclusão depende do aval do Cade.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/petrobras-vai-aportar-r18-bi-em-produtora-de-etanol-de-milho-diz-cerradinhobio/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/petrobras-compra-fatia-de-empresa-de-etanol-de-milho-por-r-28-bilhoes"
+    }
+   ]
   }
  ],
  "resolutions": {
