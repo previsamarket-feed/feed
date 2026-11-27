@@ -8632,6 +8632,56 @@
      "url": "https://www.metropoles.com/colunas/manoela-alcantara/stf-marca-julgamento-de-acao-que-pede-2o-turno-para-governador-do-rj"
     }
    ]
+  },
+  {
+   "id": "d20261126-fin-4",
+   "cat": "Finanças",
+   "q": "Depois de saltar 6% no dia em que Trabuco aceitou o convite para a Fazenda, o Ibovespa fechará 4/12 acima do nível de 26/11?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.5,
+    0.5
+   ],
+   "close": "2026-11-27T09:30:00-03:00",
+   "crit": "Sim, se o fechamento oficial do Ibovespa em 4/12/2026 for superior ao fechamento oficial de 26/11/2026 (cerca de 176.799 pontos), segundo a B3. Não, se for igual ou inferior.",
+   "src": "B3 (cotações históricas do Ibovespa)",
+   "desc": "O índice subiu cerca de 6% com a expectativa em torno do novo ministro, confirmado à noite. Analistas veem espaço para mais alta, mas o mercado ainda espera os detalhes das medidas fiscais.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-e-real-ainda-podem-subir-mais-com-trabuco-confirmado-na-fazenda/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/trabuco-aceita-convite-de-lula-para-comandar-o-ministerio-da-fazenda"
+    }
+   ]
+  },
+  {
+   "id": "d20261126-esp-5",
+   "cat": "Esporte",
+   "q": "Quem leva Brasil x Estados Unidos, em 27/11, no Ibirapuera, pelas Eliminatórias da Copa do Mundo de basquete de 2027?",
+   "outs": [
+    "Brasil",
+    "Estados Unidos"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-11-27T17:00:00-03:00",
+   "crit": "Vence a seleção masculina que ganhar o jogo de 27/11/2026, incluindo eventuais prorrogações, conforme o resultado oficial da FIBA. Se a partida não for disputada até 6/12/2026, a pergunta será retirada.",
+   "src": "FIBA (resultados das Eliminatórias da Copa do Mundo 2027)",
+   "desc": "A seleção brasileira volta ao ginásio paulistano em uma janela que pode encaminhar a vaga no Mundial. O time ocupa o 3º lugar do grupo e ainda enfrenta o México no dia 30.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/basquete-brasil-anuncia-convocados-para-jogos-decisivos-das-eliminatorias"
+    }
+   ]
   }
  ],
  "resolutions": {
