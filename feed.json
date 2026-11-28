@@ -9108,6 +9108,56 @@
      "url": "https://www.metropoles.com/esportes/f1-antonelli-e-o-mais-rapido-no-2o-treino-bortoleto-e-11o-e-camara-17o"
     }
    ]
+  },
+  {
+   "id": "d20261127-eco-6",
+   "cat": "Economia",
+   "q": "Depois do superávit de R$ 52,3 bilhões em outubro, as contas do Governo Central em novembro vão sair melhores que o rombo de R$ 20,2 bilhões de um ano antes?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.65,
+    0.35
+   ],
+   "close": "2026-12-18T18:00:00-03:00",
+   "crit": "Sim, se o Tesouro Nacional informar, para novembro de 2026, superávit primário do Governo Central ou déficit menor que R$ 20,2 bilhões (valor nominal, primeira divulgação). Não, se informar déficit de R$ 20,2 bilhões ou mais.",
+   "src": "Tesouro Nacional (Resultado do Tesouro Nacional de novembro de 2026)",
+   "desc": "Em outubro, o saldo positivo superou os R$ 36,6 bilhões do mesmo mês de 2025; o resultado de novembro sai no fim de dezembro.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/contas-do-governo-registram-superavit-de-r-523-bilhoes-em-outubro"
+    }
+   ]
+  },
+  {
+   "id": "d20261127-tec-3",
+   "cat": "Tecnologia",
+   "q": "Com parecer prometido para 8/12, o Senado vai aprovar até 22/12 o projeto do streaming, que prevê cobrar até 4% do faturamento das plataformas?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.65,
+    0.35
+   ],
+   "close": "2026-12-08T12:00:00-03:00",
+   "crit": "Sim, se o Plenário do Senado aprovar, até 22/12/2026, o projeto que regulamenta os serviços de streaming (PL 2.331/2022, com as mudanças feitas pela Câmara), mesmo com alterações nas alíquotas. Não, se a votação não ocorrer até essa data ou se o projeto for rejeitado.",
+   "src": "Senado Federal (tramitação do PL 2.331/2022)",
+   "desc": "A Câmara aprovou o texto em novembro de 2025. No Senado, o relator busca acordo, e plataformas e parte do setor audiovisual divergem.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/paulo-cappelli/governo-trump-monitora-projeto-no-senado-brasileiro"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/milena-teixeira/pl-do-streaming-alvo-de-wagner-moura-tem-votacao-prevista-no-senado"
+    }
+   ]
   }
  ],
  "resolutions": {
