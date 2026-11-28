@@ -140,33 +140,6 @@
    ]
   },
   {
-   "id": "d20261023-eco-2",
-   "cat": "Economia",
-   "q": "Com o petróleo acima de US$ 110 e a energia mais barata, o IPCA de outubro ficará acima de 0,30%?",
-   "outs": [
-    "Sim, acima de 0,30%",
-    "Não, 0,30% ou menos"
-   ],
-   "p": [
-    0.48,
-    0.52
-   ],
-   "close": "2026-11-11T18:00:00-03:00",
-   "crit": "Sim, se a variação mensal do IPCA de outubro de 2026, divulgada pelo IBGE em 12/11/2026, for maior que 0,30%. Igual ou menor vale Não.",
-   "src": "IBGE (IPCA)",
-   "desc": "Prévias apontam alívio na energia elétrica, enquanto o petróleo em alta pressiona combustíveis.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/economia/projecao-ipca-15-outubro-previa-inflacao/"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/"
-    }
-   ]
-  },
-  {
    "id": "d20261023-tec-2",
    "cat": "Tecnologia",
    "q": "A SpaceSail, rival chinesa da Starlink, começará a vender internet por satélite no Brasil até 31/12/2026?",
@@ -2916,29 +2889,6 @@
    ]
   },
   {
-   "id": "d20261111-pol-1",
-   "cat": "Política",
-   "q": "Flávio Dino vai publicar, até sexta (13/11), a decisão sobre as regras de transição do fim da escala 6x1?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.75,
-    0.25
-   ],
-   "close": "2026-11-12T12:00:00-03:00",
-   "crit": "Sim, se, até 13/11/2026, o ministro Flávio Dino publicar nos autos das ações sobre a escala 6x1 no STF a decisão com as regras de transição, conforme a consulta processual ou as notícias do STF. Não, se a decisão não for publicada até essa data.",
-   "src": "Portal do STF (consulta processual e notícias do STF)",
-   "desc": "Na audiência de 10/11, o ministro deu 24 horas para manifestações e disse que decidiria até sexta; a decisão seguirá para o plenário.",
-   "news": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/colunas/manoela-alcantara/6x1-dino-levara-decisao-sobre-regras-de-transicao-ao-plenario-do-stf"
-    }
-   ]
-  },
-  {
    "id": "d20261111-pol-2",
    "cat": "Política",
    "q": "Apesar de tributaristas pedirem adiar o teste da reforma tributária para 2028, o Congresso vai aprovar esse adiamento até 31/12?",
@@ -3254,33 +3204,6 @@
     {
      "name": "Metrópoles",
      "url": "https://www.metropoles.com/esportes/cbf-detalha-datas-horarios-e-locais-das-rodadas-35-e-36-do-brasileirao"
-    }
-   ]
-  },
-  {
-   "id": "d20261112-pol-1",
-   "cat": "Política",
-   "q": "O Plenário do Senado vai aprovar o texto-base do projeto de ajuste fiscal de R$ 50 a 60 bilhões, previsto para votação nesta quinta (12/11), até 13/11?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.55,
-    0.45
-   ],
-   "close": "2026-11-12T10:00:00-03:00",
-   "crit": "Sim, se o Plenário do Senado Federal aprovar o texto-base do projeto de lei complementar do ajuste fiscal do governo até 13/11/2026, conforme a Agência Senado e o painel de votações. Não, se a votação for adiada, o texto for retirado de pauta ou rejeitado.",
-   "src": "Senado Federal (Agência Senado e painel de votações)",
-   "desc": "O pacote reduz o limite de alta das despesas de 2,5% para 2% ao ano a partir de 2027; a oposição tenta adiar a votação, e o governo diz que o texto é essencial para o Orçamento de 2027.",
-   "news": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/senado-pode-votar-nesta-quinta-ajuste-fiscal-de-ate-r-60-bilhoes"
-    },
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/politica/alcolumbre-definira-na-quinta-feira-se-vota-ou-adia-projeto-de-ajuste-fiscal/"
     }
    ]
   },
@@ -7889,33 +7812,6 @@
    ]
   },
   {
-   "id": "d20261125-pol-3",
-   "cat": "Política",
-   "q": "Com o dólar caindo para R$ 5,81 em meio a especulações, Luiz Carlos Trabuco será anunciado como ministro da Fazenda até 31/12?",
-   "outs": [
-    "Sim",
-    "Não"
-   ],
-   "p": [
-    0.5,
-    0.5
-   ],
-   "close": "2026-11-27T12:00:00-03:00",
-   "crit": "Sim, se, até 31/12/2026, o presidente Lula ou o Palácio do Planalto anunciar oficialmente Luiz Carlos Trabuco como ministro da Fazenda (comunicado oficial, Diário Oficial da União ou declaração pública do presidente). Não, se for anunciado outro nome ou se não houver anúncio oficial dele até essa data; reportagens com fontes não contam.",
-   "src": "Planalto (gov.br/planalto) e Diário Oficial da União",
-   "desc": "Trabuco preside o conselho do Bradesco. Segundo O Globo, reuniu-se com Lula em 23/11, fora da agenda, e aliados o veem como o preferido. Outros nomes também são citados.",
-   "news": [
-    {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/politica/lula-se-reuniu-com-trabuco-fora-da-agenda-no-alvorada/"
-    },
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/colunas/igor-gadelha/cresce-aposta-de-que-trabuco-sera-ministro-de-lula"
-    }
-   ]
-  },
-  {
    "id": "d20261126-eco-1",
    "cat": "Economia",
    "q": "O salário mínimo de 2027 será fixado abaixo dos R$ 1.741 previstos no projeto de Orçamento enviado ao Congresso?",
@@ -9158,6 +9054,363 @@
      "url": "https://www.metropoles.com/colunas/milena-teixeira/pl-do-streaming-alvo-de-wagner-moura-tem-votacao-prevista-no-senado"
     }
    ]
+  },
+  {
+   "id": "d20261128-eco-1",
+   "cat": "Economia",
+   "q": "Com o recesso chegando, o Congresso vai aprovar a LDO de 2027, base do Orçamento, até 17/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.65,
+    0.35
+   ],
+   "close": "2026-12-04T18:00:00-03:00",
+   "crit": "Sim, se o Congresso Nacional aprovar em sessão conjunta o projeto da Lei de Diretrizes Orçamentárias de 2027 até 17/12/2026. Não, se não houver essa aprovação até a data.",
+   "src": "Congresso Nacional (tramitação da LDO 2027)",
+   "desc": "A LDO está na fila de votações antes do recesso, junto com o Orçamento de 2027 e outras pautas fiscais.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/centrao-confirma-janela-de-oportunidade-para-pec-do-ajuste-fiscal"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-eco-2",
+   "cat": "Economia",
+   "q": "Com a Fazenda elevando de 4,9% para 5,3% a projeção de inflação, o IPCA de 2026 vai fechar em 5,2% ou mais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.45,
+    0.55
+   ],
+   "close": "2026-12-31T18:00:00-03:00",
+   "crit": "Sim, se o IBGE divulgar IPCA acumulado de janeiro a dezembro de 2026 igual ou superior a 5,20%. Não, se for menor. Se o dado não sair até 31/1/2027, a pergunta será retirada.",
+   "src": "IBGE (IPCA de dezembro de 2026)",
+   "desc": "A meta de inflação é de 3%, com tolerância de 1,5 ponto para cima ou para baixo. O número fechado do ano sai em janeiro.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-eleva-projecao-de-inflacao-para-o-fim-de-2026-de-49-para-53"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-fin-1",
+   "cat": "Finanças",
+   "q": "O Banco Central Europeu vai subir os juros pela terceira vez no ano na reunião de 17/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.88,
+    0.12
+   ],
+   "close": "2026-12-16T18:00:00-03:00",
+   "crit": "Sim, se o BCE anunciar em 17/12/2026 alta da taxa de depósito. Não, se mantiver ou reduzir a taxa. Vale o comunicado oficial da decisão.",
+   "src": "Banco Central Europeu (ecb.europa.eu)",
+   "desc": "O BCE já elevou os juros duas vezes em 2026, e o mercado discute se vem uma nova alta em dezembro.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-fin-2",
+   "cat": "Finanças",
+   "q": "Com o Banco do Brasil em conversas sobre o crédito rural, sairá até 31/12 mudança na regra de provisão para perdas no agro?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.15,
+    0.85
+   ],
+   "close": "2026-12-15T18:00:00-03:00",
+   "crit": "Sim, se, entre 28/11 e 31/12/2026, o Conselho Monetário Nacional ou o Banco Central publicar resolução que altere regras de provisão para perdas ou de classificação de risco aplicáveis ao crédito rural. Não, caso contrário.",
+   "src": "Banco Central do Brasil (resoluções do CMN e do BC)",
+   "desc": "O BB confirmou em 24/11 que discute com autoridades as normas do crédito ao agronegócio, depois de cortar a projeção de lucro para 2026.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/dinheiro-e-negocios/bb-confirma-conversas-com-governo-sobre-regras-do-credito-rural"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-tec-1",
+   "cat": "Tecnologia",
+   "q": "O foguete sul-coreano Sebit#2 vai mesmo decolar de Alcântara, no Maranhão, neste domingo (29/11)?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.65,
+    0.35
+   ],
+   "close": "2026-11-29T10:00:00-03:00",
+   "crit": "Sim, se o foguete Sebit#2, da Innospace, decolar do Centro de Lançamento de Alcântara em 29/11/2026, segundo a FAB, qualquer que seja o desfecho do voo. Não, se o lançamento não ocorrer nesse dia.",
+   "src": "Força Aérea Brasileira (fab.mil.br)",
+   "desc": "A decolagem está prevista para 14h30, e a FAB avisa que o horário depende de condições técnicas e do tempo. Em agosto, um voo da empresa foi encerrado logo após a decolagem.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/foguete-sul-coreano-sera-lancado-a-partir-de-alcantara-ma-neste-domingo"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-tec-2",
+   "cat": "Tecnologia",
+   "q": "O Banco Central vai publicar até 31/1/2027 uma regra contra mensagens intimidatórias enviadas pelo Pix?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.2,
+    0.8
+   ],
+   "close": "2026-12-31T18:00:00-03:00",
+   "crit": "Sim, se, entre 28/11/2026 e 31/1/2027, o Banco Central publicar resolução ou instrução normativa do Pix com regra específica sobre o conteúdo das mensagens enviadas nas transações. Não, caso contrário.",
+   "src": "Banco Central do Brasil (normas do Pix)",
+   "desc": "O Banco Central quer regras para coibir o uso do campo de mensagem do Pix como forma de intimidação.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/bc-quer-regras-para-coibir-mensagens-intimidatorias-enviadas-pelo-pix"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-neg-1",
+   "cat": "Negócios",
+   "q": "O leilão do corredor ferroviário Minas-Rio, com cerca de 733 km, terá um vencedor até 17/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.7,
+    0.3
+   ],
+   "close": "2026-12-11T18:00:00-03:00",
+   "crit": "Sim, se a ANTT declarar um vencedor do leilão do corredor ferroviário Minas-Rio até 17/12/2026. Não, se o leilão for adiado, suspenso, cancelado ou ficar sem proposta, sem vencedor declarado até essa data.",
+   "src": "ANTT (gov.br/antt)",
+   "desc": "O certame foi marcado para 17/12, dividido em dois lotes, e é apontado como o primeiro leilão ferroviário em cinco anos.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/leilao-do-corredor-ferroviario-minas-rio-e-marcado-para-17-de-dezembro/"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-neg-2",
+   "cat": "Negócios",
+   "q": "O GPA, dono do Pão de Açúcar, vai fechar até 31/12 o acordo que negocia sobre dívidas tributárias federais?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.15,
+    0.85
+   ],
+   "close": "2026-12-18T18:00:00-03:00",
+   "crit": "Sim, se, entre 28/11 e 31/12/2026, o GPA (PCAR3) divulgar fato relevante ou comunicado informando a assinatura de transação tributária com a PGFN ou a Receita Federal. Não, caso contrário.",
+   "src": "GPA (fatos relevantes no site de RI e na CVM)",
+   "desc": "A companhia informou em 27/11 que negocia uma transação sobre débitos federais, ainda sem acordo vinculante.",
+   "news": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-esp-1",
+   "cat": "Esporte",
+   "q": "Quem leva Remo x Corinthians, no Mangueirão, em 2/12, pela última rodada do Brasileirão?",
+   "outs": [
+    "Vitória do Remo",
+    "Empate",
+    "Vitória do Corinthians"
+   ],
+   "p": [
+    0.22,
+    0.28,
+    0.5
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo não for disputado em 2/12/2026, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela oficial da Série A)",
+   "desc": "O Remo chega à rodada final já rebaixado. O jogo está marcado para 21h30, pelo horário de Brasília.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/com-gols-no-fim-sao-paulo-bate-remo-e-volta-a-vencer-no-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-esp-2",
+   "cat": "Esporte",
+   "q": "Quem leva Cruzeiro x Internacional, no Mineirão, em 2/12, na rodada final do Brasileirão?",
+   "outs": [
+    "Vitória do Cruzeiro",
+    "Empate",
+    "Vitória do Internacional"
+   ],
+   "p": [
+    0.4,
+    0.28,
+    0.32
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo não for disputado em 2/12/2026, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela oficial da Série A)",
+   "desc": "O Cruzeiro está em 3º, com 69 pontos, e o Inter joga a reta final pressionado contra a queda. A bola rola às 21h30.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-esp-3",
+   "cat": "Esporte",
+   "q": "Quem leva Red Bull Bragantino x Fluminense, em Bragança Paulista, em 2/12, no fechamento do Brasileirão?",
+   "outs": [
+    "Vitória do Bragantino",
+    "Empate",
+    "Vitória do Fluminense"
+   ],
+   "p": [
+    0.38,
+    0.28,
+    0.34
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo não for disputado em 2/12/2026, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela oficial da Série A)",
+   "desc": "O Fluminense está em 4º, com 63 pontos, depois de perder para o Cruzeiro. O jogo está marcado para 21h30.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-esp-4",
+   "cat": "Esporte",
+   "q": "Quem leva Athletico-PR x São Paulo, na Arena da Baixada, em 2/12, pela 38ª rodada do Brasileirão?",
+   "outs": [
+    "Vitória do Athletico-PR",
+    "Empate",
+    "Vitória do São Paulo"
+   ],
+   "p": [
+    0.5,
+    0.27,
+    0.23
+   ],
+   "close": "2026-12-02T18:00:00-03:00",
+   "crit": "Vence a opção correspondente ao resultado após 90 minutos mais acréscimos, conforme a súmula oficial da CBF. Se o jogo não for disputado em 2/12/2026, a pergunta será retirada.",
+   "src": "CBF (súmula e tabela oficial da Série A)",
+   "desc": "O São Paulo chega à última rodada em 10º, com 48 pontos. A partida está marcada para 21h30.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/esportes/com-gols-no-fim-sao-paulo-bate-remo-e-volta-a-vencer-no-brasileirao"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-pol-1",
+   "cat": "Política",
+   "q": "Edinho Silva será anunciado até 31/12 como ministro da Secretaria de Comunicação do próximo governo?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.4,
+    0.6
+   ],
+   "close": "2026-12-01T18:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, o presidente da República ou o Planalto anunciar oficialmente Edinho Silva para chefiar a Secretaria de Comunicação Social. Não, se outro nome for anunciado ou se não houver anúncio dele até essa data; reportagens com fontes não contam.",
+   "src": "Planalto (gov.br/planalto) e Diário Oficial da União",
+   "desc": "Segundo coluna do Metrópoles, o presidente quer um perfil político no cargo, e aliados citam Edinho, que já comandou a pasta.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/igor-gadelha/lula-indica-a-aliados-que-quer-um-perfil-politico-na-secom"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-pol-2",
+   "cat": "Política",
+   "q": "O plenário do Senado vai aprovar até 22/12 a PEC do Fundo Constitucional do DF, já sem a garantia de reajuste anual?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.15,
+    0.85
+   ],
+   "close": "2026-12-10T18:00:00-03:00",
+   "crit": "Sim, se o plenário do Senado Federal aprovar a PEC 1/2025 em dois turnos até 22/12/2026. Não, se a votação em dois turnos não for concluída com aprovação até essa data.",
+   "src": "Senado Federal (tramitação da PEC 1/2025)",
+   "desc": "A CCJ aprovou em 25/11 uma emenda que retira do texto a correção anual dos repasses da União ao fundo.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/grande-angular/senador-do-pt-retira-garantia-de-reajuste-de-pec-do-fundo-constitucional"
+    }
+   ]
+  },
+  {
+   "id": "d20261128-pol-3",
+   "cat": "Política",
+   "q": "Sondado para a Segurança Pública e citado para outras áreas, Rui Costa será anunciado ministro até 31/12?",
+   "outs": [
+    "Sim",
+    "Não"
+   ],
+   "p": [
+    0.65,
+    0.35
+   ],
+   "close": "2026-12-01T18:00:00-03:00",
+   "crit": "Sim, se, até 31/12/2026, o presidente da República ou o Planalto anunciar oficialmente Rui Costa como ministro de qualquer pasta do próximo governo. Não, se não houver anúncio oficial até essa data; reportagens com fontes não contam.",
+   "src": "Planalto (gov.br/planalto) e Diário Oficial da União",
+   "desc": "Ex-chefe da Casa Civil e eleito senador pela Bahia, ele foi sondado para a futura pasta da Segurança Pública, segundo o Metrópoles.",
+   "news": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/milena-teixeira/lula-sonda-rui-costa-para-seguranca-publica-mas-ex-ministro-resiste"
+    }
+   ]
   }
  ],
  "resolutions": {
@@ -9996,6 +10249,82 @@
   "d20261122-esp-2": {
    "outcome": 0,
    "evidence": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/sao-paulo-x-remo/832253"
+  },
+  "d20261030-eco-1": {
+   "outcome": 1,
+   "evidence": "https://portal.fgv.br/noticias/igp-m-novembro-2026"
+  },
+  "d20261108-eco-2": {
+   "outcome": 1,
+   "evidence": "https://portal.fgv.br/noticias/igp-m-novembro-2026"
+  },
+  "d20261124-eco-1": {
+   "outcome": 0,
+   "evidence": "https://portal.fgv.br/noticias/igp-m-novembro-2026"
+  },
+  "d20261030-eco-2": {
+   "outcome": 0,
+   "evidence": "https://agenciagov.ebc.com.br/noticias/202611/governo-central-registra-superavit-primario-de-r-52-3-bilhoes-em-outubro"
+  },
+  "d20261117-eco-1": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/taxa-de-desemprego-fica-em-51-no-trimestre-encerrado-em-outubro"
+  },
+  "d20261112-eco-1": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/taxa-de-desemprego-fica-em-51-no-trimestre-encerrado-em-outubro"
+  },
+  "d20261126-eco-3": {
+   "outcome": 0,
+   "evidence": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/com-bandeira-tarifaria-verde-energia-nao-tera-custo-extra-em-dezembro"
+  },
+  "d20261122-esp-1": {
+   "outcome": 2,
+   "evidence": "https://www.fluminense.com.br/noticia/fluminense-pressiona-ate-o-fim-mas-perde-para-o-cruzeiro-no-brasileirao"
+  },
+  "d20261124-esp-1": {
+   "outcome": 0,
+   "evidence": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-b/2026/vila-nova-x-atletico-goianiense-saf/835479"
+  },
+  "d20261126-esp-5": {
+   "outcome": 0,
+   "evidence": "https://www.fiba.basketball/en/news/brazil-extend-dominance-over-usa-delay-world-cup-qualification"
+  },
+  "d20261029-fin-3": {
+   "outcome": 0,
+   "evidence": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/european-council-puts-forward-pablo-hernandez-de-cos-as-next-president-of-the-european-central-bank/"
+  },
+  "d20261112-pol-2": {
+   "outcome": 1,
+   "evidence": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175190"
+  },
+  "d20261028-fin-3": {
+   "outcome": 0,
+   "evidence": "https://borainvestir.b3.com.br/noticias/mercado/petrobras-e-vale-limitam-ganhos-mas-ibovespa-b3-sobe-6-na-semana-dolar-cai-a-r-551/"
+  },
+  "d20261114-fin-1": {
+   "outcome": 0,
+   "evidence": "https://borainvestir.b3.com.br/noticias/mercado/petrobras-e-vale-limitam-ganhos-mas-ibovespa-b3-sobe-6-na-semana-dolar-cai-a-r-551/"
+  },
+  "d20261118-fin-4": {
+   "outcome": 0,
+   "evidence": "https://borainvestir.b3.com.br/noticias/mercado/petrobras-e-vale-limitam-ganhos-mas-ibovespa-b3-sobe-6-na-semana-dolar-cai-a-r-551/"
+  },
+  "d20261124-fin-1": {
+   "outcome": 1,
+   "evidence": "https://borainvestir.b3.com.br/noticias/mercado/petrobras-e-vale-limitam-ganhos-mas-ibovespa-b3-sobe-6-na-semana-dolar-cai-a-r-551/"
+  },
+  "d20261114-fin-2": {
+   "outcome": 1,
+   "evidence": "https://borainvestir.b3.com.br/noticias/mercado/petrobras-e-vale-limitam-ganhos-mas-ibovespa-b3-sobe-6-na-semana-dolar-cai-a-r-551/"
+  },
+  "d20261121-fin-1": {
+   "outcome": 1,
+   "evidence": "https://www.cboe.com/tradable-products/vix/"
+  },
+  "d20261120-fin-3": {
+   "outcome": 1,
+   "evidence": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
   }
  },
  "withdrawn": [
@@ -10036,6 +10365,7 @@
   "d20261119-tec-1",
   "d20261119-pol-2",
   "d20261124-eco-3",
-  "d20261120-fin-1"
+  "d20261120-fin-1",
+  "d20261125-pol-3"
  ]
 }
